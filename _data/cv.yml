@@ -1,0 +1,230 @@
+# CV data in rendercv format — rendered by _pages/cv.md (cv_format: rendercv).
+# Keep this in sync with your PDF at assets/pdf/yoogeun_song_cv.pdf.
+
+cv:
+  name: Yoogeun Song
+  label: Eugene · Physicist, Machine Learning, Quantitative Research
+  email: ygsong1004@gmail.com
+  location: London, United Kingdom
+  image: ""
+  summary: >
+    High-energy physicist at Imperial College London working on neutrino physics with the
+    DUNE collaboration. My work sits where physical modelling, machine learning and
+    statistical inference meet — systematics-aware ML reconstruction, Bayesian and MCMC
+    inference, and physics-informed neural networks. Previously general relativity,
+    early-universe cosmology and black hole magnetospheres. In parallel I run an
+    independent quantitative research practice on alpha under non-stationary market dynamics.
+
+  social_networks:
+    - network: LinkedIn
+      username: yoogeunsong
+    - network: GitHub
+      username: eugeneyoogeunsong
+    - network: X
+      username: YoogeunSong
+    - network: ORCID
+      username: 0000-0003-3206-1556
+
+  sections:
+    Education:
+      - institution: Imperial College London
+        location: London, UK
+        url: https://www.imperial.ac.uk/physics/
+        area: Elementary Particle Physics — Neutrino physics at DUNE
+        studyType: PhD
+        start_date: 2026-10
+        end_date: 2030-10
+        highlights:
+          - Supervisor: Dr Linda Cremonesi (UKRI Future Leaders Fellow; spokesperson of the NOvA experiment).
+          - Systematics-aware ML reconstruction and Bayesian/MCMC inference for the DUNE Near Detector.
+          - Near-Detector to Far-Detector constraint propagation for precision oscillation measurements.
+
+      - institution: Imperial College London
+        location: London, UK
+        url: https://www.imperial.ac.uk/physics/
+        area: Physics
+        studyType: MSc
+        start_date: 2024-09
+        end_date: 2025-09
+        courses: "General Relativity; Quantum Field Theory; Advanced QFT; Advanced Particle Physics; Advanced Classical Physics; Mathematical Methods; Research Computing"
+        highlights:
+          - "Thesis awarded the highest grade: *Physics-Informed Machine Learning for Real-Time Atrial Fibrillation Mapping from Grid Electrograms* (16,250 words)."
+          - "Self-study project: *The Higgs Boson as a Portal to Dark Matter* — Higgs-portal models, invisible-decay constraints, HL-LHC projections."
+
+      - institution: University of Science and Technology (UST) / Korea Astronomy and Space Science Institute
+        location: Daejeon, South Korea
+        url: https://www.kasi.re.kr/eng
+        area: Astronomy and Space Science
+        studyType: Integrated MSc + PhD (All But Dissertation)
+        start_date: 2009-02
+        end_date: 2018-08
+        highlights:
+          - Entered the integrated graduate programme at age 11; completed PhD-level coursework in 2013.
+          - Advisor: Dr Seok Jae Park. Relativistic cosmology and high-energy emission near black hole magnetospheres.
+
+      - institution: National Institute for Lifelong Education (NILE)
+        location: South Korea
+        area: Computer Science
+        studyType: BSc (Academic Credit Bank System)
+        start_date: 2006-02
+        end_date: 2009-02
+        score: "4.5 / 4.5"
+
+      - institution: Inha University
+        location: Incheon, South Korea
+        url: https://www.inha.ac.kr/
+        area: Physics
+        studyType: BSc (withdrew to pursue graduate study)
+        start_date: 2006-02
+        end_date: 2009-02
+        score: "3.89 / 4.5"
+
+    Experience:
+      - company: Independent Quantitative Research
+        position: Quantitative Researcher
+        location: London, UK
+        start_date: 2025-10
+        summary: Independent research practice in futures, derivatives and equities.
+        highlights:
+          - Alpha generation under non-stationary market dynamics.
+          - Structural constraints — market impact, inventory, liquidity, latency.
+          - Detecting regime shifts without overfitting; physics-inspired signal/noise separation.
+          - Stochastic control (HJB), Monte Carlo methods, and time-series modelling.
+
+      - company: Imperial College London
+        position: Graduate Researcher — AtriPINN
+        location: London, UK
+        start_date: 2025-06
+        summary: Physics-informed neural networks for real-time atrial fibrillation mapping from grid electrograms, with Prof David Colling (HEP) and Dr Nick Linton (Bioengineering), on clinical data from Hammersmith Hospital.
+        highlights:
+          - "Built ATRIPINN in PyTorch: local plane-fit velocity, time-shifted kNN blending, and PINNs enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics."
+          - "Achieved ~78 ms end-to-end latency, ~1.6 mm RMS localisation error, and ≥0.99 channel cross-correlation."
+          - Coordinate-agnostic architecture with switchable back-ends; shipped v1–v11.2 with CLI tooling.
+
+      - company: University College London — Mullard Space Science Laboratory
+        position: Visiting Researcher
+        location: Surrey, UK
+        start_date: 2023-01
+        end_date: 2024-04
+        summary: Modelling the multi-wavelength variability of Sagittarius A* with Dr Ziri Younsi and Prof Kinwah Wu.
+        highlights:
+          - GRMHD simulations (BHAC) coupled to general-relativistic radiative transfer (BHOSS), in Fortran and Python.
+          - Magnetically arrested discs across black hole spins a = −0.94 to +0.94 with competing electron-heating prescriptions.
+          - Publication in preparation; discussions with EHT researchers at UMD and Würzburg.
+
+      - company: National Astronomical Observatory of Japan (collaboration)
+        position: Independent Researcher
+        location: Europe (remote)
+        start_date: 2020-08
+        end_date: 2022-12
+        summary: Modified Blandford–Znajek energy-extraction models for Kerr black holes with Dr Isao Okamoto.
+        highlights:
+          - Two papers on frame-dragging force-free magnetospheres (arXiv:1904.11978; PASJ 2024).
+          - Presented and networked at European conferences including EAS 2022.
+
+      - company: Republic of Korea Army — 7th Engineer Brigade, VII Corps
+        position: Sergeant · Army Driver and Driving Instructor
+        location: South Korea
+        start_date: 2018-12
+        end_date: 2020-08
+        highlights:
+          - "Honours: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병), 2020."
+          - Promoted to Sergeant before honourable discharge; top-5 marksman.
+
+      - company: Academia Sinica — Institute of Astronomy and Astrophysics
+        position: Visiting Student
+        location: Taipei, Taiwan
+        start_date: 2017-04
+        end_date: 2018-05
+        summary: Black hole magnetosphere particle acceleration and gamma-ray emission, with Dr Kouichi Hirotani and Dr Satoki Matsushita.
+
+      - company: Korea Astronomy and Space Science Institute (KASI)
+        position: Graduate Researcher
+        location: Daejeon, South Korea
+        start_date: 2013-02
+        end_date: 2018-08
+        summary: Relativistic cosmology and high-energy astrophysics under Dr Seok Jae Park.
+        highlights:
+          - Raychaudhuri and shear-evolution equations in a Bianchi-I universe (arXiv:1604.07639).
+          - First-author MNRAS Letters paper on gamma radiation from extremely rotating black holes (2017).
+
+    Awards:
+      - title: National Assembly Special Award
+        date: 2009-02-23
+        awarder: Chairman, National Assembly Education, Science & Technology Committee
+        summary: Conferred for completing a BSc through the Academic Credit Bank System at age 11 — a national record — "having overcome all adversity," with exemplary results.
+
+      - title: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병)
+        date: 2020
+        awarder: Republic of Korea Army
+        summary: Awarded for top-tier performance across physical, marksmanship and duty standards during national service.
+
+      - title: Song Yoo-geun Project — National Talent Development Initiative
+        date: 2006
+        awarder: Republic of Korea
+        summary: A named government scholarship and support programme, alongside Inha University and Real Company scholarships (2006–2008).
+
+    Certificates:
+      - name: Securities Education Certificate — Distinction
+        issuer: Imperial College Investment Society
+        icon: fa-solid fa-chart-line
+
+      - name: Finance Accelerator
+        issuer: London
+        icon: fa-solid fa-building-columns
+
+      - name: Craftsman, Programming (정보처리기능사)
+        date: 2004-08-25
+        issuer: Human Resources Development Service of Korea
+        icon: fa-solid fa-code
+
+      - name: Craftsman, Information Equipment Operation (정보기기운용기능사)
+        date: 2004-12-15
+        issuer: Human Resources Development Service of Korea
+        icon: fa-solid fa-microchip
+
+    Skills:
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-terminal
+        keywords: "Python, PyTorch, NumPy, SciPy, Pandas, Matplotlib, C, Fortran, Mathematica, CUDA/GPU, Git, CLI tooling, LaTeX"
+
+      - name: Methods
+        level: Expert
+        icon: fa-solid fa-square-root-variable
+        keywords: "Physics-Informed Neural Networks, Bayesian inference, MCMC, Monte Carlo, statistical modelling, uncertainty quantification, GRMHD/GRRT pipelines, stochastic control (HJB), time-series analysis"
+
+      - name: Physics domains
+        level: Expert
+        icon: fa-solid fa-atom
+        keywords: "Neutrino physics, particle physics, BSM, high-energy astrophysics, general relativity, cosmology, black hole magnetospheres"
+
+      - name: Quantitative finance
+        level: Intermediate
+        icon: fa-solid fa-chart-line
+        keywords: "Alpha research, non-stationary regimes, market microstructure, futures and derivatives, equities, backtesting discipline"
+
+    Languages:
+      - name: Korean
+        summary: "Native"
+      - name: English
+        summary: "Native / bilingual"
+      - name: French
+        summary: "Professional working proficiency"
+      - name: German
+        summary: "Intermediate"
+      - name: Spanish
+        summary: "Conversational"
+      - name: Italian
+        summary: "Elementary — actively learning"
+
+    Interests:
+      - name: Research
+        icon: fa-solid fa-flask
+        keywords: "Neutrinos and BSM physics, machine learning for physics, inference under uncertainty, first-principles modelling"
+      - name: Markets
+        icon: fa-solid fa-arrow-trend-up
+        keywords: "Non-stationary time series, stochastic control, market microstructure, risk"
+      - name: Beyond work
+        icon: fa-solid fa-person-running
+        keywords: "Football, running, triathlon, calisthenics, weightlifting, BJJ, languages, classical music, film"

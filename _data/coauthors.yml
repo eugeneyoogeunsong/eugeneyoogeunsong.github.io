@@ -1,0 +1,33 @@
+# Maps coauthor surnames in _bibliography/papers.bib to a homepage, so their
+# names become links in the rendered bibliography.
+#
+# Only institution-level pages are listed below — swap in each person's
+# personal profile as you confirm the exact URL.
+
+"hirotani":
+  - firstname: ["Kouichi", "K."]
+    url: https://www.asiaa.sinica.edu.tw/people/cv.php?i=hirotani
+
+"matsushita":
+  - firstname: ["Satoki", "S."]
+    url: https://www.asiaa.sinica.edu.tw/
+
+"pu":
+  - firstname: ["Hung-Yi", "H.-Y."]
+    url: https://www.asiaa.sinica.edu.tw/
+
+"younsi":
+  - firstname: ["Ziri", "Z."]
+    url: https://www.ucl.ac.uk/mssl/
+
+"wu":
+  - firstname: ["Kinwah", "K."]
+    url: https://www.ucl.ac.uk/mssl/
+
+"okamoto":
+  - firstname: ["Isao", "I."]
+    url: https://www.nao.ac.jp/en/
+
+"park":
+  - firstname: ["Seok Jae", "S. J."]
+    url: https://www.kasi.re.kr/eng

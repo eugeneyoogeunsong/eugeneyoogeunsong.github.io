@@ -1,0 +1,279 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Kerr black hole electrodynamics | Yoogeun Song </title> <meta name="author" content="Yoogeun Song"> <meta name="description" content="Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction."> <meta name="keywords" content="Yoogeun Song, Eugene Song, 송유근, neutrino physics, DUNE, particle physics, machine learning, physics-informed neural networks, quantitative research, Imperial College London"> <meta property="og:site_name" content="Yoogeun Song"> <meta property="og:type" content="website"> <meta property="og:title" content="Yoogeun Song | Kerr black hole electrodynamics"> <meta property="og:url" content="https://yoogeunsong.com/projects/5_kerr/"> <meta property="og:description" content="Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction."> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Kerr black hole electrodynamics"> <meta name="twitter:description" content="Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction."> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Yoogeun Song"
+        },
+        "url": "https://yoogeunsong.com/projects/5_kerr/",
+        "@type": "WebSite",
+        "description": "Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction.",
+        "headline": "Kerr black hole electrodynamics",
+        
+        "sameAs": [null,"https://orcid.org/0000-0003-3206-1556","https://scholar.google.com/citations?user=6pWw3eYAAAAJ","https://inspirehep.net/authors/1790652","https://www.researchgate.net/profile/Yoogeun-Song/","https://github.com/eugeneyoogeunsong","https://www.linkedin.com/in/yoogeunsong","https://twitter.com/YoogeunSong","https://bsky.app/profile/eugeneyoogeunsong.bsky.social"],
+        
+        "name": "Yoogeun Song",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CE%BD&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://yoogeunsong.com/projects/5_kerr/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Yoogeun</span> Song </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">research </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/interests/">interests </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Kerr black hole electrodynamics</h1> <p class="post-description">Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction.</p> </header> <article> <p><strong>KASI/UST, Academia Sinica and NAOJ · 2015 – 2024</strong></p> <p>A decade-long line of work on how a rotating black hole converts spin into radiation and outflow.</p> <p><strong>Gamma rays along the spin axis.</strong> Applying pulsar outer-gap theory to a black hole magnetosphere, we showed that frame dragging produces a lepton accelerator in the immediate vicinity of the event horizon. The resulting gamma-ray flux is beamed towards the rotation axis and enhanced by more than an order of magnitude as spin increases from \(a = 0.90M\) to \(a = 0.9999M\) — a concrete, testable prediction for Fermi-LAT and CTA <a class="citation" href="#song2017gamma">(Song et al., 2017)</a>.</p> <p><strong>Pair cascades around moving stellar-mass black holes.</strong> Extending the same machinery to a stellar-mass black hole traversing a gas cloud, we found detectable very-high-energy emission for extremal spin within roughly 1 kpc <a class="citation" href="#hirotani2018stellar">(Hirotani et al., 2018)</a>.</p> <p><strong>Energy extraction, reformulated.</strong> With Dr Isao Okamoto (NAOJ), a treatment of Blandford–Znajek energy extraction in which the force-free magnetosphere is divided at the null surface and the energy is shown to be <em>self</em>-extracted across it — a zero-angular-momentum-observer picture of the process <a class="citation" href="#okamoto2019selfextraction">(Okamoto &amp; Song, 2023)</a> <a class="citation" href="#okamoto2024kerr">(Okamoto et al., 2024)</a>.</p> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2024</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#5b21b6"> <a href="https://academic.oup.com/pasj" rel="external nofollow noopener" target="_blank">PASJ</a> </abbr> <figure> <picture> <img src="/assets/img/publication_preview/projects/kerr.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="projects/kerr.jpg" data-zoomable loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div id="okamoto2024kerr" class="col-sm-8"> <div class="title">Electromagnetic Energy Extraction in Kerr Black Holes through Frame-Dragging Magnetospheres</div> <div class="author"> <a href="https://www.nao.ac.jp/en/" rel="external nofollow noopener" target="_blank">Isao Okamoto</a>, Toshio Uchida, and <em>Yoogeun Song</em> </div> <div class="periodical"> <em>Publications of the Astronomical Society of Japan</em>, 2024 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/2401.12684" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2401.12684" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="__dimensions_badge_embed__" data-pmid="" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="abstract hidden"> <p>A zero-angular-momentum-observer (ZAMO) treatment of Blandford-Znajek energy extraction from rotating black holes, in which the frame-dragging force-free magnetosphere mediates the outward transport of electromagnetic energy.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">okamoto2024kerr</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Electromagnetic Energy Extraction in {Kerr} Black Holes through Frame-Dragging Magnetospheres}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Okamoto, Isao and Uchida, Toshio and Song, Yoogeun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Publications of the Astronomical Society of Japan}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> <h2 class="bibliography">2023</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#6b6b7b"> <a href="https://arxiv.org/" rel="external nofollow noopener" target="_blank">arXiv</a> </abbr> <figure> <picture> <img src="/assets/img/publication_preview/projects/kerr.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="projects/kerr.jpg" data-zoomable loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div id="okamoto2019selfextraction" class="col-sm-8"> <div class="title">Energy self-extraction of a Kerr black hole through its frame-dragged force-free magnetosphere</div> <div class="author"> <a href="https://www.nao.ac.jp/en/" rel="external nofollow noopener" target="_blank">Isao Okamoto</a> and <em>Yoogeun Song</em> </div> <div class="periodical"> <em>arXiv preprint</em>, 2023 </div> <div class="periodical"> v7 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="http://arxiv.org/abs/1904.11978" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/1904.11978" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="abstract hidden"> <p>The force-free magnetosphere of a Kerr black hole is divided at the null surface, and electromagnetic energy is shown to be self-extracted across it – a reformulation of the Blandford-Znajek process in terms of frame dragging.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">okamoto2019selfextraction</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Energy self-extraction of a {Kerr} black hole through its frame-dragged force-free magnetosphere}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Okamoto, Isao and Song, Yoogeun}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">note</span> <span class="p">=</span> <span class="s">{v7}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> <h2 class="bibliography">2018</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#312e81"> <a href="https://iopscience.iop.org/journal/0004-637X" rel="external nofollow noopener" target="_blank">ApJ</a> </abbr> </div> <div id="hirotani2018stellar" class="col-sm-8"> <div class="title">High-energy and Very High Energy Emission from Stellar-mass Black Holes Moving in Gaseous Clouds</div> <div class="author"> <a href="https://www.asiaa.sinica.edu.tw/people/cv.php?i=hirotani" rel="external nofollow noopener" target="_blank">Kouichi Hirotani</a>, <a href="https://www.asiaa.sinica.edu.tw/" rel="external nofollow noopener" target="_blank">Hung-Yi Pu</a>, S. Outmani, H. Huang, and <span class="more-authors" title="click to view 4 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '4 more authors' ? 'D. Kim, Yoogeun Song, Satoki Matsushita, Albert K. H. Kong' : '4 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">4 more authors</span> </div> <div class="periodical"> <em>The Astrophysical Journal</em>, 2018 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.3847/1538-4357/aae47a" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> <a href="http://arxiv.org/abs/1809.09397" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://iopscience.iop.org/article/10.3847/1538-4357/aae47a" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="__dimensions_badge_embed__" data-doi="10.3847/1538-4357/aae47a" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="abstract hidden"> <p>Frame dragging near a rapidly rotating black hole reverses the sign of the Goldreich-Julian charge density, producing a magnetic-field-aligned electric field that accelerates electrons and positrons in opposite directions and drives a pair cascade. We show that a stellar-mass black hole moving through a gaseous cloud can emit a detectable very-high-energy flux if it is extremely rotating and within roughly 1 kpc.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hirotani2018stellar</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{High-energy and Very High Energy Emission from Stellar-mass Black Holes Moving in Gaseous Clouds}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hirotani, Kouichi and Pu, Hung-Yi and Outmani, S. and Huang, H. and Kim, D. and Song, Yoogeun and Matsushita, Satoki and Kong, Albert K. H.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{The Astrophysical Journal}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{867}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{2}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{120}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2018}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.3847/1538-4357/aae47a}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> <h2 class="bibliography">2017</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#4338ca"> <a href="https://academic.oup.com/mnrasl" rel="external nofollow noopener" target="_blank">MNRAS-L</a> </abbr> <figure> <picture> <img src="/assets/img/publication_preview/projects/kerr.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="projects/kerr.jpg" data-zoomable loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div id="song2017gamma" class="col-sm-8"> <div class="title">Enhanced gamma radiation towards the rotation axis from the immediate vicinity of extremely rotating black holes</div> <div class="author"> <em>Yoogeun Song</em>, <a href="https://www.asiaa.sinica.edu.tw/" rel="external nofollow noopener" target="_blank">Hung-Yi Pu</a>, <a href="https://www.asiaa.sinica.edu.tw/people/cv.php?i=hirotani" rel="external nofollow noopener" target="_blank">Kouichi Hirotani</a>, <a href="https://www.asiaa.sinica.edu.tw/" rel="external nofollow noopener" target="_blank">Satoki Matsushita</a>, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '2 more authors' ? 'Albert K. H. Kong, Hsiang-Kuang Chang' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> <i class="fa-solid fa-circle-info ml-1" data-toggle="popover" data-placement="top" data-html="true" data-content="* Youngest first author of an MNRAS Letters paper at the time of publication (age 19)."> </i> </div> <div class="periodical"> <em>Monthly Notices of the Royal Astronomical Society: Letters</em>, Oct 2017 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.1093/mnrasl/slx119" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> <a href="http://arxiv.org/abs/1707.07916" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://academic.oup.com/mnrasl/article/471/1/L135/4036899" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="__dimensions_badge_embed__" data-doi="10.1093/mnrasl/slx119" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="abstract hidden"> <p>Applying pulsar outer-gap theory to black hole magnetospheres, we show that a lepton accelerator arises near the event horizon as a consequence of frame dragging. The resulting gamma-ray flux is beamed towards the rotation axis and is enhanced by more than an order of magnitude as the spin increases from a = 0.90M to a = 0.9999M, with implications for Fermi-LAT and CTA detectability.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">song2017gamma</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Enhanced gamma radiation towards the rotation axis from the immediate vicinity of extremely rotating black holes}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Song, Yoogeun and Pu, Hung-Yi and Hirotani, Kouichi and Matsushita, Satoki and Kong, Albert K. H. and Chang, Hsiang-Kuang}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Monthly Notices of the Royal Astronomical Society: Letters}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{471}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{L135--L139}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">oct</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1093/mnrasl/slx119}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Yoogeun Song. © Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted on <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: August 04, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-about",
+          title: "about",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/";
+          },
+        },{id: "nav-research",
+          title: "research",
+          description: "Three tracks, one method — inference under uncertainty.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Peer-reviewed papers, preprints and work in progress — generated automatically from BibTeX.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research programmes and code, across physics, machine learning and markets.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Education, research experience, awards and skills. A PDF version is available above.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-interests",
+          title: "interests",
+          description: "What I do when I am not doing physics — and a few things I will happily talk about for hours.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/interests/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "The best ways to reach me.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
+        },{id: "post-why-i-keep-ending-up-in-the-same-problem",
+        
+          title: "Why I keep ending up in the same problem",
+        
+        description: "On general relativity, neutrinos, and markets being the same exercise wearing different clothes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hello/";
+          
+        },
+      },{id: "news-new-paper-with-dr-isao-okamoto-on-electromagnetic-energy-extraction-in-kerr-black-holes-arxiv-2401-12684-published-in-pasj",
+          title: 'New paper with Dr Isao Okamoto on electromagnetic energy extraction in Kerr black...',
+          description: "",
+          section: "News",},{id: "news-msc-thesis-on-physics-informed-ml-for-real-time-atrial-fibrillation-mapping-awarded-the-highest-grade-at-imperial",
+          title: 'MSc thesis on physics-informed ML for real-time atrial fibrillation mapping awarded the highest...',
+          description: "",
+          section: "News",},{id: "news-began-an-independent-quantitative-research-practice-alongside-my-physics-work-alpha-under-non-stationary-market-dynamics",
+          title: 'Began an independent quantitative research practice alongside my physics work — alpha under...',
+          description: "",
+          section: "News",},{id: "news-starting-my-phd-on-dune-at-imperial-college-london-this-october-supervised-by-dr-linda-cremonesi",
+          title: 'Starting my PhD on DUNE at Imperial College London this October, supervised by...',
+          description: "",
+          section: "News",},{id: "projects-dune-near-detector-reconstruction",
+          title: 'DUNE — Near Detector reconstruction',
+          description: "Systematics-aware ML reconstruction and Bayesian inference for precision neutrino oscillation measurements.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_dune/";
+            },},{id: "projects-atripinn",
+          title: 'AtriPINN',
+          description: "Physics-informed neural networks for real-time atrial fibrillation mapping from grid electrograms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_atripinn/";
+            },},{id: "projects-quantitative-research",
+          title: 'Quantitative research',
+          description: "Alpha under non-stationary market dynamics, treated as a signal-and-noise problem.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_quant/";
+            },},{id: "projects-sgr-a-variability",
+          title: 'Sgr A* variability',
+          description: "GRMHD and radiative transfer modelling of the Galactic Centre black hole.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_sgra/";
+            },},{id: "projects-kerr-black-hole-electrodynamics",
+          title: 'Kerr black hole electrodynamics',
+          description: "Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_kerr/";
+            },},{id: "projects-higgs-portal-to-dark-matter",
+          title: 'Higgs portal to dark matter',
+          description: "Invisible Higgs decays as a probe of a hidden sector.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_higgs/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%79%67%73%6F%6E%67%31%30%30%34@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/rendercv/rendercv_output/Yoogeun_Song_CV.pdf", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-3206-1556", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=6pWw3eYAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-inspire',
+        title: 'Inspire HEP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://inspirehep.net/authors/1790652", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Yoogeun-Song/", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/eugeneyoogeunsong", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/yoogeunsong", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/YoogeunSong", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/eugeneyoogeunsong.bsky.social", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>

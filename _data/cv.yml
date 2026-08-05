@@ -30,13 +30,14 @@ cv:
       - institution: Imperial College London
         location: London, UK
         url: https://www.imperial.ac.uk/physics/
-        area: Elementary Particle Physics — Neutrino physics at DUNE
+        area: Elementary Particle Physics — Neutrino physics with DUNE and NOvA
         studyType: PhD
         start_date: 2026-10
         end_date: 2030-10
         highlights:
-          - Supervisor: Dr Linda Cremonesi (UKRI Future Leaders Fellow; spokesperson of the NOvA experiment).
+          - "Supervised by Dr Linda Cremonesi — UKRI Future Leaders Fellow and spokesperson of the NOvA experiment."
           - Systematics-aware ML reconstruction and Bayesian/MCMC inference for the DUNE Near Detector.
+          - Neutrino oscillations and interactions with the NOvA experiment at Fermilab.
           - Near-Detector to Far-Detector constraint propagation for precision oscillation measurements.
 
       - institution: Imperial College London
@@ -53,17 +54,18 @@ cv:
 
       - institution: University of Science and Technology (UST) / Korea Astronomy and Space Science Institute
         location: Daejeon, South Korea
-        url: https://www.kasi.re.kr/eng
+        url: https://ust.ac.kr/eng/
         area: Astronomy and Space Science
         studyType: Integrated MSc + PhD (All But Dissertation)
         start_date: 2009-02
         end_date: 2018-08
         highlights:
           - Entered the integrated graduate programme at age 11; completed PhD-level coursework in 2013.
-          - Advisor: Dr Seok Jae Park. Relativistic cosmology and high-energy emission near black hole magnetospheres.
+          - "Advised by Dr Seok Jae Park, on relativistic cosmology and high-energy emission near black hole magnetospheres."
 
       - institution: National Institute for Lifelong Education (NILE)
         location: South Korea
+        url: "https://www.nile.or.kr/usr/wap/detail.do?app=13309&seq=623&lang=en"
         area: Computer Science
         studyType: BSc (Academic Credit Bank System)
         start_date: 2006-02
@@ -72,9 +74,9 @@ cv:
 
       - institution: Inha University
         location: Incheon, South Korea
-        url: https://www.inha.ac.kr/
+        url: https://eng.inha.ac.kr/eng/index.do
         area: Physics
-        studyType: BSc (withdrew to pursue graduate study)
+        studyType: BSc (transferred to NILE)
         start_date: 2006-02
         end_date: 2009-02
         score: "3.89 / 4.5"

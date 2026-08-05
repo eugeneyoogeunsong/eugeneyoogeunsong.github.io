@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Sport
 
-A large part of my life, and the thing that keeps the rest of it working. Football, running, triathlon, calisthenics and weightlifting, with BJJ, wrestling and CrossFit on the list. The endurance base came from national service; the habit stayed. When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
+A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, calisthenics, and Brazilian Jiu-Jitsu. The endurance base came from national service; the habit stayed. When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
 
 ## Languages
 
@@ -17,7 +17,7 @@ Korean and English natively, French to professional working proficiency, German 
 
 ## Reading
 
-Physics and technical work first; then quant and markets; then biographies and self-improvement. Ryan Holiday and the Stoics, Robert Greene, Mark Manson, Tim Ferriss, Benjamin Graham, and Jared Diamond's *Guns, Germs, and Steel*. I stay current through arXiv, podcasts, and research feeds on X.
+Physics and technical work first; then quant and markets; then biographies and self-improvement. The Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — and Confucius alongside them; then Benjamin Graham and Jared Diamond. I stay current through arXiv, podcasts, and research feeds on X.
 
 ## Music and film
 

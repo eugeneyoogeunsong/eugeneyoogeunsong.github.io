@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research programmes and code, across physics, machine learning and markets.
 nav: true
 nav_order: 4
-display_categories: [physics, machine learning, quant]
+display_categories: [physics, machine learning, quantum computing, quant]
 horizontal: false
 ---
 

@@ -82,73 +82,141 @@ cv:
         score: "3.89 / 4.5"
 
     Experience:
-      - company: Independent Quantitative Research
-        position: Quantitative Researcher
-        location: London, UK
-        start_date: 2025-10
-        summary: Independent research practice in futures, derivatives and equities.
+      - company: Imperial College London
+        position: Graduate Researcher
+        location: London Area, United Kingdom
+        start_date: 2026
         highlights:
-          - Alpha generation under non-stationary market dynamics.
-          - Structural constraints — market impact, inventory, liquidity, latency.
-          - Detecting regime shifts without overfitting; physics-inspired signal/noise separation.
-          - Stochastic control (HJB), Monte Carlo methods, and time-series modelling.
+          - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations — DUNE (Deep Underground Neutrino Experiment) and NOvA (NuMI Off-axis νe Appearance) programs — under the supervision of Dr Linda Cremonesi."
 
       - company: Imperial College London
-        position: Graduate Researcher — AtriPINN
-        location: London, UK
+        position: Graduate Researcher
+        location: London Area, United Kingdom
         start_date: 2025-06
-        summary: Physics-informed neural networks for real-time atrial fibrillation mapping from grid electrograms, with Prof David Colling (HEP) and Dr Nick Linton (Bioengineering), on clinical data from Hammersmith Hospital.
         highlights:
-          - "Built ATRIPINN in PyTorch: local plane-fit velocity, time-shifted kNN blending, and PINNs enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics."
-          - "Achieved ~78 ms end-to-end latency, ~1.6 mm RMS localisation error, and ≥0.99 channel cross-correlation."
-          - Coordinate-agnostic architecture with switchable back-ends; shipped v1–v11.2 with CLI tooling.
+          - "I'm conducting cross-disciplinary research by fusing particle physics-style modelling, Machine Learning (ML), and bioengineering to decode atrial fibrillation (Afib), using spatiotemporal reconstruction and data-driven simulations to map Afib wave dynamics and reveal the underlying electrical mechanisms. To do so, my primary focus has been on utilising and implementing various Physics-Informed Neural Networks (PINN) and to architect my own framework."
+          - "For my current PINN research project, I'm collaborating with Prof. David Colling (Imperial HEP group) and Dr. Nick Linton (Imperial Department of Bioengineering)."
+          - "Built end-to-end ML code \"AtriPINN\" (PyTorch): modular Wave and Eikonal and EP-PINNs backends with one shared data → train → viz pipeline."
+          - "Delivered real-time mapping: ~78 ms end-to-end latency, ~1.6 mm RMS localisation error (sub-2 mm target), ≥ 0.99 channel cross-correlation."
+          - "Software-engineered time-shifted kNN blending for inter-electrode signals + differentiable cross-correlation objective function for physiologic timing consistency."
+          - "Implemented local plane-fit velocity extraction and advection-based velocity fields, and implemented coordinate-agnostic features (Cartesian, cylindrical, spherical) into my code AtriPINN."
+          - "Scaled Neural Network training with AMP mixed precision, RAR and adaptive collocation, Adam → L-BFGS optimisation, gradient clipping, and curriculum scheduling."
+          - "Shipped v1–v11.2 with CLI tooling, robust logging, and edge-deployment optimisations (GPU memory and throughput)."
+          - "Currently producing reproducible releases (configs, sample data, animations) to support clinical translation and benchmarking."
+          - "Tech used: Python (PyTorch), NumPy, SciPy, Matplotlib, CUDA/GPU, CLI tooling, Git."
 
-      - company: University College London — Mullard Space Science Laboratory
+      - company: Imperial College London
+        position: Master's Studies
+        location: London Area, United Kingdom
+        start_date: 2024-09
+        end_date: 2025-09
+        highlights:
+          - "Completed my Master's studies at the Department of Physics at Imperial College London, which has recently been ranked #2 globally in the QS World University Rankings 2025 and 2026."
+          - "Led a 3-month (Jan–Mar 2025) advanced literature review (Grade: A) under the supervision of Prof. Alexander Tapper (Imperial HEP group) on Higgs bosons as potential portals to dark matter; critically analysed high-impact ATLAS and CMS collaboration papers to map current research frontiers."
+          - "(Mar–Apr 2025) Built an interactive simulation framework (Grade: A) in Wolfram Mathematica to model time-dependent quantum wave dynamics using finite-difference time-domain methods, as part of a numerics-intensive physics module taught and assessed by Dr. Jaroslaw Pasternak (Imperial HEP group)."
+          - "My MSc Project Thesis titled \"Physics-Informed Machine Learning for Real-Time Afib Mapping on Grid Electrograms\" was awarded the highest grade."
+
+      - company: Imperial College Algorithmic Trading Society
+        position: Member
+        location: London Area, United Kingdom
+        start_date: 2024-10
+        highlights:
+          - "Attended the Algorithmic Trading (Algo) courses organised by the IC Algorithmic Trading Society."
+
+      - company: Imperial College Investment Society
+        position: Member
+        location: London Area, United Kingdom
+        start_date: 2024-10
+        highlights:
+          - "Awarded the Securities Education Certificate with Distinction from the IC Investment Society."
+
+      - company: Independent
+        position: Quantitative Researcher
+        location: London Area, United Kingdom
+        start_date: 2025-10
+        end_date: 2026-08
+        highlights:
+          - "Independent quantitative research on alpha generation under non-stationary market dynamics."
+          - "Emphasis on structural constraints (impact, inventory, liquidity, latency) as anchors for models."
+          - "Study agent adaptation and regime shifts without overfitting."
+          - "Physics-inspired approach to separating signal from noise."
+
+      - company: UCL
         position: Visiting Researcher
-        location: Surrey, UK
-        start_date: 2023-01
+        location: London Area, United Kingdom
+        start_date: 2023-07
         end_date: 2024-04
-        summary: Modelling the multi-wavelength variability of Sagittarius A* with Dr Ziri Younsi and Prof Kinwah Wu.
         highlights:
-          - GRMHD simulations (BHAC) coupled to general-relativistic radiative transfer (BHOSS), in Fortran and Python.
-          - Magnetically arrested discs across black hole spins a = −0.94 to +0.94 with competing electron-heating prescriptions.
-          - Publication in preparation; discussions with EHT researchers at UMD and Würzburg.
+          - "Invited as a visiting researcher at UCL in 2023."
+          - "Collaborated with Dr. Ziri Younsi and Prof. Kinwah Wu."
+          - "Modelled the multi-wavelength variability of Sagittarius A* by integrating general relativistic magnetohydrodynamic (GRMHD) simulations with general relativistic radiative transfer (GRRT) calculations: publication in preparation."
+          - "Connected with and held Zoom discussions with Event Horizon Telescope (EHT) collaboration's key researchers, including Dr. Christian M. Fromm and Dr. Koushik Chatterjee (UMD)."
+          - "Gained hands-on experience with high-performance computing, data visualisation, and interdisciplinary teamwork in a leading astrophysics environment."
 
-      - company: National Astronomical Observatory of Japan (collaboration)
+      - company: UCL
+        position: Remote Collaborator
+        location: London Area, United Kingdom
+        start_date: 2023-01
+        end_date: 2023-06
+        highlights:
+          - "Collaborated remotely (Jan–Jun 2023) with Dr. Ziri Younsi via weekly Zoom sessions to design GRMHD modelling strategies for Sagittarius A* and M87*, and the subsequent radiative transfer post-processing."
+          - "Performed a comprehensive literature review of the Event Horizon Telescope (EHT) collaboration's relevant works on Sagittarius A* and M87*."
+          - "Invited on-site (Jul 2023–Apr 2024) to implement and optimise GRMHD simulations integrated with GRRT codes, both in Fortran and Python."
+
+      - company: Collaboration with National Astronomical Observatory of Japan
         position: Independent Researcher
-        location: Europe (remote)
+        location: Europe
         start_date: 2020-08
         end_date: 2022-12
-        summary: Modified Blandford–Znajek energy-extraction models for Kerr black holes with Dr Isao Okamoto.
         highlights:
-          - Two papers on frame-dragging force-free magnetospheres (arXiv:1904.11978; PASJ 2024).
-          - Presented and networked at European conferences including EAS 2022.
+          - "During the COVID-19 pandemic, to maintain research momentum despite pandemic-induced changes, I collaborated remotely (2020–2022) with Dr. Isao Okamoto (NAOJ) to develop modified Blandford–Znajek energy-extraction models for Kerr black holes (see arXiv:1904.11978 and 2401.12684)."
+          - "I also attended multiple conferences across Europe, including key events in Spain, e.g. EAS 2022."
+          - "Reconnected and held discussions with various researchers in Europe while I was there, including Prof. Francisca Kemper, Dr. Frank M. Rieger, Dr. Benoît Cerutti, Prof. Bożena Czerny, Dr. Oliver Porth, and Dr. Ziri Younsi."
+          - "Mainly travelled to the Netherlands and Spain to expand my professional network and cultural insights."
+          - "As a lifelong language enthusiast passionate about European languages, already intermediate in French and German, I also acquired conversational Spanish in my spare time during this period (2022)."
 
-      - company: Republic of Korea Army — 7th Engineer Brigade, VII Corps
-        position: Sergeant · Army Driver and Driving Instructor
-        location: South Korea
+      - company: Republic of Korea Army
+        position: National Service
+        location: 7th Engineer Brigade, VII Corps | Republic of Korea
         start_date: 2018-12
         end_date: 2020-08
         highlights:
-          - "Honours: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병), 2020."
-          - Promoted to Sergeant before honourable discharge; top-5 marksman.
+          - "Completed mandatory military service as an Army Driver with the VII Corps' 7th Engineer Brigade, responsible for vehicle operations, vehicle maintenance, and training new drivers."
+          - "Honoured with the brigade's \"Exemplary Army Driver\" (모범 운전병) distinction in 2020 in recognition of my outstanding operational and driving skills and commitment to safety."
+          - "Regularly trained in marksmanship and consistently ranked among the top 5 marksmen with the K2 assault rifle in my company."
+          - "Excelled in physical endurance and fitness training: regular 3 km runs, push-ups, sit-ups, and pull-ups, and represented my company in the brigade-level bodyweight fitness competition (2020)."
+          - "Awarded the \"Special Grade Warrior\" (특급전사) distinction by the brigade in 2020 for my outstanding performance across all key military competencies, including marksmanship, combat training, tactical expertise, weapon proficiency, and most importantly, fitness."
+          - "Promoted to Sergeant before my honourable discharge in 2020."
 
-      - company: Academia Sinica — Institute of Astronomy and Astrophysics
-        position: Visiting Student
-        location: Taipei, Taiwan
-        start_date: 2017-04
-        end_date: 2018-05
-        summary: Black hole magnetosphere particle acceleration and gamma-ray emission, with Dr Kouichi Hirotani and Dr Satoki Matsushita.
-
-      - company: Korea Astronomy and Space Science Institute (KASI)
+      - company: Korea Astronomy and Space Science Institute
         position: Graduate Researcher
-        location: Daejeon, South Korea
+        location: Republic of Korea
         start_date: 2013-02
         end_date: 2018-08
-        summary: Relativistic cosmology and high-energy astrophysics under Dr Seok Jae Park.
         highlights:
-          - Raychaudhuri and shear-evolution equations in a Bianchi-I universe (arXiv:1604.07639).
-          - First-author MNRAS Letters paper on gamma radiation from extremely rotating black holes (2017).
+          - "Conducted advanced research on relativistic cosmology and high-energy cosmic ray emissions from the immediate vicinity of the magnetospheres of compact objects (e.g. black holes)."
+          - "In my cosmology work, I derived Raychaudhuri-type and shear-evolution equations for timelike and null geodesic congruences in the Bianchi I anisotropic early Universe model, hinting at how primordial shear can imprint observable anisotropies on the gravitational-wave background (see arXiv:1604.07639)."
+          - "In my high-energy astrophysics work, I performed a semi-analytic modelling of the acceleration of electrons and positrons in magnetic-field-aligned electric fields around accreting black holes (see Song et al. 2017, MNRAS)."
+          - "Investigated gamma-ray emissions produced by stellar-mass black holes interacting with dense molecular clouds (see Hirotani et al. 2018, ApJ)."
+          - "Published 2 peer-reviewed academic papers detailing these works in Monthly Notices of the Royal Astronomical Society (MNRAS) and The Astrophysical Journal (ApJ)."
+          - "Authored 4 academic papers in total whilst there; all accessible via arXiv."
+
+      - company: Korea Astronomy and Space Science Institute
+        position: Graduate/Postgraduate Studies
+        location: Republic of Korea
+        start_date: 2009-02
+        end_date: 2018-08
+        highlights:
+          - "In Feb 2009, at the remarkable age of 11, I joined the integrative (Master's + PhD) program at the Korea University of Science and Technology (UST), based at the Korea Astronomy and Space Science Institute (KASI) campus."
+          - "My PhD coursework was completed in February 2013 (age 15)."
+
+      - company: Academia Sinica, Taiwan
+        position: Visiting Student
+        location: Taiwan
+        start_date: 2017-04
+        end_date: 2018-05
+        highlights:
+          - "Invited as a visiting student (Apr 2017 – May 2018) at the Academia Sinica Institute of Astronomy and Astrophysics, collaborating with Dr. Kouichi Hirotani and Dr. Satoki Matsushita."
 
     Awards:
       - title: National Assembly Special Award

@@ -71,7 +71,7 @@ I hold a [Securities Education Certificate](https://investmentsoc.com/SEC) (Dist
 
 **Blandford–Znajek energy extraction.** With Dr Isao Okamoto (NAOJ), a reformulation of electromagnetic energy extraction from rotating black holes in terms of the frame-dragged force-free magnetosphere, split at the null surface (arXiv:[1904.11978](https://arxiv.org/abs/1904.11978) and [2401.12684](https://arxiv.org/abs/2401.12684)).
 
-**Sgr A\*.** GRMHD simulations (BHAC) post-processed through general-relativistic radiative transfer (BHOSS), modelling multi-wavelength variability of the Galactic Centre black hole across magnetically arrested disc states and competing electron-heating prescriptions. Carried out at UCL/MSSL with [Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu); manuscript in preparation.
+**Sgr A\*.** GRMHD simulations ([BHAC](https://bhac.science/)) post-processed through general-relativistic radiative transfer ([BHOSS](https://arxiv.org/abs/1907.09196)), modelling multi-wavelength variability of the Galactic Centre black hole across magnetically arrested disc states and competing electron-heating prescriptions. Carried out at [UCL/MSSL](https://www.ucl.ac.uk/mathematical-physical-sciences/mssl) with [Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu); manuscript in preparation.
 
 **Early-universe cosmology.** Raychaudhuri-type and shear-evolution equations for geodesic congruences in a Bianchi-I universe, and the imprint of anisotropic shear on primordial gravitational waves (arXiv:[1604.07639](https://arxiv.org/abs/1604.07639)).
 

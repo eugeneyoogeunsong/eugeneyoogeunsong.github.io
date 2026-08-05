@@ -27,7 +27,7 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ---
 
-## Machine learning for physics and medicine
+## Machine learning for physics and medical applications
 
 **AtriPINN.** Physics-informed neural networks for real-time atrial fibrillation mapping from grid electrograms, built in [PyTorch](https://pytorch.org/) with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), on clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital). The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation** — coordinate-agnostic, with switchable physics back-ends.
 
@@ -61,19 +61,19 @@ From October 2025 to August 2026 I ran an independent quantitative research prac
 
 The toolkit was the one I already had — stochastic control (HJB), Monte Carlo methods, time-series modelling, Bayesian inference, and physics-inspired signal/noise separation. The discipline is the one physics teaches: take structural constraints seriously. Market impact, inventory, liquidity and latency are not frictions to be assumed away; they are the boundary conditions, and a strategy that ignores them is a strategy that has not been specified.
 
-I hold a Securities Education Certificate (Distinction) and completed the Finance Accelerator in London; I am a member of Imperial's Algorithmic Trading and Investment societies.
+I hold a [Securities Education Certificate](https://investmentsoc.com/SEC) (Distinction) and completed the [Finance Accelerator](https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf) in London; I am a member of Imperial's [Algorithmic Trading](https://algosoc.com/) and [Investment](https://investmentsoc.com/) societies.
 
 ---
 
 ## Earlier work: relativity, cosmology, black holes
 
-**Black hole magnetospheres.** Applying pulsar outer-gap theory to Kerr black holes, I showed that a lepton accelerator arises near the event horizon as a consequence of frame dragging, and that the resulting gamma-ray flux is beamed along the rotation axis and enhanced by more than an order of magnitude as spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$ — with concrete implications for Fermi-LAT and CTA detectability ([*MNRAS Letters* **471**, L135](https://academic.oup.com/mnrasl/article/471/1/L135/4036899)).
+**Black hole magnetospheres.** Applying pulsar outer-gap theory to Kerr black holes, I showed that a lepton accelerator arises near the event horizon as a consequence of frame dragging, and that the resulting gamma-ray flux is beamed along the rotation axis and enhanced by more than an order of magnitude as spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$ — with concrete implications for [Fermi-LAT](https://fermi.gsfc.nasa.gov/) and [CTA](https://www.ctao.org/) detectability ([*MNRAS Letters* **471**, L135](https://academic.oup.com/mnrasl/article/471/1/L135/4036899)).
 
-**Blandford–Znajek energy extraction.** With Dr Isao Okamoto (NAOJ), a reformulation of electromagnetic energy extraction from rotating black holes in terms of the frame-dragged force-free magnetosphere, split at the null surface (arXiv:1904.11978; *PASJ* 2024).
+**Blandford–Znajek energy extraction.** With Dr Isao Okamoto (NAOJ), a reformulation of electromagnetic energy extraction from rotating black holes in terms of the frame-dragged force-free magnetosphere, split at the null surface (arXiv:[1904.11978](https://arxiv.org/abs/1904.11978) and [2401.12684](https://arxiv.org/abs/2401.12684)).
 
-**Sgr A\*.** GRMHD simulations (BHAC) post-processed through general-relativistic radiative transfer (BHOSS), modelling multi-wavelength variability of the Galactic Centre black hole across magnetically arrested disc states and competing electron-heating prescriptions. Carried out at UCL/MSSL with Dr Ziri Younsi and Prof Kinwah Wu; manuscript in preparation.
+**Sgr A\*.** GRMHD simulations (BHAC) post-processed through general-relativistic radiative transfer (BHOSS), modelling multi-wavelength variability of the Galactic Centre black hole across magnetically arrested disc states and competing electron-heating prescriptions. Carried out at UCL/MSSL with [Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu); manuscript in preparation.
 
-**Early-universe cosmology.** Raychaudhuri-type and shear-evolution equations for geodesic congruences in a Bianchi-I universe, and the imprint of anisotropic shear on primordial gravitational waves (arXiv:1604.07639).
+**Early-universe cosmology.** Raychaudhuri-type and shear-evolution equations for geodesic congruences in a Bianchi-I universe, and the imprint of anisotropic shear on primordial gravitational waves (arXiv:[1604.07639](https://arxiv.org/abs/1604.07639)).
 
 ---
 

@@ -162,9 +162,16 @@ html[data-theme-setting="light"] {
 
 /* The "news" and "selected publications" headings on the About page are
    emitted by the gem-owned about layout in lowercase. Capitalise them here
-   rather than forking the layout. */
-h2 > a[href$="/news/"],
-h2 > a[href$="/publications/"] {
+   rather than forking the layout.
+
+   NB: this deliberately avoids an attribute selector such as
+   `h2 > a[href$="/news/"]`. PurgeCSS runs over the built site and its
+   extractor does not recognise attribute selectors, so that rule was
+   silently stripped from main.css and the headings stayed lowercase in
+   production. `.post`, `h2` and `a` all appear literally in the HTML, so
+   this survives the purge. These are the only two `h2 > a` pairs on the
+   whole site, so the scope is exact. */
+.post h2 > a {
   text-transform: capitalize;
 }
 

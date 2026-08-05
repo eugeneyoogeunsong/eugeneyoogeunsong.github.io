@@ -167,3 +167,31 @@ h2 > a[href$="/news/"],
 h2 > a[href$="/publications/"] {
   text-transform: capitalize;
 }
+
+/* CV page: breathing room between entries.
+   Each entry is a .list-group-item inside the .cv wrapper, and .list-group-item
+   is used nowhere else on the site, so the scope is safe. Default padding is
+   0.75rem top and bottom (1.5rem between entries); 1.25rem gives 2.5rem, which
+   reads as a clear separation without pushing the CV onto extra screens.
+   Applies to every section — Education, Experience, Awards, Certificates. */
+.cv .list-group-flush > .list-group-item {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+/* Don't pad the first and last entries away from their card edges. */
+.cv .list-group-flush > .list-group-item:first-child {
+  padding-top: 0.35rem;
+}
+.cv .list-group-flush > .list-group-item:last-child {
+  padding-bottom: 0.35rem;
+}
+
+/* On narrow screens the date badge stacks above the title, so trim the gap
+   back a little to avoid a wall of whitespace on mobile. */
+@media (max-width: 576px) {
+  .cv .list-group-flush > .list-group-item {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+}

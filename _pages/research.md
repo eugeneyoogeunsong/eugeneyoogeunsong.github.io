@@ -35,6 +35,24 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ---
 
+## Quantum computing for computational fluid dynamics
+
+**A part-time collaboration with [Singularity Quantum](https://singularityquantum.com/), working with their CFD engineers.**
+
+The company is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR** — deriving fractional flow reserve, the pressure ratio a cardiologist uses to decide whether a coronary stenosis warrants intervention, from a CT scan rather than from a catheter. Done well, a simulation replaces an invasive procedure.
+
+**What I work on.** Augmenting and enhancing the classical CFD model that the quantum work is built around, and the hybrid layer that surrounds the quantum kernel.
+
+**Why the classical layer is where the risk lives.** The accuracy of a CT-FFR pipeline is not dominated by solver speed. It is dominated by three things sitting around the solver: the segmentation of the coronary tree from the CT, which is resolution-limited in vessels a couple of millimetres across; the outlet boundary conditions, where an entire downstream vasculature you cannot observe is compressed into a lumped-parameter or Windkessel model; and the rheological choices — Newtonian or shear-thinning blood, rigid or compliant walls. Get those wrong and a solver a thousand times faster converges beautifully to the wrong number, sooner.
+
+That is the same structure as everything else on this page: a governing equation you trust, an observation operator you do not, and a requirement to produce a number someone will act on. Physics-informed methods suit it well, because they let unknown boundary conditions and material parameters be *learned* while the PDE is still enforced.
+
+**Where the quantum side is genuinely well-chosen.** The usual objection to quantum linear solvers is readout: the solution ends up encoded in amplitudes, and extracting all $$N$$ components costs $$O(N)$$ measurements, which destroys the speedup. You only win when the quantity you want is a **scalar functional** of the solution. FFR is precisely that — a single pressure ratio, with the clinical decision effectively a threshold at 0.80. That makes cardiovascular CT-FFR a much better-posed target than a generic "quantum for CFD" story.
+
+**What transfers, and what does not.** My fluid-dynamics background is GRMHD: conservative finite-volume schemes on curvilinear grids, approximate Riemann solvers, CFL conditions, primitive-to-conserved inversion, grid-convergence studies. The numerical craft carries over directly, and curvilinear coordinates are second nature after general relativity, where there is no Cartesian escape hatch. What does not carry over is pressure–velocity coupling — relativistic MHD is compressible and hyperbolic, so there is no incompressibility constraint and no pressure–Poisson equation, and for incompressible coronary flow that is the central difficulty. That gap is the part I am actively closing.
+
+---
+
 ## Quantitative research
 
 From October 2025 to August 2026 I ran an independent quantitative research practice, focused on futures, derivatives and equities. The organising question was alpha generation under **non-stationary** dynamics: how do you detect a regime shift without overfitting to the last one?

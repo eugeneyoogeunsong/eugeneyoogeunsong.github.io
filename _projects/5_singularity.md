@@ -11,7 +11,7 @@ category: quantum computing
 
 [Singularity Quantum](https://singularityquantum.com/) is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR** — deriving fractional flow reserve, the pressure ratio a cardiologist uses to decide whether a coronary stenosis needs intervention, from a CT scan rather than from a catheter. Done well, it replaces an invasive procedure with a simulation.
 
-**My role.** I work part-time with **Victoria Rolandi** on augmenting and enhancing the CFD model — the classical solver that the quantum work is built around.
+**My role.** I work part-time with their CFD engineers on augmenting and enhancing the CFD model — the classical solver that the quantum work is built around.
 
 **Why the classical layer is the interesting part.** In a CT-FFR pipeline the accuracy is not dominated by solver speed. It is dominated by three things around the solver: the segmentation of the coronary tree from the CT, the outlet boundary conditions where a whole downstream vasculature you cannot see is compressed into a lumped-parameter model, and the rheological choices — Newtonian or shear-thinning blood, rigid or compliant walls. Get those wrong and a solver a thousand times faster converges beautifully to the wrong number, sooner.
 

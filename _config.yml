@@ -3,9 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: blank # if blank, full name is used
-first_name: Yoogeun
+# al-folio bolds first_name only, so the whole display name lives here to keep
+# "Eugene (Yoogeun) Song" boldfaced consistently in the header, <title> and OG tags.
+first_name: Eugene (Yoogeun) Song
 middle_name: 
-last_name: Song
+last_name: 
 contact_note: >
   Best reached by email. I read everything, and I reply to most things —
   research collaborations and quant conversations first.

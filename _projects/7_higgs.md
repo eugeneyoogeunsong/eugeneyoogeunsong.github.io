@@ -3,7 +3,7 @@ layout: page
 title: Higgs portal to dark matter
 description: Invisible Higgs decays as a probe of a hidden sector.
 img: assets/img/projects/higgs.jpg
-importance: 4
+importance: 5
 category: physics
 ---
 

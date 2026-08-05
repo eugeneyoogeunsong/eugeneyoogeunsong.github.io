@@ -3,7 +3,7 @@ layout: page
 title: Kerr black hole electrodynamics
 description: Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction.
 img: assets/img/projects/kerr.jpg
-importance: 3
+importance: 4
 category: physics
 related_publications: true
 ---

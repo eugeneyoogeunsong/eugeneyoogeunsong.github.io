@@ -17,6 +17,8 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 **Where I am now.** I work on the [Deep Underground Neutrino Experiment (DUNE)](https://www.dunescience.org/) at Imperial College London, supervised by [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) in the [Imperial DUNE group](https://www.imperial.ac.uk/high-energy-physics/research/experiments/dune/). DUNE will measure CP violation in the lepton sector, determine the neutrino mass ordering, and search for physics beyond the Standard Model — but only if the systematic uncertainties can be controlled to a degree no long-baseline experiment has achieved before.
 
+**And the experiment with data today.** Alongside DUNE I work on [NOvA](https://novaexperiment.fnal.gov/) — NuMI Off-axis νe Appearance — which has been running since 2014: two functionally identical detectors 810 km apart, both 14.6 mrad off the NuMI beam axis so the flux narrows around 2 GeV, near the νμ → νe oscillation maximum. Dr Cremonesi is its spokesperson, and the group runs both as a single programme. The practical consequence is that methods get tested against real, systematics-limited data before they are asked to carry a DUNE measurement.
+
 **The specific thrust.** Systematics-aware machine learning reconstruction in liquid argon TPCs, combined with Bayesian and MCMC inference, and the propagation of Near-Detector constraints to the Far Detector. The Near Detector is not merely a control measurement. Rather, it is the constraint engine: it fixes the flux and cross-section nuisance parameters that would otherwise dominate the oscillation fit. Getting that propagation right — with uncertainty that is calibrated rather than merely small — is the interesting part.
 
 **A position I hold.** Machine learning should augment physical interpretation, never replace it. A reconstruction network that improves resolution while making its own failure modes unauditable is a worse instrument than a slower method you can reason about. Physics-aware and systematics-aware, not black-box.
@@ -35,9 +37,9 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ## Quantitative research
 
-Since 2025 I have run an independent quantitative research practice, focused on futures, derivatives and equities. The organising question is alpha generation under **non-stationary** dynamics: how do you detect a regime shift without overfitting to the last one?
+From October 2025 to August 2026 I ran an independent quantitative research practice, focused on futures, derivatives and equities. The organising question was alpha generation under **non-stationary** dynamics: how do you detect a regime shift without overfitting to the last one?
 
-The toolkit is the one I already had — stochastic control (HJB), Monte Carlo methods, time-series modelling, Bayesian inference, and physics-inspired signal/noise separation. The discipline is the one physics teaches: take structural constraints seriously. Market impact, inventory, liquidity and latency are not frictions to be assumed away; they are the boundary conditions, and a strategy that ignores them is a strategy that has not been specified.
+The toolkit was the one I already had — stochastic control (HJB), Monte Carlo methods, time-series modelling, Bayesian inference, and physics-inspired signal/noise separation. The discipline is the one physics teaches: take structural constraints seriously. Market impact, inventory, liquidity and latency are not frictions to be assumed away; they are the boundary conditions, and a strategy that ignores them is a strategy that has not been specified.
 
 I hold a Securities Education Certificate (Distinction) and completed the Finance Accelerator in London; I am a member of Imperial's Algorithmic Trading and Investment societies.
 

@@ -23,15 +23,17 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 **A position I hold.** Machine learning should augment physical interpretation, never replace it. A reconstruction network that improves resolution while making its own failure modes unauditable is a worse instrument than a slower method you can reason about. Physics-aware and systematics-aware, not black-box.
 
+**Earlier BSM work.** Higgs-portal dark matter and invisible-decay constraints via the vector-boson-fusion signature, with HL-LHC projections — a study at Imperial under Dr Alexander Tapper. The exclusion reach in that channel is governed by control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds rather than by luminosity: systematics, not statistics. That is the same story as precision oscillation physics, and it is a large part of why I moved towards systematics-aware methods.
+
 ---
 
 ## Machine learning for physics and medicine
 
-**AtriPINN.** Physics-informed neural networks for real-time atrial fibrillation mapping from grid electrograms, built in PyTorch with Prof David Colling and Dr Nick Linton, on clinical data from Hammersmith Hospital. The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation** — coordinate-agnostic, with switchable physics back-ends.
+**AtriPINN.** Physics-informed neural networks for real-time atrial fibrillation mapping from grid electrograms, built in [PyTorch](https://pytorch.org/) with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), on clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital). The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation** — coordinate-agnostic, with switchable physics back-ends.
+
+**The data.** Two catheter geometries, each recorded in both normal sinus rhythm (NSR) and atrial fibrillation: the 4×4 [Advisor HD Grid](https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/diagnostic-catheters/advisor-hd-grid.html) and the 6×6 [OPTRELL](https://www.jnjmedtech.com/en-US/news-events/biosense-webster-launches-optrell-mapping-catheter-trueref-technology). We work mainly from the OPTRELL recordings.
 
 **Why this matters beyond cardiology.** The interesting result is not the error bar; it is that imposing the governing equation as a soft constraint buys you data efficiency and physical plausibility simultaneously. That is directly transferable to detector reconstruction, where labelled data is expensive and unphysical predictions are worse than imprecise ones.
-
-**Earlier ML work.** Higgs-portal dark matter and invisible-decay constraints via the VBF signature, with HL-LHC projections (Imperial, under Dr Alexander Tapper).
 
 ---
 

@@ -2,14 +2,14 @@
 layout: page
 title: Interests
 permalink: /interests/
-description: What I do when I am not doing physics — and a few things I will happily talk about for hours.
+description: What I do when I am not doing physics, and a few things I will happily talk about for hours.
 nav: true
 nav_order: 6
 ---
 
-## Sport
+## Sports
 
-A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, calisthenics, and Brazilian Jiu-Jitsu. The endurance base came from national service; the habit stayed. When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
+A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics — and Brazilian Jiu-Jitsu, which I want to learn. The endurance base came from national service; the habit stayed. When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
 
 ## Languages
 
@@ -17,11 +17,11 @@ Korean and English natively, French to professional working proficiency, German 
 
 ## Reading
 
-Physics and technical work first; then quant and markets; then biographies and self-improvement. The Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — and Confucius alongside them; then Benjamin Graham and Jared Diamond. I stay current through arXiv, podcasts, and research feeds on X.
+Physics and technical work first; then quant and markets; then biographies and self-improvement. Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — with Nietzsche as the counterweight; then Benjamin Graham and Jared Diamond, and Richard Dawkins. I stay current through arXiv, podcasts, and research feeds on X.
 
 ## Music and film
 
-Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Classic rock for everything else: the Beatles, Led Zeppelin, Queen, Guns N' Roses, Oasis, Metallica. On film I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; the *Godfather* trilogy, *The Dark Knight* and *Fight Club* are the ones I return to.
+Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Rock for everything else: the Beatles, Led Zeppelin, Queen, Guns N' Roses, Oasis, Metallica. On film I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; the *Godfather* trilogy, *The Dark Knight* and *Fight Club* are the ones I return to.
 
 ## Travel and people
 

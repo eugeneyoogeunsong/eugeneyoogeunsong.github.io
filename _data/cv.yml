@@ -220,16 +220,22 @@ cv:
 
     Awards:
       - title: National Assembly Special Award
+        authors:
+          - "National Assembly of the Republic of Korea"
         date: 2009-02-23
         awarder: Chairman, National Assembly Education, Science & Technology Committee
         summary: Conferred for completing a BSc through the Academic Credit Bank System at age 11 — a national record — "having overcome all adversity," with exemplary results.
 
       - title: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병)
+        authors:
+          - "Republic of Korea Army"
         date: 2020
         awarder: Republic of Korea Army
         summary: Awarded for top-tier performance across physical, marksmanship and duty standards during national service.
 
       - title: Song Yoo-geun Project — National Talent Development Initiative
+        authors:
+          - "Republic of Korea"
         date: 2006
         awarder: Republic of Korea
         summary: A named government scholarship and support programme, alongside Inha University and Real Company scholarships (2006–2008).

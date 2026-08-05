@@ -18,6 +18,6 @@ An independent research programme in futures, derivatives and equities. The orga
 - **Signal and noise.** Physics-inspired separation methods — the same problem as pulling a faint astrophysical signal out of an instrument's systematics, with an adversary added.
 - **Stochastic control.** HJB formulations for execution and inventory, Monte Carlo for path-dependent problems, and Bayesian methods for parameter uncertainty.
 
-**Background.** Securities Education Certificate (Distinction, Imperial College Investment Society); Finance Accelerator, London; member of Imperial's Algorithmic Trading and Investment societies.
+**Background.** [Securities Education Certificate](https://investmentsoc.com/SEC) (Distinction, [Imperial College Investment Society](https://investmentsoc.com/)); [Finance Accelerator](https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf), London; member of Imperial's [Algorithmic Trading](https://algosoc.com/) and [Investment](https://investmentsoc.com/) societies.
 
 **A note on the dual track.** I do not treat physics and quant as a hedge against each other. They are the same discipline — build a model of a process you cannot fully observe, quantify what you do not know, and act on the result — applied to data that pays differently.

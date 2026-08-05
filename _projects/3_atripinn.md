@@ -7,7 +7,7 @@ importance: 1
 category: machine learning
 ---
 
-**Imperial College London · 2025 – present · with Prof David Colling and Dr Nick Linton · clinical data from Hammersmith Hospital**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
 
 Catheter ablation for atrial fibrillation depends on knowing where the arrhythmia originates, and knowing it fast enough to act during the procedure. Conventional mapping either interpolates naively across a sparse electrode grid or solves the underlying wave problem too slowly to be useful in theatre.
 

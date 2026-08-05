@@ -3,17 +3,27 @@
 
 cv:
   name: Yoogeun Song
-  label: Eugene · Physicist, Machine Learning, Quantitative Research
-  email: ygsong1004@gmail.com
+  label: Physicist, Machine Learning, Quantitative Research
+  email: yoogeun.song24@imperial.ac.uk
   location: London, United Kingdom
   image: ""
   summary: >
-    High-energy physicist at Imperial College London working on neutrino physics with the
-    DUNE collaboration. My work sits where physical modelling, machine learning and
-    statistical inference meet — systematics-aware ML reconstruction, Bayesian and MCMC
-    inference, and physics-informed neural networks. Previously general relativity,
-    early-universe cosmology and black hole magnetospheres. In parallel I run an
-    independent quantitative research practice on alpha under non-stationary market dynamics.
+    High-energy physicist at Imperial College London, working on neutrino physics with the
+    Imperial High Energy Physics group on the NOvA and DUNE collaborations under
+    Dr Linda Cremonesi — a variety of physics analyses on NOvA, and systematics-aware
+    machine learning reconstruction with Bayesian and MCMC inference on DUNE, where the
+    Near Detector is not a control detector but the constraint engine that makes precision
+    oscillation measurements possible. My work sits at the point where physical modelling,
+    machine learning and statistical inference stop being separate disciplines and become
+    one problem: inference under uncertainty. Alongside the neutrino work I build
+    physics-informed neural networks for real-time atrial fibrillation mapping — AtriPINN,
+    at ~78 ms end-to-end latency and ~1.6 mm RMS localisation error on clinical data — and
+    collaborate part-time with Singularity Quantum on quantum-accelerated computational
+    fluid dynamics for non-invasive cardiovascular diagnostics. Previously general
+    relativity and early-universe cosmology, black hole magnetospheres and Blandford–Znajek
+    energy extraction, and GRMHD modelling of Sagittarius A* at UCL; and, from October 2025
+    to August 2026, an independent quantitative research practice on alpha under
+    non-stationary market dynamics.
 
   social_networks:
     - network: LinkedIn

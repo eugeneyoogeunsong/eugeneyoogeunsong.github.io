@@ -9,10 +9,6 @@
   url: https://iopscience.iop.org/journal/0004-637X
   color: "#312e81"
 
-"PASJ":
-  url: https://academic.oup.com/pasj
-  color: "#5b21b6"
-
 "arXiv":
   url: https://arxiv.org/
   color: "#6b6b7b"

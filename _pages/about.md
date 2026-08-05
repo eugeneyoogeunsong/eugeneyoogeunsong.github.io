@@ -154,3 +154,5 @@ Outside physics I have built end-to-end quant capability: time-series and stocha
 **Since then.** From December 2018 to August 2020 I completed my mandatory national service, which was essential for my personal growth. Since 2023 I have been living in the UK — 2023–2024 at UCL, and from 2024 studying and working as a graduate researcher in the Department of Physics at Imperial, ranked #2 globally in the QS 2025–2027 rankings.
 
 **Where to find me.** [LinkedIn](https://www.linkedin.com/in/yoogeunsong) is where I am most active, with [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social) next.
+
+{% include author_self_link.liquid %}

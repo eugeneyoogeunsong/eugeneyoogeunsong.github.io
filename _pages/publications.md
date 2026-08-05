@@ -18,3 +18,5 @@ nav_order: 3
 {% bibliography %}
 
 </div>
+
+{% include author_self_link.liquid %}

@@ -1,0 +1,22 @@
+{%- comment -%}
+  al-folio renders your own name in a bibliography entry as <em>Name</em> and
+  deliberately skips the coauthors.yml lookup for it, so there is no Liquid-side
+  way to link it without forking the gem's bib layout. This wraps those <em>
+  elements in a link to your InspireHEP author page instead.
+  Include from any page that renders a bibliography.
+{%- endcomment -%}
+<script>
+  (function () {
+    var PROFILE = "https://inspirehep.net/authors/1790652";
+    document.querySelectorAll(".author em").forEach(function (el) {
+      if (el.querySelector("a") || el.closest("a")) return;
+      var a = document.createElement("a");
+      a.href = PROFILE;
+      a.target = "_blank";
+      a.rel = "external nofollow noopener";
+      a.setAttribute("aria-label", "Yoogeun Song on InspireHEP");
+      while (el.firstChild) a.appendChild(el.firstChild);
+      el.appendChild(a);
+    });
+  })();
+</script>

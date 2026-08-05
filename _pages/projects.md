@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Research programmes and code, across physics, machine learning and markets.
 nav: true

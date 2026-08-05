@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Peer-reviewed papers, preprints and work in progress — generated automatically from BibTeX.
 nav: true
 nav_order: 3

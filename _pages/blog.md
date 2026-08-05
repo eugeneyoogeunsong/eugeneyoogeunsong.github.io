@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 nav: false # flip to true when you publish your first post
 nav_order: 8
 pagination:

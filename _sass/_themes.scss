@@ -149,3 +149,21 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+/*******************************************************************************
+ * Local presentation overrides
+ ******************************************************************************/
+
+/* Navbar tabs render as written (About, Research, Publications, …).
+   `capitalize` only uppercases the first letter, so "CV" is left intact. */
+.navbar-nav .nav-link {
+  text-transform: capitalize;
+}
+
+/* The "news" and "selected publications" headings on the About page are
+   emitted by the gem-owned about layout in lowercase. Capitalise them here
+   rather than forking the layout. */
+h2 > a[href$="/news/"],
+h2 > a[href$="/publications/"] {
+  text-transform: capitalize;
+}

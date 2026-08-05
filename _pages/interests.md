@@ -1,6 +1,6 @@
 ---
 layout: page
-title: interests
+title: Interests
 permalink: /interests/
 description: What I do when I am not doing physics — and a few things I will happily talk about for hours.
 nav: true

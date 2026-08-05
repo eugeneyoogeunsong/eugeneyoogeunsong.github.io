@@ -1,6 +1,6 @@
 ---
 layout: page
-title: contact
+title: Contact
 permalink: /contact/
 description: The best ways to reach me.
 nav: true

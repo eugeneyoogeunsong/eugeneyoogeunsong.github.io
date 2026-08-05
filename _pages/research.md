@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 description: Three tracks, one method — inference under uncertainty.
 nav: true

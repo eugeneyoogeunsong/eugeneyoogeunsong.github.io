@@ -195,3 +195,54 @@ h2 > a[href$="/publications/"] {
     padding-bottom: 0.9rem;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * CV page: fix the overlapping date / title columns.
+ *
+ * The al_folio_cv gem emits Bootstrap grid markup:
+ *     <div class="row">
+ *       <div class="col-xs-2 col-sm-2 col-md-2 date-column"> …date… </div>
+ *       <div class="col-xs-10 col-sm-10 col-md-10">          …title… </div>
+ *     </div>
+ * but al-folio v1.x is Tailwind-first and ships with
+ * al_folio.compat.bootstrap.enabled: false, so `.row` and every `col-*`
+ * class is UNDEFINED in the stylesheet. With no grid the two divs are plain
+ * block elements, and `.date-column`'s own
+ *     transform: translateX(-15px) translateY(-5px)
+ * drags the date badge up and left over the job title beneath it.
+ *
+ * Rather than switch the Bootstrap compat layer back on — it is deprecated in
+ * v1.3 and removed in v2.0, and it restyles the whole site — define the two
+ * columns as a local flex row, scoped to .cv only.
+ * ------------------------------------------------------------------------- */
+
+.cv .list-group-item > .row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.cv .list-group-item > .row > .date-column {
+  flex: 0 0 130px;
+  width: 130px;
+  transform: none; /* cancel the gem's translate, which caused the overlap */
+}
+
+.cv .list-group-item > .row > div:not(.date-column) {
+  flex: 1 1 0;
+  min-width: 0; /* let long bullet text wrap instead of forcing the row wider */
+}
+
+/* Stack the date above the entry on narrow screens. */
+@media (max-width: 640px) {
+  .cv .list-group-item > .row {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .cv .list-group-item > .row > .date-column,
+  .cv .list-group-item > .row > div:not(.date-column) {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+}

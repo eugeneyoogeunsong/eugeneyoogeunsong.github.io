@@ -19,7 +19,7 @@ When a problem stops moving, the fastest route through it is usually a long run 
 
 ## Languages
 
-Korean and English natively, French to professional working proficiency, German at intermediate, Spanish conversational, and Italian in progress. I am currently keeping French and Italian alive. Learning a language is the closest thing I know to learning a new physics formalism — the same feeling of a structure clicking into place.
+Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, Spanish and Japanese conversational, and German at elementary. French and Italian are the two I am keeping alive at the moment. Learning a language is the closest thing I know to learning a new physics formalism — the same feeling of a structure clicking into place.
 
 ## Reading
 

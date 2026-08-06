@@ -297,12 +297,14 @@ cv:
         summary: "Native / bilingual"
       - name: French
         summary: "Professional working proficiency"
-      - name: German
-        summary: "Intermediate"
+      - name: Italian
+        summary: "Intermediate — actively learning"
       - name: Spanish
         summary: "Conversational"
-      - name: Italian
-        summary: "Elementary — actively learning"
+      - name: Japanese
+        summary: "Conversational"
+      - name: German
+        summary: "Elementary"
 
     Interests:
       - name: Research

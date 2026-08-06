@@ -31,6 +31,14 @@ Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus 
 
 For research I stay current through arXiv and feeds on X.
 
+## Neuroscience and personality theory
+
+A long-running side interest, and one I deliberately hold at arm's length. I am **INTJ** on the Myers–Briggs and **3w4** on the Enneagram; on the Big Five I sit high on conscientiousness and openness, mid on extraversion, and low on neuroticism and agreeableness. Of those three frameworks, only the Big Five has real psychometric standing. The others I treat as vocabulary rather than measurement — useful for describing how someone works, not for predicting what they will do.
+
+What actually interests me is the layer underneath: whether type differences correspond to anything measurable in the brain. That is why I got in touch with [Dr Dario Nardi](https://www.darionardi.com/), whose EEG work at UCLA maps cortical activity against Jungian type, and whose interaction-style framework I find considerably sharper than the four-letter codes. By that reading I come out as responding, process-focused, directing, pragmatic and abstract — which describes my working habits better than any label has.
+
+The honest position is that this is a field where the descriptive language has run well ahead of the evidence. I find it useful anyway, in roughly the way a good coordinate system is useful: it does not tell you the physics, but it makes the problem far easier to talk about.
+
 ## Music and film
 
 Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Metallica through to Mariah Carey, Taylor Swift and Coldplay. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.

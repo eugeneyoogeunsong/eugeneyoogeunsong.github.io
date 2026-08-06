@@ -11,7 +11,7 @@ nav_order: 6
 
 A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics — and Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time.
 
-I have skied since I was three and snowboarded since sixteen. Ski trips are a family fixture, and most of why the Alps keep appearing in my travel plans.
+I am an avid skier and snowboarder; I have skied since I was three and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
 
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving — I was among the top five marksmen in my company, and I ended up teaching driving. Both are things I would happily pick up again given more time.
 

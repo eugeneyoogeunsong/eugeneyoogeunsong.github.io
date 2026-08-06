@@ -233,12 +233,41 @@ html[data-theme-setting="light"] {
 .cv .list-group-item > .row > .date-column {
   flex: 0 0 150px;
   width: 150px;
+  max-width: 150px;
   transform: none; /* cancel the gem's translate, which caused the overlap */
+  text-align: left; /* the gem markup carries .text-center, which is undefined
+                       here anyway — state the intent explicitly */
+}
+
+/* The gem wraps each date in <table class="table-cv">, and .table-cv is
+   undefined in v1.x, so the table falls back to width:auto and shrink-to-fit.
+   A long date like "December 2018 – August 2020" then overflows the fixed
+   column while a short one does not, and the years stop lining up. Pin the
+   table to the column and let the text wrap instead. */
+.cv .list-group-item > .row > .date-column .table-cv {
+  width: 100%;
+  table-layout: fixed;
+  margin: 0;
+}
+
+.cv .list-group-item > .row > .date-column .table-cv td {
+  padding: 0 0 0.4rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* The badge carries an inline min-width:75px, which only !important can beat. */
+.cv .list-group-item > .row > .date-column .badge {
+  display: inline-block;
+  min-width: 0 !important;
+  white-space: normal;
+  text-align: left;
 }
 
 /* Locations carry explicit <br> breaks in _data/cv.yml, so let them sit tight
    and left-aligned rather than centred with ragged wrapping. */
 .cv .list-group-item .location {
+  text-align: left;
   line-height: 1.35;
   margin-bottom: 0;
 }

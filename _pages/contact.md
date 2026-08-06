@@ -9,9 +9,9 @@ nav_order: 8
 
 ## Email
 
-**Personal** — [ygsong1004@gmail.com](mailto:ygsong1004@gmail.com) · the fastest route, and the one I check.
+**Professional** — [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything professional: collaboration requests, physics, machine learning, quant, media opportunities.
 
-**Academic** — [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything Imperial or DUNE related.
+**Personal** — [ygsong1004@gmail.com](mailto:ygsong1004@gmail.com) · the fastest route.
 
 ## Elsewhere
 

@@ -13,7 +13,7 @@ A large part of my life, and the thing that keeps the rest of it working. Runnin
 
 I have skied since I was three and snowboarded since sixteen. Ski trips are a family fixture, and most of why the Alps keep appearing in my travel plans.
 
-The endurance base came from national service, and so did two things I was good at and no longer do: shooting, where I finished among the top five marksmen in my company, and driving, which I ended up teaching. The training habit outlasted both.
+The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving — I was among the top five marksmen in my company, and I ended up teaching driving. Both are things I would happily pick up again given more time.
 
 When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
 
@@ -23,13 +23,17 @@ Korean and English natively, French to professional working proficiency, Italian
 
 ## Reading
 
-Physics and technical work first; then quant and markets; then biographies and self-improvement. Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — with Nietzsche as the counterweight; then Benjamin Graham and Jared Diamond, and Richard Dawkins. I stay current through arXiv, podcasts, and research feeds on X.
+Physics and technical work first; then quant and markets; then biographies and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead — audiobooks, or podcasts from the authors themselves.
+
+Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
+
+For research I stay current through arXiv and feeds on X.
 
 ## Music and film
 
 Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Metallica through to Mariah Carey, Taylor Swift and Coldplay. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.
 
-On film I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; the *Godfather* trilogy, *The Dark Knight* and *Fight Club* are the ones I return to.
+On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; *The Godfather* I and II are my favourite films of all time.
 
 ## Travel and people
 

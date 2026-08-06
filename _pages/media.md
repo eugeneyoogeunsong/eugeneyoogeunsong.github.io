@@ -123,10 +123,21 @@ nav_order: 7
   }
   .mo-outlets li {
     font-size: 0.82rem;
-    padding: 0.3rem 0.7rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 999px;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .mo-outlets li a {
+    display: block;
+    padding: 0.3rem 0.7rem;
     color: var(--global-text-color-light);
+    text-decoration: none;
+  }
+  .mo-outlets li:hover {
+    border-color: var(--global-theme-color);
+  }
+  .mo-outlets li:hover a {
+    color: var(--global-theme-color);
   }
 
   @media (max-width: 576px) {
@@ -139,9 +150,9 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>media appearances</span></div>
-  <div class="mo-stat"><b>2004–2023</b><span>years of coverage</span></div>
+  <div class="mo-stat"><b>2004–present</b><span>years of coverage</span></div>
   <div class="mo-stat"><b>2</b><span>documentary series</span></div>
-  <div class="mo-stat"><b>KR · JP</b><span>press markets</span></div>
+  <div class="mo-stat"><b>KR · JP · US · UK</b><span>press markets</span></div>
 </div>
 
 ## Featured
@@ -154,7 +165,8 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
       <h3>SBS Special</h3>
       <p>A documentary on my life in academia, filmed immediately before I enlisted in the Republic of Korea Army.</p>
       <div class="mo-links">
-        <a href="https://www.youtube.com/watch?v=PKrJPFN0Wt0" target="_blank" rel="noopener">Watch</a>
+        <a href="https://programs.sbs.co.kr/culture/sbsspecial/vod/53591/22000301305" target="_blank" rel="noopener">Watch</a>
+        <a href="https://www.youtube.com/watch?v=PKrJPFN0Wt0" target="_blank" rel="noopener">YouTube teaser</a>
       </div>
     </div>
   </div>
@@ -165,7 +177,8 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
       <h3>Seoul Digital Forum 2015</h3>
       <p>Interviewing <strong>Dr Kip Thorne</strong> about LIGO — nine months before the first direct detection of gravitational waves was announced.</p>
       <div class="mo-links">
-        <a href="https://www.youtube.com/watch?v=eqtSOHz7F14" target="_blank" rel="noopener">Watch</a>
+        <a href="https://www.sdf.or.kr/archive/2015/ko/video/10000000281" target="_blank" rel="noopener">Watch</a>
+        <a href="https://www.youtube.com/watch?v=eqtSOHz7F14" target="_blank" rel="noopener">YouTube</a>
       </div>
     </div>
   </div>
@@ -236,15 +249,15 @@ Original newspaper scans, in full.
 Since 2004 my work has been documented across television, radio and print in Korea and Japan — more than 500 appearances in total, including these outlets.
 
 <ul class="mo-outlets">
-  <li>Kyunghyang Shinmun</li>
-  <li>Hankyoreh</li>
-  <li>Chosun Ilbo</li>
-  <li>JoongAng Ilbo</li>
-  <li>Donga Ilbo</li>
-  <li>SBS</li>
-  <li>KBS</li>
-  <li>EBS</li>
-  <li>The Korea Herald</li>
+  <li><a href="https://english.khan.co.kr/" target="_blank" rel="noopener">Kyunghyang Shinmun</a></li>
+  <li><a href="https://english.hani.co.kr/" target="_blank" rel="noopener">Hankyoreh</a></li>
+  <li><a href="https://www.chosun.com/english/" target="_blank" rel="noopener">Chosun Ilbo</a></li>
+  <li><a href="https://koreajoongangdaily.joins.com/" target="_blank" rel="noopener">JoongAng Ilbo</a></li>
+  <li><a href="https://www.donga.com/en" target="_blank" rel="noopener">Donga Ilbo</a></li>
+  <li><a href="https://www.sbs.co.kr/" target="_blank" rel="noopener">SBS</a></li>
+  <li><a href="https://world.kbs.co.kr/service/index.htm?lang=e" target="_blank" rel="noopener">KBS</a></li>
+  <li><a href="https://www.ebs.co.kr/" target="_blank" rel="noopener">EBS</a></li>
+  <li><a href="https://www.koreaherald.com/" target="_blank" rel="noopener">The Korea Herald</a></li>
 </ul>
 
 ## Outreach

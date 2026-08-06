@@ -117,7 +117,7 @@ nav_order: 7
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin: 1.25rem 0 0;
+    margin: 1.25rem 0 2.75rem;
     padding: 0;
     list-style: none;
   }
@@ -246,7 +246,7 @@ Original newspaper scans, in full.
 
 ## Coverage
 
-Since 2004, my journey and work have been documented across television, radio and print in Korea and Japan — more than 500 appearances in total, including these outlets.
+Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan — more than 500 appearances in total, including these outlets.
 
 <ul class="mo-outlets">
   <li><a href="https://english.khan.co.kr/" target="_blank" rel="noopener">Kyunghyang Shinmun</a></li>

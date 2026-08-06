@@ -38,7 +38,7 @@ cv:
   sections:
     Education:
       - institution: Imperial College London
-        location: London, UK
+        location: "London,<br>United Kingdom"
         url: https://www.imperial.ac.uk/physics/
         area: Elementary Particle Physics — Neutrino physics with DUNE and NOvA
         studyType: PhD
@@ -51,7 +51,7 @@ cv:
           - Near-Detector to Far-Detector constraint propagation for precision oscillation measurements.
 
       - institution: Imperial College London
-        location: London, UK
+        location: "London,<br>United Kingdom"
         url: https://www.imperial.ac.uk/physics/
         area: Physics
         studyType: MSc
@@ -63,7 +63,7 @@ cv:
           - "Self-study project: *The Higgs Boson as a Portal to Dark Matter* — Higgs-portal models, invisible-decay constraints, HL-LHC projections."
 
       - institution: University of Science and Technology (UST) / Korea Astronomy and Space Science Institute
-        location: Daejeon, South Korea
+        location: "Daejeon,<br>Republic of Korea"
         url: https://ust.ac.kr/eng/
         area: Astronomy and Space Science
         studyType: Integrated MSc + PhD (All But Dissertation)
@@ -74,7 +74,7 @@ cv:
           - "Advised by Dr Seok Jae Park, on relativistic cosmology and high-energy emission near black hole magnetospheres."
 
       - institution: National Institute for Lifelong Education (NILE)
-        location: South Korea
+        location: "Republic of Korea"
         url: "https://www.nile.or.kr/usr/wap/detail.do?app=13309&seq=623&lang=en"
         area: Computer Science
         studyType: BSc (Academic Credit Bank System)
@@ -83,7 +83,7 @@ cv:
         score: "4.5 / 4.5"
 
       - institution: Inha University
-        location: Incheon, South Korea
+        location: "Incheon,<br>Republic of Korea"
         url: https://eng.inha.ac.kr/eng/index.do
         area: Physics
         studyType: BSc (transferred to NILE)
@@ -94,14 +94,14 @@ cv:
     Experience:
       - company: Imperial College London
         position: Graduate Researcher
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2026
         highlights:
           - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations — DUNE (Deep Underground Neutrino Experiment) and NOvA (NuMI Off-axis νe Appearance) programs — under the supervision of Dr Linda Cremonesi. On NOvA I work on a variety of physics analyses."
 
       - company: Imperial College London
         position: Graduate Researcher
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2025-06
         highlights:
           - "I'm conducting cross-disciplinary research by fusing particle physics-style modelling, Machine Learning (ML), and bioengineering to decode atrial fibrillation (Afib), using spatiotemporal reconstruction and data-driven simulations to map Afib wave dynamics and reveal the underlying electrical mechanisms. To do so, my primary focus has been on utilising and implementing various Physics-Informed Neural Networks (PINN) and to architect my own framework."
@@ -117,7 +117,7 @@ cv:
 
       - company: Imperial College London
         position: Master's Studies
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2024-09
         end_date: 2025-09
         highlights:
@@ -128,21 +128,21 @@ cv:
 
       - company: Imperial College Algorithmic Trading Society
         position: Member
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2024-10
         highlights:
           - "Attended the Algorithmic Trading (Algo) courses organised by the IC Algorithmic Trading Society."
 
       - company: Imperial College Investment Society
         position: Member
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2024-10
         highlights:
           - "Awarded the Securities Education Certificate with Distinction from the IC Investment Society."
 
       - company: Independent
         position: Quantitative Researcher
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2025-10
         end_date: 2026-08
         highlights:
@@ -153,7 +153,7 @@ cv:
 
       - company: UCL
         position: Visiting Researcher
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2023-07
         end_date: 2024-04
         highlights:
@@ -165,7 +165,7 @@ cv:
 
       - company: UCL
         position: Remote Collaborator
-        location: London Area, United Kingdom
+        location: "London Area,<br>United Kingdom"
         start_date: 2023-01
         end_date: 2023-06
         highlights:
@@ -187,7 +187,7 @@ cv:
 
       - company: Republic of Korea Army
         position: National Service
-        location: 7th Engineer Brigade, VII Corps | Republic of Korea
+        location: "7th Engineer Brigade,<br>VII Corps,<br>Republic of Korea"
         start_date: 2018-12
         end_date: 2020-08
         highlights:

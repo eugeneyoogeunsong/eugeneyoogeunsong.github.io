@@ -231,9 +231,16 @@ html[data-theme-setting="light"] {
 }
 
 .cv .list-group-item > .row > .date-column {
-  flex: 0 0 130px;
-  width: 130px;
+  flex: 0 0 150px;
+  width: 150px;
   transform: none; /* cancel the gem's translate, which caused the overlap */
+}
+
+/* Locations carry explicit <br> breaks in _data/cv.yml, so let them sit tight
+   and left-aligned rather than centred with ragged wrapping. */
+.cv .list-group-item .location {
+  line-height: 1.35;
+  margin-bottom: 0;
 }
 
 .cv .list-group-item > .row > div:not(.date-column) {

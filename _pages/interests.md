@@ -27,7 +27,7 @@ Physics and technical work first; then quant and markets; then biographies and s
 
 ## Music and film
 
-Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Rock for everything else: the Beatles, Led Zeppelin, Queen, Guns N' Roses, Oasis, Metallica. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.
+Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Metallica through to Mariah Carey, Taylor Swift and Coldplay. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.
 
 On film I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; the *Godfather* trilogy, *The Dark Knight* and *Fight Club* are the ones I return to.
 

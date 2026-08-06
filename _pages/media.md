@@ -151,7 +151,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>media appearances</span></div>
   <div class="mo-stat"><b>2004–present</b><span>years of coverage</span></div>
-  <div class="mo-stat"><b>2</b><span>documentary series</span></div>
+  <div class="mo-stat"><b>5+</b><span>documentary series</span></div>
   <div class="mo-stat"><b>KR · JP · US · UK</b><span>press markets</span></div>
 </div>
 

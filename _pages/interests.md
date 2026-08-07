@@ -47,7 +47,9 @@ On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; *Th
 
 ## Travel and people
 
-I have lived in Japan, in Taiwan, and now in the UK, and I have been to the United States many times — mostly Los Angeles and New York. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country.
+I have been to the United States many times — mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan, in Taiwan, and now in the UK, for the last three years.
+
+Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly.
 
 Conference travel is part of it, but more than the places I am building a network — researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, [say hello](/contact/).
 

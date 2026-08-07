@@ -27,6 +27,59 @@ nav_order: 8
 - **InspireHEP** — [author page](https://inspirehep.net/authors/1790652)
 - **ResearchGate** — [profile](https://www.researchgate.net/profile/Yoogeun-Song)
 
+## References
+
+<style>
+  .refs { margin: 1.25rem 0 0.5rem; padding: 0; list-style: none; }
+  .refs li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 0.6rem;
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .refs li:last-child { border-bottom: 0; }
+  .refs .who { font-weight: 600; }
+  .refs .role { font-size: 0.88rem; color: var(--global-text-color-light); }
+  .refs h4 {
+    font-size: 0.78rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    margin: 1.5rem 0 0;
+    font-weight: 600;
+  }
+</style>
+
+<h4>Academic</h4>
+<ul class="refs">
+  <li>
+    <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi">Dr Linda Cremonesi</a></span>
+    <span class="role">PhD supervisor · Imperial College London</span>
+  </li>
+  <li>
+    <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a></span>
+    <span class="role">MSc thesis supervisor · Imperial College London</span>
+  </li>
+  <li>
+    <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper">Prof. Alexander Tapper</a></span>
+    <span class="role">Supervisor, Higgs-portal dark matter study · Imperial College London</span>
+  </li>
+  <li>
+    <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton">Dr Nick Linton</a></span>
+    <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span>
+  </li>
+</ul>
+
+<h4>Industry</h4>
+<ul class="refs">
+  <li>
+    <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a></span>
+    <span class="role">Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul</span>
+  </li>
+</ul>
+
 ## Where I am
 
 Blackett Laboratory, Department of Physics

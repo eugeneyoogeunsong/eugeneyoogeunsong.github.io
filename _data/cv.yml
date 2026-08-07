@@ -336,25 +336,3 @@ cv:
       - name: Beyond work
         icon: fa-solid fa-person-running
         keywords: "Football, running, triathlon, calisthenics, weightlifting, BJJ, languages, classical music, film"
-
-    Academic References:
-      - name: '<a href="https://profiles.imperial.ac.uk/l.cremonesi">Dr Linda Cremonesi</a>'
-        issuer: "PhD supervisor · Imperial College London"
-        icon: fa-solid fa-atom
-
-      - name: '<a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a>'
-        issuer: "MSc thesis supervisor · Imperial College London"
-        icon: fa-solid fa-flask
-
-      - name: '<a href="https://profiles.imperial.ac.uk/a.tapper">Prof. Alexander Tapper</a>'
-        issuer: "Supervisor, Higgs-portal dark matter study · Imperial College London"
-        icon: fa-solid fa-magnifying-glass
-
-      - name: '<a href="https://profiles.imperial.ac.uk/nick.linton">Dr Nick Linton</a>'
-        issuer: "AtriPINN collaborator · Department of Bioengineering, Imperial College London"
-        icon: fa-solid fa-heart-pulse
-
-    Industry References:
-      - name: '<a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a>'
-        issuer: "Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul"
-        icon: fa-solid fa-microchip

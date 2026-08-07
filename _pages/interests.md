@@ -29,7 +29,7 @@ Physics and technical work first; then quant and markets; then biographies and s
 
 Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
 
-For research I stay current through arXiv and feeds on X & Bluesky.
+For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X](https://x.com/YoogeunSong) & [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social).
 
 ## Neuroscience and personality theory
 

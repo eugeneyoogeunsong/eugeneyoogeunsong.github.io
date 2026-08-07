@@ -45,6 +45,12 @@ Now that I have enough Italian to be useful, the next thing I want is to explore
 
 Conference travel is part of it, but more than the places I am building a network — researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, [say hello](/contact/).
 
+## Chess and poker
+
+I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things.
+
+Chess is complete information: everything is on the board, the position is deterministic, and a best move exists whether or not I find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker — you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money is still a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest.
+
 ## Psychology, personality and neuroscience
 
 A long-running side interest, and one I hold more for fun than for serious interpretation — very little of this sits in the scientific realm, and I would not defend it as though it did. I am [**INTJ**](https://www.16personalities.com/intj-personality) on the Myers–Briggs and [**3w4**](https://enneagramuniverse.com/enneagram/learn/enneagram-wings/enneagram_3w4) on the Enneagram; on the Big Five I sit high on conscientiousness and openness, mid on extraversion, and low on neuroticism and agreeableness. Of those three frameworks, only the Big Five has real psychometric standing. The others I treat as vocabulary rather than measurement — useful for describing how someone works, not for predicting what they will do.

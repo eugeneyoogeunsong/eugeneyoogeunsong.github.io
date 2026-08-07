@@ -10,3 +10,5 @@ description: Education, research experience, awards and skills. A PDF version is
 toc:
   sidebar: left
 ---
+
+{% include goatcounter.liquid %}

@@ -20,3 +20,5 @@ nav_order: 3
 </div>
 
 {% include author_self_link.liquid %}
+
+{% include goatcounter.liquid %}

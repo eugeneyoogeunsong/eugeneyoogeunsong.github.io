@@ -39,6 +39,49 @@ I am open to conversations about neutrino and BSM physics, machine learning for 
 
 ---
 
+<style>
+  .viewcount {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 1.75rem 0 0.5rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+  .viewcount b {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .viewcount .vc-hidden { display: none; }
+</style>
+
+<p class="viewcount" id="viewcount"><b id="vc-n">—</b><span id="vc-label">page views since August 2026</span></p>
+
+{% raw %}
+<script>
+  (function () {
+    var el = document.getElementById("vc-n");
+    var wrap = document.getElementById("viewcount");
+    if (!el) return;
+    var code = "{% endraw %}{{ site.goatcounter }}{% raw %}";
+    if (!code) { wrap.classList.add("vc-hidden"); return; }
+
+    fetch("https://" + code + ".goatcounter.com/counter/TOTAL.json")
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        // GoatCounter returns a pre-formatted string, e.g. {"count":"1,234"}
+        el.textContent = d.count_unique || d.count || "—";
+      })
+      .catch(function () { wrap.classList.add("vc-hidden"); });
+  })();
+</script>
+{% endraw %}
+
+---
+
 ## Latest from Bluesky
 
 <style>
@@ -190,3 +233,5 @@ I am open to conversations about neutrino and BSM physics, machine learning for 
   })();
 </script>
 {% endraw %}
+
+{% include goatcounter.liquid %}

@@ -156,3 +156,5 @@ Outside physics I have built end-to-end quant capability: time-series and stocha
 **Where to find me.** [LinkedIn](https://www.linkedin.com/in/yoogeunsong) is where I am most active, with [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social) next.
 
 {% include author_self_link.liquid %}
+
+{% include goatcounter.liquid %}

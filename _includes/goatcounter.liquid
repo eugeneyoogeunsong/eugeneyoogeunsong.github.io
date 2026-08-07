@@ -1,0 +1,10 @@
+{%- comment -%}
+  GoatCounter pageview tracking. Cookieless, no consent banner needed.
+  Renders nothing at all unless site.goatcounter is set in _config.yml.
+{%- endcomment -%}
+{%- if site.goatcounter and site.goatcounter != "" -%}
+<script
+  data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js"></script>
+{%- endif -%}

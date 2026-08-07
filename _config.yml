@@ -135,6 +135,13 @@ analytics:
   # the token is the 32-hex-character value of data-cf-beacon's "token" field.
   # Paste just that token below — al-folio injects the script for you.
   cloudflare: c252e3e32e6a4c61b81b4b8aed9243ed
+
+# GoatCounter — cookieless, and the only one of these with a public counter
+# endpoint, so it powers the visible view count on the Contact page.
+# Sign up at goatcounter.com, then put your site code here (the bit before
+# .goatcounter.com). Leave empty and both the tracking and the counter
+# silently do nothing.
+goatcounter: # e.g. yoogeunsong
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag

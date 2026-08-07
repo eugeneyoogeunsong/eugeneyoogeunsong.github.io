@@ -78,3 +78,5 @@ I hold a [Securities Education Certificate](https://investmentsoc.com/SEC) (Dist
 ---
 
 For the full record, see [publications](/publications/) and [projects](/projects/).
+
+{% include goatcounter.liquid %}

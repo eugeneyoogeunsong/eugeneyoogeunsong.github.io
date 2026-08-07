@@ -56,3 +56,5 @@ I find it useful anyway, in roughly the way a good coordinate system is useful: 
 ## Teaching
 
 I learn best by teaching, so I do a lot of it — and I would happily talk for hours about fundamental physics, machine learning, first principles, psychology, neuroscience, philosophy, music, or films.
+
+{% include goatcounter.liquid %}

@@ -194,3 +194,5 @@ pagination:
 {% endif %}
 
 </div>
+
+{% include goatcounter.liquid %}

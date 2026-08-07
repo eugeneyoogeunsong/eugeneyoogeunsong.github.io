@@ -265,3 +265,5 @@ Since 2004, my journey & work have been documented across television, radio and 
 I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools — particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside.
 
 For enquiries, see [Contact](/contact/).
+
+{% include goatcounter.liquid %}

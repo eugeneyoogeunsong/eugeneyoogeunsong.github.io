@@ -31,14 +31,6 @@ Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus 
 
 For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X](https://x.com/YoogeunSong) & [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social).
 
-## Psychology, personality and neuroscience
-
-A long-running side interest, and one I hold more for fun than for serious interpretation — very little of this sits in the scientific realm, and I would not defend it as though it did. I am [**INTJ**](https://www.16personalities.com/intj-personality) on the Myers–Briggs and [**3w4**](https://enneagramuniverse.com/enneagram/learn/enneagram-wings/enneagram_3w4) on the Enneagram; on the Big Five I sit high on conscientiousness and openness, mid on extraversion, and low on neuroticism and agreeableness. Of those three frameworks, only the Big Five has real psychometric standing. The others I treat as vocabulary rather than measurement — useful for describing how someone works, not for predicting what they will do.
-
-What actually interests me is the layer underneath: whether type differences correspond to anything measurable in the brain. That is why I am very interested in [Dr Dario Nardi](https://www.darionardi.com/)'s work — his EEG research at UCLA maps cortical activity against Jungian type, and his interaction-style framework I find considerably sharper than the four-letter codes. By that reading I come out as responding, process-focused, directing, pragmatic and abstract — which describes my working habits better than any label has.
-
-I find it useful anyway, in roughly the way a good coordinate system is useful: it does not tell you the physics, but it makes the problem far easier to talk about.
-
 ## Music and film
 
 Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.
@@ -52,6 +44,14 @@ I have been to the United States many times — mostly around Los Angeles, New Y
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly.
 
 Conference travel is part of it, but more than the places I am building a network — researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, [say hello](/contact/).
+
+## Psychology, personality and neuroscience
+
+A long-running side interest, and one I hold more for fun than for serious interpretation — very little of this sits in the scientific realm, and I would not defend it as though it did. I am [**INTJ**](https://www.16personalities.com/intj-personality) on the Myers–Briggs and [**3w4**](https://enneagramuniverse.com/enneagram/learn/enneagram-wings/enneagram_3w4) on the Enneagram; on the Big Five I sit high on conscientiousness and openness, mid on extraversion, and low on neuroticism and agreeableness. Of those three frameworks, only the Big Five has real psychometric standing. The others I treat as vocabulary rather than measurement — useful for describing how someone works, not for predicting what they will do.
+
+What actually interests me is the layer underneath: whether type differences correspond to anything measurable in the brain. That is why I am very interested in [Dr Dario Nardi](https://www.darionardi.com/)'s work — his EEG research at UCLA maps cortical activity against Jungian type, and his interaction-style framework I find considerably sharper than the four-letter codes. By that reading I come out as responding, process-focused, directing, pragmatic and abstract — which describes my working habits better than any label has.
+
+I find it useful anyway, in roughly the way a good coordinate system is useful: it does not tell you the physics, but it makes the problem far easier to talk about.
 
 ## Teaching
 

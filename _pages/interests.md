@@ -33,11 +33,11 @@ For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X]
 
 ## Neuroscience and personality theory
 
-A long-running side interest, and one I deliberately hold at arm's length. I am **INTJ** on the Myers–Briggs and **3w4** on the Enneagram; on the Big Five I sit high on conscientiousness and openness, mid on extraversion, and low on neuroticism and agreeableness. Of those three frameworks, only the Big Five has real psychometric standing. The others I treat as vocabulary rather than measurement — useful for describing how someone works, not for predicting what they will do.
+A long-running side interest, and one I hold more for fun than for serious interpretation — very little of this sits in the scientific realm, and I would not defend it as though it did. I am **INTJ** on the Myers–Briggs and **3w4** on the Enneagram; on the Big Five I sit high on conscientiousness and openness, mid on extraversion, and low on neuroticism and agreeableness. Of those three frameworks, only the Big Five has real psychometric standing. The others I treat as vocabulary rather than measurement — useful for describing how someone works, not for predicting what they will do.
 
-What actually interests me is the layer underneath: whether type differences correspond to anything measurable in the brain. That is why I got in touch with [Dr Dario Nardi](https://www.darionardi.com/), whose EEG work at UCLA maps cortical activity against Jungian type, and whose interaction-style framework I find considerably sharper than the four-letter codes. By that reading I come out as responding, process-focused, directing, pragmatic and abstract — which describes my working habits better than any label has.
+What actually interests me is the layer underneath: whether type differences correspond to anything measurable in the brain. That is why I am very interested in [Dr Dario Nardi](https://www.darionardi.com/)'s work — his EEG research at UCLA maps cortical activity against Jungian type, and his interaction-style framework I find considerably sharper than the four-letter codes. By that reading I come out as responding, process-focused, directing, pragmatic and abstract — which describes my working habits better than any label has.
 
-The honest position is that this is a field where the descriptive language has run well ahead of the evidence. I find it useful anyway, in roughly the way a good coordinate system is useful: it does not tell you the physics, but it makes the problem far easier to talk about.
+I find it useful anyway, in roughly the way a good coordinate system is useful: it does not tell you the physics, but it makes the problem far easier to talk about.
 
 ## Music and film
 

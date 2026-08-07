@@ -141,7 +141,7 @@ I care about building things that are reproducible, scalable, and principled, an
 
 ## More about me
 
-My name in Korean is **송유근**, written in hanja as 宋幽根, and my pronouns are **he/him/his** (cisgender male, straight). I was born in Seoul, Korea, on 27 November 1997.
+My name in Korean is **송유근**, and my pronouns are **he/him/his** (cisgender male, straight). I was born in **Seoul, Korea**, on 27 November 1997.
 
 From being celebrated in Korea as a prodigy for my [academic achievements](/media/) in my teens, to conducting cutting-edge research in Physics at [Imperial College London](https://www.imperial.ac.uk/), my journey presents a relentless drive to push the boundaries of science and technology, and to make an impact.
 

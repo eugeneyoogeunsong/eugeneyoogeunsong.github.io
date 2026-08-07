@@ -370,3 +370,15 @@ cv:
       - name: "[Prof. Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)"
         icon: fa-solid fa-microchip
         reference: "Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul"
+
+      - name: "Blake Martin"
+        icon: fa-solid fa-cube
+        reference: "Co-founder and CTO, Singularity Quantum"
+
+      - name: "[Dr Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/)"
+        icon: fa-solid fa-wind
+        reference: "Computational fluid dynamics — global stability and resolvent analysis, Singularity Quantum"
+
+      - name: "Dr Austin Tapp"
+        icon: fa-solid fa-brain
+        reference: "Medical imaging and patient-specific meshing, Singularity Quantum"

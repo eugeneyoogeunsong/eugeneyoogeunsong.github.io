@@ -30,55 +30,69 @@ nav_order: 8
 ## References
 
 <style>
-  .refs { margin: 1.25rem 0 0.5rem; padding: 0; list-style: none; }
+  /* Each group sits in its own box. Generous space above the heading,
+     tight space between the heading and the names beneath it. */
+  .refs-box {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background: var(--global-card-bg-color);
+    padding: 1.15rem 1.35rem 1.1rem;
+    margin-top: 2.25rem;
+  }
+  .refs-box h4 {
+    font-size: 0.75rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+    font-weight: 700;
+    margin: 0 0 0.55rem;
+  }
+  .refs { margin: 0; padding: 0; list-style: none; }
   .refs li {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 0.4rem 0.6rem;
-    padding: 0.65rem 0;
+    gap: 0.35rem 0.6rem;
+    padding: 0.55rem 0;
     border-bottom: 1px solid var(--global-divider-color);
   }
-  .refs li:last-child { border-bottom: 0; }
+  .refs li:first-child { padding-top: 0.15rem; }
+  .refs li:last-child { border-bottom: 0; padding-bottom: 0; }
   .refs .who { font-weight: 600; }
-  .refs .role { font-size: 0.88rem; color: var(--global-text-color-light); }
-  .refs h4 {
-    font-size: 0.78rem;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: var(--global-text-color-light);
-    margin: 1.5rem 0 0;
-    font-weight: 600;
-  }
+  .refs .role { font-size: 0.87rem; color: var(--global-text-color-light); }
 </style>
 
-<h4>Academic</h4>
-<ul class="refs">
-  <li>
-    <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi">Dr Linda Cremonesi</a></span>
-    <span class="role">PhD supervisor · Imperial College London</span>
-  </li>
-  <li>
-    <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a></span>
-    <span class="role">MSc thesis supervisor · Imperial College London</span>
-  </li>
-  <li>
-    <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper">Prof. Alexander Tapper</a></span>
-    <span class="role">Supervisor, Higgs-portal dark matter study · Imperial College London</span>
-  </li>
-  <li>
-    <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton">Dr Nick Linton</a></span>
-    <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span>
-  </li>
-</ul>
+<div class="refs-box">
+  <h4>Academic</h4>
+  <ul class="refs">
+    <li>
+      <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi">Dr Linda Cremonesi</a></span>
+      <span class="role">PhD supervisor · Imperial College London</span>
+    </li>
+    <li>
+      <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a></span>
+      <span class="role">MSc thesis supervisor · Imperial College London</span>
+    </li>
+    <li>
+      <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper">Prof. Alexander Tapper</a></span>
+      <span class="role">Former mini-project supervisor, Higgs-portal dark matter study · Imperial College London</span>
+    </li>
+    <li>
+      <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton">Dr Nick Linton</a></span>
+      <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span>
+    </li>
+  </ul>
+</div>
 
-<h4>Industry</h4>
-<ul class="refs">
-  <li>
-    <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a></span>
-    <span class="role">Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul</span>
-  </li>
-</ul>
+<div class="refs-box">
+  <h4>Industry</h4>
+  <ul class="refs">
+    <li>
+      <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a></span>
+      <span class="role">Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul</span>
+    </li>
+  </ul>
+</div>
 
 ## Where I am
 

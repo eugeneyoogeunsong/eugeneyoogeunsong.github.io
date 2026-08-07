@@ -271,20 +271,20 @@ cv:
           scholarships, 2006–2008.
 
     Certificates:
-      - name: Securities Education Certificate — Distinction
-        issuer: Imperial College Investment Society
+      - name: "[Securities Education Certificate](https://investmentsoc.com/SEC) — Distinction"
+        issuer: "[Imperial College Investment Society](https://investmentsoc.com/)"
         icon: fa-solid fa-chart-line
 
-      - name: Finance Accelerator
+      - name: "[Finance Accelerator](https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf) by [AmplifyME](https://amplifyme.com/)"
         issuer: London
         icon: fa-solid fa-building-columns
 
-      - name: "Craftsman, Programming (정보처리기능사) — [National Technical Qualification record](https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf)"
+      - name: "[Craftsman, Programming (정보처리기능사)](https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf)"
         date: 2004-08-25
         issuer: Human Resources Development Service of Korea
         icon: fa-solid fa-code
 
-      - name: "Craftsman, Information Equipment Operation (정보기기운용기능사) — [National Technical Qualification record](https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf)"
+      - name: "[Craftsman, Information Equipment Operation (정보기기운용기능사)](https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf)"
         date: 2004-12-15
         issuer: Human Resources Development Service of Korea
         icon: fa-solid fa-microchip

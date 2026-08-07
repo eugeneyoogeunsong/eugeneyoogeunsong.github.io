@@ -339,7 +339,7 @@ cv:
 
     Academic References:
       - name: '<a href="https://profiles.imperial.ac.uk/l.cremonesi">Dr Linda Cremonesi</a>'
-        issuer: "PhD supervisor · Imperial College London · spokesperson of the NOvA experiment"
+        issuer: "PhD supervisor · Imperial College London"
         icon: fa-solid fa-atom
 
       - name: '<a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a>'
@@ -354,31 +354,7 @@ cv:
         issuer: "AtriPINN collaborator · Department of Bioengineering, Imperial College London"
         icon: fa-solid fa-heart-pulse
 
-      - name: '<a href="https://profiles.imperial.ac.uk/a.masters">Dr Adam Masters</a>'
-        issuer: "Department of Physics, Imperial College London"
-        icon: fa-solid fa-satellite
-
-      - name: '<a href="https://profiles.imperial.ac.uk/s.j.warren">Prof. Stephen Warren</a>'
-        issuer: "Professor of Astrophysics, Imperial College London"
-        icon: fa-solid fa-star
-
-      - name: '<a href="https://profiles.ucl.ac.uk/26858-ziri-younsi">Dr Ziri Younsi</a>'
-        issuer: "Sgr A* collaborator · Mullard Space Science Laboratory, University College London"
-        icon: fa-solid fa-circle-notch
-
     Industry References:
       - name: '<a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a>'
         issuer: "Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul"
         icon: fa-solid fa-microchip
-
-      - name: "Mr. Blake Martin"
-        issuer: "Co-founder and CTO, Singularity Quantum"
-        icon: fa-solid fa-cube
-
-      - name: '<a href="https://www.linkedin.com/in/victoria-rolandi-b0bb25160/">Dr Victoria Rolandi</a>'
-        issuer: "Computational fluid dynamics, Singularity Quantum"
-        icon: fa-solid fa-wind
-
-      - name: "Dr Austin Tapp"
-        issuer: "Medical imaging and patient-specific meshing, Singularity Quantum"
-        icon: fa-solid fa-brain

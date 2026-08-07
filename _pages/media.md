@@ -146,7 +146,7 @@ nav_order: 7
   }
 </style>
 
-I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record — documentaries, interviews, and the occasional front page. This is where the originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well.
+I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record — documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>media appearances</span></div>

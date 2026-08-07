@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Starting my PhD on **DUNE** at Imperial College London this October, supervised by Dr Linda Cremonesi. 🎉
+Starting my [PhD](/cv/) on [DUNE](/projects/) at [Imperial College London](https://www.imperial.ac.uk/) this October, supervised by [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi). 🎉

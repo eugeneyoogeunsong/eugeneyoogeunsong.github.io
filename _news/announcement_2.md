@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Began an independent **quantitative research** practice alongside my physics work — alpha under non-stationary market dynamics.
+Began an independent [quantitative research](/projects/) practice alongside my physics work — alpha under non-stationary market dynamics.

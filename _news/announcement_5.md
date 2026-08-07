@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a part-time role with US startup [Singularity Quantum](https://singularityquantum.com/), working on computational fluid dynamics. ⚛️
+Started a part-time role with US startup [Singularity Quantum](https://singularityquantum.com/), working on quantum-enhanced computational fluid dynamics. ⚛️

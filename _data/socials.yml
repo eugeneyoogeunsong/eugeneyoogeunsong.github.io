@@ -17,4 +17,4 @@ linkedin_username: yoogeunsong
 x_username: YoogeunSong
 bluesky_url: https://bsky.app/profile/eugeneyoogeunsong.bsky.social
 
-rss_icon: true
+# rss_icon: true  # hidden: the blog is not public yet, so the feed has nothing useful in it

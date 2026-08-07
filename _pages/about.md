@@ -141,7 +141,7 @@ I care about building things that are reproducible, scalable, and principled, an
 
 ## More about me
 
-My name in Korean is **송유근**, written in hanja as [宋](https://hanja.dict.naver.com/#/entry/ccko/42398c85ba824230b0d1738a0fcc29fd)幽根. I was born in Seoul, Korea, on 27 November 1997. From being celebrated in Korea as a prodigy for my academic achievements in my teens, to conducting cutting-edge research in Physics at [Imperial College London](https://www.imperial.ac.uk/), my journey presents a relentless drive to push the boundaries of science and technology.
+My name in Korean is **송유근**, written in hanja as 宋幽根, and my pronouns are **he/him/his**. I was born in Seoul, Korea, on 27 November 1997. From being celebrated in Korea as a prodigy for my academic achievements in my teens, to conducting cutting-edge research in Physics at [Imperial College London](https://www.imperial.ac.uk/), my journey presents a relentless drive to push the boundaries of science and technology.
 
 Early recognition positioned me to inspire others. Today, as a Physics graduate researcher at Imperial, I am leveraging my multidisciplinary expertise in particle physics and machine learning to drive impactful global scientific advancements. In 2026 I work at the intersection of physics, ML and bioengineering; from October, for my PhD, I move to neutrino oscillations and interactions. I have been based in the London area for the last three years, and before that spent time in Spain and the Netherlands for various collaborations. For now I want to continue living in Europe and to make it home here.
 

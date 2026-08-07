@@ -64,7 +64,7 @@ cv:
 
       - institution: University of Science and Technology (UST) / Korea Astronomy and Space Science Institute
         location: "Daejeon,<br>Republic of Korea"
-        url: https://ust.ac.kr/eng/
+        url: https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf
         area: Astronomy and Space Science
         studyType: Integrated MSc + PhD (All But Dissertation)
         start_date: 2009-02
@@ -75,7 +75,7 @@ cv:
 
       - institution: National Institute for Lifelong Education (NILE)
         location: "Republic of Korea"
-        url: "https://www.nile.or.kr/usr/wap/detail.do?app=13309&seq=623&lang=en"
+        url: https://yoogeunsong.com/assets/pdf/nile-bsc-computer-science.pdf
         area: Computer Science
         studyType: BSc (Academic Credit Bank System)
         start_date: 2006-02
@@ -84,7 +84,7 @@ cv:
 
       - institution: Inha University
         location: "Incheon,<br>Republic of Korea"
-        url: https://eng.inha.ac.kr/eng/index.do
+        url: https://yoogeunsong.com/assets/pdf/inha-course-completion.pdf
         area: Physics
         studyType: BSc (transferred to NILE)
         start_date: 2006-02
@@ -198,7 +198,7 @@ cv:
           - "Awarded the \"Special Grade Warrior\" (특급전사) distinction by the brigade in 2020 for my outstanding performance across all key military competencies, including marksmanship, combat training, tactical expertise, weapon proficiency, and most importantly, fitness."
           - "Promoted to Sergeant before my honourable discharge in 2020."
 
-      - company: Korea Astronomy and Space Science Institute
+      - company: University of Science and Technology & Korea Astronomy and Space Science Institute
         position: Graduate Researcher
         location: Republic of Korea
         start_date: 2013-02
@@ -206,13 +206,10 @@ cv:
         highlights:
           - "Conducted advanced research on relativistic cosmology and high-energy cosmic ray emissions from the immediate vicinity of the magnetospheres of compact objects (e.g. black holes)."
           - "In my cosmology work, I derived Raychaudhuri-type and shear-evolution equations for timelike and null geodesic congruences in the Bianchi I anisotropic early Universe model, hinting at how primordial shear can imprint observable anisotropies on the gravitational-wave background (see arXiv:1604.07639)."
-          - "In my high-energy astrophysics work, I performed a semi-analytic modelling of the acceleration of electrons and positrons in magnetic-field-aligned electric fields around accreting black holes (see Song et al. 2017, MNRAS)."
-          - "Investigated gamma-ray emissions produced by stellar-mass black holes interacting with dense molecular clouds (see Hirotani et al. 2018, ApJ)."
-          - "Published 2 peer-reviewed academic papers detailing these works in Monthly Notices of the Royal Astronomical Society (MNRAS) and The Astrophysical Journal (ApJ)."
           - "Authored 4 academic papers in total whilst there; all accessible via arXiv."
 
-      - company: Korea Astronomy and Space Science Institute
-        position: Graduate/Postgraduate Studies
+      - company: University of Science and Technology & Korea Astronomy and Space Science Institute
+        position: "[Graduate/Postgraduate Studies](https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf)"
         location: Republic of Korea
         start_date: 2009-02
         end_date: 2018-08
@@ -227,6 +224,9 @@ cv:
         end_date: 2018-05
         highlights:
           - "Invited as a visiting student (Apr 2017 – May 2018) at the Academia Sinica Institute of Astronomy and Astrophysics, collaborating with Dr. Kouichi Hirotani and Dr. Satoki Matsushita."
+          - "In my high-energy astrophysics work, I performed a semi-analytic modelling of the acceleration of electrons and positrons in magnetic-field-aligned electric fields around accreting black holes (see Song et al. 2017, MNRAS)."
+          - "Investigated gamma-ray emissions produced by stellar-mass black holes interacting with dense molecular clouds (see Hirotani et al. 2018, ApJ)."
+          - "Published 2 peer-reviewed academic papers detailing these works in Monthly Notices of the Royal Astronomical Society (MNRAS) and The Astrophysical Journal (ApJ)."
 
     Awards:
       - title: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병)

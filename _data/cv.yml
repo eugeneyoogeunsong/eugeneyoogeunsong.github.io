@@ -209,7 +209,7 @@ cv:
           - "Authored 4 academic papers in total whilst there; all accessible via arXiv."
 
       - company: University of Science and Technology & Korea Astronomy and Space Science Institute
-        position: "[Graduate/Postgraduate Studies](https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf)"
+        position: '<a href="https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf">Graduate/Postgraduate Studies</a>'
         location: Republic of Korea
         start_date: 2009-02
         end_date: 2018-08
@@ -271,22 +271,22 @@ cv:
           scholarships, 2006–2008.
 
     Certificates:
-      - name: "[Securities Education Certificate](https://investmentsoc.com/SEC) — Distinction"
-        issuer: "[Imperial College Investment Society](https://investmentsoc.com/)"
+      - name: '<a href="https://investmentsoc.com/SEC">Securities Education Certificate</a> — Distinction'
+        issuer: '<a href="https://investmentsoc.com/">Imperial College Investment Society</a>'
         icon: fa-solid fa-chart-line
 
-      - name: "[Finance Accelerator](https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf) by [AmplifyME](https://amplifyme.com/)"
+      - name: '<a href="https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf">Finance Accelerator</a> by <a href="https://amplifyme.com/">AmplifyME</a>'
         issuer: London
         icon: fa-solid fa-building-columns
 
-      - name: "[Craftsman, Programming (정보처리기능사)](https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf)"
+      - name: '<a href="https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf">Craftsman, Programming (정보처리기능사)</a>'
         date: 2004-08-25
-        issuer: Human Resources Development Service of Korea
+        issuer: '<a href="https://www.hrdkorea.or.kr/ENG">Human Resources Development Service of Korea</a>'
         icon: fa-solid fa-code
 
-      - name: "[Craftsman, Information Equipment Operation (정보기기운용기능사)](https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf)"
+      - name: '<a href="https://yoogeunsong.com/assets/pdf/korea-national-technical-qualifications.pdf">Craftsman, Information Equipment Operation (정보기기운용기능사)</a>'
         date: 2004-12-15
-        issuer: Human Resources Development Service of Korea
+        issuer: '<a href="https://www.hrdkorea.or.kr/ENG">Human Resources Development Service of Korea</a>'
         icon: fa-solid fa-microchip
 
     Skills:
@@ -338,47 +338,47 @@ cv:
         keywords: "Football, running, triathlon, calisthenics, weightlifting, BJJ, languages, classical music, film"
 
     Academic References:
-      - name: "[Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi)"
+      - name: '<a href="https://profiles.imperial.ac.uk/l.cremonesi">Dr Linda Cremonesi</a>'
+        issuer: "PhD supervisor · Imperial College London · spokesperson of the NOvA experiment"
         icon: fa-solid fa-atom
-        reference: "PhD supervisor · Associate Professor in Particle Physics, Imperial College London · UKRI Future Leaders Fellow and spokesperson of the NOvA experiment"
 
-      - name: "[Prof. David Colling](https://profiles.imperial.ac.uk/d.colling)"
+      - name: '<a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a>'
+        issuer: "MSc thesis supervisor · Imperial College London"
         icon: fa-solid fa-flask
-        reference: "MSc thesis supervisor · Professor of Physics and e-Science, Imperial College London"
 
-      - name: "[Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)"
+      - name: '<a href="https://profiles.imperial.ac.uk/a.tapper">Prof. Alexander Tapper</a>'
+        issuer: "Supervisor, Higgs-portal dark matter study · Imperial College London"
         icon: fa-solid fa-magnifying-glass
-        reference: "Supervisor, Higgs-portal dark matter study · Professor of Physics, Imperial College London"
 
-      - name: "[Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton)"
+      - name: '<a href="https://profiles.imperial.ac.uk/nick.linton">Dr Nick Linton</a>'
+        issuer: "AtriPINN collaborator · Department of Bioengineering, Imperial College London"
         icon: fa-solid fa-heart-pulse
-        reference: "AtriPINN collaborator · Clinical Associate Professor, Department of Bioengineering, Imperial College London"
 
-      - name: "[Dr Adam Masters](https://profiles.imperial.ac.uk/a.masters)"
+      - name: '<a href="https://profiles.imperial.ac.uk/a.masters">Dr Adam Masters</a>'
+        issuer: "Department of Physics, Imperial College London"
         icon: fa-solid fa-satellite
-        reference: "Senior Lecturer, Department of Physics, Imperial College London"
 
-      - name: "[Prof. Stephen Warren](https://profiles.imperial.ac.uk/s.j.warren)"
+      - name: '<a href="https://profiles.imperial.ac.uk/s.j.warren">Prof. Stephen Warren</a>'
+        issuer: "Professor of Astrophysics, Imperial College London"
         icon: fa-solid fa-star
-        reference: "Professor of Astrophysics and MSc Programme Director, Imperial College London"
 
-      - name: "[Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi)"
+      - name: '<a href="https://profiles.ucl.ac.uk/26858-ziri-younsi">Dr Ziri Younsi</a>'
+        issuer: "Sgr A* collaborator · Mullard Space Science Laboratory, University College London"
         icon: fa-solid fa-circle-notch
-        reference: "Sgr A* collaborator · UKRI Stephen Hawking Fellow, Mullard Space Science Laboratory, University College London"
 
     Industry References:
-      - name: "[Prof. Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)"
+      - name: '<a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a>'
+        issuer: "Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul"
         icon: fa-solid fa-microchip
-        reference: "Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul"
 
       - name: "Mr. Blake Martin"
+        issuer: "Co-founder and CTO, Singularity Quantum"
         icon: fa-solid fa-cube
-        reference: "Co-founder and CTO, Singularity Quantum"
 
-      - name: "[Dr Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/)"
+      - name: '<a href="https://www.linkedin.com/in/victoria-rolandi-b0bb25160/">Dr Victoria Rolandi</a>'
+        issuer: "Computational fluid dynamics, Singularity Quantum"
         icon: fa-solid fa-wind
-        reference: "Computational fluid dynamics — global stability and resolvent analysis, Singularity Quantum"
 
       - name: "Dr Austin Tapp"
+        issuer: "Medical imaging and patient-specific meshing, Singularity Quantum"
         icon: fa-solid fa-brain
-        reference: "Medical imaging and patient-specific meshing, Singularity Quantum"

@@ -1,0 +1,10 @@
+{%- comment -%}
+  The About page's "News" heading is emitted by the gem-owned about layout and
+  hard-links to /news/. Retarget it without forking the layout.
+{%- endcomment -%}
+<script>
+  (function () {
+    var a = document.querySelector('.post h2 > a[href$="/news/"]');
+    if (a) a.setAttribute("href", "/cv/");
+  })();
+</script>

@@ -160,3 +160,5 @@ Outside physics I have built end-to-end quant capability: time-series and stocha
 {% include author_self_link.liquid %}
 
 {% include goatcounter.liquid %}
+
+{% include news_heading_link.liquid %}

@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  PhD student in <a href='https://www.imperial.ac.uk/physics/'>Physics at Imperial College London</a> ·
+  PhD Researcher in <a href='https://www.imperial.ac.uk/physics/'>Physics at Imperial College London</a> ·
   Neutrinos (<a href='https://www.dunescience.org/'>DUNE</a> · <a href='https://novaexperiment.fnal.gov/'>NOvA</a>) ·
   Machine Learning (ML) · Quantum Computing · Quantitative (Finance) Research
 

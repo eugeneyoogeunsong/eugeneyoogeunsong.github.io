@@ -336,3 +336,37 @@ cv:
       - name: Beyond work
         icon: fa-solid fa-person-running
         keywords: "Football, running, triathlon, calisthenics, weightlifting, BJJ, languages, classical music, film"
+
+    Academic References:
+      - name: "[Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi)"
+        icon: fa-solid fa-atom
+        reference: "PhD supervisor · Associate Professor in Particle Physics, Imperial College London · UKRI Future Leaders Fellow and spokesperson of the NOvA experiment"
+
+      - name: "[Prof. David Colling](https://profiles.imperial.ac.uk/d.colling)"
+        icon: fa-solid fa-flask
+        reference: "MSc thesis supervisor · Professor of Physics and e-Science, Imperial College London"
+
+      - name: "[Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)"
+        icon: fa-solid fa-magnifying-glass
+        reference: "Supervisor, Higgs-portal dark matter study · Professor of Physics, Imperial College London"
+
+      - name: "[Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton)"
+        icon: fa-solid fa-heart-pulse
+        reference: "AtriPINN collaborator · Clinical Associate Professor, Department of Bioengineering, Imperial College London"
+
+      - name: "[Dr Adam Masters](https://profiles.imperial.ac.uk/a.masters)"
+        icon: fa-solid fa-satellite
+        reference: "Senior Lecturer, Department of Physics, Imperial College London"
+
+      - name: "[Prof. Stephen Warren](https://profiles.imperial.ac.uk/s.j.warren)"
+        icon: fa-solid fa-star
+        reference: "Professor of Astrophysics and MSc Programme Director, Imperial College London"
+
+      - name: "[Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi)"
+        icon: fa-solid fa-circle-notch
+        reference: "Sgr A* collaborator · UKRI Stephen Hawking Fellow, Mullard Space Science Laboratory, University College London"
+
+    Industry References:
+      - name: "[Prof. Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)"
+        icon: fa-solid fa-microchip
+        reference: "Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul"

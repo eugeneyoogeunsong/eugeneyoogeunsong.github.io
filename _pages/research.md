@@ -23,7 +23,7 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 **A position I hold.** Machine learning should augment physical interpretation, never replace it. A reconstruction network that improves resolution while making its own failure modes unauditable is a worse instrument than a slower method you can reason about. Physics-aware and systematics-aware, not black-box.
 
-**Earlier BSM work.** Higgs-portal dark matter and invisible-decay constraints via the vector-boson-fusion signature, with [HL-LHC](https://hilumilhc.web.cern.ch/) projections — a study at [Imperial](https://www.imperial.ac.uk/) under [Dr Alexander Tapper](http://www.hep.ph.imperial.ac.uk/~tapper/). The exclusion reach in that channel is governed by control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds rather than by luminosity: systematics, not statistics. That is the same story as precision oscillation physics, and it is a large part of why I moved towards systematics-aware methods.
+**Earlier BSM work.** Higgs-portal dark matter and invisible-decay constraints via the vector-boson-fusion signature, with [HL-LHC](https://hilumilhc.web.cern.ch/) projections — a study at [Imperial](https://www.imperial.ac.uk/) under [Dr Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper). The exclusion reach in that channel is governed by control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds rather than by luminosity: systematics, not statistics. That is the same story as precision oscillation physics, and it is a large part of why I moved towards systematics-aware methods.
 
 ---
 

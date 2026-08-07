@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-MSc thesis on **physics-informed ML for real-time atrial fibrillation mapping** awarded the highest grade at Imperial — and I stayed on as a research assistant on the project for a further year.
+MSc thesis on [**physics-informed ML for real-time atrial fibrillation mapping**](/projects/) awarded the highest grade at [Imperial](https://www.imperial.ac.uk/physics/) — and I stayed on as a research assistant on the project for a further year.

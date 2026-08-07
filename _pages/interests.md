@@ -41,7 +41,7 @@ I find it useful anyway, in roughly the way a good coordinate system is useful: 
 
 ## Music and film
 
-Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Metallica through to Mariah Carey, Taylor Swift and Coldplay. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.
+Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen: drums and guitar, both electric and acoustic, plus enough piano and violin to get by.
 
 On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; *The Godfather* I and II are my favourite films of all time.
 

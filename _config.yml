@@ -129,7 +129,12 @@ analytics:
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-  cloudflare: # your Cloudflare Web Analytics beacon token (32 hex characters)
+  # Cloudflare Web Analytics — cookieless, free, no consent banner required.
+  # To get the token: dash.cloudflare.com -> Analytics & Logs -> Web Analytics ->
+  # Add a site -> hostname yoogeunsong.com. Cloudflare shows a <script> snippet;
+  # the token is the 32-hex-character value of data-cf-beacon's "token" field.
+  # Paste just that token below — al-folio injects the script for you.
+  cloudflare: # e.g. a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag

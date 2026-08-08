@@ -124,7 +124,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
     line-height: 1;
     font-variant-numeric: tabular-nums;
   }
-  .viewcount .vc-hidden { display: none; }
+  .viewcount.vc-hidden { display: none !important; }
 </style>
 
 <p class="viewcount" id="viewcount"><b id="vc-n">—</b><span id="vc-label">page views since August 2026</span></p>

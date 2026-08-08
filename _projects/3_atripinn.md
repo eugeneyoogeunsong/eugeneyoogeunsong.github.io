@@ -46,11 +46,11 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
 
 **Results on sinus-rhythm data.**
 
-| Metric | Value |
-| :--- | :--- |
-| RMS localisation error | ~1.6 mm |
-| End-to-end latency | ~78 ms |
-| Channel cross-correlation | ≥ 0.99 |
+| Metric                    | Value   |
+| :------------------------ | :------ |
+| RMS localisation error    | ~1.6 mm |
+| End-to-end latency        | ~78 ms  |
+| Channel cross-correlation | ≥ 0.99  |
 
 **Why it generalises.** The transferable result is not the error bar — it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
 

@@ -29,4 +29,4 @@ The [Deep Underground Neutrino Experiment](https://www.dunescience.org/) will fi
 
 **The principle I work under.** Machine learning should augment physical interpretation, never replace it. A network that improves resolution while hiding its own failure modes is a worse instrument than a slower method whose biases you can enumerate.
 
-*Work in progress; outputs will appear here and on [Publications](/publications/).*
+_Work in progress; outputs will appear here and on [Publications](/publications/)._

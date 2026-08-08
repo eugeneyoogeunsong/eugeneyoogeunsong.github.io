@@ -10,9 +10,9 @@ related_publications: true
 
 **With Dr Isao Okamoto, National Astronomical Observatory of Japan (NAOJ) · 2018 – 2024**
 
-A rotating black hole can lose energy without losing mass through the horizon. The Blandford–Znajek mechanism explains how: a magnetic field threading the hole, anchored in the surrounding plasma, carries electromagnetic energy outward along the spin axis. It is the leading candidate for powering relativistic jets. What it has never had is a fully satisfying account of *where*, physically, the energy is handed over.
+A rotating black hole can lose energy without losing mass through the horizon. The Blandford–Znajek mechanism explains how: a magnetic field threading the hole, anchored in the surrounding plasma, carries electromagnetic energy outward along the spin axis. It is the leading candidate for powering relativistic jets. What it has never had is a fully satisfying account of _where_, physically, the energy is handed over.
 
-**The reformulation.** Working with Dr Isao Okamoto, we divided the force-free magnetosphere at the **null surface** — the boundary where the electric field magnitude equals the magnetic one in the zero-angular-momentum-observer (ZAMO) frame — and showed that electromagnetic energy is *self*-extracted across it. Cast this way, the process is not the black hole doing work on a distant load, but the frame-dragged magnetosphere transporting energy outward across a surface with a clear physical meaning {% cite okamoto2019selfextraction %}.
+**The reformulation.** Working with Dr Isao Okamoto, we divided the force-free magnetosphere at the **null surface** — the boundary where the electric field magnitude equals the magnetic one in the zero-angular-momentum-observer (ZAMO) frame — and showed that electromagnetic energy is _self_-extracted across it. Cast this way, the process is not the black hole doing work on a distant load, but the frame-dragged magnetosphere transporting energy outward across a surface with a clear physical meaning {% cite okamoto2019selfextraction %}.
 
 **Extending it.** A second paper carried the ZAMO treatment further, examining how the frame-dragging magnetosphere mediates the outward transport in Kerr spacetime {% cite okamoto2024kerr %}.
 

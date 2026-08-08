@@ -147,6 +147,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
       .catch(function () { wrap.classList.add("vc-hidden"); });
   })();
 </script>
+
 {% endraw %}
 
 ---
@@ -301,6 +302,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
       });
   })();
 </script>
+
 {% endraw %}
 
 {% include goatcounter.liquid %}

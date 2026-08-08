@@ -5,4 +5,3 @@ Built on [al-folio](https://github.com/alshedivat/al-folio) (v1.x), served by Gi
 from `eugeneyoogeunsong.github.io` at the custom domain **yoogeunsong.com**.
 
 ---
-

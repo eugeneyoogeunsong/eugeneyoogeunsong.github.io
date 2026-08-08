@@ -106,7 +106,7 @@ cv:
         highlights:
           - "I'm conducting cross-disciplinary research by fusing particle physics-style modelling, Machine Learning (ML), and bioengineering to decode atrial fibrillation (Afib), using spatiotemporal reconstruction and data-driven simulations to map Afib wave dynamics and reveal the underlying electrical mechanisms. To do so, my primary focus has been on utilising and implementing various Physics-Informed Neural Networks (PINN) and to architect my own framework."
           - "For my current PINN research project, I'm collaborating with Prof. David Colling (Imperial HEP group) and Dr. Nick Linton (Imperial Department of Bioengineering)."
-          - "Built end-to-end ML code \"AtriPINN\" (PyTorch): modular Wave and Eikonal and EP-PINNs backends with one shared data → train → viz pipeline."
+          - 'Built end-to-end ML code "AtriPINN" (PyTorch): modular Wave and Eikonal and EP-PINNs backends with one shared data → train → viz pipeline.'
           - "Delivered real-time mapping: ~78 ms end-to-end latency, ~1.6 mm RMS localisation error (sub-2 mm target), ≥ 0.99 channel cross-correlation."
           - "Software-engineered time-shifted kNN blending for inter-electrode signals + differentiable cross-correlation objective function for physiologic timing consistency."
           - "Implemented local plane-fit velocity extraction and advection-based velocity fields, and implemented coordinate-agnostic features (Cartesian, cylindrical, spherical) into my code AtriPINN."
@@ -124,7 +124,7 @@ cv:
           - "Completed my Master's studies at the Department of Physics at Imperial College London, which has recently been ranked #2 globally in the QS World University Rankings 2025 and 2026."
           - "Led a 3-month (Jan–Mar 2025) advanced literature review (Grade: A) under the supervision of Prof. Alexander Tapper (Imperial HEP group) on Higgs bosons as potential portals to dark matter; critically analysed high-impact ATLAS and CMS collaboration papers to map current research frontiers."
           - "(Mar–Apr 2025) Built an interactive simulation framework (Grade: A) in Wolfram Mathematica to model time-dependent quantum wave dynamics using finite-difference time-domain methods, as part of a numerics-intensive physics module taught and assessed by Dr. Jaroslaw Pasternak (Imperial HEP group)."
-          - "My MSc Project Thesis titled \"Physics-Informed Machine Learning for Real-Time Afib Mapping on Grid Electrograms\" was awarded the highest grade."
+          - 'My MSc Project Thesis titled "Physics-Informed Machine Learning for Real-Time Afib Mapping on Grid Electrograms" was awarded the highest grade.'
 
       - company: Imperial College Algorithmic Trading Society
         position: Member
@@ -192,10 +192,10 @@ cv:
         end_date: 2020-08
         highlights:
           - "Completed mandatory military service as an Army Driver with the VII Corps' 7th Engineer Brigade, responsible for vehicle operations, vehicle maintenance, and training new drivers."
-          - "Honoured with the brigade's \"Exemplary Army Driver\" (모범 운전병) distinction in 2020 in recognition of my outstanding operational and driving skills and commitment to safety."
+          - 'Honoured with the brigade''s "Exemplary Army Driver" (모범 운전병) distinction in 2020 in recognition of my outstanding operational and driving skills and commitment to safety.'
           - "Regularly trained in marksmanship and consistently ranked among the top 5 marksmen with the K2 assault rifle in my company."
           - "Excelled in physical endurance and fitness training: regular 3 km runs, push-ups, sit-ups, and pull-ups, and represented my company in the brigade-level bodyweight fitness competition (2020)."
-          - "Awarded the \"Special Grade Warrior\" (특급전사) distinction by the brigade in 2020 for my outstanding performance across all key military competencies, including marksmanship, combat training, tactical expertise, weapon proficiency, and most importantly, fitness."
+          - 'Awarded the "Special Grade Warrior" (특급전사) distinction by the brigade in 2020 for my outstanding performance across all key military competencies, including marksmanship, combat training, tactical expertise, weapon proficiency, and most importantly, fitness.'
           - "Promoted to Sergeant before my honourable discharge in 2020."
 
       - company: University of Science and Technology & Korea Astronomy and Space Science Institute

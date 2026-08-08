@@ -35,7 +35,7 @@ For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X]
 
 Classical for focus and for pleasure — Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open — anything from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift and Coldplay. Lately I have been listening to a lot of Vulfpeck. I occasionally play as well as listen: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by.
 
-On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; *The Godfather* I and II are my favourite films of all time.
+On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time.
 
 ## Travel and people
 

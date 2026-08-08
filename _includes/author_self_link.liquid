@@ -7,14 +7,14 @@
 {%- endcomment -%}
 <script>
   (function () {
-    var PROFILE = "https://inspirehep.net/authors/1790652";
-    document.querySelectorAll(".author em").forEach(function (el) {
-      if (el.querySelector("a") || el.closest("a")) return;
-      var a = document.createElement("a");
+    var PROFILE = 'https://inspirehep.net/authors/1790652';
+    document.querySelectorAll('.author em').forEach(function (el) {
+      if (el.querySelector('a') || el.closest('a')) return;
+      var a = document.createElement('a');
       a.href = PROFILE;
-      a.target = "_blank";
-      a.rel = "external nofollow noopener";
-      a.setAttribute("aria-label", "Yoogeun Song on InspireHEP");
+      a.target = '_blank';
+      a.rel = 'external nofollow noopener';
+      a.setAttribute('aria-label', 'Yoogeun Song on InspireHEP');
       while (el.firstChild) a.appendChild(el.firstChild);
       el.appendChild(a);
     });

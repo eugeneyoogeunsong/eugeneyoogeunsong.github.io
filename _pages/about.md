@@ -96,7 +96,7 @@ latest_posts:
 
     var stage = document.createElement("a");
     stage.id = "headshot-slideshow";
-    stage.href = "{% endraw %}{{ '/pictures/' | relative_url }}{% raw %}";
+    stage.href = "{{ '/pictures/' | relative_url }}";
     stage.title = "See more photos";
     sources.forEach(function (src, i) {
       var img = document.createElement("img");

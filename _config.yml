@@ -141,7 +141,7 @@ analytics:
 # Sign up at goatcounter.com, then put your site code here (the bit before
 # .goatcounter.com). Leave empty and both the tracking and the counter
 # silently do nothing.
-goatcounter: # e.g. yoogeunsong
+goatcounter: ygsong1004
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag

@@ -289,3 +289,23 @@ html[data-theme-setting="light"] {
     width: 100%;
   }
 }
+
+/* Some paragraphs carry so many links that the accent colour turns them into a
+   wall of colour. `.plain-link` keeps the text in the body colour with a faint
+   underline, and only picks up the accent on hover. Classes and tags only, so
+   PurgeCSS keeps it. */
+.post a.plain-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--global-divider-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition:
+    color 0.15s ease,
+    text-decoration-color 0.15s ease;
+}
+
+.post a.plain-link:hover {
+  color: var(--global-theme-color);
+  text-decoration-color: var(--global-theme-color);
+}

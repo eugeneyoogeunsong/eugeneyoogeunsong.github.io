@@ -108,27 +108,6 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 
 ---
 
-<style>
-  .viewcount {
-    display: flex;
-    align-items: baseline;
-    gap: 0.5rem;
-    margin: 1.75rem 0 0.5rem;
-    font-size: 0.9rem;
-    color: var(--global-text-color-light);
-  }
-  .viewcount b {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--global-theme-color);
-    line-height: 1;
-    font-variant-numeric: tabular-nums;
-  }
-  .viewcount.vc-hidden { display: none !important; }
-</style>
-
-<p class="viewcount" id="viewcount"><b id="vc-n">—</b><span id="vc-label">page views since August 2026</span></p>
-
 {% raw %}
 <script>
   (function () {
@@ -302,6 +281,29 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
       });
   })();
 </script>
+
+
+<style>
+  .viewcount {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 1.75rem 0 0.5rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+  .viewcount b {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .viewcount.vc-hidden { display: none !important; }
+</style>
+
+<p class="viewcount" id="viewcount"><b id="vc-n">—</b><span id="vc-label">page views since August 2026</span></p>
+
 
 {% endraw %}
 

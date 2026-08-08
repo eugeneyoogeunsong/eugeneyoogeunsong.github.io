@@ -216,7 +216,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
 
 ## Press archive
 
-Original newspaper scans, in full.
+Original newspaper scans, in full. These are from 2005 and 2006, when Korean news still lived mostly on paper — there is no online version to link to, so the scans are the record.
 
 <div class="mo-grid">
 

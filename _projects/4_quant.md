@@ -4,7 +4,7 @@ title: Quantitative research
 description: Alpha under non-stationary market dynamics, treated as a signal-and-noise problem.
 img: assets/img/projects/quant.jpg
 importance: 1
-category: quant
+category: Quant
 ---
 
 **Independent practice · London · October 2025 – August 2026**

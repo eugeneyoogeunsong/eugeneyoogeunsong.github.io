@@ -4,7 +4,7 @@ title: Quantum-accelerated CFD — Singularity Quantum
 description: Augmenting the computational fluid dynamics model behind non-invasive cardiovascular diagnostics.
 img: assets/img/projects/quantum.jpg
 importance: 1
-category: quantum computing
+category: Quantum Computing
 ---
 
 **[Singularity Quantum](https://singularityquantum.com/) · part-time · 2026 – present**

@@ -3,8 +3,8 @@ layout: page
 title: Higgs portal to dark matter
 description: Invisible Higgs decays as a probe of a hidden sector.
 img: assets/img/projects/higgs.jpg
-importance: 5
-category: physics
+importance: 3
+category: Physics
 ---
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2025 · under [Dr Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**

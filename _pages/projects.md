@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research programmes and code across particle physics, astrophysics, machine learning, quantum computing, and markets.
 nav: true
 nav_order: 4
-display_categories: [physics, machine learning, quantum computing, quant]
+display_categories: [Physics, Machine Learning, Quantum Computing, Quant, Astrophysics]
 horizontal: false
 ---
 

@@ -3,8 +3,8 @@ layout: page
 title: Sgr A* variability
 description: GRMHD and radiative transfer modelling of the Galactic Centre black hole.
 img: assets/img/projects/sgra.jpg
-importance: 3
-category: physics
+importance: 1
+category: Astrophysics
 related_publications: true
 ---
 

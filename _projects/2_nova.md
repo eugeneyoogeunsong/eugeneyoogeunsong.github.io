@@ -4,7 +4,7 @@ title: NOvA — oscillations with data on the ground
 description: Electron-neutrino appearance and muon-neutrino disappearance on Fermilab's running long-baseline experiment.
 img: assets/img/projects/nova.jpg
 importance: 2
-category: physics
+category: Physics
 ---
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi)**
@@ -12,6 +12,16 @@ category: physics
 My role on NOvA is **a variety of physics analysis**.
 
 [NOvA](https://novaexperiment.fnal.gov/) — NuMI Off-axis $$\nu_e$$ Appearance — is the experiment that gives me data *now*. Where [DUNE](https://www.dunescience.org/) is still being built, NOvA has been running since 2014, and the analysis problems it poses are the ones that will still be there when DUNE turns on.
+
+<figure style="margin: 0 0 1.5rem; text-align: center;">
+  <img src="{{ '/assets/img/projects/nova-full.jpg' | relative_url }}"
+       alt="The NOvA experiment: a neutrino beam from Fermilab travels 810 km to the far detector at Ash River, Minnesota, with the muon-neutrino beam partially oscillating into electron neutrinos"
+       style="max-width:100%; height:auto; border-radius:6px;" loading="eager">
+  <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
+    The 810 km baseline. A beam that leaves Fermilab almost entirely muon neutrinos arrives at Ash
+    River with a measurable electron-neutrino component — that appearance is the measurement.
+  </figcaption>
+</figure>
 
 **The apparatus.** Two functionally identical liquid-scintillator tracking calorimeters sit in [Fermilab](https://www.fnal.gov/)'s NuMI beam: a near detector at Fermilab, and a 14 kt far detector 810 km away at Ash River, Minnesota. Both sit **14.6 mrad off the beam axis**, which is the design choice that makes the experiment work — going off-axis narrows the flux into a band around 2 GeV, close to the $$\nu_\mu \rightarrow \nu_e$$ oscillation maximum, and strips out the high-energy tail that would otherwise dominate the neutral-current background.
 

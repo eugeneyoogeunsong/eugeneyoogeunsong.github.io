@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Kerr black hole electrodynamics
-description: Frame dragging, lepton accelerators, and Blandford–Znajek energy extraction.
+title: Modified Blandford–Znajek energy extraction
+description: Reformulating how a rotating black hole gives up its energy, through the frame-dragged force-free magnetosphere.
 img: assets/img/projects/kerr.jpg
-importance: 4
-category: physics
+importance: 2
+category: Astrophysics
 related_publications: true
 ---
 
-**KASI/UST, Academia Sinica and the National Astronomical Observatory of Japan (NAOJ) · 2015 – 2024**
+**With Dr Isao Okamoto, National Astronomical Observatory of Japan (NAOJ) · 2018 – 2024**
 
-A decade-long line of work on how a rotating black hole converts spin into radiation and outflow.
+A rotating black hole can lose energy without losing mass through the horizon. The Blandford–Znajek mechanism explains how: a magnetic field threading the hole, anchored in the surrounding plasma, carries electromagnetic energy outward along the spin axis. It is the leading candidate for powering relativistic jets. What it has never had is a fully satisfying account of *where*, physically, the energy is handed over.
 
-**Gamma rays along the spin axis.** Applying pulsar outer-gap theory to a black hole magnetosphere, we showed that frame dragging produces a lepton accelerator in the immediate vicinity of the event horizon. The resulting gamma-ray flux is beamed towards the rotation axis and enhanced by more than an order of magnitude as spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$ — a concrete, testable prediction for Fermi-LAT and CTA {% cite song2017gamma %}.
+**The reformulation.** Working with Dr Isao Okamoto, we divided the force-free magnetosphere at the **null surface** — the boundary where the electric field magnitude equals the magnetic one in the zero-angular-momentum-observer (ZAMO) frame — and showed that electromagnetic energy is *self*-extracted across it. Cast this way, the process is not the black hole doing work on a distant load, but the frame-dragged magnetosphere transporting energy outward across a surface with a clear physical meaning {% cite okamoto2019selfextraction %}.
 
-**Pair cascades around moving stellar-mass black holes.** Extending the same machinery to a stellar-mass black hole traversing a gas cloud, we found detectable very-high-energy emission for extremal spin within roughly 1 kpc {% cite hirotani2018stellar %}.
+**Extending it.** A second paper carried the ZAMO treatment further, examining how the frame-dragging magnetosphere mediates the outward transport in Kerr spacetime {% cite okamoto2024kerr %}.
 
-**Energy extraction, reformulated.** With Dr Isao Okamoto (NAOJ), a treatment of Blandford–Znajek energy extraction in which the force-free magnetosphere is divided at the null surface and the energy is shown to be *self*-extracted across it — a zero-angular-momentum-observer picture of the process {% cite okamoto2019selfextraction %} {% cite okamoto2024kerr %}.
+**Why it took six years.** This began during the pandemic as a remote collaboration and continued across three countries. The first preprint went through seven versions. Reformulating something the field already believes it understands is slower than adding a new result to it, and the argument has to be tighter, because the burden of proof sits entirely with you.

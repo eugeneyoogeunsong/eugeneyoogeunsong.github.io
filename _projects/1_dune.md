@@ -9,6 +9,16 @@ category: physics
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi)**
 
+<figure style="margin: 0 0 1.5rem;">
+  <img src="{{ '/assets/img/projects/dune-beamline.jpg' | relative_url }}"
+       alt="The DUNE beamline: protons accelerated at Fermilab produce neutrinos that travel 1,300 km through the Earth to detectors at the Sanford Underground Research Facility in South Dakota"
+       style="width:100%; height:auto; border-radius:6px;" loading="eager">
+  <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
+    The 1,300 km baseline, from the proton accelerator at Fermilab to the far detector a mile
+    underground in South Dakota. Image: <a href="https://www.fnal.gov/">Fermilab</a>.
+  </figcaption>
+</figure>
+
 The [Deep Underground Neutrino Experiment](https://www.dunescience.org/) will fire a neutrino beam 1,300 km from [Fermilab](https://www.fnal.gov/) to the [Sanford Underground Research Facility](https://sanfordlab.org/) in South Dakota, into liquid-argon time projection chambers a mile below ground. The goals are charge–parity (CP) violation in the lepton sector, the neutrino mass ordering, and physics beyond the Standard Model. The physics reach is not limited by statistics — it is limited by how well the flux and cross-section systematics can be controlled.
 
 **What I work on.** Systematics-aware machine learning reconstruction in liquid argon time projection chambers (TPCs), coupled to MCMC (Markov chain Monte Carlo) inference, and the propagation of Near-Detector constraints into the Far-Detector oscillation fit.

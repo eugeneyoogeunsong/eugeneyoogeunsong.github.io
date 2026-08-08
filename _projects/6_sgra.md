@@ -10,6 +10,18 @@ related_publications: true
 
 **[UCL / Mullard Space Science Laboratory](https://www.ucl.ac.uk/mathematical-physical-sciences/mssl) · 2023 – 2024 · with [Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu)**
 
+<figure style="margin: 0 0 1.5rem; text-align: center;">
+  <img
+    src="{{ '/assets/img/projects/sgra-eht.jpg' | relative_url }}"
+    alt="Sagittarius A* imaged by the Event Horizon Telescope, alongside progressively wider views of the Galactic Centre and the South Pole Telescope"
+    style="max-width: 100%; height: auto; border-radius: 6px"
+    loading="eager"
+  />
+  <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
+    Sgr A* at four scales, from three light-minutes to 500 light-years. Image: Event Horizon Telescope Collaboration and others.
+  </figcaption>
+</figure>
+
 Sagittarius A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated — and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
 
 **Method.** General-relativistic magnetohydrodynamic simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.

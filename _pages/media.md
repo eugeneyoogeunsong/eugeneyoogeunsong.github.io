@@ -33,6 +33,12 @@ nav_order: 7
     font-size: 0.85rem;
     color: var(--global-text-color-light);
   }
+  .mo-stat b a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .mo-stat b a:hover { text-decoration: underline; }
+  .mo-stat-wide b { font-size: 2.1rem; }
 
   .mo-grid {
     display: grid;
@@ -153,6 +159,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
   <div class="mo-stat"><b>2004–present</b><span>years of coverage</span></div>
   <div class="mo-stat"><b>5+</b><span>documentary series</span></div>
   <div class="mo-stat"><b>KR · JP · US · UK</b><span>press markets</span></div>
+  <div class="mo-stat mo-stat-wide"><b><a href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener">8,000+</a></b><span>LinkedIn followers</span></div>
 </div>
 
 ## Featured

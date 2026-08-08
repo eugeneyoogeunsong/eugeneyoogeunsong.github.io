@@ -11,6 +11,20 @@ category: Quantum Computing
 
 [Singularity Quantum](https://singularityquantum.com/) is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR** — fractional flow reserve (FFR) derived from a CT scan. FFR is the pressure ratio a cardiologist uses to decide whether a coronary stenosis needs intervention, from a CT scan rather than from a catheter. Done well, it replaces an invasive procedure with a simulation.
 
+<figure style="margin: 0 0 1.5rem; text-align: center;">
+  <img
+    src="{{ '/assets/img/projects/quantum-pipeline.jpg' | relative_url }}"
+    alt="Model generation pipeline: functional CT imaging, segmentation, registration against a template, producing a 4D CFD-ready model of an infarcted ventricle"
+    style="max-width: 100%; height: auto; border-radius: 6px"
+    loading="eager"
+  />
+  <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
+    From scan to solver: functional CT imaging, segmentation, registration against a template,
+    and out the other end a 4D CFD-ready mesh. Almost all the accuracy is won or lost in the
+    first three steps, before the solver runs at all.
+  </figcaption>
+</figure>
+
 **My role.** I work part-time with their computational fluid dynamics (CFD) engineers — among them [Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/) — on augmenting and enhancing the CFD model — the classical solver that the quantum work is built around.
 
 **Why the classical layer is the interesting part.** In a CT-FFR pipeline the accuracy is not dominated by solver speed. It is dominated by three things around the solver: the segmentation of the coronary tree from the CT, the outlet boundary conditions where a whole downstream vasculature you cannot see is compressed into a lumped-parameter model, and the rheological choices — Newtonian or shear-thinning blood, rigid or compliant walls. Get those wrong and a solver a thousand times faster converges beautifully to the wrong number, sooner.

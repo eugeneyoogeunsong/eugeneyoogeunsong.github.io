@@ -109,6 +109,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 ---
 
 {% raw %}
+
 <script>
   (function () {
     var el = document.getElementById("vc-n");
@@ -186,6 +187,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 </div>
 
 {% raw %}
+
 <script>
   (function () {
     var HANDLE = "eugeneyoogeunsong.bsky.social";
@@ -282,7 +284,6 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
   })();
 </script>
 
-
 <style>
   .viewcount {
     display: flex;
@@ -303,7 +304,6 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 </style>
 
 <p class="viewcount" id="viewcount"><b id="vc-n">—</b><span id="vc-label">page views since August 2026</span></p>
-
 
 {% endraw %}
 

@@ -104,7 +104,7 @@ South Kensington Campus, London SW7 2AZ, United Kingdom
 
 ---
 
-I am open to conversations about neutrino and BSM physics, machine learning for physics, quantitative research roles and collaborations, speaking, and mentoring. If you are a researcher, founder, investor or quant practitioner and there is an interesting problem involved — write to me.
+I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, quantitative research roles and collaborations, speaking, and mentoring. If you are a researcher, founder, investor or quant practitioner and there is an interesting problem involved — write to me.
 
 ---
 

@@ -15,7 +15,7 @@ Catheter ablation for atrial fibrillation depends on knowing where the arrhythmi
 
 - **Local plane-fit conduction velocity** to get a fast first estimate of wavefront direction and speed;
 - **Time-shifted kNN blending** to fuse neighbouring channels without smearing the wavefront;
-- **PINN residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
+- **Physics-informed neural network (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
 
 The architecture is coordinate-agnostic with switchable physics back-ends, shipped through v1–v11.2 with CLI tooling.
 

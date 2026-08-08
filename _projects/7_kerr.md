@@ -8,7 +8,7 @@ category: physics
 related_publications: true
 ---
 
-**KASI/UST, Academia Sinica and NAOJ · 2015 – 2024**
+**KASI/UST, Academia Sinica and the National Astronomical Observatory of Japan (NAOJ) · 2015 – 2024**
 
 A decade-long line of work on how a rotating black hole converts spin into radiation and outflow.
 

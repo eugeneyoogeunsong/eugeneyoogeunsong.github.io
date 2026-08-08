@@ -10,7 +10,7 @@ related_publications: true
 
 **[UCL / Mullard Space Science Laboratory](https://www.ucl.ac.uk/mathematical-physical-sciences/mssl) · 2023 – 2024 · with [Dr Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu)**
 
-Sagittarius A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated — and that is precisely the part of the physics that GRMHD does not determine on its own.
+Sagittarius A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated — and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
 
 **Method.** General-relativistic magnetohydrodynamic simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.
 

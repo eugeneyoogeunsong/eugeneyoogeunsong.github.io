@@ -22,7 +22,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 6
 
 latest_posts:
   enabled: false
@@ -165,7 +165,9 @@ From being celebrated in Korea as a prodigy for my [academic achievements](/medi
 
 Early recognition positioned me to inspire others, and to highlight the importance of science education — or rather the absence of a complete system able to support the gifted children it identifies. Today, as a Physics graduate researcher at [Imperial](https://www.imperial.ac.uk/), I am leveraging my multidisciplinary expertise in particle physics and machine learning to drive impactful global scientific advancements. In 2026 I work at the intersection of physics, ML and bioengineering; from October, for my PhD, I move to neutrino oscillations and interactions. I have been based in the London area for the last three years, and before that spent time in Spain and the Netherlands for various collaborations. For now I want to continue living in Europe and to make it home here.
 
-Outside physics I have built end-to-end quant capability: time-series and stochastic control (HJB), with a focus on production constraints — Monte Carlo, high-performance optimisation, and robust monitoring. I build long-horizon, robust, durable systems: reproducible, scalable, and principled. My strength is first-principles mastery across high-energy physics, astrophysics, mathematics, computing, and quantitative finance. I am also open to the possibility of leading global STEM innovation in industry, where science evolves into real-world applications. In 2026 I am working part-time with [Singularity Quantum](https://singularityquantum.com/) on CFD applications, and I have met and talked with a great many founders and CEOs across robotics, machine learning, quantum computing and quantitative finance — in London, in Paris, and in Seoul at [ICML 2026](https://icml.cc/). I spend a good deal of time talking to strategic marketing people too.
+Outside physics I have built end-to-end quant capability: time-series and stochastic control (HJB), with a focus on production constraints — Monte Carlo, high-performance optimisation, and robust monitoring. I build long-horizon, robust, durable systems: reproducible, scalable, and principled. My strength is first-principles mastery across high-energy physics, astrophysics, mathematics, computing, and quantitative finance. I am also open to the possibility of leading global STEM innovation in industry, where science evolves into real-world applications.
+
+In 2026 I am working part-time with [Singularity Quantum](https://singularityquantum.com/) on CFD applications, and I have met and talked with a great many founders and CEOs across robotics, machine learning, quantum computing and quantitative finance — in London, in Paris, and in Seoul at [ICML 2026](https://icml.cc/). I spend a good deal of time talking to strategic marketing people too.
 
 **The early record: 2004–2009.** In October 2005, at the age of 7, I set a [national record](/media/) by enrolling in the [Physics BSc programme](/cv/) at [Inha University](https://eng.inha.ac.kr/eng/index.do), with coursework commencing in February 2006. Soon after, I transitioned to a Computer Science programme at the National Institute for Lifelong Education ([NILE](https://www.nile.or.kr/index.do?lang=en)). In 2009, at the age of 11, I earned my [Bachelor's](/cv/) through NILE's [Academic Credit Bank System](https://www.nile.or.kr/usr/wap/detail.do?app=13309&seq=623&lang=en) — a record that remains unmatched.
 

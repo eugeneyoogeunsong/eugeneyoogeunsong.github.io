@@ -38,7 +38,6 @@ nav_order: 7
     text-decoration: none;
   }
   .mo-stat b a:hover { text-decoration: underline; }
-  .mo-stat-wide b { font-size: 2.1rem; }
 
   .mo-grid {
     display: grid;
@@ -155,11 +154,11 @@ nav_order: 7
 I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record — documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well.
 
 <div class="mo-stats">
-  <div class="mo-stat"><b>500+</b><span>media appearances</span></div>
-  <div class="mo-stat"><b>2004–present</b><span>years of coverage</span></div>
-  <div class="mo-stat"><b>5+</b><span>documentary series</span></div>
-  <div class="mo-stat"><b>KR · JP · US · UK</b><span>press markets</span></div>
-  <div class="mo-stat mo-stat-wide"><b><a href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener">8,000+</a></b><span>LinkedIn followers</span></div>
+  <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>
+  <div class="mo-stat"><b>2004–present</b><span>Years of coverage</span></div>
+  <div class="mo-stat"><b>5+</b><span>Documentary series</span></div>
+  <div class="mo-stat"><b>KR · JP · US · UK</b><span>Press markets</span></div>
+  <div class="mo-stat"><b><a href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener">8,000+</a></b><span>LinkedIn followers</span></div>
 </div>
 
 ## Featured

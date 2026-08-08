@@ -52,6 +52,20 @@ latest_posts:
     transition: opacity 1.1s ease-in-out;
   }
   #headshot-slideshow img.is-active { opacity: 1; }
+  a#headshot-slideshow { display: block; cursor: pointer; }
+  a#headshot-slideshow::after {
+    content: "See more →";
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.75rem;
+    color: #fff;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.65));
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 2;
+  }
+  a#headshot-slideshow:hover::after { opacity: 1; }
   #headshot-dots {
     display: flex;
     justify-content: center;
@@ -80,8 +94,10 @@ latest_posts:
       return "{{ '/assets/img/profile/' | relative_url }}" + n + ".jpg";
     });
 
-    var stage = document.createElement("div");
+    var stage = document.createElement("a");
     stage.id = "headshot-slideshow";
+    stage.href = "{% endraw %}{{ '/pictures/' | relative_url }}{% raw %}";
+    stage.title = "See more photos";
     sources.forEach(function (src, i) {
       var img = document.createElement("img");
       img.src = src;
@@ -125,7 +141,7 @@ latest_posts:
       timer = setInterval(function () { show(current + 1); }, 4500);
     }
 
-    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) restart();
+    restart(); // the CSS already drops the fade under prefers-reduced-motion
   })();
 </script>
 

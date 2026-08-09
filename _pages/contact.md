@@ -102,6 +102,8 @@ Blackett Laboratory, Department of Physics
 Imperial College London
 South Kensington Campus, London SW7 2AZ, United Kingdom
 
+Most of the year I am physically in **London** or in **California** — do hit me up when you are in town.
+
 ---
 
 I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, quantitative research roles and collaborations, speaking, and mentoring. If you are a researcher, founder, investor or quant practitioner and there is an interesting problem involved — write to me.

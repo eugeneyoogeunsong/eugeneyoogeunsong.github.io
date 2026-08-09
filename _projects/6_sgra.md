@@ -30,5 +30,4 @@ Sagittarius A\* varies across the electromagnetic spectrum on timescales from mi
 
 **Status.** Manuscript in preparation, targeting _MNRAS_, with co-authors including Dr Yosuke Mizuno and Dr Christian M. Fromm. Discussions with researchers from the [EHT (Event Horizon Telescope)](https://eventhorizontelescope.org/) collaboration informed the radiative-transfer setup.
 
-
 _Work in progress; outputs will appear here and on [Publications](/publications/)._

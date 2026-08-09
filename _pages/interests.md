@@ -21,13 +21,15 @@ When a problem stops moving, the fastest route through it is usually a long run 
 
 ## Languages
 
-Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, Spanish and Japanese conversational, and German at elementary. French and Italian are the two I am keeping alive at the moment. Learning a language is the closest thing I know to learning a new physics formalism — the same feeling of a structure clicking into place.
+Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, Spanish conversational, and German and Japanese both at elementary. French and Italian are the two I am keeping alive at the moment. Learning a language is the closest thing I know to learning a new physics formalism — the same feeling of a structure clicking into place.
 
 ## Reading
 
-Physics and technical work first; then quant and markets; then biographies and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead — audiobooks, or podcasts from the authors themselves.
+Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead — audiobooks, or podcasts from the authors themselves.
 
 Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
+
+On self-help books and podcasts: I like Mark Manson, Ryan Holiday and Tim Ferriss.
 
 For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X](https://x.com/YoogeunSong) & [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social).
 
@@ -49,7 +51,7 @@ Conference travel is part of it, but more than the places I am building a networ
 
 I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things.
 
-Chess is complete information: everything is on the board, the position is deterministic, and a best move exists whether or not I find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker — you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money is still a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest.
+Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not I find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker — you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money can still be a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest.
 
 ## Psychology, personality and neuroscience
 

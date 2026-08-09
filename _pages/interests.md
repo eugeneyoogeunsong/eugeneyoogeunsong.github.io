@@ -13,7 +13,7 @@ A large part of my life, and the thing that keeps the rest of it working. Runnin
 
 I play tennis and golf now and then, usually somewhere around London or Surrey. From 2023 to 2024 I also turned out as a striker in a Sunday League side here in England.
 
-I am an avid skier and snowboarder; I have skied since I was three and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
+I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
 
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving — I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. Both are things I would happily pick up again given more time.
 

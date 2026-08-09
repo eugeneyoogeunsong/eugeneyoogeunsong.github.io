@@ -7,7 +7,7 @@ importance: 2
 category: Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
 
 My role on NOvA is **a variety of physics analysis**.
 

@@ -55,3 +55,5 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
 **Why it generalises.** The transferable result is not the error bar — it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
 
 This work formed my MSc thesis, which was awarded the highest grade.
+
+_Work in progress; outputs will appear here and on [Publications](/publications/)._

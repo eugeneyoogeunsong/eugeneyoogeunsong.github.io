@@ -29,7 +29,7 @@ Physics and technical work first; then quant and markets; then biographies, phil
 
 Confucius and the Stoics above all — Zeno, Marcus Aurelius, Seneca, Epictetus — with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
 
-On self-help books and podcasts: I like Mark Manson, Ryan Holiday and Tim Ferriss.
+On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday and Tim Ferriss.
 
 For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X](https://x.com/YoogeunSong) & [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social).
 

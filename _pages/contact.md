@@ -32,14 +32,22 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 ## References
 
 <style>
-  /* Each group sits in its own box. Generous space above the heading,
-     tight space between the heading and the names beneath it. */
+  /* Each group sits in its own box. Spacing is set entirely here, with no
+     extra classes in the markup: the base rule handles the gap below the
+     "References" heading, and the adjacent-sibling rule handles both the gap
+     between boxes and the clear air beneath the last one. */
   .refs-box {
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
     background: var(--global-card-bg-color);
     padding: 1.15rem 1.35rem 1.1rem;
-    margin-top: 2.25rem;
+    margin-top: 1rem;
+  }
+  /* Any box that follows another box is (a) pulled up tight against it and
+     (b) the final box, so it also carries the bottom margin before the rule. */
+  .refs-box + .refs-box {
+    margin-top: 0.7rem;
+    margin-bottom: 3.25rem;
   }
   .refs-box h4 {
     font-size: 0.75rem;
@@ -105,30 +113,6 @@ Imperial College London
 South Kensington Campus, London SW7 2AZ, United Kingdom
 
 Most of the year I am physically in **London** or in **California** — do hit me up when you are in town.
-
----
-
-{% raw %}
-
-<script>
-  (function () {
-    var el = document.getElementById("vc-n");
-    var wrap = document.getElementById("viewcount");
-    if (!el) return;
-    var code = "{% endraw %}{{ site.goatcounter }}{% raw %}";
-    if (!code) { wrap.classList.add("vc-hidden"); return; }
-
-    fetch("https://" + code + ".goatcounter.com/counter/TOTAL.json")
-      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (d) {
-        // GoatCounter returns a pre-formatted string, e.g. {"count":"1,234"}
-        el.textContent = d.count_unique || d.count || "—";
-      })
-      .catch(function () { wrap.classList.add("vc-hidden"); });
-  })();
-</script>
-
-{% endraw %}
 
 ---
 
@@ -304,6 +288,35 @@ Most of the year I am physically in **London** or in **California** — do hit m
 </style>
 
 <p class="viewcount" id="viewcount"><b id="vc-n">—</b><span id="vc-label">page views since August 2026</span></p>
+
+<script>
+  // Kept immediately after the element it fills. It also waits for DOMContentLoaded
+  // if the document is still parsing, so moving this block around the page cannot
+  // break it again.
+  (function () {
+    function render() {
+      var el = document.getElementById("vc-n");
+      var wrap = document.getElementById("viewcount");
+      if (!el || !wrap) return;
+      var code = "{% endraw %}{{ site.goatcounter }}{% raw %}";
+      if (!code) { wrap.classList.add("vc-hidden"); return; }
+
+      fetch("https://" + code + ".goatcounter.com/counter/TOTAL.json")
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (d) {
+          // GoatCounter returns a pre-formatted string, e.g. {"count":"1,234"}
+          var n = d.count_unique || d.count;
+          if (n) { el.textContent = n; } else { wrap.classList.add("vc-hidden"); }
+        })
+        .catch(function () { wrap.classList.add("vc-hidden"); });
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", render);
+    } else {
+      render();
+    }
+  })();
+</script>
 
 {% endraw %}
 

@@ -7,6 +7,8 @@ nav: true
 nav_order: 8
 ---
 
+I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, and quantitative research roles — and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person — write to me.
+
 ## Email
 
 **Professional** — [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything professional: collaboration requests, physics, machine learning, quant, media opportunities.
@@ -103,10 +105,6 @@ Imperial College London
 South Kensington Campus, London SW7 2AZ, United Kingdom
 
 Most of the year I am physically in **London** or in **California** — do hit me up when you are in town.
-
----
-
-I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, quantitative research roles and collaborations, speaking, and mentoring. If you are a researcher, founder, investor or quant practitioner and there is an interesting problem involved — write to me.
 
 ---
 

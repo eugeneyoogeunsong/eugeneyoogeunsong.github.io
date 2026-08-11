@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Quantum-accelerated CFD: Singularity Quantum"
+title: Quantum-accelerated CFD - Singularity Quantum
 description: Augmenting the computational fluid dynamics model behind non-invasive cardiovascular diagnostics.
 img: assets/img/projects/quantum.jpg
 importance: 1
@@ -25,7 +25,7 @@ category: Quantum Computing
   </figcaption>
 </figure>
 
-**My role.** I work part-time with their computational fluid dynamics (CFD) engineers (among them [Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/)) on augmenting and enhancing the CFD model, the classical solver that the quantum work is built around. My contribution is technical and methodological throughout: fluid-dynamics modelling, numerics, the quantum computing side, and ML engineering. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators, and cardiology itself is not where my own interest lies.
+**My role.** I work part-time with their computational fluid dynamics (CFD) engineers - among them [Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/) - on augmenting and enhancing the CFD model, the classical solver that the quantum work is built around. My contribution is technical and methodological throughout: fluid-dynamics modelling, numerics, the quantum computing side, and ML engineering. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators, and cardiology itself is not where my own interest lies.
 
 **Why the classical layer is the interesting part.** In a CT-FFR pipeline the accuracy is not dominated by solver speed. It is dominated by three things around the solver: the segmentation of the coronary tree from the CT, the outlet boundary conditions where a whole downstream vasculature you cannot see is compressed into a lumped-parameter model, and the rheological choices (Newtonian or shear-thinning blood, rigid or compliant walls). Get those wrong and a solver a thousand times faster converges beautifully to the wrong number, sooner.
 

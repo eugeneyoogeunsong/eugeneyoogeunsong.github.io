@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "DUNE: Near Detector reconstruction"
+title: DUNE - Near Detector reconstruction
 description: Systematics-aware ML reconstruction and MCMC inference for precision neutrino oscillation measurements.
 img: assets/img/projects/dune.jpg
 importance: 1

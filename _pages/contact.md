@@ -11,23 +11,23 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 
 ## Email
 
-**Professional:** [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything professional: collaboration requests, physics, machine learning, quant, media opportunities.
+**Professional** - [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything professional: collaboration requests, physics, machine learning, quant, media opportunities.
 
-**Personal:** [ygsong1004@gmail.com](mailto:ygsong1004@gmail.com) · the fastest route.
+**Personal** - [ygsong1004@gmail.com](mailto:ygsong1004@gmail.com) · the fastest route.
 
 ## Elsewhere
 
-- **LinkedIn:** [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active
-- **X:** [@YoogeunSong](https://x.com/YoogeunSong)
-- **Bluesky:** [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
-- **GitHub:** [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
+- **LinkedIn** - [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active
+- **X** - [@YoogeunSong](https://x.com/YoogeunSong)
+- **Bluesky** - [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
+- **GitHub** - [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
 
 ## Research profiles
 
-- **ORCID:** [0000-0003-3206-1556](https://orcid.org/0000-0003-3206-1556)
-- **Google Scholar:** [profile](https://scholar.google.com/citations?user=6pWw3eYAAAAJ)
-- **InspireHEP:** [author page](https://inspirehep.net/authors/1790652)
-- **ResearchGate:** [profile](https://www.researchgate.net/profile/Yoogeun-Song)
+- **ORCID** - [0000-0003-3206-1556](https://orcid.org/0000-0003-3206-1556)
+- **Google Scholar** - [profile](https://scholar.google.com/citations?user=6pWw3eYAAAAJ)
+- **InspireHEP** - [author page](https://inspirehep.net/authors/1790652)
+- **ResearchGate** - [profile](https://www.researchgate.net/profile/Yoogeun-Song)
 
 ## References
 

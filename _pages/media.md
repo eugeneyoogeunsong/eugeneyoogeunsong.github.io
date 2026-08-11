@@ -193,7 +193,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">EBS</span><span>May 2011</span></div>
       <h3>DocuPrime: <em>Wonderful Science</em></h3>
-      <p>“The secret of the birth of the universe: Big Bang.” I presented and narrated the episode, originally recorded in November 2005.</p>
+      <p>“The secret of the birth of the universe - Big Bang.” I presented and narrated the episode, originally recorded in November 2005.</p>
       <div class="mo-links">
         <a href="https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&amp;courseId=BP0PAPB0000000005&amp;stepId=01BP0PAPB0000000005&amp;lectId=3086144" target="_blank" rel="noopener">Watch</a>
         <a href="https://vop.co.kr/A00000396644.html" target="_blank" rel="noopener">Article</a>

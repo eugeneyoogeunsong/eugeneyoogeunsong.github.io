@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "NOvA: oscillations with data on the ground"
+title: NOvA - oscillations with data on the ground
 description: Electron-neutrino appearance and muon-neutrino disappearance on Fermilab's running long-baseline experiment.
 img: assets/img/projects/nova.jpg
 importance: 2

@@ -15,7 +15,7 @@ I play tennis and golf now and then, usually around Wimbledon or Kingston. Need 
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
 
-The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - wait for me, California!
+The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 
 When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
 
@@ -47,7 +47,7 @@ On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _Th
 
 I have been to the United States many times, mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (2018), in Taiwan (2017–2018), and now in the UK (2023–present).
 
-Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly.
+Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy!
 
 Conference travel is part of it, but more than the places I am building a network: researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, [say hello](/contact/).
 

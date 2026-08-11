@@ -31,7 +31,7 @@ Learning a language is the closest thing I know to learning a new physics formal
 
 Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead: audiobooks, or podcasts from the authors themselves.
 
-Confucius and the Stoics above all (Zeno, Marcus Aurelius, Seneca, Epictetus), with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
+Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
 
 On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday and Tim Ferriss.
 

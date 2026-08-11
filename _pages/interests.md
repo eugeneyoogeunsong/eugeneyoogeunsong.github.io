@@ -45,7 +45,7 @@ On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _Th
 
 ## Travel and people
 
-I have been to the United States many times, mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (2017), in Taiwan (2017–2018), and now in the UK (2023–present).
+I have been to the United States many times, mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (2018), in Taiwan (2017–2018), and now in the UK (2023–present).
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly.
 
@@ -55,7 +55,7 @@ Conference travel is part of it, but more than the places I am building a networ
 
 I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things.
 
-Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not I find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker: you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money can still be a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest.
+Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not you find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker: you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money can still be a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest.
 
 ## Psychology, personality and neuroscience
 

@@ -13,7 +13,7 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ---
 
-## Neutrinos and beyond-Standard-Model (BSM) physics
+## [Neutrinos and beyond-Standard-Model (BSM) physics](/projects/){:.section-link}
 
 **Where I am now.** I work on the [Deep Underground Neutrino Experiment (DUNE)](https://www.dunescience.org/) at Imperial College London, supervised by [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) in the [Imperial DUNE group](https://www.imperial.ac.uk/high-energy-physics/research/experiments/dune/). DUNE will measure charge–parity (CP) violation in the lepton sector, determine the neutrino mass ordering, and search for physics beyond the Standard Model — but only if the systematic uncertainties can be controlled to a degree no long-baseline experiment has achieved before.
 
@@ -27,23 +27,25 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ---
 
-## Machine learning for physics and medical applications
+## [Machine learning for physics and medical applications](/projects/){:.section-link}
 
-**AtriPINN.** Physics-informed neural networks (PINNs) for real-time atrial fibrillation mapping from grid electrograms, built in [PyTorch](https://pytorch.org/) with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), on clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital). The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation** — coordinate-agnostic, with switchable physics back-ends.
+**AtriPINN.** [Physics-informed neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINNs) for real-time atrial fibrillation mapping from grid electrograms, built in [PyTorch](https://pytorch.org/) with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), on clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital). The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation** — coordinate-agnostic, with switchable physics back-ends.
 
 **The data.** Two catheter geometries, each recorded in both normal sinus rhythm (NSR) and atrial fibrillation: the 4×4 [Advisor HD Grid](https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/diagnostic-catheters/advisor-hd-grid.html) and the 6×6 [OPTRELL](https://www.jnjmedtech.com/en-US/news-events/biosense-webster-launches-optrell-mapping-catheter-trueref-technology). We work mainly from the OPTRELL recordings.
+
+**Where I sit in this.** My contribution is technical and methodological: the modelling, the numerics, and the machine learning and software engineering that turn it into working code. The clinical expertise belongs to my collaborators, and I make no claim to it. What draws me to the problem is its structure as an inference problem rather than its being a medical one.
 
 **Why this matters beyond cardiology.** The interesting result is not the error bar; it is that imposing the governing equation as a soft constraint buys you data efficiency and physical plausibility simultaneously. That is directly transferable to detector reconstruction, where labelled data is expensive and unphysical predictions are worse than imprecise ones.
 
 ---
 
-## Quantum computing for computational fluid dynamics (CFD)
+## [Quantum computing for computational fluid dynamics (CFD)](/projects/){:.section-link}
 
 **A part-time collaboration with [Singularity Quantum](https://singularityquantum.com/), working with their CFD engineers.**
 
 The company is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR** — fractional flow reserve (FFR) derived from a CT scan. FFR is the pressure ratio a cardiologist uses to decide whether a coronary stenosis warrants intervention, from a CT scan rather than from a catheter. Done well, a simulation replaces an invasive procedure.
 
-**What I work on.** Augmenting and enhancing the classical CFD model that the quantum work is built around, and the hybrid layer that surrounds the quantum kernel.
+**What I work on.** Augmenting and enhancing the classical CFD model that the quantum work is built around, and the hybrid layer that surrounds the quantum kernel. My contribution here is technical and methodological throughout — fluid-dynamics modelling, numerics, the underlying physics, and ML engineering. As above, the clinical side is not mine and I make no claim to it; what interests me is the modelling problem.
 
 **Why the classical layer is where the risk lives.** The accuracy of a CT-FFR pipeline is not dominated by solver speed. It is dominated by three things sitting around the solver: the segmentation of the coronary tree from the CT, which is resolution-limited in vessels a couple of millimetres across; the outlet boundary conditions, where an entire downstream vasculature you cannot observe is compressed into a lumped-parameter or Windkessel model; and the rheological choices — Newtonian or shear-thinning blood, rigid or compliant walls. Get those wrong and a solver a thousand times faster converges beautifully to the wrong number, sooner.
 
@@ -55,7 +57,7 @@ That is the same structure as everything else on this page: a governing equation
 
 ---
 
-## Quantitative research
+## [Quantitative research](/projects/){:.section-link}
 
 From October 2025 to August 2026 I ran an independent quantitative research practice, focused on futures, derivatives and equities. The organising question was alpha generation under **non-stationary** dynamics: how do you detect a regime shift without overfitting to the last one?
 
@@ -65,7 +67,7 @@ I hold a [Securities Education Certificate](https://investmentsoc.com/SEC) (Dist
 
 ---
 
-## Earlier work: relativity, cosmology, black holes
+## [Earlier work: relativity, cosmology, black holes](/projects/){:.section-link}
 
 **Black hole magnetospheres.** Applying pulsar outer-gap theory to Kerr black holes, I showed that a lepton accelerator arises near the event horizon as a consequence of frame dragging, and that the resulting gamma-ray flux is beamed along the rotation axis and enhanced by more than an order of magnitude as spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$ — with concrete implications for [Fermi-LAT](https://fermi.gsfc.nasa.gov/) and [CTA](https://www.ctao.org/) detectability ([_MNRAS Letters_ **471**, L135](https://academic.oup.com/mnrasl/article/471/1/L135/4036899)).
 

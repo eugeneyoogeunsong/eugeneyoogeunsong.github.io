@@ -169,10 +169,28 @@ html[data-theme-setting="light"] {
    extractor does not recognise attribute selectors, so that rule was
    silently stripped from main.css and the headings stayed lowercase in
    production. `.post`, `h2` and `a` all appear literally in the HTML, so
-   this survives the purge. These are the only two `h2 > a` pairs on the
-   whole site, so the scope is exact. */
+   this survives the purge.
+
+   NB2: the Research page now also links its section headings to /projects/,
+   which would otherwise be caught by this rule and Title-Cased. Those links
+   carry `.section-link` and are exempted immediately below. Any future linked
+   heading that should keep its sentence case needs the same class. */
 .post h2 > a {
   text-transform: capitalize;
+}
+
+/* Research page: section headings link to /projects/ but must keep their
+   original sentence case — "beyond-Standard-Model", not "Beyond-Standard-Model".
+   Styled to read as a heading rather than as body copy: no underline until
+   hover, and the heading colour rather than the link colour. */
+.post h2 > a.section-link {
+  text-transform: none;
+  color: inherit;
+  text-decoration: none;
+}
+.post h2 > a.section-link:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
 }
 
 /* CV page: breathing room between entries.

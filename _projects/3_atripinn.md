@@ -7,7 +7,7 @@ importance: 1
 category: Machine Learning
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling), [Dr Alexander J. Richards](https://profiles.imperial.ac.uk/a.richards), and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
 
 Catheter ablation for atrial fibrillation depends on knowing where the arrhythmia originates, and knowing it fast enough to act during the procedure. Conventional mapping either interpolates naively across a sparse electrode grid or solves the underlying wave problem too slowly to be useful in theatre.
 
@@ -15,9 +15,11 @@ Catheter ablation for atrial fibrillation depends on knowing where the arrhythmi
 
 - **Local plane-fit conduction velocity** to get a fast first estimate of wavefront direction and speed;
 - **Time-shifted kNN blending** to fuse neighbouring channels without smearing the wavefront;
-- **Physics-informed neural network (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
+- **[Physics-informed neural network](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
 
-The architecture is coordinate-agnostic with switchable physics back-ends, shipped through v1–v11.2 with CLI tooling.
+The architecture is coordinate-agnostic with switchable physics back-ends, shipped through v1–v11.2 with CLI tooling. It will be published on my [GitHub](https://github.com/eugeneyoogeunsong) in 2027, after the paper submission.
+
+**Towards real-time deployment.** Alongside [Dr Alex Richards](https://profiles.imperial.ac.uk/a.richards) I am optimising the code in C++ so that it can run on Imperial's new [hx3](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/service-offering/research-engagement/rcs-events/research-computing-showcase-day-2026/) research computing platform. The aim is speed: fast enough to be genuinely real-time, and therefore deployable by the team in theatre rather than only useful in analysis afterwards.
 
 <figure style="margin: 1.75rem 0; text-align: center;">
   <video controls preload="none" playsinline
@@ -29,6 +31,20 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
   </video>
   <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
     Reconstructed activation wavefront propagating across the 4×4 grid in normal sinus rhythm.
+    Click to play.
+  </figcaption>
+</figure>
+
+<figure style="margin: 1.75rem 0; text-align: center;">
+  <video controls preload="none" playsinline
+         poster="{{ '/assets/img/projects/atripinn-inferno-poster.jpg' | relative_url }}"
+         style="width:100%; max-width:620px; border-radius:6px;">
+    <source src="{{ '/assets/video/atripinn-inferno-egm.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support embedded video —
+    <a href="{{ '/assets/video/atripinn-inferno-egm.mp4' | relative_url }}">download the clip</a> instead.
+  </video>
+  <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
+    Classical electrogram (EGM) simulation on a 6×6 Optrell grid, rendered with the inferno colour map.
     Click to play.
   </figcaption>
 </figure>
@@ -51,6 +67,8 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
 | RMS localisation error    | ~1.6 mm |
 | End-to-end latency        | ~78 ms  |
 | Channel cross-correlation | ≥ 0.99  |
+
+**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, and the machine learning and software engineering that turn it into working code. I am not a clinician and make no claim to the cardiology — that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
 
 **Why it generalises.** The transferable result is not the error bar — it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
 

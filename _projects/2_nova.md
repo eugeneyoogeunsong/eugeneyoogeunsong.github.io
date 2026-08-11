@@ -9,9 +9,9 @@ category: Physics
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
 
-My role on NOvA is **a variety of physics analysis**.
+Where [DUNE](https://www.dunescience.org/) is still being built, [NOvA](https://novaexperiment.fnal.gov/) (NuMI Off-axis $$\nu_e$$ Appearance) has been running since 2014. So, NOvA is the experiment that gives me data _now_. The analysis problems NOvA poses are the ones that will still be there when DUNE turns on.
 
-[NOvA](https://novaexperiment.fnal.gov/) — NuMI Off-axis $$\nu_e$$ Appearance — is the experiment that gives me data _now_. Where [DUNE](https://www.dunescience.org/) is still being built, NOvA has been running since 2014, and the analysis problems it poses are the ones that will still be there when DUNE turns on.
+My role on NOvA is **a variety of physics analysis**.
 
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img src="{{ '/assets/img/projects/nova-full.jpg' | relative_url }}"

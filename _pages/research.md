@@ -27,7 +27,7 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ---
 
-## [Machine learning for physics and medical applications](/projects/){:.section-link}
+## [Machine learning for physics and medical applications](/projects/3_atripinn){:.section-link}
 
 **AtriPINN.** [Physics-informed neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINNs) for real-time atrial fibrillation mapping from grid electrograms, built in [PyTorch](https://pytorch.org/) with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), on clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital). The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation**; coordinate-agnostic, with switchable physics back-ends.
 
@@ -39,7 +39,7 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 ---
 
-## [Quantum computing for computational fluid dynamics (CFD)](/projects/){:.section-link}
+## [Quantum computing for computational fluid dynamics (CFD)](/projects/5_singularity){:.section-link}
 
 **A part-time collaboration with [Singularity Quantum](https://singularityquantum.com/), working with their CFD engineers.**
 
@@ -57,7 +57,7 @@ That is the same structure as everything else on this page: a governing equation
 
 ---
 
-## [Quantitative research](/projects/){:.section-link}
+## [Quantitative research](/projects/4_quant){:.section-link}
 
 From October 2025 to August 2026 I ran an independent quantitative research practice, focused on futures, derivatives and equities. The organising question was alpha generation under **non-stationary** dynamics: how do you detect a regime shift without overfitting to the last one?
 

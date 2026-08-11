@@ -20,11 +20,11 @@ A rotating black hole can lose energy without losing mass through the horizon. T
     loading="lazy"
   />
   <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
-    The magnetosphere split at the null surface. Inward of it the electromagnetic energy flux is negative, outward of it positive — so the energy is handed over at a surface with a physical meaning, rather than drawn from the horizon at a distance.
+    The magnetosphere split at the null surface. Inward of it the electromagnetic energy flux is negative, outward of it positive, so the energy is handed over at a surface with a physical meaning, rather than drawn from the horizon at a distance.
   </figcaption>
 </figure>
 
-**The reformulation.** Working with Dr Isao Okamoto, we divided the force-free magnetosphere at the **null surface** — the boundary where the electric field magnitude equals the magnetic one in the zero-angular-momentum-observer (ZAMO) frame — and showed that electromagnetic energy is _self_-extracted across it. Cast this way, the process is not the black hole doing work on a distant load, but the frame-dragged magnetosphere transporting energy outward across a surface with a clear physical meaning {% cite okamoto2019selfextraction %}.
+**The reformulation.** Working with Dr Isao Okamoto, we divided the force-free magnetosphere at the **null surface**, the boundary where the electric field magnitude equals the magnetic one in the zero-angular-momentum-observer (ZAMO) frame, and showed that electromagnetic energy is _self_-extracted across it. Cast this way, the process is not the black hole doing work on a distant load, but the frame-dragged magnetosphere transporting energy outward across a surface with a clear physical meaning {% cite okamoto2019selfextraction %}.
 
 **Extending it.** A second paper carried the ZAMO treatment further, examining how the frame-dragging magnetosphere mediates the outward transport in Kerr spacetime {% cite okamoto2024kerr %}.
 

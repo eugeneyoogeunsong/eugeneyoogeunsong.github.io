@@ -22,7 +22,7 @@ related_publications: true
   </figcaption>
 </figure>
 
-Sagittarius A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated — and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
+Sagittarius A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated, and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
 
 **Method.** General-relativistic magnetohydrodynamic simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.
 

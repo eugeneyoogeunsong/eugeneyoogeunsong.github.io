@@ -2,7 +2,7 @@
 layout: page
 title: Media & Outreach
 permalink: /media/
-description: Two decades of press, documentaries and public engagement — and where to find the originals.
+description: Two decades of press, documentaries and public engagement, and where to find the originals.
 nav: true
 nav_order: 7
 ---
@@ -151,7 +151,7 @@ nav_order: 7
   }
 </style>
 
-I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record — documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well.
+I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>
@@ -181,7 +181,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">SDF</span><span>May 2015</span></div>
       <h3>Seoul Digital Forum 2015</h3>
-      <p>Interviewing <strong>Dr Kip Thorne</strong> about LIGO — nine months before the first direct detection of gravitational waves was announced.</p>
+      <p>Interviewing <strong>Dr Kip Thorne</strong> about LIGO, nine months before the first direct detection of gravitational waves was announced.</p>
       <div class="mo-links">
         <a href="https://www.sdf.or.kr/archive/2015/ko/video/10000000281" target="_blank" rel="noopener">Watch</a>
         <a href="https://www.youtube.com/watch?v=eqtSOHz7F14" target="_blank" rel="noopener">YouTube</a>
@@ -192,8 +192,8 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
   <div class="mo-card">
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">EBS</span><span>May 2011</span></div>
-      <h3>DocuPrime — <em>Wonderful Science</em></h3>
-      <p>“The secret of the birth of the universe — Big Bang.” I presented and narrated the episode, originally recorded in November 2005.</p>
+      <h3>DocuPrime: <em>Wonderful Science</em></h3>
+      <p>“The secret of the birth of the universe: Big Bang.” I presented and narrated the episode, originally recorded in November 2005.</p>
       <div class="mo-links">
         <a href="https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&amp;courseId=BP0PAPB0000000005&amp;stepId=01BP0PAPB0000000005&amp;lectId=3086144" target="_blank" rel="noopener">Watch</a>
         <a href="https://vop.co.kr/A00000396644.html" target="_blank" rel="noopener">Article</a>
@@ -216,7 +216,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
 
 ## Press archive
 
-Original newspaper scans, in full. These are from 2005 and 2006, when Korean news still lived mostly on paper — there is no online version to link to, so the scans are the record.
+Original newspaper scans, in full. These are from 2005 and 2006, when Korean news still lived mostly on paper; there is no online version to link to, so the scans are the record.
 
 <div class="mo-grid">
 
@@ -227,7 +227,7 @@ Original newspaper scans, in full. These are from 2005 and 2006, when Korean new
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">The Korea Herald</span><span>November 2005</span></div>
       <h3>“Eight-year-old physics genius enters university”</h3>
-      <p>By Kim Ji-hyun. The national feature on my admission to the Physics department at Inha University — my study of the Schrödinger equation, fourteen-hour days, and a stated ambition to work at CERN. Two pages, front page and continuation.</p>
+      <p>By Kim Ji-hyun. The national feature on my admission to the Physics department at Inha University: my study of the Schrödinger equation, fourteen-hour days, and a stated ambition to work at CERN. Two pages, front page and continuation.</p>
       <div class="mo-links">
         <a href="{{ '/assets/pdf/korea-herald-2005-physics-genius-enters-university.pdf' | relative_url }}" target="_blank" rel="noopener">Read the PDF</a>
       </div>
@@ -236,12 +236,12 @@ Original newspaper scans, in full. These are from 2005 and 2006, when Korean new
 
   <div class="mo-card">
     <a class="mo-scan" href="{{ '/assets/pdf/korea-herald-2006-harry-shum-roundtable.pdf' | relative_url }}" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/media/korea-herald-2006.jpg' | relative_url }}" alt="The Korea Herald, August 2006 — roundtable with Harry Shum" loading="lazy">
+      <img src="{{ '/assets/img/media/korea-herald-2006.jpg' | relative_url }}" alt="The Korea Herald, August 2006: roundtable with Harry Shum" loading="lazy">
     </a>
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">The Korea Herald</span><span>August 2006</span></div>
       <h3>Roundtable with Harry Shum, Microsoft Research Asia</h3>
-      <p>A meeting at Microsoft Korea with <strong>Harry Shum</strong>, then Managing Director of Microsoft Research Asia and later EVP of Microsoft AI &amp; Research. He advised me to expand my horizons and study abroad — advice I eventually took.</p>
+      <p>A meeting at Microsoft Korea with <strong>Harry Shum</strong>, then Managing Director of Microsoft Research Asia and later EVP of Microsoft AI &amp; Research. He advised me to expand my horizons and study abroad, advice I eventually took.</p>
       <div class="mo-links">
         <a href="{{ '/assets/pdf/korea-herald-2006-harry-shum-roundtable.pdf' | relative_url }}" target="_blank" rel="noopener">Read the PDF</a>
       </div>
@@ -252,7 +252,7 @@ Original newspaper scans, in full. These are from 2005 and 2006, when Korean new
 
 ## Coverage
 
-Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan — more than 500 appearances in total, including these outlets.
+Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan: more than 500 appearances in total, including these outlets.
 
 <ul class="mo-outlets">
   <li><a href="https://english.khan.co.kr/" target="_blank" rel="noopener">Kyunghyang Shinmun</a></li>
@@ -268,7 +268,7 @@ Since 2004, my journey & work have been documented across television, radio and 
 
 ## Outreach
 
-I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools — particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside.
+I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside.
 
 For enquiries, see [Contact](/contact/).
 

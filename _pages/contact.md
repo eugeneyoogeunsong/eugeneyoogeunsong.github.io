@@ -7,27 +7,27 @@ nav: true
 nav_order: 8
 ---
 
-I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, and quantitative research roles — and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person — write to me.
+I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, and quantitative research roles, and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person: write to me.
 
 ## Email
 
-**Professional** — [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything professional: collaboration requests, physics, machine learning, quant, media opportunities.
+**Professional:** [yoogeun.song24@imperial.ac.uk](mailto:yoogeun.song24@imperial.ac.uk) · for anything professional: collaboration requests, physics, machine learning, quant, media opportunities.
 
-**Personal** — [ygsong1004@gmail.com](mailto:ygsong1004@gmail.com) · the fastest route.
+**Personal:** [ygsong1004@gmail.com](mailto:ygsong1004@gmail.com) · the fastest route.
 
 ## Elsewhere
 
-- **LinkedIn** — [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active
-- **X** — [@YoogeunSong](https://x.com/YoogeunSong)
-- **Bluesky** — [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
-- **GitHub** — [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
+- **LinkedIn:** [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active
+- **X:** [@YoogeunSong](https://x.com/YoogeunSong)
+- **Bluesky:** [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
+- **GitHub:** [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
 
 ## Research profiles
 
-- **ORCID** — [0000-0003-3206-1556](https://orcid.org/0000-0003-3206-1556)
-- **Google Scholar** — [profile](https://scholar.google.com/citations?user=6pWw3eYAAAAJ)
-- **InspireHEP** — [author page](https://inspirehep.net/authors/1790652)
-- **ResearchGate** — [profile](https://www.researchgate.net/profile/Yoogeun-Song)
+- **ORCID:** [0000-0003-3206-1556](https://orcid.org/0000-0003-3206-1556)
+- **Google Scholar:** [profile](https://scholar.google.com/citations?user=6pWw3eYAAAAJ)
+- **InspireHEP:** [author page](https://inspirehep.net/authors/1790652)
+- **ResearchGate:** [profile](https://www.researchgate.net/profile/Yoogeun-Song)
 
 ## References
 
@@ -112,7 +112,7 @@ Blackett Laboratory, Department of Physics
 Imperial College London
 South Kensington Campus, London SW7 2AZ, United Kingdom
 
-I am physically in **London** (most of the year), or probably sometimes in **LA, California** — do hit me up when you are in town.
+I am physically in **London** (most of the year), or probably sometimes in **LA, California**. Do hit me up when you are in town.
 
 ---
 

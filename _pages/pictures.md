@@ -39,7 +39,7 @@ nav: false
 </style>
 
 Click any photo to open it at full resolution. You are welcome to use these for conference
-programmes, seminar announcements, panel listings or press — no need to ask, though I would
+programmes, seminar announcements, panel listings or press; no need to ask, though I would
 always like to know where it ends up.
 
 <div class="gallery">

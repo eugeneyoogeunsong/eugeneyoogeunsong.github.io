@@ -26,7 +26,7 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
          poster="{{ '/assets/img/projects/atripinn-video-poster.jpg' | relative_url }}"
          style="width:100%; max-width:760px; border-radius:6px;">
     <source src="{{ '/assets/video/atripinn-nsr-wave.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support embedded video —
+    Your browser does not support embedded video;
     <a href="{{ '/assets/video/atripinn-nsr-wave.mp4' | relative_url }}">download the clip</a> instead.
   </video>
   <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
@@ -40,7 +40,7 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
          poster="{{ '/assets/img/projects/atripinn-inferno-poster.jpg' | relative_url }}"
          style="width:100%; max-width:620px; border-radius:6px;">
     <source src="{{ '/assets/video/atripinn-inferno-egm.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support embedded video —
+    Your browser does not support embedded video;
     <a href="{{ '/assets/video/atripinn-inferno-egm.mp4' | relative_url }}">download the clip</a> instead.
   </video>
   <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
@@ -68,9 +68,9 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
 | End-to-end latency        | ~78 ms  |
 | Channel cross-correlation | ≥ 0.99  |
 
-**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, and the machine learning and software engineering that turn it into working code. I am not a clinician and make no claim to the cardiology — that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
+**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, and the machine learning and software engineering that turn it into working code. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
 
-**Why it generalises.** The transferable result is not the error bar — it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
+**Why it generalises.** The transferable result is not the error bar; it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
 
 This work formed my MSc thesis, which was awarded the highest grade.
 

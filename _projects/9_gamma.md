@@ -10,7 +10,7 @@ related_publications: true
 
 **KASI / UST and Academia Sinica, with Dr Kouichi Hirotani and Dr Satoki Matsushita · 2015 – 2018**
 
-Pulsars have a well-developed theory of particle acceleration in vacuum gaps — regions where the plasma fails to screen the electric field along the magnetic field lines, so charged particles are accelerated to enormous energies and radiate. The question we asked is whether the same machinery operates around a black hole, which has no surface, no crust, and no rotating magnet — only spacetime.
+Pulsars have a well-developed theory of particle acceleration in vacuum gaps: regions where the plasma fails to screen the electric field along the magnetic field lines, so charged particles are accelerated to enormous energies and radiate. The question we asked is whether the same machinery operates around a black hole, which has no surface, no crust, and no rotating magnet, only spacetime.
 
 **It does, and frame dragging is why.** Near a rapidly rotating black hole, frame dragging reverses the sign of the Goldreich–Julian charge density. That reversal leaves an unscreened magnetic-field-aligned electric field, which accelerates electrons and positrons in opposite directions and drives a pair cascade. The result is a **lepton accelerator in the immediate vicinity of the event horizon** {% cite song2017gamma %}.
 
@@ -22,11 +22,11 @@ Pulsars have a well-developed theory of particle acceleration in vacuum gaps —
     loading="lazy"
   />
   <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
-    Predicted spectrum for a 10 M<sub>&#9737;</sub> extremally rotating black hole at 3 kpc. The GeV–TeV emission rises above the Fermi-LAT and CTA sensitivity curves — which is what makes the prediction testable rather than merely interesting.
+    Predicted spectrum for a 10 M<sub>&#9737;</sub> extremally rotating black hole at 3 kpc. The GeV–TeV emission rises above the Fermi-LAT and CTA sensitivity curves, which is what makes the prediction testable rather than merely interesting.
   </figcaption>
 </figure>
 
-**The observational prediction.** The resulting gamma-ray flux is beamed towards the rotation axis, and it is strongly spin-dependent: it rises by more than an order of magnitude as the spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$. That makes it a testable statement for Fermi-LAT and CTA, not merely a theoretical curiosity — a detection would constrain the spin of the emitting object.
+**The observational prediction.** The resulting gamma-ray flux is beamed towards the rotation axis, and it is strongly spin-dependent: it rises by more than an order of magnitude as the spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$. That makes it a testable statement for Fermi-LAT and CTA, not merely a theoretical curiosity; a detection would constrain the spin of the emitting object.
 
 **Stellar-mass black holes too.** Extending the same framework to a stellar-mass black hole traversing a dense gas cloud, we found that the pair cascade produces detectable very-high-energy emission if the hole is extremally rotating and within roughly 1 kpc {% cite hirotani2018stellar %}.
 

@@ -45,8 +45,8 @@ If dark matter couples to the Standard Model at all, the Higgs boson is one of t
     loading="lazy"
   />
   <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
-    Where the constraints stood. Left: the invisible width against the fermion coupling, with the direct limit overlaid. Right: the ATLAS and CMS Run 1 combined scan on the BSM branching fraction — the observed curve sits above the expectation, which is the sort of small excess that only more luminosity resolves.
+    Where the constraints stood. Left: the invisible width against the fermion coupling, with the direct limit overlaid. Right: the ATLAS and CMS Run 1 combined scan on the BSM branching fraction: the observed curve sits above the expectation, which is the sort of small excess that only more luminosity resolves.
   </figcaption>
 </figure>
 
-**What I took from it.** The exclusion reach in this channel is set almost entirely by the control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds — which is to say, by systematics rather than luminosity. The same lesson that governs neutrino oscillation measurements governs this search, and it is the reason I moved towards systematics-aware methods.
+**What I took from it.** The exclusion reach in this channel is set almost entirely by the control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds, which is to say, by systematics rather than luminosity. The same lesson that governs neutrino oscillation measurements governs this search, and it is the reason I moved towards systematics-aware methods.

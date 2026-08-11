@@ -9,14 +9,14 @@ cv:
   summary: >
     High-energy physicist at Imperial College London, working on neutrino physics with the
     Imperial High Energy Physics group on the NOvA and DUNE collaborations under
-    Dr Linda Cremonesi — a variety of physics analyses on NOvA, and systematics-aware
+    Dr Linda Cremonesi - a variety of physics analyses on NOvA, and systematics-aware
     machine learning reconstruction with Bayesian and MCMC inference on DUNE, where the
     Near Detector is not a control detector but the constraint engine that makes precision
     oscillation measurements possible. My work sits at the point where physical modelling,
     machine learning and statistical inference stop being separate disciplines and become
     one problem: inference under uncertainty. Alongside the neutrino work I build
-    physics-informed neural networks for real-time atrial fibrillation mapping — AtriPINN,
-    at ~78 ms end-to-end latency and ~1.6 mm RMS localisation error on clinical data — and
+    physics-informed neural networks for real-time atrial fibrillation mapping - AtriPINN,
+    at ~78 ms end-to-end latency and ~1.6 mm RMS localisation error on clinical data - and
     collaborate part-time with Singularity Quantum on quantum-accelerated computational
     fluid dynamics for non-invasive cardiovascular diagnostics. Previously I have worked on general
     relativity and early-universe cosmology, black hole magnetospheres and Blandford–Znajek
@@ -96,7 +96,7 @@ cv:
         location: "London Area,<br>United Kingdom"
         start_date: 2026
         highlights:
-          - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations — DUNE (Deep Underground Neutrino Experiment) and NOvA (NuMI Off-axis νe Appearance) programs — under the supervision of Dr Linda Cremonesi. On NOvA I work on a variety of physics analyses."
+          - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations - DUNE (Deep Underground Neutrino Experiment) and NOvA (NuMI Off-axis νe Appearance) programs - under the supervision of Dr Linda Cremonesi. On NOvA I work on a variety of physics analyses."
 
       - company: Imperial College London
         position: Graduate Researcher
@@ -317,7 +317,7 @@ cv:
       - name: French
         summary: "Professional working proficiency"
       - name: Italian
-        summary: "Intermediate — actively learning"
+        summary: "Intermediate (actively learning)"
       - name: Spanish
         summary: "Conversational"
       - name: Japanese

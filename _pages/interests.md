@@ -15,7 +15,7 @@ I play tennis and golf now and then, usually around Wimbledon or Kingston. Need 
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
 
-The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. I do not do much of either any more: I have not driven in a good while, though racing on a track appeals, and I would like to practise with rifles next time I am in the USA.
+The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - wait for me, California!
 
 When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
 

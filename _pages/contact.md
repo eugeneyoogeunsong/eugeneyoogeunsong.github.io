@@ -81,7 +81,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
     </li>
     <li>
       <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a></span>
-      <span class="role">MSc thesis supervisor · Imperial College London</span>
+      <span class="role">Masters thesis supervisor · Imperial College London</span>
     </li>
     <li>
       <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper">Prof. Alexander Tapper</a></span>

@@ -38,7 +38,6 @@ cv:
     Education:
       - institution: Imperial College London
         location: "London,<br>United Kingdom"
-        url: https://yoogeunsong.com/assets/pdf/imperial-phd-offer-2026.pdf
         area: Elementary Particle Physics — Neutrino physics with DUNE and NOvA
         studyType: PhD
         start_date: 2026-10
@@ -53,7 +52,7 @@ cv:
         location: "London,<br>United Kingdom"
         url: https://www.imperial.ac.uk/physics/
         area: Physics
-        studyType: MSc
+        studyType: Masters
         start_date: 2024-09
         end_date: 2025-09
         courses: "General Relativity; Quantum Field Theory; Advanced QFT; Advanced Particle Physics; Advanced Classical Physics; Mathematical Methods; Research Computing"

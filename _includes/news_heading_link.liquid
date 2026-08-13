@@ -1,10 +1,24 @@
 {%- comment -%}
   The About page's "News" heading is emitted by the gem-owned about layout and
-  hard-links to /news/. Retarget it without forking the layout.
+  hard-links to /news/. Retarget it at LinkedIn without forking the layout.
+
+  NB: the heading is rendered by the layout *after* this page's content, so a
+  bare IIFE here runs before the element exists and silently does nothing.
+  Waiting for DOMContentLoaded is what makes this work.
 {%- endcomment -%}
 <script>
   (function () {
-    var a = document.querySelector('.post h2 > a[href$="/news/"]');
-    if (a) a.setAttribute('href', '/cv/');
+    function retarget() {
+      var a = document.querySelector('.post h2 > a[href$="/news/"]');
+      if (!a) return;
+      a.setAttribute('href', 'https://www.linkedin.com/in/yoogeunsong');
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', retarget);
+    } else {
+      retarget();
+    }
   })();
 </script>

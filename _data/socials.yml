@@ -1,20 +1,22 @@
 # Social + scholarly links, shown at the bottom of the About page,
 # in the navbar (enable_navbar_social: true), and in search results.
-# Displayed in the order defined here — research IDs first, socials second.
+# Displayed in the order defined here, so the sequence below is deliberate:
+# most-active socials first, then scholarly IDs, with the CV and email last
+# on the right where people expect the call to action.
 # Full list of supported keys: https://github.com/george-gca/jekyll-socials
 
-email: ygsong1004@gmail.com
-cv_pdf: /assets/pdf/Yoogeun_Song_CV.pdf # the authored Overleaf CV (also linked from _pages/cv.md)
+linkedin_username: yoogeunsong
+bluesky_url: https://bsky.app/profile/eugeneyoogeunsong.bsky.social
+x_username: YoogeunSong
 
-orcid_id: 0000-0003-3206-1556
-scholar_userid: 6pWw3eYAAAAJ
-inspirehep_id: 1790652
 research_gate_profile: Yoogeun-Song
+scholar_userid: 6pWw3eYAAAAJ
+github_username: eugeneyoogeunsong
+orcid_id: 0000-0003-3206-1556
+inspirehep_id: 1790652
 # arxiv_id: song_y_1  # uncomment once you confirm https://arxiv.org/a/song_y_1 resolves
 
-github_username: eugeneyoogeunsong
-linkedin_username: yoogeunsong
-x_username: YoogeunSong
-bluesky_url: https://bsky.app/profile/eugeneyoogeunsong.bsky.social
+cv_pdf: /assets/pdf/Yoogeun_Song_CV.pdf # the authored Overleaf CV (also linked from _pages/cv.md)
+email: ygsong1004@gmail.com
 
 # rss_icon: true  # hidden: the blog is not public yet, so the feed has nothing useful in it

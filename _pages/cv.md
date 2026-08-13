@@ -11,4 +11,6 @@ toc:
   sidebar: left
 ---
 
+{% include cv_contact_extra.liquid %}
+
 {% include goatcounter.liquid %}

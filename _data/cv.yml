@@ -4,7 +4,9 @@
 cv:
   name: "Eugene (Yoogeun) Song | 송유근"
   label: Physicist, Machine Learning Engineer, Quantitative Researcher
-  email: yoogeun.song24@imperial.ac.uk
+  # Rendered as-is by the CV layout, and raw HTML passes through unescaped,
+  # so this makes the address clickable without forking the gem layout.
+  email: '<a href="mailto:yoogeun.song24@imperial.ac.uk">yoogeun.song24@imperial.ac.uk</a>'
   location: London, United Kingdom
   summary: >
     High-energy physicist at Imperial College London, working on neutrino physics with the

@@ -1,0 +1,57 @@
+{%- comment -%}
+  The gem-owned CV layout renders only name, label and email in the Contact
+  Information table; `location` and `social_networks` in _data/cv.yml are
+  ignored. This appends a LinkedIn row after the Email row without forking
+  the layout.
+
+  It matches on the *text* of the label cell rather than on a class or
+  position, so it keeps working if the theme changes its markup. If the table
+  or the Email row is not found it does nothing at all.
+{%- endcomment -%}
+<script>
+  (function () {
+    var URL = 'https://www.linkedin.com/in/yoogeunsong/';
+    var TEXT = '/in/yoogeunsong/';
+
+    function addRow() {
+      if (document.getElementById('cv-linkedin-row')) return; // never twice
+
+      var cells = document.querySelectorAll('table td, table th');
+      var emailRow = null;
+      for (var i = 0; i < cells.length; i++) {
+        var label = cells[i].textContent.trim().replace(/[:\s]+$/, '');
+        if (label.toLowerCase() === 'email') {
+          emailRow = cells[i].closest('tr');
+          break;
+        }
+      }
+      if (!emailRow || !emailRow.parentNode) return;
+
+      var tr = document.createElement('tr');
+      tr.id = 'cv-linkedin-row';
+
+      var tdLabel = document.createElement('td');
+      var strong = document.createElement('strong');
+      strong.textContent = 'LinkedIn';
+      tdLabel.appendChild(strong);
+
+      var tdValue = document.createElement('td');
+      var a = document.createElement('a');
+      a.href = URL;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = TEXT;
+      tdValue.appendChild(a);
+
+      tr.appendChild(tdLabel);
+      tr.appendChild(tdValue);
+      emailRow.parentNode.insertBefore(tr, emailRow.nextSibling);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', addRow);
+    } else {
+      addRow();
+    }
+  })();
+</script>

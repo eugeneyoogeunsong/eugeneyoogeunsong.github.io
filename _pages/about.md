@@ -185,7 +185,7 @@ In 2026 I am working part-time with [Singularity Quantum](https://singularityqua
 
 For the full record, see my [CV](/cv/).
 
-**Where to find me.** **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, most of the year I am physically in London, UK or in LA, California; [get in touch](/contact/) when you are in town.
+**Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, most of the year I am physically in London, UK or in LA, California; [get in touch](/contact/) when you are in town.
 
 {% include author_self_link.liquid %}
 

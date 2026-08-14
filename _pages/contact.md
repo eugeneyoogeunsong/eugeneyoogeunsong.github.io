@@ -26,9 +26,9 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
   <div
     class="badge-base LI-profile-badge"
     data-locale="en_US"
-    data-size="medium"
+    data-size="large"
     data-theme="light"
-    data-type="VERTICAL"
+    data-type="HORIZONTAL"
     data-vanity="yoogeunsong"
     data-version="v1"
   >

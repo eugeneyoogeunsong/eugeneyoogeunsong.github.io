@@ -28,6 +28,6 @@ Sagittarius A\* varies across the electromagnetic spectrum on timescales from mi
 
 **Parameter space.** Magnetically arrested disc states across black hole spins $$a = -0.94$$ to $$+0.94$$, with three competing electron-heating prescriptions: R–$$\beta$$, turbulent heating, and magnetic reconnection.
 
-**Status.** Manuscript in preparation, targeting _MNRAS_, with co-authors including Dr Yosuke Mizuno and Dr Christian M. Fromm. Discussions with researchers from the [EHT (Event Horizon Telescope)](https://eventhorizontelescope.org/) collaboration informed the radiative-transfer setup.
+**Status.** Manuscript in preparation, targeting _MNRAS_, with co-authors including Dr Yosuke Mizuno and Dr Christian M. Fromm. Discussions with researchers from the [EHT (Event Horizon Telescope)](https://eventhorizontelescope.org/) collaboration informed the radiative-transfer setup {% cite song2026sgra %}.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._

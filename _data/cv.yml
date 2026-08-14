@@ -208,15 +208,6 @@ cv:
           - "In my cosmology work, I derived Raychaudhuri-type and shear-evolution equations for timelike and null geodesic congruences in the Bianchi I anisotropic early Universe model, hinting at how primordial shear can imprint observable anisotropies on the gravitational-wave background (see arXiv:1604.07639)."
           - "Authored 4 academic papers in total whilst there; all accessible via arXiv."
 
-      - company: University of Science and Technology & Korea Astronomy and Space Science Institute
-        position: '<a href="https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf">Graduate/Postgraduate Studies</a>'
-        location: Republic of Korea
-        start_date: 2009-02
-        end_date: 2018-08
-        highlights:
-          - "In Feb 2009, at the remarkable age of 11, I joined the integrative (Master's + PhD) program at the Korea University of Science and Technology (UST), based at the Korea Astronomy and Space Science Institute (KASI) campus."
-          - "My PhD coursework was completed in February 2013 (age 15)."
-
       - company: National Astronomical Observatory of Japan (NAOJ)
         position: Visiting Researcher
         location: Tokyo, Japan
@@ -237,6 +228,15 @@ cv:
           - "In my high-energy astrophysics work, I performed a semi-analytic modelling of the acceleration of electrons and positrons in magnetic-field-aligned electric fields around accreting black holes (see Song et al. 2017, MNRAS)."
           - "Investigated gamma-ray emissions produced by stellar-mass black holes interacting with dense molecular clouds (see Hirotani et al. 2018, ApJ)."
           - "Published 2 peer-reviewed academic papers detailing these works in Monthly Notices of the Royal Astronomical Society (MNRAS) and The Astrophysical Journal (ApJ)."
+
+      - company: University of Science and Technology & Korea Astronomy and Space Science Institute
+        position: '<a href="https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf">Graduate/Postgraduate Studies</a>'
+        location: Republic of Korea
+        start_date: 2009-02
+        end_date: 2018-08
+        highlights:
+          - "In Feb 2009, at the remarkable age of 11, I joined the integrative (Master's + PhD) program at the Korea University of Science and Technology (UST), based at the Korea Astronomy and Space Science Institute (KASI) campus."
+          - "My PhD coursework was completed in February 2013 (age 15)."
 
     Awards:
       - title: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병)

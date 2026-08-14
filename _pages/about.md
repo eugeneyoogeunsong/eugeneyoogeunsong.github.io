@@ -194,4 +194,4 @@ For the full record, see my [CV](/cv/).
 
 {% include news_heading_link.liquid %}
 
-{% include linkedin_badge.liquid before=".social, .contact-icons, .contact-note" %}
+{% include linkedin_badge.liquid before_heading="selected publications" %}

@@ -5,11 +5,19 @@
     {% include linkedin_badge.liquid %}
         renders in place (use on ordinary content pages).
 
-    {% include linkedin_badge.liquid before=".social, .contact-icons" %}
-        renders in place, then moves itself to just before the first matching
-        element. Needed on the About page, where Selected Publications and the
-        social icons are emitted by the gem-owned layout *after* the page
-        content, so markdown position alone cannot put the badge between them.
+    {% include linkedin_badge.liquid before_heading="selected publications" %}
+        renders in place, then moves itself to just above the heading whose
+        text matches. Needed on the About page, where News and Selected
+        Publications are emitted by the gem-owned layout *after* the page
+        content, so markdown position alone cannot put the badge above them.
+
+        Matching on heading *text* rather than on the heading's link matters:
+        news_heading_link.liquid rewrites the News anchor's href to LinkedIn,
+        so a selector like a[href$="/news/"] would already be stale by the
+        time this runs.
+
+    {% include linkedin_badge.liquid before=".social" %}
+        same idea, but positions against a CSS selector instead.
 
   Two things learned the hard way elsewhere in this repo:
     - wait for DOMContentLoaded, or the target element does not exist yet;
@@ -45,22 +53,37 @@
 <script>
   (function () {
     var MOVE_BEFORE = {{ include.before | default: "" | jsonify }};
+    var BEFORE_HEADING = {{ include.before_heading | default: "" | jsonify }};
+
+    // Find a heading by its visible text, ignoring case and any anchor markup
+    // the theme wraps around it.
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
 
     function init() {
       var wrap = document.getElementById("li-badge-wrap");
       if (!wrap) return;
 
       // Reposition first, so the badge is never briefly visible in the wrong spot.
-      if (MOVE_BEFORE) {
-        var target = null;
+      var target = null;
+      if (BEFORE_HEADING) {
+        target = headingByText(BEFORE_HEADING);
+      }
+      if (!target && MOVE_BEFORE) {
         var selectors = MOVE_BEFORE.split(",");
         for (var i = 0; i < selectors.length; i++) {
           target = document.querySelector(selectors[i].trim());
           if (target) break;
         }
-        if (target && target.parentNode) {
-          target.parentNode.insertBefore(wrap, target);
-        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
       }
 
       var badge = wrap.querySelector(".LI-profile-badge");

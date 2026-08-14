@@ -12,9 +12,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Blackett Laboratory</p>
-    <p>Imperial College London</p>
-    <p>South Kensington, London SW7 2AZ</p>
+    <p>Imperial College London,</p>
+    <p>South Kensington, London SW7 2AZ, United Kingdom</p>
 
 selected_papers: true
 social: true
@@ -149,6 +148,8 @@ I am a high-energy physicist at **[Imperial College London](https://www.imperial
 
 That framing is also my history. I began [university physics](/cv/) at **age 7**, finished a [BSc](https://yoogeunsong.com/cv/#awards) at **age 11**, and published my first first-author paper in [_MNRAS Letters_](https://academic.oup.com/mnrasl) at **age 19**. Since then I have worked across general relativity and early-universe cosmology, <a href="/projects/9_gamma/" class="plain-link">black hole magnetospheres</a> and <a href="/projects/7_kerr/" class="plain-link">Blandford–Znajek energy extraction</a>, <a href="/projects/6_sgra/" class="plain-link">general-relativistic magnetohydrodynamic (GRMHD) modelling of Sgr A\*</a>, <a href="/projects/3_atripinn/" class="plain-link">physics-informed neural networks for clinical electrophysiology</a>, and, at present, <a href="/projects/1_dune/" class="plain-link">neutrinos</a> and <a href="/projects/8_higgs/" class="plain-link">beyond-Standard-Model physics</a>. The range looks scattered from the outside. From the inside it is one method applied to different data.
 
+From early 2023 to mid 2024, I was a visiting researcher at [UCL's Mullard Space Science Laboratory](https://www.ucl.ac.uk/mssl/), working on <a href="/projects/6_sgra/" class="plain-link">general-relativistic magnetohydrodynamic (GRMHD) modelling of Sgr A\*</a>.
+
 From 2024 to 2025, at [Imperial](https://www.imperial.ac.uk/), I did projects on the <a href="/projects/8_higgs/" class="plain-link">Higgs boson as a portal to dark matter</a> and [AtriPINN](/projects/3_atripinn/). Alongside both I have been a member of Imperial's [Algorithmic Trading](https://algosoc.com/) and [Investment](https://investmentsoc.com/) societies, which is where the <a href="/projects/4_quant/" class="plain-link">independent quant practice</a> came from.
 
 In 2026, four things occupy me. **First**, the neutrino physics: a variety of physics analyses on [NOvA](https://novaexperiment.fnal.gov/), and systematics-aware machine learning (ML) reconstruction for the [DUNE](https://www.dunescience.org/) [Near Detector](https://atwork.dunescience.org/near-detector/) (ND): the ND is not merely a control detector; it is the constraint engine that makes precision oscillation measurements possible. **Second**, [AtriPINN](/projects/3_atripinn/): physics-informed neural networks that map atrial fibrillation from grid electrograms in real time, at ~78 ms end-to-end latency and ~1.6 mm RMS localisation error. **Third**, a part-time [quantum computing collaboration](/projects/5_singularity/) with [Singularity Quantum](https://singularityquantum.com/): quantum-accelerated computational fluid dynamics (CFD) for non-invasive cardiovascular diagnostics, where I work with their CFD engineers on augmenting and enhancing the CFD model, and on the hybrid layer around it: the physics-informed machinery that infers the boundary conditions and prepares what gets handed to the quantum kernel. **Fourth**, [quantitative research](/projects/4_quant/). From October 2025 to August 2026 I ran an independent practice on alpha under non-stationary market dynamics, treated as a physics problem in signal and noise rather than a curve-fitting exercise. That work is now folded back into the same question the rest of my research asks.
@@ -156,7 +157,7 @@ In 2026, four things occupy me. **First**, the neutrino physics: a variety of ph
 I have been based in the **London** area in the UK since **2023**, and before that I spent time in Spain and the Netherlands for various collaborations. For now I want to continue living in Europe and to make it home here.
 I care about building things that are reproducible, scalable, and principled, and I would rather re-examine a premise than optimise inside someone else's. If you are working on hard problems in neutrinos, in machine learning for physics, in quantum computing, or in markets, I would like to hear from you. Feel free to [reach out](/contact/)!
 
-**Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, most of the year I am physically in London, UK or in LA, California; [get in touch](/contact/) when you are in town.
+**Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, most of the year I am physically in **London, UK** or in **LA, California**; [get in touch](/contact/) when you are in town.
 
 ---
 

@@ -22,6 +22,46 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 - **Bluesky** - [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
 - **GitHub** - [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
 
+<div class="li-badge-wrap">
+  <div
+    class="badge-base LI-profile-badge"
+    data-locale="en_US"
+    data-size="medium"
+    data-theme="light"
+    data-type="VERTICAL"
+    data-vanity="yoogeunsong"
+    data-version="v1"
+  >
+    <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge">Eugene (Yoogeun) Song</a>
+  </div>
+</div>
+
+<style>
+  /* The badge renders as a fixed-width card; centre it and give it room. */
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 1.75rem 0 0.5rem;
+  }
+</style>
+
+<script>
+  // LinkedIn reads data-theme once, when profile.js initialises, so match the
+  // site's current theme before loading the script rather than after.
+  (function () {
+    var badge = document.querySelector(".LI-profile-badge");
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute("data-theme") === "dark";
+    badge.setAttribute("data-theme", dark ? "dark" : "light");
+
+    var s = document.createElement("script");
+    s.src = "https://platform.linkedin.com/badges/js/profile.js";
+    s.async = true;
+    s.defer = true;
+    document.head.appendChild(s);
+  })();
+</script>
+
 ## Research profiles
 
 - **ORCID** - [0000-0003-3206-1556](https://orcid.org/0000-0003-3206-1556)

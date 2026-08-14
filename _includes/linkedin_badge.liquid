@@ -1,0 +1,87 @@
+{%- comment -%}
+  LinkedIn profile badge, large + horizontal.
+
+  Usage:
+    {% include linkedin_badge.liquid %}
+        renders in place (use on ordinary content pages).
+
+    {% include linkedin_badge.liquid before=".social, .contact-icons" %}
+        renders in place, then moves itself to just before the first matching
+        element. Needed on the About page, where Selected Publications and the
+        social icons are emitted by the gem-owned layout *after* the page
+        content, so markdown position alone cannot put the badge between them.
+
+  Two things learned the hard way elsewhere in this repo:
+    - wait for DOMContentLoaded, or the target element does not exist yet;
+    - LinkedIn reads data-theme once at init, so set it before loading the
+      script rather than after, otherwise a light card lands on a dark page.
+{%- endcomment -%}
+
+<div class="li-badge-wrap" id="li-badge-wrap" hidden>
+  <div
+    class="badge-base LI-profile-badge"
+    data-locale="en_US"
+    data-size="large"
+    data-theme="light"
+    data-type="HORIZONTAL"
+    data-vanity="yoogeunsong"
+    data-version="v1"
+  >
+    <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge">Eugene (Yoogeun) Song</a>
+  </div>
+</div>
+
+<style>
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+  .li-badge-wrap[hidden] {
+    display: none;
+  }
+</style>
+
+<script>
+  (function () {
+    var MOVE_BEFORE = {{ include.before | default: "" | jsonify }};
+
+    function init() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      // Reposition first, so the badge is never briefly visible in the wrong spot.
+      if (MOVE_BEFORE) {
+        var target = null;
+        var selectors = MOVE_BEFORE.split(",");
+        for (var i = 0; i < selectors.length; i++) {
+          target = document.querySelector(selectors[i].trim());
+          if (target) break;
+        }
+        if (target && target.parentNode) {
+          target.parentNode.insertBefore(wrap, target);
+        }
+      }
+
+      var badge = wrap.querySelector(".LI-profile-badge");
+      if (badge) {
+        var dark = document.documentElement.getAttribute("data-theme") === "dark";
+        badge.setAttribute("data-theme", dark ? "dark" : "light");
+      }
+
+      wrap.removeAttribute("hidden");
+
+      var s = document.createElement("script");
+      s.src = "https://platform.linkedin.com/badges/js/profile.js";
+      s.async = true;
+      s.defer = true;
+      document.head.appendChild(s);
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
+  })();
+</script>

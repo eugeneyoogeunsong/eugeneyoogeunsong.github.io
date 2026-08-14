@@ -193,3 +193,5 @@ For the full record, see my [CV](/cv/).
 {% include goatcounter.liquid %}
 
 {% include news_heading_link.liquid %}
+
+{% include linkedin_badge.liquid before=".social, .contact-icons, .contact-note" %}

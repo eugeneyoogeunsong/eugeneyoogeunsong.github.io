@@ -34,3 +34,5 @@ That is the same problem I have been working on elsewhere. In [AtriPINN](/projec
 **How it connects to my other work.** My fluid-dynamics background is general-relativistic magnetohydrodynamics ([GRMHD](/projects/6_sgra/)): conservative finite-volume schemes on curvilinear grids, approximate Riemann solvers, Courant–Friedrichs–Lewy (CFL) conditions, grid-convergence studies. The numerical craft transfers directly. What does not transfer is pressure–velocity coupling: general-relativistic magnetohydrodynamics is compressible and hyperbolic, so there is no incompressibility constraint, no pressure–Poisson equation, and none of the machinery that incompressible coronary flow makes central. That gap is the part I am actively closing.
 
 **And a coincidence.** One of Singularity Quantum's co-founders is Professor **[Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)**, in whose physics classes at the University of Seoul I sat for about a year in 2007, aged nine. Nearly twenty years of doing physics later, the thread loops back.
+
+_Work in progress; outputs will appear here and on [Publications](/publications/)._

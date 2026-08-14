@@ -191,6 +191,8 @@ In 2018, for 4 months, I was invited by [Dr Isao Okamoto](https://www.researchga
 
 For the full record, see my [CV](/cv/).
 
+Follow me on [LinkedIn](https://www.linkedin.com/in/yoogeunsong) for the most recent updates on my journey!
+
 {% include author_self_link.liquid %}
 
 {% include goatcounter.liquid %}

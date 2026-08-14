@@ -217,6 +217,16 @@ cv:
           - "In Feb 2009, at the remarkable age of 11, I joined the integrative (Master's + PhD) program at the Korea University of Science and Technology (UST), based at the Korea Astronomy and Space Science Institute (KASI) campus."
           - "My PhD coursework was completed in February 2013 (age 15)."
 
+      - company: National Astronomical Observatory of Japan (NAOJ)
+        position: Visiting Researcher
+        location: Tokyo, Japan
+        start_date: 2018-08
+        end_date: 2018-12
+        highlights:
+          - "Invited by Dr. Isao Okamoto for a four-month visiting research position to work on a modified Blandford–Znajek mechanism for electromagnetic energy extraction from Kerr black holes."
+          - "Developed a zero-angular-momentum-observer (ZAMO) treatment in which the force-free magnetosphere is divided at the null surface and electromagnetic energy is shown to be self-extracted across it (see arXiv:1904.11978)."
+          - "Continued the collaboration remotely with Dr. Okamoto until the end of 2022, resulting in two arXiv preprints (1904.11978 and 2401.12684)."
+
       - company: Academia Sinica, Taiwan
         position: Visiting Student
         location: Taiwan

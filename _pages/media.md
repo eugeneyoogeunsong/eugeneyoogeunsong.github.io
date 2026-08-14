@@ -272,4 +272,6 @@ I like explaining things, and I learn best by teaching. I am glad to hear from j
 
 For enquiries, see [Contact](/contact/).
 
+{% include linkedin_badge.liquid %}
+
 {% include goatcounter.liquid %}

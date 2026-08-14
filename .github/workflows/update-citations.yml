@@ -11,6 +11,13 @@ jobs:
   update-citations:
     runs-on: ubuntu-latest
 
+    # GITHUB_TOKEN is read-only by default, so the final `git push` back into
+    # this repo fails with a 403 ("Permission ... denied to github-actions[bot]").
+    # Granting write here is scoped to this job only, which is safer than
+    # flipping the repository-wide Actions setting to read/write.
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

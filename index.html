@@ -173,23 +173,38 @@
   }
 </style> <script>
   (function () {
-    var MOVE_BEFORE = ".social, .contact-icons, .contact-note";
+    var MOVE_BEFORE = "";
+    var BEFORE_HEADING = "selected publications";
+
+    // Find a heading by its visible text, ignoring case and any anchor markup
+    // the theme wraps around it.
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
 
     function init() {
       var wrap = document.getElementById("li-badge-wrap");
       if (!wrap) return;
 
       // Reposition first, so the badge is never briefly visible in the wrong spot.
-      if (MOVE_BEFORE) {
-        var target = null;
+      var target = null;
+      if (BEFORE_HEADING) {
+        target = headingByText(BEFORE_HEADING);
+      }
+      if (!target && MOVE_BEFORE) {
         var selectors = MOVE_BEFORE.split(",");
         for (var i = 0; i < selectors.length; i++) {
           target = document.querySelector(selectors[i].trim());
           if (target) break;
         }
-        if (target && target.parentNode) {
-          target.parentNode.insertBefore(wrap, target);
-        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
       }
 
       var badge = wrap.querySelector(".LI-profile-badge");

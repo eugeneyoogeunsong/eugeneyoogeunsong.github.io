@@ -157,7 +157,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>
   <div class="mo-stat"><b>2004–present</b><span>Years of coverage</span></div>
   <div class="mo-stat"><b>5+</b><span>Documentary series</span></div>
-  <div class="mo-stat"><b>KR · JP · US · UK</b><span>Press markets</span></div>
+  <div class="mo-stat"><b>UK · US · KR · JP</b><span>Press markets</span></div>
   <div class="mo-stat"><b><a href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener">8,000+</a></b><span>LinkedIn followers</span></div>
 </div>
 
@@ -181,7 +181,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">SDF</span><span>May 2015</span></div>
       <h3>Seoul Digital Forum 2015</h3>
-      <p>Interviewing <strong>Dr Kip Thorne</strong> about LIGO, nine months before the first direct detection of gravitational waves was announced.</p>
+      <p>Interviewing <strong><a href="https://pma.caltech.edu/people/kip-s-thorne">Dr Kip Thorne</a></strong> about LIGO, nine months before the first direct detection of gravitational waves was announced.</p>
       <div class="mo-links">
         <a href="https://www.sdf.or.kr/archive/2015/ko/video/10000000281" target="_blank" rel="noopener">Watch</a>
         <a href="https://www.youtube.com/watch?v=eqtSOHz7F14" target="_blank" rel="noopener">YouTube</a>

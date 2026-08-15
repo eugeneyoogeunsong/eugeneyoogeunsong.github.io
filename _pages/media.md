@@ -264,11 +264,16 @@ Since 2004, my journey & work have been documented across television, radio and 
   <li><a href="https://world.kbs.co.kr/service/index.htm?lang=e" target="_blank" rel="noopener">KBS</a></li>
   <li><a href="https://www.ebs.co.kr/" target="_blank" rel="noopener">EBS</a></li>
   <li><a href="https://www.koreaherald.com/" target="_blank" rel="noopener">The Korea Herald</a></li>
+  <li><a href="https://www.ytn.co.kr/en/" target="_blank" rel="noopener">YTN</a></li>
+  <li><a href="https://www3.nhk.or.jp/nhkworld/" target="_blank" rel="noopener">NHK</a></li>
+  <li><a href="https://www.ntv.co.jp/english/" target="_blank" rel="noopener">Nippon TV</a></li>
 </ul>
 
 ## Outreach
 
-I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside.
+I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside. I have given talks many times at science museums, symposia and expos.
+
+Two collaborations I would especially like to make happen: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
 
 For enquiries, see [Contact](/contact/).
 

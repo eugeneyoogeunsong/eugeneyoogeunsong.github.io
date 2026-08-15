@@ -11,7 +11,7 @@ nav_order: 6
 
 A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time.
 
-I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? [Reach out](/contact/): some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
+I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a>: some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
 
@@ -23,7 +23,9 @@ When a problem stops moving, the fastest route through it is usually a long run 
 
 I have been an avid language learner my whole life, and I love the whole of it: the languages themselves, the cultures they open up, and the cognitive linguistics behind them.
 
-Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, Spanish conversational, and German and Japanese both at elementary. French and Italian are the two I am keeping alive at the moment. European languages are where my soft spot lies, though I have taken runs at Arabic and Mandarin as well.
+I speak, read and write in: Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, Spanish conversational, and German and Japanese both at elementary. French and Italian are the two I am keeping alive at the moment. I'm especially passionate about European languages, though I have taken runs at Arabic and Mandarin as well; that is one of the reasons I chose to live in Europe.
+
+I travel to France as often as I can, and here in the UK I have plenty of French and Italian friends to practise with. I always welcome new language exchange buddies, so <a href="/contact/" class="plain-link">reach out</a>!
 
 Learning a language is the closest thing I know to learning a new physics formalism: the same feeling of a structure clicking into place.
 
@@ -37,6 +39,8 @@ On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday a
 
 For research I stay current through [arXiv](https://arxiv.org/) and feeds on [X](https://x.com/YoogeunSong) & [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social).
 
+I have been meaning to join a book club, so <a href="/contact/" class="plain-link">reach out</a> if you run one.
+
 ## Music and film
 
 Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift and Coldplay. Lately I have been listening to a lot of Vulfpeck. I occasionally play as well as listen: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by.
@@ -45,17 +49,17 @@ On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _Th
 
 ## Travel and people
 
-I have been to the United States many times, mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (2018), in Taiwan (2017–2018), and now in the UK (2023–present).
+I have been to the United States many times, mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. Part of the pull is the languages: I practised my French deliberately so that I could actually talk to people when I got there. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (2018), in Taiwan (2017–2018), and now in the UK (2023–present).
 
-Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy!
+Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>.
 
-Conference travel is part of it, but more than the places I am building a network: researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, [say hello](/contact/).
+Conference travel is part of it, but more than the places I am building a network: researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 
 ## Chess and poker
 
 I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things.
 
-Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not you find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker: you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money can still be a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest.
+Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not you find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker: you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money can still be a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest. Need a chess or poker buddy? <a href="/contact/" class="plain-link">Reach out</a>.
 
 ## Psychology, personality and neuroscience
 
@@ -65,9 +69,11 @@ What actually interests me is the layer underneath: whether type differences cor
 
 I find it useful anyway, in roughly the way a good coordinate system is useful: it does not tell you the physics, but it makes the problem far easier to talk about.
 
-## Teaching
+## Teaching and tutoring
 
 I learn best by teaching, so I do a lot of it, and I would happily talk for hours about fundamental physics, machine learning, first principles, psychology, neuroscience, philosophy, music, or films.
+
+I'm open to tutoring too, private or in groups. For opportunities, <a href="/contact/" class="plain-link">reach out</a>.
 
 {% include linkedin_badge.liquid %}
 

@@ -60,23 +60,28 @@
   .refs li:last-child { border-bottom: 0; padding-bottom: 0; }
   .refs .who { font-weight: 600; }
   .refs .role { font-size: 0.87rem; color: var(--global-text-color-light); }
-</style> <div class="refs-box"> <h4>Academic</h4> <ul class="refs"> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi" rel="external nofollow noopener" target="_blank">Dr Linda Cremonesi</a></span> <span class="role">PhD supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling" rel="external nofollow noopener" target="_blank">Prof. David Colling</a></span> <span class="role">AtriPINN collaborator &amp; Masters thesis supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper" rel="external nofollow noopener" target="_blank">Prof. Alexander Tapper</a></span> <span class="role">Former mini-project supervisor, Higgs-portal dark matter study · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton" rel="external nofollow noopener" target="_blank">Dr Nick Linton</a></span> <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span> </li> </ul> </div> <div class="refs-box"> <h4>Industry</h4> <ul class="refs"> <li> <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/" rel="external nofollow noopener" target="_blank">Prof. Doyeol (David) Ahn</a></span> <span class="role">Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul</span> </li> </ul> </div> <hr> <h2 id="where-i-am">Where I am</h2> <p>Blackett Laboratory, Department of Physics Imperial College London South Kensington Campus, London SW7 2AZ, United Kingdom</p> <p>I am physically in <strong>London</strong> (most of the year), or probably sometimes in <strong>LA, California</strong>. Do hit me up when you are in town.</p> <div class="li-badge-wrap" id="li-badge-wrap" hidden=""> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge" rel="external nofollow noopener" target="_blank">Eugene (Yoogeun) Song</a> </div> </div> <style>
+</style> <div class="refs-box"> <h4>Academic</h4> <ul class="refs"> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi" rel="external nofollow noopener" target="_blank">Dr Linda Cremonesi</a></span> <span class="role">PhD supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling" rel="external nofollow noopener" target="_blank">Prof. David Colling</a></span> <span class="role">AtriPINN collaborator &amp; Masters thesis supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper" rel="external nofollow noopener" target="_blank">Prof. Alexander Tapper</a></span> <span class="role">Former mini-project supervisor, Higgs-portal dark matter study · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton" rel="external nofollow noopener" target="_blank">Dr Nick Linton</a></span> <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span> </li> </ul> </div> <div class="refs-box"> <h4>Industry</h4> <ul class="refs"> <li> <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/" rel="external nofollow noopener" target="_blank">Prof. Doyeol (David) Ahn</a></span> <span class="role">Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul</span> </li> </ul> </div> <hr> <h2 id="where-i-am">Where I am</h2> <p>Blackett Laboratory, Department of Physics Imperial College London South Kensington Campus, London SW7 2AZ, United Kingdom</p> <p>I am physically in <strong>London</strong> (most of the year), or probably sometimes in <strong>LA, California</strong>. Do hit me up when you are in town.</p> <div class="li-badge-wrap" id="li-badge-wrap"> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge" rel="external nofollow noopener" target="_blank">Eugene (Yoogeun) Song</a> </div> </div> <style>
   .li-badge-wrap {
     display: flex;
     justify-content: center;
     margin: 2rem 0 1.5rem;
   }
-  .li-badge-wrap[hidden] {
-    display: none;
-  }
 </style> <script>
+  // Runs during parse, so it lands before profile.js initialises.
+  (function () {
+    var badge = document.querySelector('#li-badge-wrap .LI-profile-badge');
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    badge.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script> <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer type="text/javascript"></script> <script>
+  // Repositioning only. Safe to run after the badge has rendered.
   (function () {
     var MOVE_BEFORE = "";
     var BEFORE_HEADING = "";
     var APPEND_TO = "";
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !APPEND_TO) return;
 
-    // Find a heading by its visible text, ignoring case and any anchor markup
-    // the theme wraps around it.
     function headingByText(text) {
       var want = text.trim().toLowerCase();
       var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
@@ -86,54 +91,38 @@
       return null;
     }
 
-    function init() {
+    function reposition() {
       var wrap = document.getElementById("li-badge-wrap");
       if (!wrap) return;
 
-      // Reposition first, so the badge is never briefly visible in the wrong spot.
       var target = null;
-      if (BEFORE_HEADING) {
-        target = headingByText(BEFORE_HEADING);
-      }
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
       if (!target && MOVE_BEFORE) {
-        var selectors = MOVE_BEFORE.split(",");
-        for (var i = 0; i < selectors.length; i++) {
-          target = document.querySelector(selectors[i].trim());
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
           if (target) break;
         }
       }
       if (target && target.parentNode) {
         target.parentNode.insertBefore(wrap, target);
-      } else if (APPEND_TO) {
-        // Append as the last child, for pages whose body the layout generates.
+        return;
+      }
+      if (APPEND_TO) {
         var container = null;
-        var sels = APPEND_TO.split(",");
-        for (var k = 0; k < sels.length; k++) {
-          container = document.querySelector(sels[k].trim());
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
           if (container) break;
         }
         if (container) container.appendChild(wrap);
       }
-
-      var badge = wrap.querySelector(".LI-profile-badge");
-      if (badge) {
-        var dark = document.documentElement.getAttribute("data-theme") === "dark";
-        badge.setAttribute("data-theme", dark ? "dark" : "light");
-      }
-
-      wrap.removeAttribute("hidden");
-
-      var s = document.createElement("script");
-      s.src = "https://platform.linkedin.com/badges/js/profile.js";
-      s.async = true;
-      s.defer = true;
-      document.head.appendChild(s);
     }
 
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", init);
+      document.addEventListener("DOMContentLoaded", reposition);
     } else {
-      init();
+      reposition();
     }
   })();
 </script> <hr> <h2 id="latest-from-bluesky">Latest from Bluesky</h2> <style>

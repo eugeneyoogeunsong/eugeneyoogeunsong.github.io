@@ -7,7 +7,7 @@ importance: 1
 category: Quantum Computing
 ---
 
-**[Singularity Quantum](https://singularityquantum.com/) · part-time · 2026 – present**
+**[Singularity Quantum](https://singularityquantum.com/) · part-time · 2026 – present · with [Dr Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/) and [Prof Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)**
 
 [Singularity Quantum](https://singularityquantum.com/) is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR**: fractional flow reserve (FFR) derived from a CT scan. FFR is the pressure ratio a cardiologist uses to decide whether a coronary stenosis needs intervention, from a CT scan rather than from a catheter. Done well, it replaces an invasive procedure with a simulation.
 

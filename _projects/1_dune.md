@@ -7,7 +7,7 @@ importance: 1
 category: Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi), [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
 
 <figure style="margin: 0 0 1.5rem;">
   <img src="{{ '/assets/img/projects/dune-beamline.jpg' | relative_url }}"
@@ -23,7 +23,9 @@ The [Deep Underground Neutrino Experiment](https://www.dunescience.org/) will fi
 
 **What I work on.** Systematics-aware machine learning reconstruction in liquid argon time projection chambers (TPCs), coupled to MCMC (Markov chain Monte Carlo) inference, and the propagation of Near-Detector constraints into the Far-Detector oscillation fit.
 
-**Where Imperial sits.** The group is heavily involved in the technology for [DUNE Phase II](https://www.imperial.ac.uk/high-energy-physics/research/experiments/dune/), in particular the design and construction of the high-pressure gaseous argon TPC that will form part of the more capable Phase-II near detector. A gas TPC sees low-momentum protons and pions that a liquid-argon detector loses below threshold, which is precisely where the nuclear-effect modelling that drives the cross-section systematic is least constrained.
+**[Where Imperial sits](https://www.imperial.ac.uk/high-energy-physics/research/experiments/dune/).** The group's contribution runs from hardware to inference. On the detector side it designs the data acquisition systems for both the near and far detectors, builds anode plane assemblies for one of the far-detector modules, and leads the technology for **DUNE Phase II**, in particular the high-pressure gaseous argon TPC destined for the more capable Phase-II near detector. A gas TPC sees low-momentum protons and pions that a liquid-argon detector loses below threshold, which is precisely where the nuclear-effect modelling driving the cross-section systematic is least constrained.
+
+**Where my own work plugs in.** On the analysis side, Imperial leads **MaCh3**, the Bayesian oscillation-analysis framework used by the long-baseline group, under [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12). That is the natural home for what I do: MaCh3 is where a reconstruction's uncertainty stops being a plot and becomes a term in the likelihood, and it is the point at which a systematics-aware network either earns its place or does not.
 
 **The framing.** The Near Detector is not merely a control detector. Rather, it is the constraint engine: it pins down the nuisance parameters that would otherwise dominate the measurement. The interesting problem is therefore not "how accurate is the reconstruction," but "how faithfully does the uncertainty on the reconstruction propagate through to the posterior on $$\delta_{CP}$$."
 

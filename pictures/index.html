@@ -51,7 +51,72 @@
     padding: 0.5rem 0.7rem 0.6rem;
   }
   .gallery figure { margin: 0; }
-</style> <p>Click any photo to open it at full resolution. You are welcome to use these for conference programmes, seminar announcements, panel listings or press; no need to ask, though I would always like to know where it ends up.</p> <div class="gallery"> <a href="/assets/img/profile/full/01.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/01.jpg" alt="Yoogeun Song, denim shirt" loading="lazy"> <figcaption>1024 × 1535 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/02.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/02.jpg" alt="Yoogeun Song, striped cardigan" loading="lazy"> <figcaption>1024 × 1535 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/03.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/03.jpg" alt="Yoogeun Song, maroon turtleneck" loading="lazy"> <figcaption>1024 × 683 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/04.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/04.jpg" alt="Yoogeun Song, three-piece suit" loading="lazy"> <figcaption>1024 × 1535 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/05.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/05.jpg" alt="Yoogeun Song, black suit" loading="lazy"> <figcaption>1024 × 683 · JPG</figcaption> </figure> </a> </div> <p>Back to <a href="/">About</a>.</p> <script data-goatcounter="https://ygsong1004.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Eugene (Yoogeun) Song . © Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted on <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: August 16, 2026. </div> </footer> <script>
+</style> <p>Click any photo to open it at full resolution. You are welcome to use these for conference programmes, seminar announcements, panel listings or press; no need to ask, though I would always like to know where it ends up.</p> <div class="gallery"> <a href="/assets/img/profile/full/01.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/01.jpg" alt="Yoogeun Song, denim shirt" loading="lazy"> <figcaption>1024 × 1535 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/02.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/02.jpg" alt="Yoogeun Song, striped cardigan" loading="lazy"> <figcaption>1024 × 1535 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/03.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/03.jpg" alt="Yoogeun Song, maroon turtleneck" loading="lazy"> <figcaption>1024 × 683 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/04.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/04.jpg" alt="Yoogeun Song, three-piece suit" loading="lazy"> <figcaption>1024 × 1535 · JPG</figcaption> </figure> </a> <a href="/assets/img/profile/full/05.jpg" target="_blank" rel="noopener"> <figure> <img src="/assets/img/profile/05.jpg" alt="Yoogeun Song, black suit" loading="lazy"> <figcaption>1024 × 683 · JPG</figcaption> </figure> </a> </div> <p>Back to <a href="/">About</a>.</p> <div class="li-badge-wrap" id="li-badge-wrap"> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge" rel="external nofollow noopener" target="_blank">Eugene (Yoogeun) Song</a> </div> </div> <style>
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+</style> <script>
+  // Runs during parse, so it lands before profile.js initialises.
+  (function () {
+    var badge = document.querySelector('#li-badge-wrap .LI-profile-badge');
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    badge.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script> <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer type="text/javascript"></script> <script>
+  // Repositioning only. Safe to run after the badge has rendered.
+  (function () {
+    var MOVE_BEFORE = "";
+    var BEFORE_HEADING = "";
+    var APPEND_TO = "";
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !APPEND_TO) return;
+
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
+
+    function reposition() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      var target = null;
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
+      if (!target && MOVE_BEFORE) {
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
+          if (target) break;
+        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
+        return;
+      }
+      if (APPEND_TO) {
+        var container = null;
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
+          if (container) break;
+        }
+        if (container) container.appendChild(wrap);
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", reposition);
+    } else {
+      reposition();
+    }
+  })();
+</script> <script data-goatcounter="https://ygsong1004.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Eugene (Yoogeun) Song . © Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted on <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: August 16, 2026. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };

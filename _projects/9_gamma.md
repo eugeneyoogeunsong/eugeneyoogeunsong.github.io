@@ -8,7 +8,7 @@ category: Astrophysics
 related_publications: true
 ---
 
-**KASI / UST and Academia Sinica, with Dr Kouichi Hirotani and Dr Satoki Matsushita · 2015 – 2018**
+**[KASI](https://www.kasi.re.kr/eng/index) & [UST](https://ust.ac.kr/eng/), and [Academia Sinica](https://www.asiaa.sinica.edu.tw/) · 2015 – 2018 · with [Dr Kouichi Hirotani](https://www.asiaa.sinica.edu.tw/people/cv.php?i=hirotani), [Dr Satoki Matsushita](https://www.asiaa.sinica.edu.tw/people/cv.php?i=satoki), [Dr Hung-Yi Pu](https://scholar.lib.ntnu.edu.tw/en/persons/hung-yi-pu/) and [Prof Albert Kong](https://astr.site.nthu.edu.tw/p/406-1336-35225,r2556.php?Lang=en)**
 
 Pulsars have a well-developed theory of particle acceleration in vacuum gaps: regions where the plasma fails to screen the electric field along the magnetic field lines, so charged particles are accelerated to enormous energies and radiate. The question we asked is whether the same machinery operates around a black hole, which has no surface, no crust, and no rotating magnet, only spacetime.
 

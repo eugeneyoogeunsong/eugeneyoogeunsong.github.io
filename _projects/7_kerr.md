@@ -8,7 +8,7 @@ category: Astrophysics
 related_publications: true
 ---
 
-**With Dr Isao Okamoto, National Astronomical Observatory of Japan (NAOJ) · 2018 – 2024**
+**In collaboration with the [National Astronomical Observatory of Japan (NAOJ)](https://www.nao.ac.jp/en/) · 2018 – 2024 · with [Dr Isao Okamoto](https://www.researchgate.net/profile/Isao-Okamoto)**
 
 A rotating black hole can lose energy without losing mass through the horizon. The Blandford–Znajek mechanism explains how: a magnetic field threading the hole, anchored in the surrounding plasma, carries electromagnetic energy outward along the spin axis. It is the leading candidate for powering relativistic jets. What it has never had is a fully satisfying account of _where_, physically, the energy is handed over.
 

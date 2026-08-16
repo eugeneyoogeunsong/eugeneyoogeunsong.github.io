@@ -93,7 +93,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
     </li>
     <li>
       <span class="who"><a href="https://profiles.imperial.ac.uk/j.pasternak">Dr Jaroslaw Pasternak</a></span>
-      <span class="role">Examiner for my computational physics project, and PhD interview panel · Imperial College London</span>
+      <span class="role">Examiner for my CompPhys mini-project &amp; PhD interview panel · Imperial College London</span>
     </li>
   </ul>
 </div>

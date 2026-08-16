@@ -7,7 +7,7 @@ importance: 3
 category: Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2025 · under [Dr Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2025 · under [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**
 
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img

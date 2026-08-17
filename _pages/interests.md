@@ -13,7 +13,7 @@ A large part of my life, and the thing that keeps the rest of it working. Runnin
 
 I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a>: some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
 
-I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. Ski trips are a family fixture, and that is why the Alps keep appearing in my travel plans.
+I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the Alps are always my dream destination.
 
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 

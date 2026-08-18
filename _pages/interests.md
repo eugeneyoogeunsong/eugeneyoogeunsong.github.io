@@ -53,13 +53,13 @@ I have been to the United States many times, mostly around Los Angeles, New York
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>!
 
-Conference travel is part of it, but more than the places I am building a network: researchers, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
+Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 
 ## Chess and poker
 
-I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things.
+I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things. When I was growing up, I also enjoyed playing Go (or Baduk in Korean), but I preferred chess to Go always.
 
-Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not you find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker: you act on partial information, the same decision can produce opposite outcomes, and a good decision that loses money can still be a good decision. Separating decision quality from result quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest. Need a chess or poker buddy? <a href="/contact/" class="plain-link">Reach out</a>!
+Chess is complete information: every piece is on the board, the position is deterministic, and a best move exists whether or not you find it. That is how I instinctively approach a problem. But careers, research and markets are all much closer to poker: you act on partial information, the same decision can produce opposite outcomes, and you can play a hand perfectly and still lose it. Separating decision quality from outcome quality is one of the more useful things I have had to learn, and it turns out to be the same discipline that governs how I read a p-value or a backtest. Need a chess or poker buddy? <a href="/contact/" class="plain-link">Reach out</a>!
 
 ## Psychology, personality, neuroscience and all that jazz
 

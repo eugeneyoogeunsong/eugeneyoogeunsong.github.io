@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sgr A* variability
+title: Sagittarius A* variability
 description: GRMHD and radiative transfer modelling of the Galactic Centre black hole.
 img: assets/img/projects/sgra.jpg
 importance: 1
@@ -22,9 +22,9 @@ related_publications: true
   </figcaption>
 </figure>
 
-Sagittarius A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated, and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
+Sagittarius (Sgr) A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated, and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
 
-**Method.** General-relativistic magnetohydrodynamic simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.
+**Method.** GRMHD simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.
 
 **Parameter space.** Magnetically arrested disc states across black hole spins $$a = -0.94$$ to $$+0.94$$, with three competing electron-heating prescriptions: R–$$\beta$$, turbulent heating, and magnetic reconnection.
 

@@ -5,6 +5,7 @@ description: Physics-informed neural networks for real-time atrial fibrillation 
 img: assets/img/projects/atripinn.jpg
 importance: 1
 category: Machine Learning
+related_publications: true
 ---
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling), [Dr Alexander J. Richards](https://profiles.imperial.ac.uk/a.richards), and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
@@ -73,5 +74,7 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
 **Why it generalises.** The transferable result is not the error bar; it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
 
 This work formed my MSc thesis, which was awarded the highest grade.
+
+**Status.** Manuscript in preparation, targeting _IEEE Transactions on Biomedical Engineering_, benchmarking ATRIPINN against conventional numerical modelling of the same governing equations on 6×6 grid electrograms {% cite song2027atripinn %}.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._

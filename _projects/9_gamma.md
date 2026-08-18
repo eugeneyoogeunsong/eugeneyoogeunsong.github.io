@@ -31,3 +31,5 @@ Pulsars have a well-developed theory of particle acceleration in vacuum gaps: re
 **Stellar-mass black holes too.** Extending the same framework to a stellar-mass black hole traversing a dense gas cloud, we found that the pair cascade produces detectable very-high-energy emission if the hole is extremally rotating and within roughly 1 kpc {% cite hirotani2018stellar %}.
 
 This work ran across the Korea Astronomy and Space Science Institute and the University of Science and Technology, and a visiting studentship at the Academia Sinica Institute of Astronomy and Astrophysics in Taipei. The 2017 paper was my first peer-reviewed first-author publication, at nineteen.
+
+{% include author_self_link.liquid %}

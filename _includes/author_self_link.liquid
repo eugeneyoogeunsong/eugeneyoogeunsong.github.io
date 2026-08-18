@@ -2,21 +2,36 @@
   al-folio renders your own name in a bibliography entry as <em>Name</em> and
   deliberately skips the coauthors.yml lookup for it, so there is no Liquid-side
   way to link it without forking the gem's bib layout. This wraps those <em>
-  elements in a link to your InspireHEP author page instead.
-  Include from any page that renders a bibliography.
+  elements in a link to your ORCID record instead.
+
+  Include from any page that renders a bibliography: /publications/, About
+  (Selected Publications), and any project page with related_publications: true.
+
+  The DOMContentLoaded guard matters. On About the bibliography is emitted by the
+  gem-owned layout *after* the page content, so a bare IIFE here runs before those
+  <em> elements exist and silently links nothing.
 {%- endcomment -%}
 <script>
   (function () {
-    var PROFILE = 'https://inspirehep.net/authors/1790652';
-    document.querySelectorAll('.author em').forEach(function (el) {
-      if (el.querySelector('a') || el.closest('a')) return;
-      var a = document.createElement('a');
-      a.href = PROFILE;
-      a.target = '_blank';
-      a.rel = 'external nofollow noopener';
-      a.setAttribute('aria-label', 'Yoogeun Song on InspireHEP');
-      while (el.firstChild) a.appendChild(el.firstChild);
-      el.appendChild(a);
-    });
+    var PROFILE = 'https://orcid.org/0000-0003-3206-1556';
+
+    function linkSelf() {
+      document.querySelectorAll('.author em').forEach(function (el) {
+        if (el.querySelector('a') || el.closest('a')) return;
+        var a = document.createElement('a');
+        a.href = PROFILE;
+        a.target = '_blank';
+        a.rel = 'external noopener';
+        a.setAttribute('aria-label', 'Yoogeun Song on ORCID');
+        while (el.firstChild) a.appendChild(el.firstChild);
+        el.appendChild(a);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', linkSelf);
+    } else {
+      linkSelf();
+    }
   })();
 </script>

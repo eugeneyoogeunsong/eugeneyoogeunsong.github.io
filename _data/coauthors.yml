@@ -1,8 +1,12 @@
 # Maps coauthor surnames in _bibliography/papers.bib to a homepage, so their
 # names become links in the rendered bibliography.
 #
-# Only institution-level pages are listed below — swap in each person's
-# personal profile as you confirm the exact URL.
+# Keys are lowercase surnames. `firstname` must match how bibtex-ruby parses the
+# given name, so initialised and spelled-out variants are both listed.
+#
+# NOTE: your own name is deliberately NOT listed here. al-folio renders the
+# author's own name as <em>Name</em> and skips this lookup entirely, so the
+# ORCID link is applied by _includes/author_self_link.liquid instead.
 
 "hirotani":
   - firstname: ["Kouichi", "K."]
@@ -10,20 +14,36 @@
 
 "matsushita":
   - firstname: ["Satoki", "S."]
-    url: https://www.asiaa.sinica.edu.tw/
+    url: https://www.asiaa.sinica.edu.tw/people/cv.php?i=satoki
 
 "pu":
-  - firstname: ["Hung-Yi", "H.-Y."]
-    url: https://www.asiaa.sinica.edu.tw/
+  - firstname: ["Hung-Yi", "Hung Yi", "H.-Y.", "H. Y."]
+    url: https://hungyipu.wordpress.com/
 
 "younsi":
   - firstname: ["Ziri", "Z."]
-    url: https://www.ucl.ac.uk/mssl/
+    url: https://profiles.ucl.ac.uk/26858-ziri-younsi
 
 "wu":
   - firstname: ["Kinwah", "K."]
-    url: https://www.ucl.ac.uk/mssl/
+    url: https://profiles.ucl.ac.uk/10719-kinwah-wu
+
+"fromm":
+  - firstname: ["Christian M.", "Christian", "C. M.", "C."]
+    url: https://www.physik.uni-wuerzburg.de/astro/mitarbeiter/ag-fromm/
 
 "okamoto":
   - firstname: ["Isao", "I."]
     url: https://www.researchgate.net/profile/Isao-Okamoto
+
+"colling":
+  - firstname: ["David", "D."]
+    url: https://profiles.imperial.ac.uk/d.colling
+
+"richards":
+  - firstname: ["Alexander J.", "Alexander", "A. J.", "A."]
+    url: https://profiles.imperial.ac.uk/a.richards
+
+"linton":
+  - firstname: ["Nicholas", "Nick", "N."]
+    url: https://profiles.imperial.ac.uk/nick.linton

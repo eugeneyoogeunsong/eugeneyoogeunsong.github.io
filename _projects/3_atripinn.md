@@ -78,3 +78,5 @@ This work formed my MSc thesis, which was awarded the highest grade.
 **Status.** Manuscript in preparation, targeting _IEEE Transactions on Biomedical Engineering_, benchmarking ATRIPINN against conventional numerical modelling of the same governing equations on 6×6 grid electrograms {% cite song2027atripinn %}.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
+
+{% include author_self_link.liquid %}

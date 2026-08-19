@@ -18,7 +18,7 @@ Catheter ablation for atrial fibrillation depends on knowing where the arrhythmi
 - **Time-shifted kNN blending** to fuse neighbouring channels without smearing the wavefront;
 - **[Physics-informed neural network](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
 
-**The physics term in the loss.** The wave back-end treats the activation field $$u(\mathbf{x},t)$$ as obeying the second-order wave equation,
+**The physics term in the objective function.** The wave back-end treats the activation field $$u(\mathbf{x},t)$$ as obeying the second-order wave equation,
 
 $$\frac{\partial^{2} u}{\partial t^{2}} = c^{2}\,\nabla^{2} u$$
 
@@ -26,7 +26,7 @@ with $$c$$ the local conduction velocity. The network is never asked to satisfy 
 
 $$r(\mathbf{x},t) \;=\; \frac{\partial^{2} u}{\partial t^{2}} \;-\; c^{2}\,\nabla^{2} u$$
 
-is evaluated at collocation points and enters the objective as a soft constraint alongside the data term:
+is evaluated at collocation points and enters the objective function as a soft constraint alongside the data term:
 
 $$\mathcal{L} \;=\; \mathcal{L}_{\mathrm{data}} \;+\; \lambda\,\mathcal{L}_{\mathrm{phys}}, \qquad \mathcal{L}_{\mathrm{phys}} \;=\; \frac{1}{N}\sum_{i=1}^{N}\bigl\lvert r(\mathbf{x}_{i},t_{i}) \bigr\rvert^{2}$$
 

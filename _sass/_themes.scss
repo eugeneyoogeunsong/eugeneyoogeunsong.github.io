@@ -327,3 +327,31 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
   text-decoration-color: var(--global-theme-color);
 }
+
+/*******************************************************************************
+ * Mobile navbar toggler ("hamburger") sizing.
+ *
+ * The navbar markup is gem-owned, so this is a CSS-only enlargement. Selectors
+ * are the ones Cloudflare RUM reports from real sessions:
+ *   #navbar > .container > button.navbar-toggler.navbar-toggler-main
+ *     > span.icon-bar.{top,middle,bottom}-bar
+ *
+ * Two deliberate choices:
+ *   - `transform: scale()` rather than resizing the bars individually. The gem
+ *     animates .top-bar/.bottom-bar into an X on open; rewriting their width,
+ *     height or layout mode risks desynchronising that animation. Scaling the
+ *     button scales the glyph, the padding and the hit region together, and
+ *     pointer hit-testing follows the transform, so the tap target really does
+ *     grow rather than only looking bigger.
+ *   - `transform-origin: right center` keeps it pinned to the right edge so it
+ *     cannot overflow the viewport as it grows.
+ *
+ * Class selectors only: PurgeCSS strips attribute selectors from the build.
+ ******************************************************************************/
+
+@media (max-width: 768px) {
+  .navbar-toggler.navbar-toggler-main {
+    transform: scale(1.35);
+    transform-origin: right center;
+  }
+}

@@ -23,11 +23,11 @@ category: Physics
 
 If dark matter couples to the Standard Model at all, the Higgs boson is one of the few renormalisable doors available to it. That makes the invisible branching fraction of the Higgs a direct experimental handle on a sector we otherwise cannot see.
 
-**The portal, written down.** That the door is the Higgs is really an accident of dimensional analysis: $$|\Phi|^{2}$$ is the lowest-dimension gauge-singlet operator the Standard Model possesses, so it is the one thing a hidden sector can couple to without paying a price in powers of some high scale. For a real scalar dark matter candidate $$S$$,
+**The portal, written down.** That the door is the Higgs is really an accident of dimensional analysis: $$\lvert\Phi\rvert^{2}$$ is the lowest-dimension gauge-singlet operator the Standard Model possesses, so it is the one thing a hidden sector can couple to without paying a price in powers of some high scale. For a real scalar dark matter candidate $$S$$,
 
-$$\mathcal{L}_{\mathrm{portal}} = -\frac{\lambda_{hS}}{2}\,S^{2}\,|\Phi|^{2}$$
+$$\mathcal{L}_{\mathrm{portal}} = -\frac{\lambda_{hS}}{2}\,S^{2}\,\lvert\Phi\rvert^{2}$$
 
-After electroweak symmetry breaking, $$\Phi \to (v+h)/\sqrt{2}$$, and the operator expands into a trilinear and a quartic term:
+After electroweak symmetry breaking, $$\Phi \to (v+h)/\sqrt{2}$$, and the Lagrangian operator expands into a trilinear and a quartic term:
 
 $$\mathcal{L} \supset -\frac{\lambda_{hS}\,v}{2}\,h\,S^{2}\;-\;\frac{\lambda_{hS}}{4}\,h^{2}S^{2}$$
 
@@ -37,7 +37,7 @@ $$\Gamma(h \to SS) \;=\; \frac{\lambda_{hS}^{2}\,v^{2}}{32\pi\,m_{h}}\sqrt{1-\fr
 
 which is what makes a bound on $$\mathrm{BR}(h \to \mathrm{inv})$$ translate directly into a bound on $$\lambda_{hS}$$.
 
-**And the production side.** Vector-boson fusion is driven by the gauge–Higgs coupling sitting inside the Higgs kinetic term $$|D_{\mu}\Phi|^{2}$$, which after symmetry breaking contains
+**And the production side.** Vector-boson fusion is driven by the gauge–Higgs coupling sitting inside the Higgs kinetic term $$\lvert D_{\mu}\Phi\rvert^{2}$$, which after symmetry breaking contains
 
 $$\mathcal{L} \supset \frac{2m_{W}^{2}}{v}\,h\,W^{+}_{\mu}W^{-\mu}\;+\;\frac{m_{Z}^{2}}{v}\,h\,Z_{\mu}Z^{\mu}$$
 

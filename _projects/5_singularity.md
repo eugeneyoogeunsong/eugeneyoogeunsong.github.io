@@ -21,7 +21,8 @@ category: Quantum Computing
   <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
     From scan to solver: functional CT imaging, segmentation, registration against a template,
     and out the other end a 4D CFD-ready mesh. Almost all the accuracy is won or lost in the
-    first three steps, before the solver runs at all.
+    first three steps, before the solver runs at all. Illustrative only: this is a generic
+    example of such a pipeline, not output from our own work.
   </figcaption>
 </figure>
 

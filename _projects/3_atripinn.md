@@ -28,7 +28,7 @@ $$r(\mathbf{x},t) \;=\; \frac{\partial^{2} u}{\partial t^{2}} \;-\; c^{2}\,\nabl
 
 is evaluated at collocation points and enters the objective as a soft constraint alongside the data term:
 
-$$\mathcal{L} \;=\; \mathcal{L}_{\mathrm{data}} \;+\; \lambda\,\mathcal{L}_{\mathrm{phys}}, \qquad \mathcal{L}_{\mathrm{phys}} \;=\; \frac{1}{N}\sum_{i=1}^{N}\bigl| r(\mathbf{x}_{i},t_{i}) \bigr|^{2}$$
+$$\mathcal{L} \;=\; \mathcal{L}_{\mathrm{data}} \;+\; \lambda\,\mathcal{L}_{\mathrm{phys}}, \qquad \mathcal{L}_{\mathrm{phys}} \;=\; \frac{1}{N}\sum_{i=1}^{N}\bigl\lvert r(\mathbf{x}_{i},t_{i}) \bigr\rvert^{2}$$
 
 **Why that matters.** Three things follow. The residual can be evaluated **where there are no electrodes**, so the physics constrains the field in the gaps between them, which on a 16- or 36-channel grid is most of the domain. The derivatives come from automatic differentiation rather than finite differences across a sparse grid, so they stay exact rather than degrading with electrode spacing. And because the constraint is soft rather than hard, noisy clinical recordings never make the problem infeasible: $$\lambda$$ sets how far the physics is allowed to overrule the data.
 

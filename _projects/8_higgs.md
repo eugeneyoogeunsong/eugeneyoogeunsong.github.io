@@ -23,6 +23,26 @@ category: Physics
 
 If dark matter couples to the Standard Model at all, the Higgs boson is one of the few renormalisable doors available to it. That makes the invisible branching fraction of the Higgs a direct experimental handle on a sector we otherwise cannot see.
 
+**The portal, written down.** That the door is the Higgs is really an accident of dimensional analysis: $$|\Phi|^{2}$$ is the lowest-dimension gauge-singlet operator the Standard Model possesses, so it is the one thing a hidden sector can couple to without paying a price in powers of some high scale. For a real scalar dark matter candidate $$S$$,
+
+$$\mathcal{L}_{\mathrm{portal}} = -\frac{\lambda_{hS}}{2}\,S^{2}\,|\Phi|^{2}$$
+
+After electroweak symmetry breaking, $$\Phi \to (v+h)/\sqrt{2}$$, and the operator expands into a trilinear and a quartic term:
+
+$$\mathcal{L} \supset -\frac{\lambda_{hS}\,v}{2}\,h\,S^{2}\;-\;\frac{\lambda_{hS}}{4}\,h^{2}S^{2}$$
+
+The first is a direct $$h \to SS$$ vertex. If $$2m_{S} < m_{h}$$ that channel is open, and it is entirely invisible to the detector, with width
+
+$$\Gamma(h \to SS) \;=\; \frac{\lambda_{hS}^{2}\,v^{2}}{32\pi\,m_{h}}\sqrt{1-\frac{4m_{S}^{2}}{m_{h}^{2}}}$$
+
+which is what makes a bound on $$\mathrm{BR}(h \to \mathrm{inv})$$ translate directly into a bound on $$\lambda_{hS}$$.
+
+**And the production side.** Vector-boson fusion is driven by the gauge–Higgs coupling sitting inside the Higgs kinetic term $$|D_{\mu}\Phi|^{2}$$, which after symmetry breaking contains
+
+$$\mathcal{L} \supset \frac{2m_{W}^{2}}{v}\,h\,W^{+}_{\mu}W^{-\mu}\;+\;\frac{m_{Z}^{2}}{v}\,h\,Z_{\mu}Z^{\mu}$$
+
+That vertex is what allows $$qq \to qqh$$ to proceed by $$t$$-channel $$W/Z$$ exchange, and it is why the two spectator quarks emerge forward with large $$\Delta\eta_{jj}$$ and large $$m_{jj}$$: precisely the topology in the event display above, and the reason the channel remains searchable even when the Higgs itself decays to nothing.
+
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img
     src="{{ '/assets/img/projects/higgs-vbf.png' | relative_url }}"

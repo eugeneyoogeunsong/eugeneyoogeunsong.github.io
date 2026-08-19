@@ -27,6 +27,16 @@ category: Quantum Computing
 
 **My role.** I work part-time with their computational fluid dynamics (CFD) engineers - among them [Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/) - on augmenting and enhancing the CFD model, the classical solver that the quantum work is built around. My contribution is technical and methodological throughout: fluid-dynamics modelling, numerics, the quantum computing side, and ML engineering. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators, and cardiology itself is not where my own interest lies.
 
+**The governing equations.** Coronary blood flow is modelled as an incompressible fluid, so the solver is working on the incompressible Navier–Stokes equations:
+
+$$\rho\left(\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u}\cdot\nabla)\,\mathbf{u}\right) = -\nabla p + \mu\,\nabla^{2}\mathbf{u}$$
+
+$$\nabla\cdot\mathbf{u} = 0$$
+
+with $$\mathbf{u}$$ the velocity field, $$p$$ the pressure, $$\rho$$ the density and $$\mu$$ the dynamic viscosity. Term by term in the momentum equation: $$\rho\,\partial\mathbf{u}/\partial t$$ is unsteady inertia, which matters because coronary flow is pulsatile rather than steady; $$\rho(\mathbf{u}\cdot\nabla)\mathbf{u}$$ is convective inertia, the nonlinear term, and the source of most of the difficulty; $$-\nabla p$$ is the pressure gradient; $$\mu\nabla^{2}\mathbf{u}$$ is viscous diffusion. The second equation is mass conservation for an incompressible fluid.
+
+Two consequences follow, and they shape everything below. The clinical quantity is a **pressure ratio** across a stenosis, so the entire pipeline reduces to resolving $$\nabla p$$ faithfully. And because the convective term is nonlinear, Navier–Stokes is not a linear system that a quantum linear solver can be pointed at directly: the linear algebra only appears once the equations have been discretised and linearised. That is a large part of why the classical layer, rather than the quantum kernel, is where the accuracy is won or lost.
+
 **Why the classical layer is the interesting part.** In a CT-FFR pipeline the accuracy is not dominated by solver speed. It is dominated by three things around the solver: the segmentation of the coronary tree from the CT, the outlet boundary conditions where a whole downstream vasculature you cannot see is compressed into a lumped-parameter model, and the rheological choices - Newtonian or shear-thinning blood, rigid or compliant walls. Get those wrong and a solver a thousand times faster converges beautifully to the wrong number, sooner.
 
 That is the same problem I have been working on elsewhere. In [AtriPINN](/projects/3_atripinn/) the governing equation was never the hard part; the hard part was a sparse, noisy observation operator. Physics-informed methods are well suited to exactly that class of problem, because they let unknown boundary conditions and material parameters be _learned_ while the partial differential equation (PDE) is still enforced.

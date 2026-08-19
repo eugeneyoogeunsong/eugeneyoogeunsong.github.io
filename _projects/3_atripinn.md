@@ -18,6 +18,20 @@ Catheter ablation for atrial fibrillation depends on knowing where the arrhythmi
 - **Time-shifted kNN blending** to fuse neighbouring channels without smearing the wavefront;
 - **[Physics-informed neural network](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
 
+**The physics term in the loss.** The wave back-end treats the activation field $$u(\mathbf{x},t)$$ as obeying the second-order wave equation,
+
+$$\frac{\partial^{2} u}{\partial t^{2}} = c^{2}\,\nabla^{2} u$$
+
+with $$c$$ the local conduction velocity. The network is never asked to satisfy this exactly. Instead the residual
+
+$$r(\mathbf{x},t) \;=\; \frac{\partial^{2} u}{\partial t^{2}} \;-\; c^{2}\,\nabla^{2} u$$
+
+is evaluated at collocation points and enters the objective as a soft constraint alongside the data term:
+
+$$\mathcal{L} \;=\; \mathcal{L}_{\mathrm{data}} \;+\; \lambda\,\mathcal{L}_{\mathrm{phys}}, \qquad \mathcal{L}_{\mathrm{phys}} \;=\; \frac{1}{N}\sum_{i=1}^{N}\bigl| r(\mathbf{x}_{i},t_{i}) \bigr|^{2}$$
+
+**Why that matters.** Three things follow. The residual can be evaluated **where there are no electrodes**, so the physics constrains the field in the gaps between them, which on a 16- or 36-channel grid is most of the domain. The derivatives come from automatic differentiation rather than finite differences across a sparse grid, so they stay exact rather than degrading with electrode spacing. And because the constraint is soft rather than hard, noisy clinical recordings never make the problem infeasible: $$\lambda$$ sets how far the physics is allowed to overrule the data.
+
 The architecture is coordinate-agnostic with switchable physics back-ends, shipped through v1–v11.2 with CLI tooling. It will be published on my [GitHub](https://github.com/eugeneyoogeunsong) in 2027, after the paper submission.
 
 **Towards real-time deployment.** Alongside [Dr Alex Richards](https://profiles.imperial.ac.uk/a.richards) I am optimising the code in C++ so that it can run on Imperial's new [hx3](https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/service-offering/research-engagement/rcs-events/research-computing-showcase-day-2026/) research computing platform. The aim is speed: fast enough to be genuinely real-time, and therefore deployable by the team in theatre rather than only useful in analysis afterwards.

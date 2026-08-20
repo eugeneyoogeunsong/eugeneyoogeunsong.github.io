@@ -157,7 +157,7 @@ In 2026, four things occupy me. **First**, the neutrino physics: a variety of ph
 I have been based in the **London** area in the UK since **2023**, and before that I spent time in Spain and the Netherlands for various collaborations. For now I want to continue living in Europe and to make it home here.
 I care about building things that are reproducible, scalable, and principled, and I would rather re-examine a premise than optimise inside someone else's. If you are working on hard problems in neutrinos, in machine learning for physics, in quantum computing, or in markets, I would like to hear from you. Feel free to [reach out](/contact/)!
 
-**Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, most of the year I am physically in **London, UK** or in **LA, California**; [get in touch](/contact/) when you are in town.
+**Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, I am physically in **London, UK** most of the year, or occasionally in **LA, California** or **Chicago, Illinois**; [get in touch](/contact/) when you are in town!
 
 ---
 

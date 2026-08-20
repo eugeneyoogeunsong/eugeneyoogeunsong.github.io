@@ -105,6 +105,9 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
       <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a></span>
       <span class="role">Co-founder, Singularity Quantum · Distinguished Professor, University of Seoul</span>
     </li>
+    <li>
+      <span class="who"><a href="https://www.linkedin.com/in/blake-martin-05228817a/">Blake Martin</a></span>
+    </li>
   </ul>
 </div>
 
@@ -116,7 +119,7 @@ Blackett Laboratory, Department of Physics
 Imperial College London
 South Kensington Campus, London SW7 2AZ, United Kingdom
 
-I am physically in **London** (most of the year), or probably sometimes in **LA, California**. Do hit me up when you are in town.
+I am physically in **London** (most of the year), or sometimes in **LA, California** or **Chicago, Illinois**. Do hit me up when you are in town.
 
 {% include linkedin_badge.liquid %}
 

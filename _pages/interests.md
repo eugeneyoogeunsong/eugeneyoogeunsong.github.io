@@ -11,7 +11,7 @@ nav_order: 6
 
 A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time.
 
-I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a>: some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
+I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a> - some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the Alps are always my dream destination.
 

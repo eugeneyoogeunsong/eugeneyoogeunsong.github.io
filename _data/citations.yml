@@ -1,5 +1,23 @@
-# Auto-maintained by .github/workflows/update-citations.yml (runs Mon/Wed/Fri).
-# Pulls citation counts from your Google Scholar profile (scholar_userid in _data/socials.yml).
 metadata:
-  last_updated: ""
-papers: {}
+  last_updated: '2026-08-21'
+papers:
+  6pWw3eYAAAAJ:Tyk-4Ss8FVUC:
+    citations: 10
+    title: Enhanced gamma radiation towards the rotation axis from the immediate vicinity of extremely rotating black holes
+    year: '2017'
+  6pWw3eYAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: The Influence of the Shear on the Gravitational Waves in the Early Anisotropic Universe
+    year: '2016'
+  6pWw3eYAAAAJ:qjMakFHDy7sC:
+    citations: 2
+    title: Energy self-extraction of a Kerr black hole through its frame-dragged force-free magnetosphere
+    year: '2019'
+  6pWw3eYAAAAJ:u-x6o8ySG0sC:
+    citations: 8
+    title: High-energy and Very High Energy Emission from Stellar-mass Black Holes Moving in Gaseous Clouds
+    year: '2018'
+  6pWw3eYAAAAJ:zYLM7Y9cAGgC:
+    citations: 1
+    title: Electromagnetic Energy Extraction in Kerr Black Holes through Frame-Dragging Magnetospheres
+    year: '2024'

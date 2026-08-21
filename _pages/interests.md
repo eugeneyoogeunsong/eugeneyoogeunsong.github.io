@@ -69,7 +69,9 @@ What actually interests me is the layer underneath: whether type differences cor
 
 Beyond the frameworks, the pattern I recognise in myself is this. I value innovation and creativity, and I care little for tradition or custom. I'm future-focused, progress-driven, and have always chased a vision; I reason logically and try to judge things objectively rather than emotionally. I think in terms of forward movement, so I set milestones and benchmarks: partly to know where I am, partly so that the people I work with can see it too. My decisions are deliberate, and I want a course of action settled before I commit to it. Underneath all of that, knowledge, competence and mastery are the things I actually need. I need some utility in the research I do, and I steer away from theory that is ineffably abstract all the way down with nothing to touch the world. That said, speaking of abstract fields, I love the mathematics for its own sake too: topology, differential geometry, stochastic calculus. In philosophy it is existentialism and Stoicism that I love.
 
-Oh, and for those who wondered, my blood type is A (Rh+) - useful for blood donation. :) As for religion, I am **agnostic** rather than religious, at least for the moment. Politically I am a **centrist**.
+As for religion, I am **agnostic** rather than religious, at least for the moment. Politically I am a **centrist**.
+
+Oh, and for those who wondered, my blood type is A (Rh+) - useful for blood donation volunteering activities. :)
 
 ## Teaching and tutoring
 

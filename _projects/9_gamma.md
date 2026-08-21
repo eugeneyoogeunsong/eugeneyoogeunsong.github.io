@@ -26,7 +26,7 @@ Pulsars have a well-developed theory of particle acceleration in vacuum gaps: re
   </figcaption>
 </figure>
 
-**The gap, written down.** Under a stationary approximation, Gauss's law gives a Poisson equation for the non-corotational potential $$\Psi$$ in the three-dimensional magnetosphere,
+**The particle accelerator (also known as the "gap"), written down.** Under a stationary approximation, Gauss's law gives a Poisson equation for the non-corotational potential $$\Psi$$ in the three-dimensional magnetosphere,
 
 $$-\frac{1}{\sqrt{-g}}\,\partial_\mu\!\left[\frac{\sqrt{-g}}{\rho_w^{2}}\,g^{\mu\nu}g_{\varphi\varphi}\,\partial_\nu\Psi\right] = 4\pi\left(\rho - \rho_{\mathrm{GJ}}\right)$$
 

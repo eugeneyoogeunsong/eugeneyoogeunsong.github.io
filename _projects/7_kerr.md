@@ -26,6 +26,16 @@ A rotating black hole can lose energy without losing mass through the horizon. T
 
 **The reformulation.** Working with Dr Isao Okamoto, we divided the force-free magnetosphere at the **null surface**, the boundary where the electric field magnitude equals the magnetic one in the zero-angular-momentum-observer (ZAMO) frame, and showed that electromagnetic energy is _self_-extracted across it. Cast this way, the process is not the black hole doing work on a distant load, but the frame-dragged magnetosphere transporting energy outward across a surface with a clear physical meaning {% cite okamoto2019selfextraction %}.
 
+**Where the null surface comes from.** A ZAMO circulating with the frame-dragging angular velocity $$\omega$$ does not measure the field-line angular velocity $$\Omega_F$$ that a distant observer does, but
+
+$$\Omega_{ZF} \;=\; \Omega_F - \omega$$
+
+so Ferraro's law of isorotation fails in the ZAMO frame. The magnetosphere therefore splits at the surface $$S_N$$ on which
+
+$$\Omega_{ZF} = 0 \quad \Longleftrightarrow \quad \omega = \Omega_F \equiv \omega_N$$
+
+Outside $$S_N$$ the domain spins forward and inside it spins backward, so the poloidal electric field reverses and the Poynting flux with it, while the angular-momentum flux continues outward throughout. Energy extraction survives that reversal only when $$\Omega_F < \Omega_H$$, which the first and second laws of thermodynamics are what guarantee.
+
 **Extending it.** A second paper carried the ZAMO treatment further, examining how the frame-dragging magnetosphere mediates the outward transport in Kerr spacetime {% cite okamoto2024kerr %}.
 
 **Why it took six years.** This began during the pandemic as a remote collaboration and continued across three countries. The first preprint went through seven versions. Reformulating something the field already believes it understands is slower than adding a new result to it, and the argument has to be tighter, because the burden of proof sits entirely with you.

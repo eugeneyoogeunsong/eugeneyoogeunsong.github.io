@@ -27,6 +27,16 @@ The [Deep Underground Neutrino Experiment](https://www.dunescience.org/) will fi
 
 **Where my own work plugs in.** On the analysis side, Imperial leads **MaCh3**, the Bayesian oscillation-analysis framework used by the long-baseline group, with [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12) and others. That is the natural home for what I do: MaCh3 is where a reconstruction's uncertainty stops being a plot and becomes a term in the likelihood, and it is the point at which a systematics-aware network either earns its place or does not.
 
+**Where the uncertainty actually enters.** The fit is Bayesian: the posterior over oscillation and nuisance parameters $$\vec{\theta}$$ given data $$D$$ is
+
+$$P(\vec{\theta} \mid D) \;\propto\; P(D \mid \vec{\theta})\,P(\vec{\theta})$$
+
+and in practice one minimises the negative log-likelihood, a Poisson term over reconstructed-energy bins plus a Gaussian penalty carrying the prior covariance $$V$$ of the systematic parameters:
+
+$$-\log \mathcal{L} \;=\; \sum_{\mathrm{bins}}\left[\lambda(\vec{\theta}) - n + n\log\frac{n}{\lambda(\vec{\theta})}\right] \;+\; \frac{1}{2}\sum_{i,j}(\theta_i-\mu_i)\,V^{-1}_{ij}\,(\theta_j-\mu_j)$$
+
+That second sum is the whole argument for systematics-aware reconstruction: a network's uncertainty is only worth anything if it can be written into $$V$$, and the Near Detector is what shrinks it.
+
 **The framing.** The Near Detector is not merely a control detector. Rather, it is the constraint engine: it pins down the nuisance parameters that would otherwise dominate the measurement. The interesting problem is therefore not "how accurate is the reconstruction," but "how faithfully does the uncertainty on the reconstruction propagate through to the posterior on $$\delta_{CP}$$."
 
 **The principle I work under.** Machine learning should augment physical interpretation, never replace it. A network that improves resolution while hiding its own failure modes is a worse instrument than a slower method whose biases you can enumerate.

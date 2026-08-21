@@ -26,6 +26,16 @@ Pulsars have a well-developed theory of particle acceleration in vacuum gaps: re
   </figcaption>
 </figure>
 
+**The gap, written down.** Under a stationary approximation, Gauss's law gives a Poisson equation for the non-corotational potential $$\Psi$$ in the three-dimensional magnetosphere,
+
+$$-\frac{1}{\sqrt{-g}}\,\partial_\mu\!\left[\frac{\sqrt{-g}}{\rho_w^{2}}\,g^{\mu\nu}g_{\varphi\varphi}\,\partial_\nu\Psi\right] = 4\pi\left(\rho - \rho_{\mathrm{GJ}}\right)$$
+
+where the general-relativistic Goldreich–Julian charge density carries the frame-dragging frequency $$\omega \equiv -g_{t\varphi}/g_{\varphi\varphi}$$ explicitly:
+
+$$\rho_{\mathrm{GJ}} \equiv \frac{1}{4\pi\sqrt{-g}}\,\partial_\mu\!\left[\frac{\sqrt{-g}}{\rho_w^{2}}\,g^{\mu\nu}g_{\varphi\varphi}\left(\Omega_F - \omega\right)F_{\varphi\nu}\right]$$
+
+Wherever the real charge density $$\rho$$ departs from $$\rho_{\mathrm{GJ}}$$, an accelerating field $$E_\parallel = -\partial\Psi/\partial s$$ appears along the field line. The gap is the region where $$E_\parallel \neq 0$$, and it forms around the null-charge surface where $$\rho_{\mathrm{GJ}}$$ changes sign, a surface that exists only because of frame dragging.
+
 **The observational prediction.** The resulting gamma-ray flux is beamed towards the rotation axis, and it is strongly spin-dependent: it rises by more than an order of magnitude as the spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$. That makes it a testable statement for Fermi-LAT and CTA, not merely a theoretical curiosity; a detection would constrain the spin of the emitting object.
 
 **Stellar-mass black holes too.** Extending the same framework to a stellar-mass black hole traversing a dense gas cloud, we found that the pair cascade produces detectable very-high-energy emission if the hole is extremally rotating and within roughly 1 kpc {% cite hirotani2018stellar %}.

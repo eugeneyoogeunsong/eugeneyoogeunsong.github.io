@@ -26,6 +26,16 @@ Sagittarius (Sgr) A\* varies across the electromagnetic spectrum on timescales f
 
 **Method.** GRMHD simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.
 
+**Why the electrons need their own equation.** The plasma is collisionless, so electrons and ions do not share a temperature, and it is the electrons that radiate. Taking moments of the Vlasov equation for each species gives particle-number conservation together with a stress-energy balance coupled to the electromagnetic field,
+
+$$\nabla_\mu\!\left(\rho_k u^{\mu}_{k}\right) = 0, \qquad \nabla_\mu \tilde{T}^{\mu\nu}_{e} = -en\,u^{\mu}_{e}F_{\mu\nu}, \qquad \nabla_\mu \tilde{T}^{\mu\nu}_{i} = +en\,u^{\mu}_{i}F_{\mu\nu}$$
+
+and, after contracting with $$u_\nu$$, a separate entropy equation for each species:
+
+$$\rho T_e\,u^{\mu}\partial_\mu s_e = Q_e - \nabla_\mu q^{\mu}_{e} - a_\mu q^{\mu}_{e}, \qquad \rho T_i\,u^{\mu}\partial_\mu s_i = Q_i$$
+
+Everything contested sits in $$Q_e$$: how much of the dissipated energy the electrons receive. GRMHD does not determine it, which is why the heating prescription has to be chosen and then tested against observation.
+
 **Parameter space.** Magnetically arrested disc states across black hole spins $$a = -0.94$$ to $$+0.94$$, with three competing electron-heating prescriptions: R–$$\beta$$, turbulent heating, and magnetic reconnection.
 
 **Status.** Manuscript in preparation, targeting _MNRAS_, with co-authors including Dr Yosuke Mizuno and Dr Christian M. Fromm. Discussions with researchers from the [EHT (Event Horizon Telescope)](https://eventhorizontelescope.org/) collaboration informed the radiative-transfer setup {% cite song2026sgra %}.

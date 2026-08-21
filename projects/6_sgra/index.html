@@ -44,6 +44,71 @@
       linkSelf();
     }
   })();
+</script> <div class="li-badge-wrap" id="li-badge-wrap"> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge" rel="external nofollow noopener" target="_blank">Eugene (Yoogeun) Song</a> </div> </div> <style>
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+</style> <script>
+  // Runs during parse, so it lands before profile.js initialises.
+  (function () {
+    var badge = document.querySelector('#li-badge-wrap .LI-profile-badge');
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    badge.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script> <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer type="text/javascript"></script> <script>
+  // Repositioning only. Safe to run after the badge has rendered.
+  (function () {
+    var MOVE_BEFORE = "";
+    var BEFORE_HEADING = "";
+    var APPEND_TO = "";
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !APPEND_TO) return;
+
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
+
+    function reposition() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      var target = null;
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
+      if (!target && MOVE_BEFORE) {
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
+          if (target) break;
+        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
+        return;
+      }
+      if (APPEND_TO) {
+        var container = null;
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
+          if (container) break;
+        }
+        if (container) container.appendChild(wrap);
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", reposition);
+    } else {
+      reposition();
+    }
+  })();
 </script> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2026</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#9a9aae"> <div>In prep.</div> </abbr> </div> <div id="song2026sgra" class="col-sm-8"> <div class="title">Multi-wavelength variability of Sagittarius A* from GRMHD simulations with electron heating</div> <div class="author"> <em>Yoogeun Song</em>, <a href="https://profiles.ucl.ac.uk/26858-ziri-younsi" rel="external nofollow noopener" target="_blank">Ziri Younsi</a>, Yosuke Mizuno, <a href="https://profiles.ucl.ac.uk/10719-kinwah-wu" rel="external nofollow noopener" target="_blank">Kinwah Wu</a>, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '1 more author' ? 'Christian M. Fromm' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>Monthly Notices of the Royal Astronomical Society</em>. Work carried out at UCL/MSSL with Dr Ziri Younsi and Prof Kinwah Wu. , 2026 </div> <div class="periodical"> Draft in preparation </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="abstract hidden"> <p>General-relativistic magnetohydrodynamic (BHAC) simulations of magnetically arrested discs, post-processed with general-relativistic radiative transfer (BHOSS), are used to model the multi-wavelength variability of Sgr A*. We compare electron-heating prescriptions (R-beta, turbulent, and magnetic-reconnection heating) across black hole spins a = -0.94 to +0.94 and assess their observational signatures.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">song2026sgra</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Multi-wavelength variability of {Sagittarius A*} from {GRMHD} simulations with electron heating}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Song, Yoogeun and Younsi, Ziri and Mizuno, Yosuke and Wu, Kinwah and Fromm, Christian M.}</span><span class="p">,</span>

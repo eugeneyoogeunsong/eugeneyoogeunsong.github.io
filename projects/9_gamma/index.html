@@ -44,6 +44,71 @@
       linkSelf();
     }
   })();
+</script> <div class="li-badge-wrap" id="li-badge-wrap"> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge" rel="external nofollow noopener" target="_blank">Eugene (Yoogeun) Song</a> </div> </div> <style>
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+</style> <script>
+  // Runs during parse, so it lands before profile.js initialises.
+  (function () {
+    var badge = document.querySelector('#li-badge-wrap .LI-profile-badge');
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    badge.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script> <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer type="text/javascript"></script> <script>
+  // Repositioning only. Safe to run after the badge has rendered.
+  (function () {
+    var MOVE_BEFORE = "";
+    var BEFORE_HEADING = "";
+    var APPEND_TO = "";
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !APPEND_TO) return;
+
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
+
+    function reposition() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      var target = null;
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
+      if (!target && MOVE_BEFORE) {
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
+          if (target) break;
+        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
+        return;
+      }
+      if (APPEND_TO) {
+        var container = null;
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
+          if (container) break;
+        }
+        if (container) container.appendChild(wrap);
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", reposition);
+    } else {
+      reposition();
+    }
+  })();
 </script> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2018</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#312e81"> <a href="https://iopscience.iop.org/journal/0004-637X" rel="external nofollow noopener" target="_blank">ApJ</a> </abbr> </div> <div id="hirotani2018stellar" class="col-sm-8"> <div class="title">High-energy and Very High Energy Emission from Stellar-mass Black Holes Moving in Gaseous Clouds</div> <div class="author"> <a href="https://www.asiaa.sinica.edu.tw/people/cv.php?i=hirotani" rel="external nofollow noopener" target="_blank">Kouichi Hirotani</a>, <a href="https://hungyipu.wordpress.com/" rel="external nofollow noopener" target="_blank">Hung-Yi Pu</a>, S. Outmani, H. Huang, and <span class="more-authors" title="click to view 4 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '4 more authors' ? 'D. Kim, Yoogeun Song, Satoki Matsushita, Albert K. H. Kong' : '4 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">4 more authors</span> </div> <div class="periodical"> <em>The Astrophysical Journal</em>, 2018 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://doi.org/10.3847/1538-4357/aae47a" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> <a href="http://arxiv.org/abs/1809.09397" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://iopscience.iop.org/article/10.3847/1538-4357/aae47a" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="badges"> <span class="__dimensions_badge_embed__" data-doi="10.3847/1538-4357/aae47a" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span> </div> <div class="abstract hidden"> <p>Frame dragging near a rapidly rotating black hole reverses the sign of the Goldreich-Julian charge density, producing a magnetic-field-aligned electric field that accelerates electrons and positrons in opposite directions and drives a pair cascade. We show that a stellar-mass black hole moving through a gaseous cloud can emit a detectable very-high-energy flux if it is extremely rotating and within roughly 1 kpc.</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">hirotani2018stellar</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{High-energy and Very High Energy Emission from Stellar-mass Black Holes Moving in Gaseous Clouds}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Hirotani, Kouichi and Pu, Hung-Yi and Outmani, S. and Huang, H. and Kim, D. and Song, Yoogeun and Matsushita, Satoki and Kong, Albert K. H.}</span><span class="p">,</span>

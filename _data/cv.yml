@@ -303,7 +303,7 @@ cv:
       - name: Programming
         level: Expert
         icon: fa-solid fa-terminal
-        keywords: "Python, PyTorch, NumPy, SciPy, Pandas, Matplotlib, C, Fortran, Mathematica, CUDA/GPU, Git, CLI tooling, LaTeX"
+        keywords: "Python, PyTorch, NumPy, SciPy, Pandas, Matplotlib, C, Fortran, Mathematica, CUDA/GPU, Git, CLI tooling, LaTeX, Julia"
 
       - name: Methods
         level: Expert

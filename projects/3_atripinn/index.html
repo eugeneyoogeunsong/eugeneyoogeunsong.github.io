@@ -63,8 +63,9 @@
   (function () {
     var MOVE_BEFORE = "";
     var BEFORE_HEADING = "";
+    var AFTER_HEADING = "references";
     var APPEND_TO = "";
-    if (!MOVE_BEFORE && !BEFORE_HEADING && !APPEND_TO) return;
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !AFTER_HEADING && !APPEND_TO) return;
 
     function headingByText(text) {
       var want = text.trim().toLowerCase();
@@ -78,6 +79,19 @@
     function reposition() {
       var wrap = document.getElementById("li-badge-wrap");
       if (!wrap) return;
+
+      // "After" is handled first and separately: it appends to the heading's
+      // PARENT, so the badge lands below every sibling that follows the
+      // heading, i.e. below the whole reference list rather than just below
+      // the heading itself.
+      if (AFTER_HEADING) {
+        var h = headingByText(AFTER_HEADING);
+        if (h && h.parentNode) {
+          h.parentNode.appendChild(wrap);
+          return;
+        }
+        // No such heading on this page: leave the badge where the markdown put it.
+      }
 
       var target = null;
       if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);

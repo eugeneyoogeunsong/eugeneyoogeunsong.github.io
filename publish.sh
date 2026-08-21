@@ -32,6 +32,22 @@ echo "==> Committing"
 git add -A
 git commit -m "$MSG" || echo "    nothing new to commit"
 
+echo "==> Syncing with remote"
+# The update-citations workflow commits Google Scholar counts straight to main on
+# a schedule, so the remote is regularly one bot commit ahead of you. Without this
+# step the push below is rejected as non-fast-forward through no fault of yours.
+# --autostash covers anything Prettier left behind after the commit above.
+git fetch origin main
+if ! git rebase --autostash origin/main; then
+  echo
+  echo "    Rebase stopped on a conflict. Nothing is lost and nothing has been pushed."
+  echo "    Fix the files listed above, then:"
+  echo "      git add <files> && git rebase --continue && git push origin main"
+  echo "    Or back out entirely with:"
+  echo "      git rebase --abort"
+  exit 1
+fi
+
 echo "==> Pushing"
 git push origin main
 

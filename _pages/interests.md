@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Sports
 
-A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time.
+A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly.
 
 I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a> - some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
 

@@ -33,3 +33,5 @@ The terminal penalty $$-\alpha Q_T^{2}$$ is the point. Impact, inventory and the
 **A note on the dual track.** I do not treat physics and quant as a hedge against each other. They are the same discipline - build a model of a process you cannot fully observe, quantify what you do not know, and act on the result - applied to data that pays differently.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
+
+{% include linkedin_badge.liquid %}

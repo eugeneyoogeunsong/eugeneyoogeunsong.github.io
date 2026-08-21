@@ -42,3 +42,5 @@ That second sum is the whole argument for systematics-aware reconstruction: a ne
 **The principle I work under.** Machine learning should augment physical interpretation, never replace it. A network that improves resolution while hiding its own failure modes is a worse instrument than a slower method whose biases you can enumerate.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
+
+{% include linkedin_badge.liquid %}

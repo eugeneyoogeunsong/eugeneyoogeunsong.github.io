@@ -43,3 +43,5 @@ Wherever the real charge density $$\rho$$ departs from $$\rho_{\mathrm{GJ}}$$, a
 This work ran across the Korea Astronomy and Space Science Institute and the University of Science and Technology, and a visiting studentship at the Academia Sinica Institute of Astronomy and Astrophysics in Taipei. The 2017 paper was my first peer-reviewed first-author publication, at nineteen.
 
 {% include author_self_link.liquid %}
+
+{% include linkedin_badge.liquid %}

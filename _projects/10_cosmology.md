@@ -54,3 +54,5 @@ We derived the same pair of results for null congruences, where the $$\tfrac{1}{
 This was my earliest first-author preprint, written at eighteen.
 
 {% include author_self_link.liquid %}
+
+{% include linkedin_badge.liquid %}

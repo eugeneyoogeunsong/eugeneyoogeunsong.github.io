@@ -94,3 +94,5 @@ This work formed my Masters thesis at Imperial, which was awarded the highest gr
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
 
 {% include author_self_link.liquid %}
+
+{% include linkedin_badge.liquid %}

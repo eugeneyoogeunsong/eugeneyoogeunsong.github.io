@@ -41,3 +41,5 @@ Outside $$S_N$$ the domain spins forward and inside it spins backward, so the po
 **Why it took six years.** This began during the pandemic as a remote collaboration and continued across three countries. The first preprint went through seven versions. Reformulating something the field already believes it understands is slower than adding a new result to it, and the argument has to be tighter, because the burden of proof sits entirely with you.
 
 {% include author_self_link.liquid %}
+
+{% include linkedin_badge.liquid %}

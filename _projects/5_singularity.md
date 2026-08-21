@@ -49,3 +49,5 @@ That is the same problem I have been working on elsewhere. In [AtriPINN](/projec
 **And a coincidence.** One of Singularity Quantum's co-founders is Professor **[Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)**, in whose physics classes at the University of Seoul I sat for about a year in 2007, aged nine. It was through him, over 2007 and 2008, that I first learned quantum computing and quantum information. Nearly twenty years of doing physics later, the thread loops back.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
+
+{% include linkedin_badge.liquid %}

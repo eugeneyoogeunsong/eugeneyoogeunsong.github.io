@@ -17,6 +17,14 @@
         appends as the last child of the first match. For pages whose body the
         layout generates (the CV), where markdown position is not the bottom.
 
+    {% include linkedin_badge.liquid after_heading="references" %}
+        moves itself BELOW the whole section introduced by that heading, by
+        appending to the heading's parent. For project pages with
+        related_publications: true, where the gem emits the References list
+        after the page content and the badge would otherwise sit above it.
+        Structure-agnostic: it does not care how the reference list is marked
+        up, only which container the heading lives in.
+
   IMPORTANT, and the reason this file looks the way it does:
 
     profile.js must be a STATIC script tag. It renders the badge from its own
@@ -73,8 +81,9 @@
   (function () {
     var MOVE_BEFORE = {{ include.before | default: "" | jsonify }};
     var BEFORE_HEADING = {{ include.before_heading | default: "" | jsonify }};
+    var AFTER_HEADING = {{ include.after_heading | default: "" | jsonify }};
     var APPEND_TO = {{ include.append_to | default: "" | jsonify }};
-    if (!MOVE_BEFORE && !BEFORE_HEADING && !APPEND_TO) return;
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !AFTER_HEADING && !APPEND_TO) return;
 
     function headingByText(text) {
       var want = text.trim().toLowerCase();
@@ -88,6 +97,19 @@
     function reposition() {
       var wrap = document.getElementById("li-badge-wrap");
       if (!wrap) return;
+
+      // "After" is handled first and separately: it appends to the heading's
+      // PARENT, so the badge lands below every sibling that follows the
+      // heading, i.e. below the whole reference list rather than just below
+      // the heading itself.
+      if (AFTER_HEADING) {
+        var h = headingByText(AFTER_HEADING);
+        if (h && h.parentNode) {
+          h.parentNode.appendChild(wrap);
+          return;
+        }
+        // No such heading on this page: leave the badge where the markdown put it.
+      }
 
       var target = null;
       if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);

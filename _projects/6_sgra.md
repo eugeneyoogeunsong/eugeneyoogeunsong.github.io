@@ -44,4 +44,4 @@ _Work in progress; outputs will appear here and on [Publications](/publications/
 
 {% include author_self_link.liquid %}
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_badge.liquid after_heading="references" %}

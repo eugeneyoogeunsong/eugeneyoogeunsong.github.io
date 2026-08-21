@@ -42,4 +42,4 @@ Outside $$S_N$$ the domain spins forward and inside it spins backward, so the po
 
 {% include author_self_link.liquid %}
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_badge.liquid after_heading="references" %}

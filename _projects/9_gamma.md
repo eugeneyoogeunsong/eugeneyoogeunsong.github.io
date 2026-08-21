@@ -44,4 +44,4 @@ This work ran across the Korea Astronomy and Space Science Institute and the Uni
 
 {% include author_self_link.liquid %}
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_badge.liquid after_heading="references" %}

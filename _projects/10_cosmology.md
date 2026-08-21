@@ -8,7 +8,7 @@ category: Astrophysics
 related_publications: true
 ---
 
-**[KASI](https://www.kasi.re.kr/eng/index) & [UST](https://ust.ac.kr/eng/) · 2013 – 2015 · with Prof Seok Jae Park, and with [Prof Yong Seung Cho](https://myr.ewha.ac.kr/matheng/people/professors-emeritus.do?mode=view&articleNo=609449&title=Yong+Seung+Cho) of Ewha Womans University**
+**[KASI](https://www.kasi.re.kr/eng/index) & [UST](https://ust.ac.kr/eng/) · 2013 – 2015 · with Prof Seok Jae Park, and with Prof Yong Seung Cho of Ewha Womans University**
 
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img
@@ -55,4 +55,4 @@ This was my earliest first-author preprint, written at eighteen.
 
 {% include author_self_link.liquid %}
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_badge.liquid after_heading="references" %}

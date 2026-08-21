@@ -58,6 +58,32 @@ nav_order: 7
     transform: translateY(-3px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   }
+  /* The "And many more" tile. Classes and tags only, so PurgeCSS keeps it. */
+  .mo-card-more {
+    justify-content: center;
+    text-align: center;
+    border-style: dashed;
+  }
+  .mo-card-more .mo-more-n {
+    display: block;
+    font-size: 3.1rem;
+    font-weight: 800;
+    line-height: 1.05;
+    color: var(--global-theme-color);
+    letter-spacing: -0.02em;
+  }
+  .mo-card-more .mo-more-label {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 0.15rem;
+    color: var(--global-text-color);
+  }
+  .mo-card-more p {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
   .mo-card-body { padding: 1.15rem 1.25rem 1.25rem; flex: 1 1 auto; }
   .mo-meta {
     display: flex;
@@ -151,7 +177,7 @@ nav_order: 7
   }
 </style>
 
-I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well.
+I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well. I am always happy to share my journey.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>
@@ -169,7 +195,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">SBS</span><span>October 2018</span></div>
       <h3>SBS Special</h3>
-      <p>A documentary on my life in academia, filmed immediately before I enlisted in the Republic of Korea Army.</p>
+      <p>A documentary on my journey in academia, filmed immediately before I enlisted in the Republic of Korea Army.</p>
       <div class="mo-links">
         <a href="https://programs.sbs.co.kr/culture/sbsspecial/vod/53591/22000301305" target="_blank" rel="noopener">Watch</a>
         <a href="https://www.youtube.com/watch?v=PKrJPFN0Wt0" target="_blank" rel="noopener">YouTube teaser</a>
@@ -209,6 +235,14 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
       <div class="mo-links">
         <a href="https://www.joynews24.com/view/135927" target="_blank" rel="noopener">Article</a>
       </div>
+    </div>
+  </div>
+
+  <div class="mo-card mo-card-more">
+    <div class="mo-card-body">
+      <span class="mo-more-n">500+</span>
+      <span class="mo-more-label">And many more</span>
+      <p>Two decades of television, radio and print coverage across Korea and Japan. The cards above are the ones worth watching; the archive below is a selection of the rest.</p>
     </div>
   </div>
 

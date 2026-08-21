@@ -43,6 +43,8 @@ My research has moved across general relativity, cosmology, high-energy astrophy
 
 **A part-time collaboration with [Singularity Quantum](https://singularityquantum.com/), working with their CFD engineers.**
 
+**Where this one started.** Around 2007 and 2008 I became obsessed with quantum information and quantum computing, and the interest never went away: it has run underneath everything I have done in academia since, which is a large part of why this collaboration appealed to me.
+
 The company is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR**: fractional flow reserve (FFR) derived from a CT scan. FFR is the pressure ratio a cardiologist uses to decide whether a coronary stenosis warrants intervention, from a CT scan rather than from a catheter. Done well, a simulation replaces an invasive procedure.
 
 **What I work on.** Augmenting and enhancing the classical CFD model that the quantum work is built around, and the hybrid layer that surrounds the quantum kernel. My contribution here is technical and methodological throughout: fluid-dynamics modelling, numerics, the underlying physics, and ML engineering. As above, the clinical side is not mine and I make no claim to it; what interests me is the modelling problem.

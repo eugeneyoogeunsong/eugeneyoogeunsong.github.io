@@ -273,7 +273,9 @@ Since 2004, my journey & work have been documented across television, radio and 
 
 I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside. I have given talks many times at science museums, symposia and expos.
 
-Two collaborations I would especially like to make happen: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
+Two collaborations I would especially like to make happen in London: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
+
+You can also get in touch with [Imperial's outreach activities](https://www.imperial.ac.uk/physics/engage-with-us/outreach/) directly. Imperial physics professors sometimes film documentaries and take part in radio, podcasts and so on, and I would like to be added in: if you are one of the people responsible, <a href="/contact/" class="plain-link">reach out</a>!
 
 For enquiries, see [Contact](/contact/).
 

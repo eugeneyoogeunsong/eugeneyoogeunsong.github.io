@@ -69,7 +69,7 @@ I hold a [Securities Education Certificate](https://investmentsoc.com/SEC) (Dist
 
 ---
 
-## [Earlier work: relativity, cosmology, black holes](/projects/){:.section-link}
+## [Earlier work: relativity, cosmology, black holes](https://yoogeunsong.com/projects/#Astrophysics){:.section-link}
 
 [**Black hole magnetospheres.**](/projects/9_gamma/) Applying pulsar outer-gap theory to Kerr black holes, I showed that a lepton accelerator arises near the event horizon as a consequence of frame dragging, and that the resulting gamma-ray flux is beamed along the rotation axis and enhanced by more than an order of magnitude as spin increases from $$a = 0.90M$$ to $$a = 0.9999M$$, with concrete implications for [Fermi-LAT](https://fermi.gsfc.nasa.gov/) and [CTA](https://www.ctao.org/) detectability ([_MNRAS Letters_ **471**, L135](https://academic.oup.com/mnrasl/article/471/1/L135/4036899)). Extending the same framework to a stellar-mass black hole moving through a dense gas cloud gave a detectable very-high-energy signature for an extremally rotating hole within roughly 1 kpc ([_ApJ_ **867**, 120](https://iopscience.iop.org/article/10.3847/1538-4357/aae47a)).
 

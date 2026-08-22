@@ -4,7 +4,7 @@ title: DUNE - Near Detector reconstruction
 description: Systematics-aware ML reconstruction and MCMC inference for precision neutrino oscillation measurements.
 img: assets/img/projects/dune.jpg
 importance: 1
-category: Physics
+category: Particle Physics
 ---
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi), [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12), [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**

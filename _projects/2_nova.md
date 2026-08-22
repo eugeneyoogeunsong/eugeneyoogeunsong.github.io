@@ -4,7 +4,7 @@ title: NOvA - oscillations with data on the ground
 description: Electron-neutrino appearance and muon-neutrino disappearance on Fermilab's running long-baseline experiment.
 img: assets/img/projects/nova.jpg
 importance: 2
-category: Physics
+category: Particle Physics
 ---
 
 **[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**

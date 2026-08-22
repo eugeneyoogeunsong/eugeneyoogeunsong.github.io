@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: "Three tracks, one method: inference under uncertainty."
+description: "Multiple tracks, one method: inference under uncertainty."
 nav: true
 nav_order: 2
 toc:

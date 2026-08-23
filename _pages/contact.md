@@ -103,7 +103,7 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
   <ul class="refs">
     <li>
       <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/">Prof. Doyeol (David) Ahn</a></span>
-      <span class="role">Co-founder & CEO, Singularity Quantum · Distinguished Professor, University of Seoul</span>
+      <span class="role">Co-founder & CEO, Singularity Quantum</span>
     </li>
     <li>
       <span class="who"><a href="https://www.linkedin.com/in/blake-martin-05228817a/">Blake Martin</a></span>

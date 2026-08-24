@@ -65,7 +65,7 @@ From October 2025 to August 2026 I ran an independent quantitative research prac
 
 The toolkit was the one I already had: stochastic control (HJB), Monte Carlo methods, time-series modelling, Bayesian inference, and physics-inspired signal/noise separation. The discipline is the one physics teaches: take structural constraints seriously. Market impact, inventory, liquidity and latency are not frictions to be assumed away; they are the boundary conditions, and a strategy that ignores them is a strategy that has not been specified.
 
-I hold a [Securities Education Certificate](https://investmentsoc.com/SEC) (Distinction) and completed the [Finance Accelerator](https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf) in London; I am a member of Imperial's [Algorithmic Trading](https://algosoc.com/) and [Investment](https://investmentsoc.com/) societies.
+I hold a [Securities Education Certificate](https://yoogeunsong.com/assets/pdf/securities-education-certificate.pdf) (Distinction) and completed the [Finance Accelerator](https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf) in London; I am a member of Imperial's [Algorithmic Trading](https://algosoc.com/) and [Investment](https://investmentsoc.com/) societies.
 
 ---
 

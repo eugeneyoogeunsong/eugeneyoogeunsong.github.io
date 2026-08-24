@@ -57,7 +57,7 @@ On television, I like _Suits_ (US) and _Black Mirror_.
 
 I love travelling, and I love the part of it that is unfamiliar: new cultures, and places I have no map for.
 
-Practically, almost everywhere is open to me. I hold citizenship of the _Republic of Korea_, ranked joint _2nd globally_ for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index/ranking), with visa-free access to 188 destinations. It is the only passport I hold, at least for now - this may change in the future.
+Practically, almost everywhere is open to me. I hold citizenship of the _Republic of Korea_, ranked joint _2nd globally_ for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now - this may change in the future.
 
 I have been to the United States many times, mostly around Los Angeles, New York and Boston, and I generally have a real fondness for the USA: the can-do attitude, the optimism, and a work culture that takes ambition seriously. On the other hand, Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. Part of the pull is the languages, and I absolutely love European languages: I practised my French deliberately so that I could actually freely talk to people when I got there. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (in 2018), in Taiwan (2017–2018), and now in the UK (2023–present).
 

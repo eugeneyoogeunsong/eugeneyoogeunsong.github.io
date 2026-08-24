@@ -69,11 +69,13 @@ cv:
         studyType: Integrated MSc + PhD (Coursework Completed)
         start_date: 2009-02
         end_date: 2018-08
+        score: "4.14 / 4.5"
         highlights:
           - "Entered the integrated graduate programme at **age 11**; completed PhD-level coursework in February 2013, at **age 15**."
-          - "Advised by Dr Seok Jae Park, on relativistic cosmology and high-energy emission near black hole magnetospheres."
+          - "From 2013 to 2018, conducted graduate-level research on relativistic cosmology and high-energy astrophysics, advised by Dr Seok Jae Park."
           - "Visiting student at the Academia Sinica Institute of Astronomy and Astrophysics (2017–2018), working with Dr Kouichi Hirotani and Dr Satoki Matsushita: two peer-reviewed papers, [Song et al. (2017), *MNRAS Letters*](https://academic.oup.com/mnrasl/article/471/1/L135/4036899) and [Hirotani et al. (2018), *ApJ*](https://iopscience.iop.org/article/10.3847/1538-4357/aae47a)."
           - "Four papers authored in total during this period, across cosmology and high-energy astrophysics; all available on arXiv."
+          - "Funded throughout by the government-established *Song Yoo-geun Project* (송유근 프로젝트), and regularly engaged in science communication and media outreach across Korea."
 
       - institution: National Institute for Lifelong Education (NILE)
         location: "Republic of Korea"
@@ -84,8 +86,8 @@ cv:
         end_date: 2009-02
         score: "4.5 / 4.5"
         highlights:
-          - "Transferred here from the Physics programme at Inha University to read Computer Science."
-          - "Earned the Bachelor's degree in 2009 at **age 11**, through NILE's Academic Credit Bank System: a record that remains unmatched."
+          - "Read Computer Science through NILE's Academic Credit Bank System; credits earned at Inha University were formally transferred and recognised here."
+          - "Graduated in 2009 at **age 11**, a milestone never previously achieved in Korea, and recognised the same year by the National Assembly's Special Award (특별상)."
 
       - institution: Inha University
         location: "Incheon,<br>Republic of Korea"
@@ -96,25 +98,26 @@ cv:
         end_date: 2009-02
         score: "3.89 / 4.5"
         highlights:
-          - "Admitted in October 2005 at **age 7**, a national record, with coursework beginning in February 2006."
-          - "Transferred shortly afterwards to the Computer Science programme at NILE, where the degree was completed."
+          - "Admitted to the Department of Physics in October 2005 as **Korea's youngest-ever undergraduate, at age 7**, with coursework beginning in February 2006."
+          - "Held a full scholarship and a monthly subsidy from Inha throughout."
+          - "Completed first-year Physics, then transferred to the Computer Science programme at NILE, where the credits were recognised and the degree completed."
 
     Experience:
-      - company: Imperial College London
-        position: Graduate Researcher
+      - company: '<a href="https://www.imperial.ac.uk/">Imperial College London</a>'
+        position: '<a href="https://yoogeunsong.com/research/#neutrinos-and-beyond-standard-model-bsm-physics">Graduate Researcher</a>'
         location: "London Area,<br>United Kingdom"
         start_date: 2026
         highlights:
-          - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations - DUNE (Deep Underground Neutrino Experiment) and NOvA (NuMI Off-axis νe Appearance) programs - under the supervision of Dr Linda Cremonesi. On NOvA I work on a variety of physics analyses."
+          - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations - [DUNE](/projects/1_dune/) (Deep Underground Neutrino Experiment) and [NOvA](/projects/2_nova/) (NuMI Off-axis νe Appearance) programs - under the supervision of [Dr Linda Cremonesi](https://www.linkedin.com/in/linda-cremonesi/). On NOvA I work on a variety of physics analyses."
 
-      - company: Imperial College London
-        position: Graduate Researcher
+      - company: '<a href="https://www.imperial.ac.uk/">Imperial College London</a>'
+        position: '<a href="https://yoogeunsong.com/research/#machine-learning-for-physics-and-medical-applications">Graduate Researcher</a>'
         location: "London Area,<br>United Kingdom"
         start_date: 2025-06
         highlights:
           - "I'm conducting cross-disciplinary research by fusing particle physics-style modelling, Machine Learning (ML), and bioengineering to decode atrial fibrillation (Afib), using spatiotemporal reconstruction and data-driven simulations to map Afib wave dynamics and reveal the underlying electrical mechanisms. To do so, my primary focus has been on utilising and implementing various Physics-Informed Neural Networks (PINN) and to architect my own framework."
-          - "For my current PINN research project, I'm collaborating with Prof. David Colling (Imperial HEP group) and Dr. Nick Linton (Imperial Department of Bioengineering)."
-          - 'Built end-to-end ML code "AtriPINN" (PyTorch): modular Wave and Eikonal and EP-PINNs backends with one shared data → train → viz pipeline.'
+          - "For my current PINN research project, I'm collaborating with [Prof. David Colling](https://profiles.imperial.ac.uk/d.colling) ([Imperial HEP group](https://www.imperial.ac.uk/high-energy-physics/)) and [Dr. Nick Linton](https://profiles.imperial.ac.uk/nick.linton) (Imperial Department of Bioengineering)."
+          - 'Built end-to-end ML code ["AtriPINN"](/projects/3_atripinn/) (PyTorch): modular Wave and Eikonal and EP-PINNs backends with one shared data → train → viz pipeline.'
           - "Delivered real-time mapping: ~78 ms end-to-end latency, ~1.6 mm RMS localisation error (sub-2 mm target), ≥ 0.99 channel cross-correlation."
           - "Software-engineered time-shifted kNN blending for inter-electrode signals + differentiable cross-correlation objective function for physiologic timing consistency."
           - "Implemented local plane-fit velocity extraction and advection-based velocity fields, and implemented coordinate-agnostic features (Cartesian, cylindrical, spherical) into my code AtriPINN."
@@ -123,30 +126,30 @@ cv:
           - "Currently producing reproducible releases (configs, sample data, animations) to support clinical translation and benchmarking."
           - "Tech used: Python (PyTorch), NumPy, SciPy, Matplotlib, CUDA/GPU, CLI tooling, Git."
 
-      - company: Imperial College London
-        position: Master's Studies
+      - company: '<a href="https://www.imperial.ac.uk/">Imperial College London</a>'
+        position: "Master's Studies"
         location: "London Area,<br>United Kingdom"
         start_date: 2024-09
         end_date: 2025-09
         highlights:
-          - "Completed my Master's studies at the Department of Physics at Imperial College London, which has recently been ranked #2 globally in the QS World University Rankings 2025 and 2026."
-          - "Led a 3-month (Jan–Mar 2025) advanced literature review (Grade: A) under the supervision of Prof. Alexander Tapper (Imperial HEP group) on Higgs bosons as potential portals to dark matter; critically analysed high-impact ATLAS and CMS collaboration papers to map current research frontiers."
-          - "(Mar–Apr 2025) Built an interactive simulation framework (Grade: A) in Wolfram Mathematica to model time-dependent quantum wave dynamics using finite-difference time-domain methods, as part of a numerics-intensive physics module taught and assessed by Dr. Jaroslaw Pasternak (Imperial HEP group)."
-          - 'My MSc Project Thesis titled "Physics-Informed Machine Learning for Real-Time Afib Mapping on Grid Electrograms" was awarded the highest grade.'
+          - "Completed my Master's studies at the [Department of Physics](https://www.imperial.ac.uk/physics/) at [Imperial College London](https://www.imperial.ac.uk/), which has recently been ranked [**#2 globally**](https://www.imperial.ac.uk/about/introducing-imperial/league-tables/) in the QS World University Rankings from 2024-25 to 2026-27."
+          - "Led a 3-month (Jan–Mar 2025) advanced literature review (Grade: A) under the supervision of [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper) ([Imperial HEP group](https://www.imperial.ac.uk/high-energy-physics/)) on [Higgs bosons as potential portals to dark matter](/projects/8_higgs/); critically analysed high-impact ATLAS and CMS collaboration papers to map current research frontiers."
+          - "(Mar–Apr 2025) Built an [interactive simulation framework](https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/comp-phys-mini-project) (Grade: A) in Wolfram Mathematica to model time-dependent quantum wave dynamics using finite-difference time-domain methods, as part of a numerics-intensive physics module taught and assessed by [Dr. Jaroslaw Pasternak](https://profiles.imperial.ac.uk/j.pasternak) ([Imperial HEP group](https://www.imperial.ac.uk/high-energy-physics/))."
+          - 'My MSc Project Thesis titled ["Physics-Informed Machine Learning for Real-Time Afib Mapping on Grid Electrograms"](/projects/3_atripinn/), done with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), was awarded the highest grade.'
 
-      - company: Imperial College Algorithmic Trading Society
+      - company: '<a href="https://algosoc.com/">Imperial College Algorithmic Trading Society</a>'
         position: Member
         location: "London Area,<br>United Kingdom"
         start_date: 2024-10
         highlights:
           - "Attended the Algorithmic Trading (Algo) courses organised by the IC Algorithmic Trading Society."
 
-      - company: Imperial College Investment Society
+      - company: '<a href="https://investmentsoc.com/">Imperial College Investment Society</a>'
         position: Member
         location: "London Area,<br>United Kingdom"
         start_date: 2024-10
         highlights:
-          - "Awarded the Securities Education Certificate with Distinction from the IC Investment Society."
+          - "Awarded the [Securities Education Certificate](https://yoogeunsong.com/assets/pdf/securities-education-certificate.pdf) with Distinction from the IC Investment Society."
 
       - company: Independent
         position: Quantitative Researcher
@@ -159,16 +162,16 @@ cv:
           - "Study agent adaptation and regime shifts without overfitting."
           - "Physics-inspired approach to separating signal from noise."
 
-      - company: UCL
+      - company: '<a href="https://www.ucl.ac.uk/">UCL</a>'
         position: Visiting Researcher
         location: "London Area,<br>United Kingdom"
         start_date: 2023-07
         end_date: 2024-04
         highlights:
           - "Invited as a visiting researcher at UCL in 2023."
-          - "Collaborated with Dr. Ziri Younsi and Prof. Kinwah Wu."
+          - "Collaborated with [Dr. Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof. Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu)."
           - "Modelled the multi-wavelength variability of Sagittarius A* by integrating general relativistic magnetohydrodynamic (GRMHD) simulations with general relativistic radiative transfer (GRRT) calculations: publication in preparation."
-          - "Connected with and held Zoom discussions with Event Horizon Telescope (EHT) collaboration's key researchers, including Dr. Christian M. Fromm and Dr. Koushik Chatterjee (UMD)."
+          - "Connected with and held Zoom discussions with Event Horizon Telescope (EHT) collaboration's key researchers, including [Dr. Christian M. Fromm](https://www.physik.uni-wuerzburg.de/astro/mitarbeiter/ag-fromm/) and Dr. Koushik Chatterjee (UMD)."
           - "Gained hands-on experience with high-performance computing, data visualisation, and interdisciplinary teamwork in a leading astrophysics environment."
 
       - company: UCL
@@ -177,7 +180,7 @@ cv:
         start_date: 2023-01
         end_date: 2023-06
         highlights:
-          - "Collaborated remotely (Jan–Jun 2023) with Dr. Ziri Younsi via weekly Zoom sessions to design GRMHD modelling strategies for Sagittarius A* and M87*, and the subsequent radiative transfer post-processing."
+          - "Collaborated remotely (Jan–Jun 2023) with [Dr. Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) via weekly Zoom sessions to design GRMHD modelling strategies for Sagittarius A* and M87*, and the subsequent radiative transfer post-processing."
           - "Performed a comprehensive literature review of the Event Horizon Telescope (EHT) collaboration's relevant works on Sagittarius A* and M87*."
           - "Invited on-site (Jul 2023–Apr 2024) to implement and optimise GRMHD simulations integrated with GRRT codes, both in Fortran and Python."
 
@@ -187,7 +190,7 @@ cv:
         start_date: 2020-08
         end_date: 2022-12
         highlights:
-          - "During the COVID-19 pandemic, to maintain research momentum despite pandemic-induced changes, I collaborated remotely (2020–2022) with Dr. Isao Okamoto (NAOJ) to develop modified Blandford–Znajek energy-extraction models for Kerr black holes (see arXiv:1904.11978 and 2401.12684)."
+          - "During the COVID-19 pandemic, to maintain research momentum despite pandemic-induced changes, I collaborated remotely (2020–2022) with Dr. Isao Okamoto (NAOJ) to develop modified Blandford–Znajek energy-extraction models for Kerr black holes (see [arXiv:1904.11978](https://arxiv.org/abs/1904.11978) and [2401.12684](https://arxiv.org/abs/2401.12684))."
           - "I also attended multiple conferences across Europe, including key events in Spain, e.g. EAS 2022."
           - "Reconnected and held discussions with various researchers in Europe while I was there, including Prof. Francisca Kemper, Dr. Frank M. Rieger, Dr. Benoît Cerutti, Prof. Bożena Czerny, Dr. Oliver Porth, and Dr. Ziri Younsi."
           - "Mainly travelled to the Netherlands and Spain to expand my professional network and cultural insights."
@@ -213,7 +216,7 @@ cv:
         end_date: 2018-08
         highlights:
           - "Conducted advanced research on relativistic cosmology and high-energy cosmic ray emissions from the immediate vicinity of the magnetospheres of compact objects (e.g. black holes)."
-          - "In my cosmology work, I derived Raychaudhuri-type and shear-evolution equations for timelike and null geodesic congruences in the Bianchi I anisotropic early Universe model, hinting at how primordial shear can imprint observable anisotropies on the gravitational-wave background (see arXiv:1604.07639)."
+          - "In my cosmology work, I derived Raychaudhuri-type and shear-evolution equations for timelike and null geodesic congruences in the Bianchi I anisotropic early Universe model, hinting at how primordial shear can imprint observable anisotropies on the gravitational-wave background (see [arXiv:1604.07639](https://arxiv.org/abs/1604.07639))."
           - "Authored 4 academic papers in total whilst there; all accessible via arXiv."
 
       - company: National Astronomical Observatory of Japan (NAOJ)
@@ -223,8 +226,8 @@ cv:
         end_date: 2018-12
         highlights:
           - "Invited by Dr. Isao Okamoto for a four-month visiting research position to work on a modified Blandford–Znajek mechanism for electromagnetic energy extraction from Kerr black holes."
-          - "Developed a zero-angular-momentum-observer (ZAMO) treatment in which the force-free magnetosphere is divided at the null surface and electromagnetic energy is shown to be self-extracted across it (see arXiv:1904.11978)."
-          - "Continued the collaboration remotely with Dr. Okamoto until the end of 2022, resulting in two arXiv preprints (1904.11978 and 2401.12684)."
+          - "Developed a zero-angular-momentum-observer (ZAMO) treatment in which the force-free magnetosphere is divided at the null surface and electromagnetic energy is shown to be self-extracted across it (see [arXiv:1904.11978](https://arxiv.org/abs/1904.11978))."
+          - "Continued the collaboration remotely with Dr. Okamoto until the end of 2022, resulting in two arXiv preprints ([1904.11978](https://arxiv.org/abs/1904.11978) and [2401.12684](https://arxiv.org/abs/2401.12684))."
 
       - company: Academia Sinica, Taiwan
         position: Visiting Student
@@ -233,8 +236,8 @@ cv:
         end_date: 2018-05
         highlights:
           - "Invited as a visiting student (Apr 2017 – May 2018) at the Academia Sinica Institute of Astronomy and Astrophysics, collaborating with Dr. Kouichi Hirotani and Dr. Satoki Matsushita."
-          - "In my high-energy astrophysics work, I performed a semi-analytic modelling of the acceleration of electrons and positrons in magnetic-field-aligned electric fields around accreting black holes (see Song et al. 2017, MNRAS)."
-          - "Investigated gamma-ray emissions produced by stellar-mass black holes interacting with dense molecular clouds (see Hirotani et al. 2018, ApJ)."
+          - "In my high-energy astrophysics work, I performed a semi-analytic modelling of the acceleration of electrons and positrons in magnetic-field-aligned electric fields around accreting black holes (see [**Song et al. 2017, MNRAS**](https://academic.oup.com/mnrasl/article/471/1/L135/4036899)). I wrote this at the **age of 19**."
+          - "Investigated gamma-ray emissions produced by stellar-mass black holes interacting with dense molecular clouds (see [**Hirotani et al. 2018, ApJ**](https://iopscience.iop.org/article/10.3847/1538-4357/aae47a))."
           - "Published 2 peer-reviewed academic papers detailing these works in Monthly Notices of the Royal Astronomical Society (MNRAS) and The Astrophysical Journal (ApJ)."
 
       - company: University of Science and Technology & Korea Astronomy and Space Science Institute
@@ -243,8 +246,8 @@ cv:
         start_date: 2009-02
         end_date: 2018-08
         highlights:
-          - "In Feb 2009, at the remarkable age of 11, I joined the integrative (Master's + PhD) program at the Korea University of Science and Technology (UST), based at the Korea Astronomy and Space Science Institute (KASI) campus."
-          - "My PhD coursework was completed in February 2013 (age 15)."
+          - "In Feb **2009**, at the remarkable **age of 11**, I joined the integrative (Master's + PhD) program at the Korea University of Science and Technology (UST), based at the Korea Astronomy and Space Science Institute (KASI) campus."
+          - "My PhD coursework was completed in **February 2013** (**age 15**)."
 
     Awards:
       - title: Special Grade Warrior (특급전사) and Exemplary Army Driver (모범 운전병)
@@ -252,7 +255,7 @@ cv:
           - "Republic of Korea Army"
         date: 2020
         awarder: Republic of Korea Army
-        summary: Awarded for top-tier performance across physical, marksmanship and duty standards during national service.
+        summary: Awarded in **2020** for top-tier performance across physical, marksmanship and duty standards during national service.
 
       - title: Special Award (특별상)
         authors:
@@ -263,8 +266,8 @@ cv:
         summary: >-
           Issued by [The National Assembly of the Republic of Korea](https://korea.assembly.go.kr:447/),
           in association with the [National Institute for Lifelong Education (NILE)](https://www.nile.or.kr/index.do?lang=en).
-          Awarded in recognition of graduating with a Bachelor of Science in Computer Science at the
-          exceptional **age of 11**, marking a nationally celebrated academic milestone.
+          Awarded in **2009**, in recognition of graduating with a Bachelor of Science in Computer Science
+          at the exceptional **age of 11**, marking a nationally celebrated academic milestone.
 
       - title: Song Yoo-geun Project — National Talent Development Initiative
         authors:
@@ -272,11 +275,11 @@ cv:
         date: 2009
         awarder: Government of the Republic of Korea
         summary: >-
-          Started in 2009, a national initiative named in my honour (“송유근 프로젝트”) by the
+          Started in **2009**, a national initiative named in my honour (“송유근 프로젝트”) by the
           Government of the Republic of Korea to support the advancement of exceptional talent.
           Through the programme I received government funding for my graduate studies and research
           at the Korea Astronomy and Space Science Institute (KASI) and the University of Science
-          and Technology (UST), from 2009 to 2018.
+          and Technology (UST), from **2009** to **2018**.
 
       - title: Special (Pre-College) Scholarship & Monthly Subsidy
         authors:
@@ -286,14 +289,16 @@ cv:
         url: https://yoogeunsong.com/assets/pdf/inha-special-pre-college-scholarship.pdf
         summary: >-
           A named scholarship and support programme, alongside Inha University and Real Company
-          scholarships, 2006–2008.
+          scholarships, **2006–2008**.
 
     Certificates:
-      - name: '<a href="https://investmentsoc.com/SEC">Securities Education Certificate</a> — Distinction'
+      - name: '<a href="https://yoogeunsong.com/assets/pdf/securities-education-certificate.pdf">Securities Education Certificate</a> — Distinction'
+        date: 2024
         issuer: '<a href="https://investmentsoc.com/">Imperial College Investment Society</a>'
         icon: fa-solid fa-chart-line
 
       - name: '<a href="https://my.amplifyme.com/certificate/72010d28-0612-4e53-b3ed-4188c32f3baf">Finance Accelerator</a> by <a href="https://amplifyme.com/">AmplifyME</a>'
+        date: 2024
         issuer: London
         icon: fa-solid fa-building-columns
 

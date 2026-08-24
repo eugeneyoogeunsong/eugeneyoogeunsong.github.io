@@ -13,7 +13,7 @@ A large part of my life, and the thing that keeps the rest of it working. I do o
 
 I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a> - some of the best conversations happen on a golf course, and the London area has no shortage of good ones. I try to get on a tennis court at least once a month; around Wimbledon you are spoilt for choice.
 
-From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months. I don't play or watch football any more.
+Since I'm based in the UK: From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months. I don't play or watch football any more.
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the _Alps_ are always my dream destination. It is another reason I speak French, Italian and German, all useful on the French, Italian and Swiss sides of the Alps. I was on the French side in the winter of 2023.
 
@@ -57,9 +57,9 @@ On television, I like _Suits_ (US) and _Black Mirror_.
 
 I love travelling, and I love the part of it that is unfamiliar: new cultures, and places I have no map for.
 
-Practically, almost everywhere is open to me. I hold citizenship of the _Republic of Korea_, ranked joint _2nd globally_ for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now - this may change in the future.
-
 I have been to the United States many times, mostly around Los Angeles, New York and Boston, and I generally have a real fondness for the USA: the can-do attitude, the optimism, and a work culture that takes ambition seriously. On the other hand, Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. Part of the pull is the languages, and I absolutely love European languages: I practised my French deliberately so that I could actually freely talk to people when I got there. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (in 2018), in Taiwan (2017–2018), and now in the UK (2023–present).
+
+Practically, logistics-wise, almost everywhere is open to me. I hold citizenship of the _Republic of Korea_, ranked joint _2nd globally_ for passport power on the <a href="https://www.henleyglobal.com/passport-index?countrycode=KR" class="plain-link">Henley Passport Index</a>, with visa-free access to 188 destinations. It is the only passport I hold, at least for now - this may change in the future.
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>!
 

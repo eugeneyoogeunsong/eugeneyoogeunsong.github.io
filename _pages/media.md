@@ -242,7 +242,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
     <div class="mo-card-body">
       <span class="mo-more-n">500+</span>
       <span class="mo-more-label">And many more</span>
-      <p>Two decades of television, radio and print coverage across Korea and Japan. The cards above are the ones worth watching; the archive below is a selection of the rest.</p>
+      <p>Two decades of television, radio and print coverage across Korea and Japan, from 2004 onwards. The cards above are the ones worth watching; the archive below is a selection of the rest.</p>
     </div>
   </div>
 
@@ -286,7 +286,7 @@ Original newspaper scans, in full. These are from 2005 and 2006, when Korean new
 
 ## Coverage
 
-Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan: more than 500 appearances in total, including these outlets.
+Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan: more than 500 appearances in total, including these outlets. The most heavily documented stretches were 2004–2006, 2008–2011 and 2015.
 
 <ul class="mo-outlets">
   <li><a href="https://english.khan.co.kr/" target="_blank" rel="noopener">Kyunghyang Shinmun</a></li>
@@ -307,7 +307,7 @@ Since 2004, my journey & work have been documented across television, radio and 
 
 I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on neutrinos, machine learning in the physical sciences, quantum computing, or what an unusual education actually looks like from the inside. I have given talks many times at science museums, symposia and expos.
 
-Two collaborations I would especially like to make happen in London: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
+From 2026 onwards, two collaborations I would especially like to make happen in London: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
 
 You can also get in touch with [Imperial's outreach activities](https://www.imperial.ac.uk/physics/engage-with-us/outreach/) directly. Imperial physics professors sometimes film documentaries and take part in radio, podcasts and so on, and I would like to be added in: if you are one of the people responsible, <a href="/contact/" class="plain-link">reach out</a>!
 

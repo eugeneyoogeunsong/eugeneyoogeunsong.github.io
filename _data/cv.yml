@@ -66,12 +66,14 @@ cv:
         location: "Daejeon,<br>Republic of Korea"
         url: https://yoogeunsong.com/assets/pdf/ust-kasi-degree.pdf
         area: Astronomy and Space Science
-        studyType: Integrated MSc + PhD (All But Dissertation)
+        studyType: Integrated MSc + PhD (Coursework Completed)
         start_date: 2009-02
         end_date: 2018-08
         highlights:
-          - Entered the integrated graduate programme at age 11; completed PhD-level coursework in 2013.
+          - "Entered the integrated graduate programme at **age 11**; completed PhD-level coursework in February 2013, at **age 15**."
           - "Advised by Dr Seok Jae Park, on relativistic cosmology and high-energy emission near black hole magnetospheres."
+          - "Visiting student at the Academia Sinica Institute of Astronomy and Astrophysics (2017–2018), working with Dr Kouichi Hirotani and Dr Satoki Matsushita: two peer-reviewed papers, [Song et al. (2017), *MNRAS Letters*](https://academic.oup.com/mnrasl/article/471/1/L135/4036899) and [Hirotani et al. (2018), *ApJ*](https://iopscience.iop.org/article/10.3847/1538-4357/aae47a)."
+          - "Four papers authored in total during this period, across cosmology and high-energy astrophysics; all available on arXiv."
 
       - institution: National Institute for Lifelong Education (NILE)
         location: "Republic of Korea"
@@ -81,6 +83,9 @@ cv:
         start_date: 2006-02
         end_date: 2009-02
         score: "4.5 / 4.5"
+        highlights:
+          - "Transferred here from the Physics programme at Inha University to read Computer Science."
+          - "Earned the Bachelor's degree in 2009 at **age 11**, through NILE's Academic Credit Bank System: a record that remains unmatched."
 
       - institution: Inha University
         location: "Incheon,<br>Republic of Korea"
@@ -90,6 +95,9 @@ cv:
         start_date: 2006-02
         end_date: 2009-02
         score: "3.89 / 4.5"
+        highlights:
+          - "Admitted in October 2005 at **age 7**, a national record, with coursework beginning in February 2006."
+          - "Transferred shortly afterwards to the Computer Science programme at NILE, where the degree was completed."
 
     Experience:
       - company: Imperial College London

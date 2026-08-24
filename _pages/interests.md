@@ -9,13 +9,13 @@ nav_order: 6
 
 ## Sports
 
-A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly.
+A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly; I would do that more often given more time.
 
 I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a> - some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
 
-I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the Alps are always my dream destination.
+I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the Alps are always my dream destination. It is another reason I speak French, Italian and German, all useful on the French, Italian and Swiss sides of the range. I was on the French side in the winter of 2023.
 
-The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; I was among the top five marksmen in my company, and I ended up teaching driving to troops whilst there. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
+The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; whilst there, I was consistently among the top five marksmen in my company, and I finished as an Exemplary Army Driver and the company's best driving instructor. I enjoyed the mechanical side of it too, maintaining and repairing the vehicles. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 
 When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
 
@@ -33,7 +33,7 @@ Learning a language is the closest thing I know to learning a new physics formal
 
 Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead: audiobooks, or podcasts from the authors themselves.
 
-Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing.
+Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing. Existentialism I love as well, though the label is looser than it looks: Sartre claimed it, Camus refused it and called his own position absurdism, and Schopenhauer came early enough to have fed the tradition rather than joined it.
 
 On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday and Tim Ferriss.
 
@@ -43,13 +43,19 @@ I have been meaning to join a book club, so <a href="/contact/" class="plain-lin
 
 ## Music and film
 
-Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift and Coldplay. Lately I have been listening to a lot of Vulfpeck. I occasionally play as well as listen: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by.
+Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift, Dua Lipa and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen, though rarely these days: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by. I would practise far more often given the free time. Lately it has been the ukulele, and I am working my way through the Red Hot Chili Peppers' _Californication_ on it.
 
 On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time.
 
+Nolan I have a particular reason for. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [Seoul Digital Forum](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the Dark Knight trilogy, _Memento_, _The Prestige_, _Inception_, _Interstellar_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
+
+On television, _Suits_ (2011) and _Black Mirror_ (2011).
+
 ## Travel and people
 
-I have been to the United States many times, mostly around Los Angeles, New York and Boston. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. Part of the pull is the languages: I practised my French deliberately so that I could actually freely talk to people when I got there. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (in 2018), in Taiwan (2017–2018), and now in the UK (2023–present).
+I love travelling, and I love the part of it that is unfamiliar: new cultures, and places I have no map for.
+
+I have been to the United States many times, mostly around Los Angeles, New York and Boston, and I have a real fondness for the place: the can-do attitude, the optimism, and a work culture that takes ambition seriously. Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. Part of the pull is the languages: I practised my French deliberately so that I could actually freely talk to people when I got there. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (in 2018), in Taiwan (2017–2018), and now in the UK (2023–present).
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>!
 

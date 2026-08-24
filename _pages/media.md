@@ -177,7 +177,7 @@ nav_order: 7
   }
 </style>
 
-I have been covered by the Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well. I am always happy to share my journey.
+I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 I am looking to work with English-language outlets in the UK and the US as well. I am always happy to share my journey.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>
@@ -250,7 +250,7 @@ I have been covered by the Korean and Japanese press since 2004, when I was six.
 
 ## Press archive
 
-Original newspaper scans, in full. These are from 2005 and 2006, when Korean news still lived mostly on paper; there is no online version to link to, so the scans are the record.
+Original newspaper scans, in full. These are from 2005 and 2006, when South Korean news still lived mostly on paper; there is no online version to link to, so the scans are the record.
 
 <div class="mo-grid">
 
@@ -286,7 +286,7 @@ Original newspaper scans, in full. These are from 2005 and 2006, when Korean new
 
 ## Coverage
 
-Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan: more than **500** appearances in total, including these outlets. The most heavily documented stretches were **2004–2007, 2008–2011, 2015,** and **2018**; outside those years I have done comparatively little, being very deep in work and study, and life took its own course as well.
+Since 2004, my journey & work have been documented across television, radio and print in South Korea and Japan: more than **500** appearances in total, including these outlets. The most heavily documented stretches were **2004–2007, 2008–2011, 2015,** and **2018**; outside those years I have done comparatively little, being very deep in work and study, and life took its own course as well.
 
 <ul class="mo-outlets">
   <li><a href="https://english.khan.co.kr/" target="_blank" rel="noopener">Kyunghyang Shinmun</a></li>

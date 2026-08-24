@@ -164,9 +164,9 @@ I always _trust the process_, and that habit carries directly into my research a
 
 ## More about me
 
-My name in Korean is **송유근**, and my pronouns are **he/him/his** (cisgender male; straight). I was born in **Seoul, Korea**, on **27 November 1997**. I hold citizenship of the **Republic of Korea**, and only that one, at least for now - this may change.
+My name in Korean is **송유근**, and my pronouns are **he/him/his** (cisgender male; straight). I was born in **Seoul, Korea**, on **27 November 1997**. I hold citizenship of the <a href="https://www.henleyglobal.com/passport-index/ranking" class="plain-link">**Republic of Korea**</a>, and only that one, at least for now - this may change.
 
-From being celebrated in South Korea as a prodigy for my [academic achievements](/media/) in my teens, to conducting cutting-edge research in Physics at [Imperial College London](https://www.imperial.ac.uk/), my journey presents a relentless drive to push the boundaries of science and technology, and to make an impact.
+From being celebrated in Korea as a prodigy for my [academic achievements](/media/) in my teens, to conducting cutting-edge research in Physics at [Imperial College London](https://www.imperial.ac.uk/), my journey presents a relentless drive to push the boundaries of science and technology, and to make an impact.
 
 Early recognition positioned me to inspire others, and to highlight the importance of science education, or rather the absence of a complete system able to support the _hyper-gifted_ children it identifies. Today, as a Physics graduate researcher at [Imperial](https://www.imperial.ac.uk/), I am leveraging my multidisciplinary expertise in particle physics and machine learning to drive impactful global scientific advancements. In 2026 I work at the intersection of physics, ML and bioengineering. Also, for my PhD, I started working on <a href="/projects/1_dune/" class="plain-link">neutrino oscillations and interactions</a> this year.
 

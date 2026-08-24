@@ -164,7 +164,7 @@ I always _trust the process_, and that habit carries directly into my research a
 
 ## More about me
 
-My name in Korean is **송유근**, and my pronouns are **he/him/his** (cisgender male; straight). I was born in **Seoul, Korea**, on **27 November 1997**. I hold citizenship of the <a href="https://www.henleyglobal.com/passport-index/ranking" class="plain-link">**Republic of Korea**</a>, and only that one, at least for now - this may change.
+My name in Korean is **송유근**, and my pronouns are **he/him/his** (cisgender male; straight). I was born in **Seoul, Korea**, on **27 November 1997**. I hold citizenship of the <a href="https://www.henleyglobal.com/passport-index/ranking" class="plain-link">**Republic of Korea**</a>, and only that one, at least for now - this may change in the future.
 
 From being celebrated in Korea as a prodigy for my [academic achievements](/media/) in my teens, to conducting cutting-edge research in Physics at [Imperial College London](https://www.imperial.ac.uk/), my journey presents a relentless drive to push the boundaries of science and technology, and to make an impact.
 

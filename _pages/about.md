@@ -180,7 +180,7 @@ In 2026 I am working part-time with [Singularity Quantum](https://singularityqua
 
 In fact most of my friends and connections in the UK are from Imperial society activities, business-related people, sports buddies, and language exchange buddies. I'm always open to collaborations with brilliant, like-minded people.
 
-**What follows is how I got here, chapter by chapter.**
+<p style="margin-top: 3.25rem;"><strong>What follows is how I got here, chapter by chapter.</strong></p>
 
 **The early record: 2004–2009.** In October 2005, at the age of 7, I set a [national record](/media/) by enrolling in the [Physics BSc programme](/cv/) at [Inha University](https://eng.inha.ac.kr/eng/index.do), with coursework commencing in February 2006. Soon after, I transitioned to a Computer Science programme at the National Institute for Lifelong Education ([NILE](https://www.nile.or.kr/index.do?lang=en)). In 2009, at the age of 11, I earned my [Bachelor's](/cv/) through NILE's [Academic Credit Bank System](https://www.nile.or.kr/usr/wap/detail.do?app=13309&seq=623&lang=en), a record that remains unmatched.
 

@@ -311,7 +311,7 @@ From 2026 onwards, two collaborations I would especially like to make happen in 
 
 You can also get in touch with [Imperial's outreach activities](https://www.imperial.ac.uk/physics/engage-with-us/outreach/) directly. Imperial physics professors sometimes film documentaries and take part in radio, podcasts and so on, and I would like to be added in: if you are one of the people responsible, <a href="/contact/" class="plain-link">reach out</a>!
 
-On logistics, travel is easy: I hold citizenship of the _Republic of Korea_, ranked joint _2nd globally_ for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations, so I can film or speak almost anywhere on any continent, usually at short notice. Do feel free to invite me to events and talks on any continent. It is the only passport I hold, at least for now - this may change in the future.
+On logistics, travel is easy: I hold citizenship of the _Republic of Korea_, ranked joint _2nd globally_ for passport power on the <a href="https://www.henleyglobal.com/passport-index?countrycode=KR" class="plain-link">Henley Passport Index</a>, with visa-free access to 188 destinations, so I can film or speak almost anywhere on any continent, usually at short notice. Do feel free to invite me to events and talks on any continent. It is the only passport I hold, at least for now - this may change in the future.
 
 For enquiries, see [Contact](/contact/).
 

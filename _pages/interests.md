@@ -9,11 +9,13 @@ nav_order: 6
 
 ## Sports
 
-A large part of my life, and the thing that keeps the rest of it working. Running, triathlon, yoga, calisthenics, plus Brazilian Jiu-Jitsu, which I have dabbled in and would train properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly; I would do that more often given more time.
+A large part of my life, and the thing that keeps the rest of it working. I do one of these on a weekly basis: Running, triathlon, yoga, and calisthenics. I have dabbled in Brazilian Jiu-Jitsu and would train it properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly for 2 years. I'm trying to get back with them in 2026 onwards.
 
-I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a> - some of the best conversations happen on a golf course. From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months.
+I play tennis and golf now and then, usually around Wimbledon or Kingston. Need a tennis or golf buddy? <a href="/contact/" class="plain-link">Reach out</a> - some of the best conversations happen on a golf course. I try to get on a tennis court at least once a month; the Wimbledon area is full of good ones.
 
-I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the Alps are always my dream destination. It is another reason I speak French, Italian and German, all useful on the French, Italian and Swiss sides of the range. I was on the French side in the winter of 2023.
+From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months. I don't play or watch football any more.
+
+I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the _Alps_ are always my dream destination. It is another reason I speak French, Italian and German, all useful on the French, Italian and Swiss sides of the range. I was on the French side in the winter of 2023.
 
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; whilst there, I was consistently among the top five marksmen in my company, and I finished as an Exemplary Army Driver and the company's best driving instructor. I enjoyed the mechanical side of it too, maintaining and repairing the vehicles. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 

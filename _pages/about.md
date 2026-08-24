@@ -178,7 +178,7 @@ I have been based in Europe (now in London, UK) since 2023, and I plan to contin
 
 In 2026 I am working part-time with [Singularity Quantum](https://singularityquantum.com/) on CFD applications, and over the last few years I have met and talked with a great many founders and CEOs across robotics, machine learning, quantum computing, advanced biotechnology & neurotech, AI applications and quantitative finance: in London, in Paris, and in Seoul at [ICML 2026](https://icml.cc/). I also spend a good deal of time talking to, and befriended people from [Imperial Business School](https://www.imperial.ac.uk/business-school/) and [Dyson School of Design Engineering](https://www.imperial.ac.uk/design-engineering/) too. For instance, in the summer of 2025, I participated in a discussion with [Lucy Jung](https://www.linkedin.com/in/lucyjung/) (Imperial alum, founder at LYEONS) as part of the Imperial [Neurotech](https://iclneurotech.co.uk/) society event; we also talked about possible future collaborations.
 
-In fact most of my friends and connections in the UK are from Imperial society activities, business-related people, sports buddies, and language exchange buddies. I'm always open to collaborations with brilliant, like-minded people.
+In fact most of my friends and connections in the UK are from Imperial society activities, business-related people, sports buddies, and language exchange buddies. My connections come from every sort of background, nationality, ethnicity and culture, which is a large part of why I love London so much, and all of them are welcome. I'm always open to collaborations with brilliant, like-minded people!
 
 <p style="margin-top: 3.25rem;"><strong>What follows is how I got here, chapter by chapter.</strong></p>
 

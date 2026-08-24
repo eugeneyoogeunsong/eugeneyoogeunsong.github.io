@@ -49,9 +49,9 @@ Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. 
 
 On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time.
 
-With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the Dark Knight trilogy, _Memento_, _The Prestige_, _Inception_, _Interstellar_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
+With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
 
-On television, I like _Suits_ (US; 2011) and _Black Mirror_ (2011).
+On television, I like _Suits_ (US) and _Black Mirror_.
 
 ## Travel and people
 

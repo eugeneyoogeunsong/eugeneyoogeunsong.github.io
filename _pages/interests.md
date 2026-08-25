@@ -63,6 +63,8 @@ Practically, logistics-wise, almost everywhere is open to me. I hold citizenship
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>!
 
+The people are the other half of it, and mostly they found me rather than the other way around: friends from Imperial society activities, from business circles, sports, and language exchanges. They come from every sort of background, nationality, ethnicity and culture, which is a large part of why I love London, and it is the thing I would miss most if I left.
+
 Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 
 ## Chess and poker

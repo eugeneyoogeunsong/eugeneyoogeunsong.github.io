@@ -51,7 +51,7 @@ We derived the same pair of results for null congruences, where the $$\tfrac{1}{
 
 **Why it might be observable.** Shear that has become negligible today was not negligible when the primordial gravitational-wave background was imprinted. If a future low-frequency observatory such as LISA ever resolves an anisotropy in that background, an evolution equation for $$\sigma_{ab}$$ is what converts the measurement into a statement about initial conditions. That connection is an outlook rather than a result: this work supplies the kinematics, not a predicted spectrum.
 
-This was my earliest first-author preprint, written at eighteen.
+This was one of my earliest first-author preprints, written at **age 18**.
 
 {% include author_self_link.liquid %}
 

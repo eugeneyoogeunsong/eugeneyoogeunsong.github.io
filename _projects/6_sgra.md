@@ -24,7 +24,7 @@ related_publications: true
 
 Sagittarius (Sgr) A\* varies across the electromagnetic spectrum on timescales from minutes to hours. What that variability tells us about the accretion flow depends entirely on how the electrons are heated, and that is precisely the part of the physics that general-relativistic magnetohydrodynamics (GRMHD) does not determine on its own.
 
-**Method.** GRMHD simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python.
+**Method.** GRMHD simulations run in **[BHAC](https://bhac.science/)**, post-processed through general-relativistic radiative transfer in **[BHOSS](https://arxiv.org/abs/1907.09196)**, in Fortran and Python. This is **high-performance computing (HPC)** work throughout: both codes are MPI-parallelised and run on clusters rather than workstations, and a spin-and-heating parameter survey means dozens of long simulations, each producing time series large enough that the radiative post-processing is itself a substantial compute job. Managing that, from job submission and parallel scaling to the I/O and storage of the output, was a large part of the work.
 
 **Why the electrons need their own equation.** The plasma is collisionless, so electrons and ions do not share a temperature, and it is the electrons that radiate. Taking moments of the Vlasov equation for each species gives particle-number conservation together with a stress-energy balance coupled to the electromagnetic field,
 

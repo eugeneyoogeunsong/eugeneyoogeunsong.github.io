@@ -283,6 +283,14 @@ Original newspaper scans, in full. These are from 2005 and 2006, when South Kore
     </div>
   </div>
 
+  <div class="mo-card mo-card-more">
+    <div class="mo-card-body">
+      <span class="mo-more-n">500+</span>
+      <span class="mo-more-label">And many more</span>
+      <p>Two decades of print coverage across Korea and Japan, most of it in Korean and predating the web. The two scans above are the English-language exceptions.</p>
+    </div>
+  </div>
+
 </div>
 
 ## Coverage

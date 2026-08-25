@@ -201,7 +201,7 @@ In 2018, for 4 months, I was invited by [Dr Isao Okamoto](https://www.researchga
 For the full record, see my [CV](/cv/).
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/yoogeunsong) for the most recent updates on my journey!
-My connections, built over the past five years, come from every sort of background, nationality and culture, which is a large part of why I like Europe and London, and you are welcome to join them!
+My connections, built over the past five years, come from every sort of background, nationality, ethnicity and culture, which is a large part of why I like Europe and London, and you are welcome to join them!
 
 {% include author_self_link.liquid %}
 

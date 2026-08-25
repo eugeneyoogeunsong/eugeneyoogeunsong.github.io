@@ -160,7 +160,7 @@ I always _trust the process_, and that habit carries directly into my research a
 
 **Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,000+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, I am physically in **London, UK** most of the year, or occasionally in **LA, California** or **Chicago, Illinois**; [get in touch](/contact/) when you are in town!
 
-**A note on language.** This site is in English throughout. I am based in Europe and work across the UK, the US and Asia, so it is the one language that reaches all of them.
+**A note on language.** This site is in English throughout. I am based in Europe and work across the UK and the US, and English is the one language that reaches people from all continents.
 
 ---
 

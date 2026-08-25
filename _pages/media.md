@@ -177,7 +177,9 @@ nav_order: 7
   }
 </style>
 
-I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live. From 2026 onwards I am looking to work with English-language outlets in the UK and the US as well. I am always happy to share my journey.
+I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live.
+
+Almost all of it is in Korean or Japanese, while this site is in English throughout: I am based in Europe and work across the UK, the US and Asia, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I am looking to work with English-language outlets in the UK and the US. I am always happy to share my journey.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>
@@ -250,7 +252,7 @@ I have been covered by the South Korean and Japanese press since 2004, when I wa
 
 ## Press archive
 
-Original newspaper scans, in full. These are from 2005 and 2006, when South Korean news still lived mostly on paper; there is no online version to link to, so the scans are the record.
+Original newspaper scans, in full. These are from 2005 and 2006, when South Korean news still lived mostly on paper; there is no online version to link to, so the scans are the record. Both are English-language pieces, which makes them unusual: the great majority of my coverage is in Korean.
 
 <div class="mo-grid">
 

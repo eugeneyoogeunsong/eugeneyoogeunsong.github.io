@@ -5,3 +5,6 @@ Built on [al-folio](https://github.com/alshedivat/al-folio) (v1.x), served by Gi
 from `eugeneyoogeunsong.github.io` at the custom domain **yoogeunsong.com**.
 
 ---
+
+[![Website](https://img.shields.io/badge/Website-yoogeunsong.com-4338CA?style=for-the-badge&logo=googlechrome&logoColor=white)](https://yoogeunsong.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yoogeunsong-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yoogeunsong)

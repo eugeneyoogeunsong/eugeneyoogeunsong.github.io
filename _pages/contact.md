@@ -22,6 +22,8 @@ I am open to conversations about neutrino and beyond-Standard-Model (BSM) physic
 - **Bluesky** - [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
 - **GitHub** - [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
 
+Every account above, and this website itself, is written, built and run by me. If you see something claiming to be me anywhere else, it is not.
+
 ## Research profiles
 
 - **ORCID** - [0000-0003-3206-1556](https://orcid.org/0000-0003-3206-1556)

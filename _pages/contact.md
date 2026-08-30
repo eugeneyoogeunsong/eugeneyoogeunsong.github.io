@@ -7,7 +7,7 @@ nav: true
 nav_order: 8
 ---
 
-I am open to conversations about neutrino and beyond-Standard-Model (BSM) physics, machine learning for physics, quantum computing and quantitative research roles, and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. I am always happy to share my journey. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person: write to me.
+I am open to conversations about <a href="https://yoogeunsong.com/research/#neutrinos-and-beyond-standard-model-bsm-physics" class="plain-link">neutrino and beyond-Standard-Model (BSM) physics</a>, <a href="https://yoogeunsong.com/research/#machine-learning-for-physics-and-medical-applications" class="plain-link">machine learning for physics</a>, <a href="https://yoogeunsong.com/research/#quantum-computing-for-computational-fluid-dynamics-cfd" class="plain-link">quantum computing</a> and <a href="https://yoogeunsong.com/research/#quantitative-research" class="plain-link">quantitative research</a> roles, and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. I am always happy to share my journey. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person: write to me.
 
 ## Email
 

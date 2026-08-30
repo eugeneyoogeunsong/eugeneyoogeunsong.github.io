@@ -25,6 +25,8 @@ The [Deep Underground Neutrino Experiment](https://www.dunescience.org/) will fi
 
 **[Where Imperial sits](https://www.imperial.ac.uk/high-energy-physics/research/experiments/dune/).** The group's contribution runs from hardware to inference. On the detector side it designs the data acquisition systems for both the near and far detectors, builds anode plane assemblies for one of the far-detector modules, and leads the technology for **DUNE Phase II**, in particular the high-pressure gaseous argon TPC destined for the more capable Phase-II near detector. A gas TPC sees low-momentum protons and pions that a liquid-argon detector loses below threshold, which is precisely where the nuclear-effect modelling driving the cross-section systematic is least constrained.
 
+**Who leads it here.** My supervisor, [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi), leads the Imperial HEP group's work on the physics and reconstruction of the DUNE Near Detector. That is the effort my own project sits inside.
+
 **Where my own work plugs in.** On the analysis side, Imperial leads **MaCh3**, the Bayesian oscillation-analysis framework used by the long-baseline group, with [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12) and others. That is the natural home for what I do: MaCh3 is where a reconstruction's uncertainty stops being a plot and becomes a term in the likelihood, and it is the point at which a systematics-aware network either earns its place or does not.
 
 **Where the uncertainty actually enters.** The fit is Bayesian: the posterior over oscillation and nuisance parameters $$\vec{\theta}$$ given data $$D$$ is

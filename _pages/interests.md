@@ -89,7 +89,7 @@ As for religion, I am **agnostic** rather than religious, at least for the momen
 
 ## Teaching and tutoring
 
-I learn best by teaching, so I do a lot of it, and I would happily talk for hours about fundamental physics, machine learning, first principles, psychology, neuroscience, philosophy, music, or films.
+I learn best by teaching, so I do a lot of it, and I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films. I teach in English by preference, and in Korean or French where that works better; on everything else I am flexible.
 
 I'm open to tutoring too, private or in groups, both online and in person in London. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 

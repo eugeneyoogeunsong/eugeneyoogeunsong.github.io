@@ -199,7 +199,6 @@ For the most part the media was in Korean or Japanese, while this website is in 
       <p>A documentary on my journey in academia, filmed immediately before I enlisted in the Republic of Korea Army.</p>
       <div class="mo-links">
         <a href="https://programs.sbs.co.kr/culture/sbsspecial/vod/53591/22000301305" target="_blank" rel="noopener">Watch</a>
-        <a href="https://www.youtube.com/watch?v=PKrJPFN0Wt0" target="_blank" rel="noopener">YouTube teaser</a>
       </div>
     </div>
   </div>
@@ -211,7 +210,6 @@ For the most part the media was in Korean or Japanese, while this website is in 
       <p>Interviewing <strong><a href="https://pma.caltech.edu/people/kip-s-thorne">Dr Kip Thorne</a></strong> about LIGO, nine months before the first direct detection of gravitational waves was announced.</p>
       <div class="mo-links">
         <a href="https://www.sdf.or.kr/archive/2015/ko/video/10000000281" target="_blank" rel="noopener">Watch</a>
-        <a href="https://www.youtube.com/watch?v=eqtSOHz7F14" target="_blank" rel="noopener">YouTube</a>
       </div>
     </div>
   </div>
@@ -319,6 +317,8 @@ I like explaining things, and I learn best by teaching. I am glad to hear from j
 From 2026 onwards, two collaborations I would especially like to make happen in London: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
 
 You can also get in touch with [Imperial's outreach activities](https://www.imperial.ac.uk/physics/engage-with-us/outreach/) directly. Imperial physics professors sometimes film documentaries and take part in radio, podcasts and so on, and I would like to be added in: if you are one of the people responsible, <a href="/contact/" class="plain-link">reach out</a>!
+
+On language, my preference is English, since the audience for this sort of thing is usually international and multicultural. I can work in Korean or French where that suits the audience better.
 
 On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent.
 

@@ -26,7 +26,7 @@ category: Quantum Computing
   </figcaption>
 </figure>
 
-**My role.** I work part-time with their computational fluid dynamics (CFD) engineers - among them [Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/) - on augmenting and enhancing the CFD model, the classical solver that the quantum work is built around. My contribution is technical and methodological throughout: fluid-dynamics modelling, numerics, the quantum computing side, and ML engineering. Cardiology is not my interest, and I make no claim to it: that expertise sits entirely with my collaborators. I have learned only what the modelling demands, enough coronary anatomy and haemodynamics to know what the geometry and the pressure ratio actually mean, and no further.
+**My role.** I work part-time with their computational fluid dynamics (CFD) engineers - among them [Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/) - on augmenting and enhancing the CFD model, the classical solver that the quantum work is built around. My contribution is technical and methodological throughout: fluid-dynamics modelling, numerics, the underlying physics, the quantum computing side, and ML engineering. Cardiology is not my interest, and I make no claim to it: that expertise sits entirely with my collaborators. I have learned only what the modelling demands, enough coronary anatomy and haemodynamics to know what the geometry and the pressure ratio actually mean, and no further.
 
 **The governing equations.** Coronary blood flow is modelled as an incompressible fluid, so the solver is working on the incompressible Navier–Stokes equations:
 

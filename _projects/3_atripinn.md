@@ -11,12 +11,15 @@ related_publications: true
 **[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling), [Dr Alexander J. Richards](https://profiles.imperial.ac.uk/a.richards), and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
 
 Catheter ablation for atrial fibrillation depends on knowing where the arrhythmia originates, and knowing it fast enough to act during the procedure. Conventional mapping either interpolates naively across a sparse electrode grid or solves the underlying wave problem too slowly to be useful in theatre.
+My collaborators and I use **physics-informed** approaches to make these processes more accurate and faster.
 
 **Approach.** ATRIPINN, built in PyTorch, combines three things:
 
 - **Local plane-fit conduction velocity** to get a fast first estimate of wavefront direction and speed;
 - **Time-shifted kNN blending** to fuse neighbouring channels without smearing the wavefront;
 - **[Physics-informed neural network](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
+
+**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, the underlying physics, and the machine learning and software engineering that turn it into working code. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
 
 **The physics term in the objective function.** The wave back-end treats the activation field $$u(\mathbf{x},t)$$ as obeying the second-order wave equation,
 
@@ -82,8 +85,6 @@ The architecture is coordinate-agnostic with switchable physics back-ends, shipp
 | RMS localisation error    | ~1.6 mm |
 | End-to-end latency        | ~78 ms  |
 | Channel cross-correlation | ≥ 0.99  |
-
-**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, and the machine learning and software engineering that turn it into working code. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
 
 **Why it generalises.** The transferable result is not the error bar; it is that imposing the governing equation as a soft constraint buys data efficiency and physical plausibility at the same time. That is exactly the trade you want in detector reconstruction, where labelled events are expensive and unphysical predictions are worse than imprecise ones.
 

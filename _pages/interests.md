@@ -25,7 +25,7 @@ When a problem stops moving, the fastest route through it is usually a long run 
 
 I have been an avid language learner my whole life, and I love the whole of it: the languages themselves, the cultures they open up, the people I meet and the doors that open in countries I would otherwise have no claim on, and the cognitive linguistics behind them.
 
-I speak, read and write in: Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, Spanish conversational, and German and Japanese both at elementary. French and Italian are the two I am keeping alive at the moment. I'm especially passionate about European languages, though I have taken runs at Arabic and Mandarin as well; that is one of the reasons I chose to live in Europe.
+I speak, read and write in: Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, and Spanish, German and Japanese all at elementary. French and Italian are the two I am keeping alive at the moment. I'm especially passionate about European languages, though I have taken runs at Arabic and Mandarin as well; that is one of the reasons I chose to live in Europe.
 
 I travel to France as often as I can, and here in the UK I have plenty of French and Italian friends to practise with. I always welcome new language exchange buddies, so <a href="/contact/" class="plain-link">reach out</a>!
 

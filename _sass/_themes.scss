@@ -195,29 +195,38 @@ html[data-theme-setting="light"] {
 
 /* CV page: breathing room between entries.
    Each entry is a .list-group-item inside the .cv wrapper, and .list-group-item
-   is used nowhere else on the site, so the scope is safe. Default padding is
-   0.75rem top and bottom (1.5rem between entries); 1.25rem gives 2.5rem, which
-   reads as a clear separation without pushing the CV onto extra screens.
-   Applies to every section — Education, Experience, Awards, Certificates. */
+   is used nowhere else on the site, so the scope is safe. The gap between two
+   entries is the sum of three things, not one:
+       padding-bottom of entry N  +  padding-top of entry N+1
+       + the trailing margin on the bullet list that ends entry N
+   At 1.25rem padding that came to 20 + 20 + 16 = 56px, which reads as a wall of
+   whitespace on an entry-dense CV. 0.85rem plus a trimmed list margin gives
+   ~35px: still a clear separation, roughly a third tighter. */
 .cv .list-group-flush > .list-group-item {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+/* The bullet list is the last child of most entries, so its default 1rem
+   bottom margin is pure dead space stacked on top of the padding above. */
+.cv .list-group-item ul.items {
+  margin-bottom: 0.35rem;
 }
 
 /* Don't pad the first and last entries away from their card edges. */
 .cv .list-group-flush > .list-group-item:first-child {
-  padding-top: 0.35rem;
+  padding-top: 0.25rem;
 }
 .cv .list-group-flush > .list-group-item:last-child {
-  padding-bottom: 0.35rem;
+  padding-bottom: 0.25rem;
 }
 
 /* On narrow screens the date badge stacks above the title, so trim the gap
-   back a little to avoid a wall of whitespace on mobile. */
+   back a little further to avoid a wall of whitespace on mobile. */
 @media (max-width: 576px) {
   .cv .list-group-flush > .list-group-item {
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
   }
 }
 

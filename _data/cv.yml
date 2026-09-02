@@ -104,14 +104,14 @@ cv:
 
     Experience:
       - company: '<a href="https://www.imperial.ac.uk/">Imperial College London</a>'
-        position: '<a href="https://yoogeunsong.com/research/#neutrinos-and-beyond-standard-model-bsm-physics">Graduate Researcher</a>'
+        position: '<a href="https://yoogeunsong.com/research/#neutrinos-and-beyond-standard-model-bsm-physics">PhD Researcher</a>'
         location: "London Area,<br>United Kingdom"
         start_date: 2026
         highlights:
           - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations - [DUNE](/projects/1_dune/) (Deep Underground Neutrino Experiment) and [NOvA](/projects/2_nova/) (NuMI Off-axis νe Appearance) programs - under the supervision of [Dr Linda Cremonesi](https://www.linkedin.com/in/linda-cremonesi/). On NOvA I work on a variety of physics analyses."
 
       - company: '<a href="https://singularityquantum.com/">Singularity Quantum</a> · Internship'
-        position: '<a href="https://yoogeunsong.com/projects/5_singularity/">Research Scientist Intern</a>'
+        position: '<a href="https://yoogeunsong.com/research/#quantum-computing-for-computational-fluid-dynamics-cfd">Research Scientist Intern</a>'
         location: "California,<br>United States · Remote"
         start_date: 2026-08
         highlights:

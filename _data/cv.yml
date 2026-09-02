@@ -108,8 +108,7 @@ cv:
         location: "London Area,<br>United Kingdom"
         # The CV layout sorts by start_date (ongoing entries first, newest first) and
         # ignores YAML order, so a bare "2026" parses as January and falls below the
-        # Singularity entry's 2026-08. 2026-10 matches the PhD start in Education and
-        # keeps this role first. The badge still renders as the year alone.
+
         start_date: 2026-10
         highlights:
           - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations - [DUNE](/projects/1_dune/) (Deep Underground Neutrino Experiment) and [NOvA](/projects/2_nova/) (NuMI Off-axis νe Appearance) programs - under the supervision of [Dr Linda Cremonesi](https://www.linkedin.com/in/linda-cremonesi/). On NOvA I work on a variety of physics analyses."

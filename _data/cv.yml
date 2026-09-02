@@ -110,6 +110,18 @@ cv:
         highlights:
           - "I work on neutrino interactions, oscillations, detector analysis, and ML reconstruction techniques with Fermilab's (American) flagship collaborations - [DUNE](/projects/1_dune/) (Deep Underground Neutrino Experiment) and [NOvA](/projects/2_nova/) (NuMI Off-axis νe Appearance) programs - under the supervision of [Dr Linda Cremonesi](https://www.linkedin.com/in/linda-cremonesi/). On NOvA I work on a variety of physics analyses."
 
+      - company: '<a href="https://singularityquantum.com/">Singularity Quantum</a> · Internship'
+        position: '<a href="https://yoogeunsong.com/projects/5_singularity/">Research Scientist Intern</a>'
+        location: "California,<br>United States · Remote"
+        start_date: 2026-08
+        highlights:
+          - "I work alongside the research team across fluid dynamics, computational modelling, machine learning, software, quantum algorithms, and data analysis for [cardiovascular computational fluid dynamics (CFD)](/projects/5_singularity/): blood-flow simulation, haemodynamic analysis, and the reconstruction problems underlying both."
+          - "I build the mathematical and computational models, simulations, quantum algorithms, software, papers, and technical reports that carry that work: from first formulation through to something reproducible."
+          - "I contribute to the research, development, testing, and documentation behind our cardiovascular products, principally FFR-CT and plaque analysis."
+          - "I design, train, and evaluate physics-informed machine-learning models. Foundational models where they earn their place; physics constraints where the data runs out."
+          - "I research tumour microcirculation, cancer-cell biology, and drug delivery, tracking the academic literature alongside the technologies, markets, and competitors moving in the same space."
+          - "I take on quantum computing research and the quantum engineering, analysis, and business work that sits around it."
+
       - company: '<a href="https://www.imperial.ac.uk/">Imperial College London</a>'
         position: '<a href="https://yoogeunsong.com/research/#machine-learning-for-physics-and-medical-applications">Graduate Researcher</a>'
         location: "London Area,<br>United Kingdom"

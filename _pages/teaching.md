@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: How I teach, the notes I have made public, and how to reach me about tutoring.
+description: How I teach, the summaries I have made public, and how to reach me about tutoring.
 nav: true
 nav_order: 5
 ---
@@ -59,11 +59,11 @@ nav_order: 5
   }
 </style>
 
-I learn best by teaching. That is not a slogan about generosity: explaining something is the only reliable way I have found to discover that I did not actually understand it. So I teach a fair amount, and the notes below exist because writing them was how I learned the material in the first place.
+I learn best by teaching. That is not a slogan about generosity: explaining something is the only reliable way I have found to discover that I did not actually understand it. So I teach a fair amount, and the summaries below exist because writing them was how I learned the material in the first place.
 
 The way I teach follows from the same thing. I start from the premise rather than the procedure, because a student who can only reproduce a method is stuck the moment the problem is phrased differently. That takes longer at the start and is much faster afterwards. I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films.
 
-My official teaching at Imperial begins in 2027, and I will list it here as it starts. Everything on this page for now is what I do outside that: notes I have made public, and tutoring.
+For now this page holds the summaries I have made public, and tutoring. **I teach in English**, which is my preference for teaching, though I can also teach in **Korean** or in **French** where the circumstances call for it. I welcome any opportunities for teaching.
 
 ## Study materials
 
@@ -112,7 +112,7 @@ One thing the repository deliberately does not contain: lecture notes, slides, p
 
 I am open to tutoring, private or in groups, online or in person in London. Undergraduate and Master's physics and mathematics are the natural fit - quantum mechanics, quantum field theory, particle physics, general relativity, mathematical methods - along with scientific Python and machine learning for people coming to it from a physics background.
 
-I teach in English by preference, and in Korean or French where that works better; on everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
+On format, level and everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 
 {% include linkedin_badge.liquid %}
 

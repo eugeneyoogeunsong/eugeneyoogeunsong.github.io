@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: How I teach, the summaries I have made public, and how to reach me about tutoring.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <style>

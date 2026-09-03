@@ -57,6 +57,29 @@ nav_order: 6
     color: var(--global-text-color-light);
     line-height: 1.5;
   }
+
+  /* Subject pills, same visual language as .mo-outlets on the Media page.
+     Static text, so no link or hover-navigation affordance. */
+  .tn-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.25rem 0 1.75rem;
+    padding: 0;
+    list-style: none;
+  }
+  .tn-topics li {
+    font-size: 0.82rem;
+    padding: 0.3rem 0.75rem;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .tn-topics li:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
 </style>
 
 I learn best by teaching. That is not a slogan about generosity: explaining something is the only reliable way I have found to discover that I did not actually understand it. So I teach a fair amount, and the summaries below exist because writing them was how I learned the material in the first place.
@@ -112,7 +135,25 @@ One thing the repository deliberately does not contain: lecture notes, slides, p
 
 ## Tutoring
 
-I am open to tutoring, private or in groups, online or in person in London. Undergraduate and Master's physics and mathematics are the natural fit - quantum mechanics, quantum field theory, particle physics, general relativity, mathematical methods - along with scientific Python and machine learning for people coming to it from a physics background.
+From 2026 onwards I am seeking teaching and tutoring opportunities, in London or remotely, private or in groups. The subjects I cover:
+
+<ul class="tn-topics">
+  <li>GCSE Physics</li>
+  <li>A-level Physics</li>
+  <li>A-level Mathematics</li>
+  <li>Calculus</li>
+  <li>Linear Algebra</li>
+  <li>Mathematical Methods for Physicists</li>
+  <li>Classical Mechanics</li>
+  <li>Electrodynamics</li>
+  <li>Special Relativity</li>
+  <li>Fluid Mechanics</li>
+  <li>Quantum Mechanics</li>
+  <li>Quantum Field Theory</li>
+  <li>Particle Physics</li>
+  <li>Quantum Information</li>
+  <li>Machine Learning</li>
+</ul>
 
 On format, level and everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 

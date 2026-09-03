@@ -88,13 +88,13 @@ I learn best by teaching. That is not a slogan about generosity: explaining some
 
 The way I teach follows from the same thing. I start from the premise rather than the procedure, because a student who can only reproduce a method is stuck the moment the problem is phrased differently. That takes longer at the start and is much faster afterwards. I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films.
 
-For now this page holds the summaries I have made public, and tutoring. **I teach in English**, which is my preference for teaching, though I can also teach in **Korean** or in **French** where the circumstances call for it. I welcome any opportunities for teaching - <a href="/contact/" class="plain-link">reach out</a>!
+My official teaching at Imperial may begin from 2027 onwards, and I will list it here once it does. For now this page holds the summaries I have made public, and tutoring. **I teach in English**, which is my preference for teaching, though I can also teach in **Korean** or in **French** where the circumstances call for it. I welcome any opportunities for teaching - <a href="/contact/" class="plain-link">reach out</a>!
 
 I have also given talks many times in schools, at science museums and at expos, alongside the broadcast work collected under <a href="/media/" class="plain-link">Media & Outreach</a>. I welcome those opportunities too.
 
 ## Study materials
 
-My handwritten summaries from the <a href="/cv/#education" class="plain-link">Master's in Physics</a> at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a> (2024–2025), one folder per module, released under the MIT Licence in [imperial-physics-notes](https://github.com/eugeneyoogeunsong/imperial-physics-notes). They are student notes, so they will contain mistakes; corrections by issue or pull request are welcome.
+My handwritten summaries from the <a href="/cv/#education" class="plain-link">Master's in Physics</a> at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a> (2024–2025), one folder per module, released under the MIT Licence in [imperial-physics-notes](https://github.com/eugeneyoogeunsong/imperial-physics-notes). Corrections by issue or pull request are welcome.
 
 <div class="tn-grid">
   <div class="tn-card">
@@ -137,7 +137,9 @@ One thing the repository deliberately does not contain: lecture notes, slides, p
 
 ## Tutoring
 
-For tutoring specifically: private or in groups, online or in person in London. The subjects I cover:
+For tutoring specifically: private or in groups, online or in person in London. Undergraduate and Master's students who study physics and mathematics are the natural fit - quantum mechanics, quantum field theory, particle physics, general relativity, mathematical methods - along with scientific Python and machine learning for people coming to it from a physics background.
+
+The subjects I cover:
 
 <ul class="tn-topics">
   <li>GCSE Physics</li>

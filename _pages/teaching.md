@@ -84,11 +84,11 @@ nav_order: 6
 
 From 2026 onwards, I'm seeking any teaching opportunities in London or elsewhere.
 
-I learn best by teaching. That is not a slogan about generosity: explaining something is the only reliable way I have found to discover that I did not actually understand it. So I teach a fair amount, and the summaries below exist because writing them was how I learned the material in the first place.
+I learn best by teaching. That is not a slogan about generosity: explaining something is the only reliable way I have found to discover that I did not actually understand it, the so-called Feynman technique. So I teach a fair amount, and the summaries below exist because writing them was how I learned the material in the first place.
 
 The way I teach follows from the same thing. I start from the premise rather than the procedure, because a student who can only reproduce a method is stuck the moment the problem is phrased differently. That takes longer at the start and is much faster afterwards. I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films.
 
-As of 2026, I currently have no teaching duties. My official teaching for physics classes at Imperial may begin from 2027 onwards, and I will list it here once it does. For now this page holds the summaries I have made public, and tutoring. **I teach in English**, which is my preference for teaching, though I can also teach in **Korean** or in **French** where the circumstances call for it. I welcome any opportunities for teaching - <a href="/contact/" class="plain-link">reach out</a>!
+As of 2026, I currently have no teaching duties. My official teaching for physics classes at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a> may begin from 2027 onwards, and I will list it here if it does. For now this page holds the summaries I have made public, and tutoring. **I teach in English**, which is my preference for teaching, though I can also teach in **Korean** or in **French** where the circumstances call for it. I welcome any opportunities for teaching - <a href="/contact/" class="plain-link">reach out</a>!
 
 I have also given talks many times in schools, at science museums and at expos, alongside the broadcast work collected under <a href="/media/" class="plain-link">Media & Outreach</a>. I welcome those opportunities too.
 

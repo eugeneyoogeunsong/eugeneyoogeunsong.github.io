@@ -33,7 +33,132 @@
   .interest-item {
     padding: 0.5rem 0;
   }
-</style> </div> </div> </div> </article> </div> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Eugene (Yoogeun) Song . © Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted on <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: September 03, 2026. </div> </footer> <script>
+</style> </div> </div> </div> </article> </div> <script>
+  (function () {
+    var URL = 'https://www.linkedin.com/in/yoogeunsong/';
+    var TEXT = '/in/yoogeunsong/';
+
+    function addRow() {
+      if (document.getElementById('cv-linkedin-row')) return; // never twice
+
+      var cells = document.querySelectorAll('table td, table th');
+      var emailRow = null;
+      for (var i = 0; i < cells.length; i++) {
+        var label = cells[i].textContent.trim().replace(/[:\s]+$/, '');
+        if (label.toLowerCase() === 'email') {
+          emailRow = cells[i].closest('tr');
+          break;
+        }
+      }
+      if (!emailRow || !emailRow.parentNode) return;
+
+      var tr = document.createElement('tr');
+      tr.id = 'cv-linkedin-row';
+
+      var tdLabel = document.createElement('td');
+      var strong = document.createElement('strong');
+      strong.textContent = 'LinkedIn';
+      tdLabel.appendChild(strong);
+
+      var tdValue = document.createElement('td');
+      var a = document.createElement('a');
+      a.href = URL;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = TEXT;
+      tdValue.appendChild(a);
+
+      tr.appendChild(tdLabel);
+      tr.appendChild(tdValue);
+      emailRow.parentNode.insertBefore(tr, emailRow.nextSibling);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', addRow);
+    } else {
+      addRow();
+    }
+  })();
+</script> <div class="li-badge-wrap" id="li-badge-wrap"> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge" rel="external nofollow noopener" target="_blank">Eugene (Yoogeun) Song</a> </div> </div> <style>
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+</style> <script>
+  // Runs during parse, so it lands before profile.js initialises.
+  (function () {
+    var badge = document.querySelector('#li-badge-wrap .LI-profile-badge');
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    badge.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script> <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer type="text/javascript"></script> <script>
+  // Repositioning only. Safe to run after the badge has rendered.
+  (function () {
+    var MOVE_BEFORE = "";
+    var BEFORE_HEADING = "";
+    var AFTER_HEADING = "";
+    var APPEND_TO = ".post, article, .container";
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !AFTER_HEADING && !APPEND_TO) return;
+
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
+
+    function reposition() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      // "After" is handled first and separately: it appends to the heading's
+      // PARENT, so the badge lands below every sibling that follows the
+      // heading, i.e. below the whole reference list rather than just below
+      // the heading itself.
+      if (AFTER_HEADING) {
+        var h = headingByText(AFTER_HEADING);
+        if (h && h.parentNode) {
+          h.parentNode.appendChild(wrap);
+          return;
+        }
+        // No such heading on this page: leave the badge where the markdown put it.
+      }
+
+      var target = null;
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
+      if (!target && MOVE_BEFORE) {
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
+          if (target) break;
+        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
+        return;
+      }
+      if (APPEND_TO) {
+        var container = null;
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
+          if (container) break;
+        }
+        if (container) container.appendChild(wrap);
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", reposition);
+    } else {
+      reposition();
+    }
+  })();
+</script> <script data-goatcounter="https://ygsong1004.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Eugene (Yoogeun) Song . © Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted on <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: September 03, 2026. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };

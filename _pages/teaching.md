@@ -145,17 +145,23 @@ The subjects I cover:
   <li>GCSE Physics</li>
   <li>A-level Physics</li>
   <li>A-level Mathematics</li>
+  <li>Algebra</li>
+  <li>Geometry</li>
   <li>Calculus</li>
   <li>Linear Algebra</li>
   <li>Mathematical Methods for Physicists</li>
+  <li>Engineering Mathematics</li>
   <li>Classical Mechanics</li>
   <li>Electrodynamics</li>
   <li>Special Relativity</li>
+  <li>General Relativity</li>
   <li>Fluid Mechanics</li>
   <li>Quantum Mechanics</li>
   <li>Quantum Field Theory</li>
   <li>Particle Physics</li>
   <li>Quantum Information</li>
+  <li>Cosmology</li>
+  <li>Computational Physics</li>
   <li>Machine Learning</li>
 </ul>
 

@@ -33,6 +33,8 @@ Every account above, and this website itself, is written, built and run by me. I
 
 ## References
 
+These are my referees, each happy to write a recommendation on my behalf - the academic group for academic applications, the industry group for industry ones.
+
 <style>
   /* Each group sits in its own box. Spacing is set entirely here, with no
      extra classes in the markup: the base rule handles the gap below the

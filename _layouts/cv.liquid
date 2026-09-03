@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{%- comment -%}
+  LOCAL SHADOW of al_folio_core's _layouts/cv.liquid (gem v1.0.15).
+
+  Why this file exists
+  --------------------
+  The gem's version builds the whole page from `{% al_folio_cv_render %}` and
+  never emits `{{ content }}`. That means the body of _pages/cv.md is silently
+  discarded: no error, no warning, the page just renders without it. Three
+  includes in that file had never once appeared on the live site because of it:
+
+      cv_contact_extra.liquid   the LinkedIn row in Contact Information
+      linkedin_badge.liquid     the profile badge every other page carries
+      goatcounter.liquid        pageview tracking, so /cv/ was untracked
+
+  The only change below is the `{{ content }}` line after the render tag.
+  Everything else is copied verbatim from the gem so that behaviour, feature
+  gating and the fallback branch stay identical.
+
+  AGENTS.md permits this: the stop-sign paths apply to the al-folio template
+  repo itself, and line 36 states that a user's own site "may legally shadow
+  gem-owned files". See docs/ARCHITECTURE.md, "local overrides: your site vs.
+  this repo".
+
+  Maintenance cost, stated plainly
+  --------------------------------
+  This file is now yours. Upstream fixes to the CV layout will NOT reach it,
+  and `bundle exec al-folio upgrade audit` will report it as an override to
+  acknowledge (`upgrade overrides diff _layouts/cv.liquid`, then `accept`).
+  On any al_folio_core upgrade, re-diff against the gem's copy:
+
+      bundle exec al-folio upgrade overrides diff _layouts/cv.liquid
+
+  If upstream ever adds `{{ content }}` itself, delete this file entirely.
+{%- endcomment -%}
+{% assign cv_feature_enabled = site.al_folio.features.cv.enabled | default: true %}
+
+{% if site.plugins contains 'al_folio_cv' and cv_feature_enabled %}
+  {% al_folio_cv_render %}
+  {{ content }}
+{% else %}
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-description">CV rendering is unavailable.</p>
+    </header>
+    <article>
+      <p>Enable the <code>al_folio_cv</code> plugin and set <code>al_folio.features.cv.enabled: true</code> to render this page.</p>
+    </article>
+  </div>
+{% endif %}

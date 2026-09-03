@@ -178,7 +178,7 @@ nav_order: 7
 </style>
 
 I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live.
-For the most part the media was in Korean or Japanese, while this website is in English throughout: I am based in Europe and work across the UK and the US, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I am looking to work with English-language outlets in the UK and the US. I am always happy to share my journey.
+For the most part the media was in Korean or Japanese, while this website is in English throughout: I am based in Europe and work across the UK and the US, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in the UK and the US. I am always happy to share my journey.
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>

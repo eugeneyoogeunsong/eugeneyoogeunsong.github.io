@@ -185,7 +185,7 @@ For the most part the media was in Korean or Japanese, while this website is in 
   <div class="mo-stat"><b>2004–present</b><span>Years of coverage</span></div>
   <div class="mo-stat"><b>5+</b><span>Documentary series</span></div>
   <div class="mo-stat"><b>UK · US · KR · JP</b><span>Press markets</span></div>
-  <div class="mo-stat"><b><a href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener">8,300+</a></b><span>LinkedIn followers</span></div>
+  <div class="mo-stat"><b><a href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener">8,500+</a></b><span>LinkedIn followers</span></div>
 </div>
 
 ## Featured

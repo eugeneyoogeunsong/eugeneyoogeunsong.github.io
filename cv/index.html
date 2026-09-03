@@ -55,12 +55,19 @@
       var tr = document.createElement('tr');
       tr.id = 'cv-linkedin-row';
 
+      // Copy the Email row's cell classes rather than hardcoding them. The
+      // theme puts the weight on the cell (.font-weight-bold / -light), and an
+      // ancestor carries .font-weight-light, so a bare <strong> renders at 300
+      // and the row looks wrong next to the ones above it. Reading the classes
+      // off the sibling keeps this correct even if the theme renames them.
       var tdLabel = document.createElement('td');
-      var strong = document.createElement('strong');
+      tdLabel.className = emailRow.cells[0] ? emailRow.cells[0].className : '';
+      var strong = document.createElement('b');
       strong.textContent = 'LinkedIn';
       tdLabel.appendChild(strong);
 
       var tdValue = document.createElement('td');
+      tdValue.className = emailRow.cells[1] ? emailRow.cells[1].className : '';
       var a = document.createElement('a');
       a.href = URL;
       a.target = '_blank';

@@ -4,7 +4,7 @@ title: Media & Outreach
 permalink: /media/
 description: Two decades of press, documentaries and public engagement, and where to find the originals.
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 <style>
@@ -293,7 +293,7 @@ Original newspaper scans, in full. These are from 2005 and 2006, when South Kore
 
 ## Coverage
 
-Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan: more than **500** appearances in total, including these outlets. The most heavily documented stretches were **2004–2007, 2008–2011, 2015,** and **2018**; outside those years I have done comparatively little, being very deep in work and study, and life took its own course as well.
+Since 2004, my journey & work have been documented across television, radio and print in Korea and Japan: more than **500** appearances in total, including these outlets shown below. The most heavily documented stretches were **2004–2007, 2008–2011, 2015,** and **2018**; outside those years I have done comparatively little, being very deep in work and study, and life took its own course as well.
 
 <ul class="mo-outlets">
   <li><a href="https://english.khan.co.kr/" target="_blank" rel="noopener">Kyunghyang Shinmun</a></li>

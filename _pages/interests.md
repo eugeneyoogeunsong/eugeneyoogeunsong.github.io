@@ -4,7 +4,7 @@ title: Interests
 permalink: /interests/
 description: What I do when I am not doing physics, and a few things I will happily talk about for hours.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 ## Sports
@@ -35,7 +35,7 @@ Learning a language is the closest thing I know to learning a new physics formal
 
 Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead: audiobooks, or podcasts from the authors themselves.
 
-Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing. Existentialism I love as well. Sartre, Camus and Schopenhauer I love all three of, though the label sits loosely across them: Sartre claimed it, Camus refused it and called his own position absurdism, and Schopenhauer came early enough to have fed the tradition rather than joined it.
+Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing. On philosophy, existentialism I love as well. Sartre, Camus and Schopenhauer I love all three of, though the label sits loosely across them: Sartre claimed it, Camus refused it and called his own position absurdism, and Schopenhauer came early enough to have fed the tradition rather than joined it.
 
 On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday, Tim Ferriss, and Andrew Huberman.
 
@@ -86,12 +86,6 @@ On the established neuroscience: I also find it fascinating in its own right, qu
 Beyond the frameworks, the pattern I recognise in myself is this. I value innovation and creativity, and I care little for tradition or custom. I'm future-focused, progress-driven, and have always chased a vision; I reason logically and try to judge things objectively rather than emotionally. I think in terms of forward movement, so I set milestones and benchmarks: partly to know where I am, partly so that the people I work with can see it too. My decisions are deliberate, and I want a course of action settled before I commit to it. That thinking happens alone: I reflect rather than talk things out, and I need solitude to work a problem through properly. My attention tends to sit on my own work before it sits on the group's. I seek excellence in everything I take on, and I see no point pretending otherwise: I want to be at the very top of whatever I do. Underneath all of that, knowledge, competence, virtuosity and mastery are the things I actually need. Utility is a requirement rather than a preference: every piece of academic work I take on has to end in something measurable, buildable or decidable, and I steer away from theory that is ineffably abstract all the way down with nothing to touch the world. That said, speaking of abstract fields, I love the mathematics for its own sake too: topology, differential geometry, stochastic calculus. In philosophy it is existentialism and Stoicism that I love.
 
 As for religion, I am **agnostic** rather than religious, at least for the moment. Politically I am a **centrist**, and what I actually value is pragmatism: I support free markets and economic liberalism, and I take environmental protection and progressive social change to be just as necessary, and see no reason the two sets of aims cannot be pursued together.
-
-## Teaching and tutoring
-
-I learn best by teaching, so I do a lot of it, and I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films. I teach in English by preference, and in Korean or French where that works better; on everything else I am flexible.
-
-I'm open to tutoring too, private or in groups, both online and in person in London. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 
 {% include linkedin_badge.liquid %}
 

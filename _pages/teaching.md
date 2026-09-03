@@ -82,6 +82,8 @@ nav_order: 6
   }
 </style>
 
+From 2026 onwards, I'm seeking any teaching opportunities in London or elsewhere.
+
 I learn best by teaching. That is not a slogan about generosity: explaining something is the only reliable way I have found to discover that I did not actually understand it. So I teach a fair amount, and the summaries below exist because writing them was how I learned the material in the first place.
 
 The way I teach follows from the same thing. I start from the premise rather than the procedure, because a student who can only reproduce a method is stuck the moment the problem is phrased differently. That takes longer at the start and is much faster afterwards. I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films.
@@ -135,7 +137,7 @@ One thing the repository deliberately does not contain: lecture notes, slides, p
 
 ## Tutoring
 
-From 2026 onwards I am seeking teaching and tutoring opportunities, in London or remotely, private or in groups. The subjects I cover:
+For tutoring specifically: private or in groups, online or in person in London. The subjects I cover:
 
 <ul class="tn-topics">
   <li>GCSE Physics</li>

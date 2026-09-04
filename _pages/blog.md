@@ -2,8 +2,8 @@
 layout: default
 permalink: /blog/
 title: Blog
-nav: false # flip to true when you publish your first post
-nav_order: 8
+nav: true
+nav_order: 7
 pagination:
   enabled: true
   collection: posts
@@ -194,5 +194,7 @@ pagination:
 {% endif %}
 
 </div>
+
+{% include linkedin_badge.liquid %}
 
 {% include goatcounter.liquid %}

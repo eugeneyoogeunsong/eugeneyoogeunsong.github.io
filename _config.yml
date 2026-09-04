@@ -154,8 +154,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: notes
-blog_description: physics, machine learning, and markets — thinking out loud
+blog_name: One problem
+blog_description: Physics, machine learning and markets - it keeps turning out to be the same one.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

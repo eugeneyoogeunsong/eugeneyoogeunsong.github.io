@@ -23,7 +23,7 @@ When a problem stops moving, the fastest route through it is usually a long run 
 
 ## Languages
 
-I have been an avid language learner my whole life, and I love the whole of it: the languages themselves, the cultures they open up, the people I meet and the doors that open in countries I would otherwise have no claim on, and the cognitive linguistics behind them.
+I have been an avid language learner my whole life, and I love the whole of it: the languages themselves, the cultures they open up, the new people I meet and the doors that open in countries I would otherwise have no claim on, and the cognitive linguistics behind them.
 
 I speak, read and write in: Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, and Spanish, German and Japanese all at elementary. French and Italian are the two I am keeping alive at the moment. I'm especially passionate about European languages, though I have taken runs at Arabic and Mandarin as well; that is one of the reasons I chose to live in Europe.
 
@@ -55,7 +55,7 @@ On television, I like _Suits_ (US) and _Black Mirror_.
 
 ## Travel and people
 
-I love travelling, and I love the part of it that is unfamiliar: new cultures, and places I have no map for.
+I love travelling, and I love the part of it that is unfamiliar: new cultures, new cuisines, new scenery and places I have no map for.
 
 The United States I love outright. I have been many times, mostly around Los Angeles, Palo Alto, New York and Boston, and it is the can-do attitude that does it: the optimism, the willingness to back an idea before it is safe, and a work culture that treats ambition as a virtue rather than something to apologise for. Few places reward advancing fast the way America does. On the other hand, Europe is where I travel for pleasure: France above all, and the Alps most of all. Spain, the Netherlands, Germany and Switzerland are all places I have been and would go back to tomorrow. Part of the pull is the languages, and I absolutely love European languages: I practised my French deliberately for years so that I could actually freely talk to people when I got there. And of course Korea, where I lived for more than twenty years and have travelled to most corners of a genuinely beautiful country. I have lived in Japan (in 2018), in Taiwan (2017–2018), and now in the UK (2023–present).
 

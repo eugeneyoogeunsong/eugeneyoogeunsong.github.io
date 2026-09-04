@@ -177,27 +177,22 @@ cv:
           - "Study agent adaptation and regime shifts without overfitting."
           - "Physics-inspired approach to separating signal from noise."
 
+      # Merged from two entries (Remote Collaborator, Jan–Jun 2023, and Visiting
+      # Researcher, Jul 2023–Apr 2024). Same supervisor, same project, one
+      # continuous engagement that simply moved from remote to on-site, so the
+      # split read as two jobs rather than one. Bullets run chronologically.
       - company: '<a href="https://www.ucl.ac.uk/">UCL</a>'
-        position: Visiting Researcher
-        location: "London Area,<br>United Kingdom"
-        start_date: 2023-07
-        end_date: 2024-04
-        highlights:
-          - "Invited as a visiting researcher at UCL in 2023."
-          - "Collaborated with [Dr. Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof. Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu)."
-          - "Modelled the multi-wavelength variability of Sagittarius A* by integrating general relativistic magnetohydrodynamic (GRMHD) simulations with general relativistic radiative transfer (GRRT) calculations: publication in preparation."
-          - "Connected with and held Zoom discussions with Event Horizon Telescope (EHT) collaboration's key researchers, including [Dr. Christian M. Fromm](https://www.physik.uni-wuerzburg.de/astro/mitarbeiter/ag-fromm/) and Dr. Koushik Chatterjee (UMD)."
-          - "Gained hands-on experience with high-performance computing, data visualisation, and interdisciplinary teamwork in a leading astrophysics environment."
-
-      - company: '<a href="https://www.ucl.ac.uk/">UCL</a>'
-        position: Remote Collaborator
+        position: '<a href="https://yoogeunsong.com/projects/6_sgra/">Visiting Researcher</a>'
         location: "London Area,<br>United Kingdom"
         start_date: 2023-01
-        end_date: 2023-06
+        end_date: 2024-04
         highlights:
-          - "Collaborated remotely (Jan–Jun 2023) with [Dr. Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) via weekly Zoom sessions to design GRMHD modelling strategies for Sagittarius A* and M87*, and the subsequent radiative transfer post-processing."
+          - "Began remotely (Jan–Jun 2023) with [Dr. Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) via weekly Zoom sessions, designing general relativistic magnetohydrodynamic (GRMHD) modelling strategies for Sagittarius A* and M87*, and the subsequent radiative transfer post-processing."
           - "Performed a comprehensive literature review of the Event Horizon Telescope (EHT) collaboration's relevant works on Sagittarius A* and M87*."
-          - "Invited on-site (Jul 2023–Apr 2024) to implement and optimise GRMHD simulations integrated with GRRT codes, both in Fortran and Python."
+          - "Invited on-site as a visiting researcher (Jul 2023–Apr 2024), working with [Dr. Ziri Younsi](https://profiles.ucl.ac.uk/26858-ziri-younsi) and [Prof. Kinwah Wu](https://profiles.ucl.ac.uk/10719-kinwah-wu) to implement and optimise GRMHD simulations integrated with general relativistic radiative transfer (GRRT) codes, both in Fortran and Python."
+          - "Modelled the [multi-wavelength variability of Sagittarius A*](/projects/6_sgra/) by integrating GRMHD simulations with GRRT calculations: publication in preparation."
+          - "Connected with and held Zoom discussions with Event Horizon Telescope (EHT) collaboration's key researchers, including [Dr. Christian M. Fromm](https://www.physik.uni-wuerzburg.de/astro/mitarbeiter/ag-fromm/) and Dr. Koushik Chatterjee (UMD)."
+          - "Gained hands-on experience with high-performance computing, data visualisation, and interdisciplinary teamwork in a leading astrophysics environment."
 
       - company: Collaboration with National Astronomical Observatory of Japan
         position: Independent Researcher

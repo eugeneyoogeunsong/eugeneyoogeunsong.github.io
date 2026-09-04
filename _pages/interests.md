@@ -4,7 +4,7 @@ title: Interests
 permalink: /interests/
 description: What I do when I am not doing physics, and a few things I will happily talk about for hours.
 nav: true
-nav_order: 8
+nav_order: 7
 ---
 
 ## Sports

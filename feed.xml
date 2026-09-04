@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://yoogeunsong.com/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yoogeunsong.com/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-09-04T05:12:16+00:00</updated><id>https://yoogeunsong.com/feed.xml</id><title type="html">blank</title><subtitle>Yoogeun (Eugene) Song — high-energy physicist at Imperial College London working on neutrinos with DUNE, physics-informed machine learning, and quantitative research. </subtitle><entry><title type="html">Why I keep ending up in the same problem</title><link href="https://yoogeunsong.com/blog/2026/hello/" rel="alternate" type="text/html" title="Why I keep ending up in the same problem"/><published>2026-08-04T09:00:00+00:00</published><updated>2026-08-04T09:00:00+00:00</updated><id>https://yoogeunsong.com/blog/2026/hello</id><content type="html" xml:base="https://yoogeunsong.com/blog/2026/hello/"><![CDATA[<p>People occasionally ask why my CV reads like four different careers stapled together: general relativity and early-universe cosmology, then black hole magnetospheres, then physics-informed machine learning for cardiology, then neutrinos, and now markets alongside all of it.</p> <p>The honest answer is that I have only ever worked on one problem. You have noisy, incomplete data produced by a process you understand partially. You want a statement about the world that is not merely precise but <strong>calibrated</strong> — one whose error bar means what it claims to mean. Everything else is domain vocabulary.</p> <p>Frame dragging near a Kerr horizon, conduction velocity across an atrial electrode grid, a flux systematic propagating from a near detector to a far one, a regime shift in a futures curve — the objects differ, the inference structure does not. Once you see that, moving between them stops feeling like starting over and starts feeling like carrying the same toolkit into a new room.</p> <p>This is where I will write about that work: what I am reading, what is not working, and the occasional thing that is. Sparse and technical rather than frequent and thin.</p>]]></content><author><name></name></author><category term="physics"/><category term="notes"/><summary type="html"><![CDATA[On general relativity, neutrinos, and markets being the same exercise wearing different clothes.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://yoogeunsong.com/feed.xml" rel="self" type="application/atom+xml"/><link href="https://yoogeunsong.com/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-09-04T05:26:53+00:00</updated><id>https://yoogeunsong.com/feed.xml</id><title type="html">blank</title><subtitle>Yoogeun (Eugene) Song — high-energy physicist at Imperial College London working on neutrinos with DUNE, physics-informed machine learning, and quantitative research. </subtitle><entry><title type="html">Why I keep ending up in the same problem</title><link href="https://yoogeunsong.com/blog/2026/hello/" rel="alternate" type="text/html" title="Why I keep ending up in the same problem"/><published>2026-08-04T09:00:00+00:00</published><updated>2026-08-04T09:00:00+00:00</updated><id>https://yoogeunsong.com/blog/2026/hello</id><content type="html" xml:base="https://yoogeunsong.com/blog/2026/hello/"><![CDATA[<p>People occasionally ask why my CV reads like four different careers stapled together: general relativity and early-universe cosmology, then black hole magnetospheres, then physics-informed machine learning for cardiology, then neutrinos, and now markets alongside all of it.</p> <p>The honest answer is that I have only ever worked on one problem. You have noisy, incomplete data produced by a process you understand partially. You want a statement about the world that is not merely precise but <strong>calibrated</strong> - one whose error bar means what it claims to mean. Everything else is domain vocabulary.</p> <p>Frame dragging near a Kerr horizon, conduction velocity across an atrial electrode grid, a flux systematic propagating from a near detector to a far one, a regime shift in a futures curve - the objects differ, the inference structure does not. Once you see that, moving between them stops feeling like starting over and starts feeling like carrying the same toolkit into a new room.</p> <p>This is where I will write about that work: what I am reading, what is not working, and the occasional thing that is. Sparse and technical rather than frequent and thin.</p> <div class="li-badge-wrap" id="li-badge-wrap"> <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="yoogeunsong" data-version="v1"> <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/yoogeunsong?trk=profile-badge">Eugene (Yoogeun) Song</a> </div> </div> <style>
+  .li-badge-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+</style> <script>
+  // Runs during parse, so it lands before profile.js initialises.
+  (function () {
+    var badge = document.querySelector('#li-badge-wrap .LI-profile-badge');
+    if (!badge) return;
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    badge.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script> <script src="https://platform.linkedin.com/badges/js/profile.js" async="" defer="" type="text/javascript"></script> <script>
+  // Repositioning only. Safe to run after the badge has rendered.
+  (function () {
+    var MOVE_BEFORE = "";
+    var BEFORE_HEADING = "";
+    var AFTER_HEADING = "";
+    var APPEND_TO = "";
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !AFTER_HEADING && !APPEND_TO) return;
+
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
+
+    function reposition() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      // "After" is handled first and separately: it appends to the heading's
+      // PARENT, so the badge lands below every sibling that follows the
+      // heading, i.e. below the whole reference list rather than just below
+      // the heading itself.
+      if (AFTER_HEADING) {
+        var h = headingByText(AFTER_HEADING);
+        if (h && h.parentNode) {
+          h.parentNode.appendChild(wrap);
+          return;
+        }
+        // No such heading on this page: leave the badge where the markdown put it.
+      }
+
+      var target = null;
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
+      if (!target && MOVE_BEFORE) {
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
+          if (target) break;
+        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
+        return;
+      }
+      if (APPEND_TO) {
+        var container = null;
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
+          if (container) break;
+        }
+        if (container) container.appendChild(wrap);
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", reposition);
+    } else {
+      reposition();
+    }
+  })();
+</script>]]></content><author><name></name></author><category term="physics"/><category term="notes"/><summary type="html"><![CDATA[On general relativity, neutrinos, and markets being the same exercise wearing different clothes.]]></summary></entry></feed>

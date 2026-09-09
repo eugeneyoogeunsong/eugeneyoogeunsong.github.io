@@ -17,7 +17,7 @@ I am open to conversations about <a href="https://yoogeunsong.com/research/#neut
 
 ## Elsewhere
 
-- **LinkedIn** - [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active
+- **LinkedIn - [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active, for the most up-to-date**
 - **X** - [@YoogeunSong](https://x.com/YoogeunSong)
 - **Bluesky** - [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
 - **GitHub** - [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)

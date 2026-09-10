@@ -318,7 +318,7 @@ From 2026 onwards, two collaborations I would especially like to make happen in 
 
 You can also get in touch with [Imperial's outreach activities](https://www.imperial.ac.uk/physics/engage-with-us/outreach/) directly. Imperial physics professors sometimes film documentaries and take part in radio, podcasts and so on, and I would like to be added in: if you are one of the people responsible, <a href="/contact/" class="plain-link">reach out</a>!
 
-On language, my preference is English, since the audience for this sort of thing is usually international and multicultural. I can work in Korean or French where that suits the audience better.
+On language, my preference is **English**, since the audience for this sort of thing is usually international and multicultural. I can work in **Korean** or, with some limitations, even in **French** where that suits the audience better.
 
 On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent.
 

@@ -133,9 +133,27 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
 
 Alongside those sits my <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/comp-phys-mini-project" class="plain-link">computational physics mini-project</a>, a finite-difference time-domain solver for the time-dependent Schrödinger equation written in Mathematica, with animations of wave-packet dispersion, reflection and tunnelling across four potentials. Five weeks of work rather than a full research project, and awarded the highest grade by [Dr Jaroslaw Pasternak](https://profiles.imperial.ac.uk/j.pasternak).
 
-The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.tolley" class="plain-link">Prof. Andrew Tolley</a> (Advanced Quantum Field Theory), <a href="https://profiles.imperial.ac.uk/t.wiseman" class="plain-link">Prof. Toby Wiseman</a> (Quantum Field Theory) and <a href="https://profiles.imperial.ac.uk/m.mccann" class="plain-link">Dr Michael McCann</a> (Advanced Particle Physics).
+The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a> (Advanced Quantum Field Theory), <a href="https://profiles.imperial.ac.uk/t.wiseman">Prof. Toby Wiseman</a> (Quantum Field Theory) and <a href="https://profiles.imperial.ac.uk/m.mccann">Dr Michael McCann</a> (Advanced Particle Physics). Incidentally, Dr McCann is also part of the <a href="https://www.imperial.ac.uk/high-energy-physics/">Imperial High Energy Physics group</a>, my own group, and works on flavour physics and b-quark decays on <a href="https://lhcb.web.cern.ch/">LHCb</a> at CERN.
 
-I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker" class="plain-link">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham" class="plain-link">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley" class="plain-link">Prof. Andrew Tolley</a>. I know these subjects well, I can supply materials for any of them, and I am able to teach all of them.
+I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>. I know these subjects well, inside out, so I can supply materials for any of them, and I am able to teach all of them.
+
+The advanced subjects I can teach, and supply materials for:
+
+<ul class="tn-topics">
+  <li><a href="https://ocw.mit.edu/courses/8-323-relativistic-quantum-field-theory-i-spring-2023/pages/syllabus/">Quantum Field Theory</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-701-introduction-to-nuclear-and-particle-physics-fall-2020/pages/syllabus/">Particle Physics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/pages/syllabus/">Quantum Mechanics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-435j-quantum-computation-fall-2003/pages/syllabus/">Quantum Information</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/pages/syllabus/">General Relativity</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/pages/syllabus/">Cosmology</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-311-electromagnetic-theory-spring-2004/pages/syllabus/">Electrodynamics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/2-25-advanced-fluid-mechanics-fall-2013/pages/syllabus/">Fluid Mechanics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/pages/syllabus/">Mathematical Methods for Physicists</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-330-introduction-to-numerical-analysis-spring-2012/pages/syllabus/">Computational Physics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/pages/syllabus/">Machine Learning</a></li>
+</ul>
+
+Each subject below links to the <a href="https://ocw.mit.edu/" class="plain-link">MIT OpenCourseWare</a> syllabus for the nearest equivalent course, as a neutral reference for the level and scope I mean. GCSE and A-level have no MIT counterpart, so those are left unlinked. The material I teach follows the UK specifications and the Imperial modules above, not MIT's.
 
 One thing the repository deliberately does not contain: lecture notes, slides, problem sheets or past papers produced by Imperial or anyone else. Those belong to their authors and are not mine to redistribute. Everything published there is my own handwriting and my own code.
 
@@ -143,30 +161,19 @@ One thing the repository deliberately does not contain: lecture notes, slides, p
 
 For tutoring specifically: private or in groups, online or in person in London. Undergraduate and Master's students who study physics and mathematics are the natural fit - quantum mechanics, quantum field theory, particle physics, general relativity, mathematical methods - along with scientific Python and machine learning for people coming to it from a physics background.
 
-The subjects I cover:
+The foundational subjects I tutor:
 
 <ul class="tn-topics">
   <li>GCSE Physics</li>
   <li>A-level Physics</li>
   <li>A-level Mathematics</li>
-  <li>Algebra</li>
-  <li>Geometry</li>
-  <li>Calculus</li>
-  <li>Linear Algebra</li>
-  <li>Mathematical Methods for Physicists</li>
-  <li>Engineering Mathematics</li>
-  <li>Classical Mechanics</li>
-  <li>Electrodynamics</li>
-  <li>Special Relativity</li>
-  <li>General Relativity</li>
-  <li>Fluid Mechanics</li>
-  <li>Quantum Mechanics</li>
-  <li>Quantum Field Theory</li>
-  <li>Particle Physics</li>
-  <li>Quantum Information</li>
-  <li>Cosmology</li>
-  <li>Computational Physics</li>
-  <li>Machine Learning</li>
+  <li><a href="https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/pages/syllabus/">Algebra</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-950-differential-geometry-fall-2008/pages/syllabus/">Geometry</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/syllabus/">Calculus</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/syllabus/">Linear Algebra</a></li>
+  <li><a href="https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/pages/syllabus/">Engineering Mathematics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-223-classical-mechanics-ii-january-iap-2017/pages/syllabus/">Classical Mechanics</a></li>
+  <li><a href="https://ocw.mit.edu/courses/8-20-introduction-to-special-relativity-january-iap-2021/pages/syllabus/">Special Relativity</a></li>
 </ul>
 
 On format, level and everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!

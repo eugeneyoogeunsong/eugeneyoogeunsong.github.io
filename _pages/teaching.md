@@ -135,7 +135,7 @@ Alongside those sits my <a href="https://github.com/eugeneyoogeunsong/imperial-p
 
 The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a> (Advanced Quantum Field Theory), <a href="https://profiles.imperial.ac.uk/t.wiseman">Prof. Toby Wiseman</a> (Quantum Field Theory) and <a href="https://profiles.imperial.ac.uk/m.mccann">Dr Michael McCann</a> (Advanced Particle Physics). Incidentally, Dr McCann is also part of the <a href="https://www.imperial.ac.uk/high-energy-physics/">Imperial High Energy Physics group</a>, my own group, and works on flavour physics and b-quark decays on <a href="https://lhcb.web.cern.ch/">LHCb</a> at CERN.
 
-I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>. I know these subjects well, inside out, so I can supply materials for any of them, and I am able to teach all of them.
+I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>. I know these subjects well, inside out, so I can supply study materials for any of them, and I am able to teach all of them.
 
 The advanced subjects I can teach, and supply materials for:
 

@@ -133,6 +133,10 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
 
 Alongside those sits my <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/comp-phys-mini-project" class="plain-link">computational physics mini-project</a>, a finite-difference time-domain solver for the time-dependent Schrödinger equation written in Mathematica, with animations of wave-packet dispersion, reflection and tunnelling across four potentials. Five weeks of work rather than a full research project, and awarded the highest grade by [Dr Jaroslaw Pasternak](https://profiles.imperial.ac.uk/j.pasternak).
 
+The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.tolley" class="plain-link">Prof. Andrew Tolley</a> (Advanced Quantum Field Theory), <a href="https://profiles.imperial.ac.uk/t.wiseman" class="plain-link">Prof. Toby Wiseman</a> (Quantum Field Theory) and <a href="https://profiles.imperial.ac.uk/m.mccann" class="plain-link">Dr Michael McCann</a> (Advanced Particle Physics).
+
+I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker" class="plain-link">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham" class="plain-link">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley" class="plain-link">Prof. Andrew Tolley</a>. I know these subjects well, I can supply materials for any of them, and I am able to teach all of them.
+
 One thing the repository deliberately does not contain: lecture notes, slides, problem sheets or past papers produced by Imperial or anyone else. Those belong to their authors and are not mine to redistribute. Everything published there is my own handwriting and my own code.
 
 ## Tutoring

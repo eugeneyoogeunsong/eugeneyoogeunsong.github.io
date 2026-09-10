@@ -22,7 +22,7 @@ I am open to conversations about <a href="https://yoogeunsong.com/research/#neut
 - **Bluesky** - [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
 - **GitHub** - [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
 
-Every account above, and this website itself, is written, built and run by me. If you see something claiming to be me anywhere else, it is not.
+Every account above, and this website itself, is written, built and run by me, and by nobody else. If you see something claiming to be me anywhere else, it is not.
 
 ## Research profiles
 

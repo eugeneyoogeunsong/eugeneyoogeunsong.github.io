@@ -131,11 +131,11 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
   </div>
 </div>
 
-Alongside those sits my <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/comp-phys-mini-project" class="plain-link">computational physics mini-project</a>, a finite-difference time-domain solver for the time-dependent Schrödinger equation written in Mathematica, with animations of wave-packet dispersion, reflection and tunnelling across four potentials. Five weeks of work rather than a full research project, and awarded the highest grade by [Dr Jaroslaw Pasternak](https://profiles.imperial.ac.uk/j.pasternak).
+Alongside those sits my <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/comp-phys-mini-project" class="plain-link">computational physics mini-project</a>, a finite-difference time-domain solver for the time-dependent Schrödinger equation written in Mathematica, with animations of wave-packet dispersion, reflection and tunnelling across four potentials. This was five weeks of work rather than a full research project, and it was awarded the highest grade by [Dr Jaroslaw Pasternak](https://profiles.imperial.ac.uk/j.pasternak).
 
 The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a> (Advanced Quantum Field Theory), <a href="https://profiles.imperial.ac.uk/t.wiseman">Prof. Toby Wiseman</a> (Quantum Field Theory) and <a href="https://profiles.imperial.ac.uk/m.mccann">Dr Michael McCann</a> (Advanced Particle Physics). Incidentally, Dr McCann is also part of the <a href="https://www.imperial.ac.uk/high-energy-physics/">Imperial High Energy Physics group</a>, my own group, and works on flavour physics and b-quark decays on <a href="https://lhcb.web.cern.ch/">LHCb</a> at CERN.
 
-I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>. I know all of these subjects well, inside out, so I can supply study materials for any of them, and I am able to teach all of them.
+I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>. I know all of these subjects mentioned here well, inside out, so I can supply study materials for any of them, and I am able to teach all of them.
 
 The advanced subjects I can teach, and supply materials for:
 
@@ -153,7 +153,7 @@ The advanced subjects I can teach, and supply materials for:
   <li><a href="https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/pages/syllabus/">Machine Learning</a></li>
 </ul>
 
-Each subject below links to the <a href="https://ocw.mit.edu/" class="plain-link">MIT OpenCourseWare</a> syllabus for the nearest equivalent course, as a neutral reference for the level and scope I mean. GCSE and A-level have no MIT counterpart, so those are left unlinked. The material I teach follows the UK specifications and the Imperial modules above, not MIT's.
+Each subject above links to the <a href="https://ocw.mit.edu/" class="plain-link">MIT OpenCourseWare</a> syllabus for the nearest equivalent course, as a neutral reference for the level and scope I mean.
 
 One thing the repository deliberately does not contain: lecture notes, slides, problem sheets or past papers produced by Imperial or anyone else. Those belong to their authors and are not mine to redistribute. Everything published there is my own handwriting and my own code.
 
@@ -175,6 +175,8 @@ The foundational subjects I tutor:
   <li><a href="https://ocw.mit.edu/courses/8-223-classical-mechanics-ii-january-iap-2017/pages/syllabus/">Classical Mechanics</a></li>
   <li><a href="https://ocw.mit.edu/courses/8-20-introduction-to-special-relativity-january-iap-2021/pages/syllabus/">Special Relativity</a></li>
 </ul>
+
+GCSE and A-level have no MIT counterpart, so those are left unlinked. The material I teach follows the UK specifications and the Imperial modules above, not MIT's.
 
 On format, level and everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 

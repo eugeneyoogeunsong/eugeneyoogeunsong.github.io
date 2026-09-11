@@ -127,11 +127,14 @@
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
-    /* 200px is the widest the plate can go before the layout starts breaking:
-       the four-logo rows sit in the 900px content column (4 x 200 + 3 x 1rem gap
-       = 848), and the three-logo rows on Research sit in the 668px column left by
-       the sidebar TOC (3 x 200 + 2 x 1rem = 632). 220px overflows the second. */
-    width: 200px;
+    /* 210px is the hard ceiling, measured in the browser rather than guessed.
+       Two columns bind: the four-logo rows sit in the 900px content column
+       (4 x 210 + 3 x 1rem gap = 888, so 12px of slack) and the three-logo row on
+       Research sits in the 668px column left by the sidebar TOC (3 x 210 + 2 x
+       1rem = 662, so 6px). At 216px the four-logo row wraps to two lines.
+       Height is deliberately unchanged: the logos are sized by height, so a
+       taller plate would mean bigger marks, and only the box was meant to grow. */
+    width: 210px;
     height: 58px;
     padding: 0.5rem 0.7rem;
     background: #fff;
@@ -178,6 +181,9 @@
   }
 
   @media (max-width: 576px) {
+    /* The phone plate stays at 164px. Two of them plus the 1rem gap come to
+       344px, which is the whole content column on a 375px-wide phone: widening
+       them by even 8px drops the row from two plates to one. */
     .affil-item {
       width: 164px;
       height: 50px;

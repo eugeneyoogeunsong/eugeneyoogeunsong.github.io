@@ -45,6 +45,25 @@ latest_posts:
       max-width: 38%;
     }
   }
+
+  /* Affiliation marks, placed immediately after the opening paragraph. That
+     paragraph names Imperial, the HEP group, DUNE, NOvA and Fermilab, so the
+     logos land as confirmation of a claim just made rather than as a banner
+     preceding it. The caption is dropped (passing `logos` explicitly suppresses
+     it) because its three links all appear in the paragraph directly above.
+
+     It sits in the ~580px of column left beside the float-right portrait. Four
+     200px plates need 848px, so left alone they break 3 + 1 and orphan
+     Singularity. Capping the row at two plates (2 x 200 + 1rem gap) forces a 2x2
+     block whose height sits level with the portrait. Below 768px the portrait
+     stops floating and the plates are 164px, so two per row still fits and the
+     block stays square. */
+  .affil-lede .affil {
+    margin: 1.25rem 0 1.6rem;
+  }
+  .affil-lede .affil-row {
+    max-width: 416px;
+  }
   #headshot-slideshow {
     position: relative;
     width: 100%;
@@ -164,6 +183,8 @@ latest_posts:
 
 I am a high-energy physicist at [**Imperial College London**](https://www.imperial.ac.uk/), working on neutrino physics with the [**Imperial High Energy Physics group**](https://www.imperial.ac.uk/high-energy-physics/) on the [DUNE](https://www.dunescience.org/) (Deep Underground Neutrino Experiment) and [NOvA](https://novaexperiment.fnal.gov/) (NuMI Off-axis $$\nu_e$$ Appearance) collaborations, under [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi). Both are [Fermilab](https://www.fnal.gov/)'s flagship American neutrino experiments; Fermilab is the United States' national laboratory for particle physics, supported principally by the [Department of Energy](https://www.energy.gov/science/office-science). On NOvA my role is a variety of physics analysis. My work sits at the point where physical modelling, machine learning and statistical inference stop being separate disciplines and start being one problem: **inference under uncertainty**.
 
+<div class="affil-lede">{% include affiliations.liquid logos="imperial,dune,nova,singularity" %}</div>
+
 That framing is also my history. I began [university physics](/cv/) at **age 7**, finished a [Bachelor's degree](https://yoogeunsong.com/cv/#awards) at **age 11**, and published my first first-author paper in [_MNRAS Letters_](https://academic.oup.com/mnrasl) at **age 19**. Since then I have worked across general relativity and early-universe cosmology, <a href="/projects/9_gamma/" class="plain-link">black hole magnetospheres</a> and <a href="/projects/7_kerr/" class="plain-link">Blandford–Znajek energy extraction</a>, <a href="/projects/6_sgra/" class="plain-link">general-relativistic magnetohydrodynamic (GRMHD) modelling of Sgr A\*</a>, <a href="/projects/3_atripinn/" class="plain-link">physics-informed neural networks for clinical electrophysiology</a>, and, at present, <a href="/projects/1_dune/" class="plain-link">neutrinos</a> and <a href="/projects/8_higgs/" class="plain-link">beyond-Standard-Model physics (or "new" physics)</a>. The range looks scattered from the outside. From the inside it is one method applied to different data.
 
 From early 2023 to mid 2024, I was a visiting researcher at [UCL's Mullard Space Science Laboratory](https://www.ucl.ac.uk/mssl/), working on <a href="/projects/6_sgra/" class="plain-link">general-relativistic magnetohydrodynamic (GRMHD) modelling of Sgr A\*</a>.
@@ -181,10 +202,6 @@ I always _trust the process_, and that habit carries directly into my research a
 **Where to find me.** For the most up-to-date: **[LinkedIn](https://www.linkedin.com/in/yoogeunsong)** is where I am most active - **8,500+ followers** - with **[Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)** next. Location-wise, I am physically in **London, UK** most of the year, or occasionally in **LA, California** or **Chicago, Illinois**; [get in touch](/contact/) when you are in town!
 
 **A note on language.** This website is in English throughout: I am based in Europe and work across the UK and the USA, and English is the one language that reaches people from all continents.
-
----
-
-{% include affiliations.liquid %}
 
 ---
 

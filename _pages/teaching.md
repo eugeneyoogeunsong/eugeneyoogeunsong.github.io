@@ -46,7 +46,10 @@ nav_order: 6
     font-size: 0.75rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--global-theme-color);
+    /* Same eyebrow colour as .affil-label; see --local-accent-deep in
+       _sass/_themes.scss. Two different kicker colours on one site would read
+       as an accident. */
+    color: var(--local-accent-deep, #312e81);
     font-weight: 700;
     margin: 0 0 0.6rem;
   }

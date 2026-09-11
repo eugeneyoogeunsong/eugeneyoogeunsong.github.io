@@ -22,6 +22,23 @@
   --global-theme-color: #4338ca;
   --global-hover-color: #4338ca;
   --global-hover-text-color: #ffffff;
+  /* The QUIET accent: for anything coloured that is NOT interactive.
+     ----------------------------------------------------------------
+     --global-theme-color is also the link colour, so using it on static text
+     is a false affordance - the eye reads "link", the cursor finds nothing.
+     Everything static that used to wear the accent now wears this instead:
+     eyebrow kickers (AFFILIATIONS, REFERENCES, 227 PAGES), display figures
+     (the Media stat numbers, the view counter) and the outlet chips.
+
+     Interactive things keep --global-theme-color: real links, :hover states,
+     and the active slideshow dot. That split is the whole point - colour now
+     tells the reader what will respond to a click.
+
+     #312e81 (indigo 900) stays in the same blue family but drops the
+     vividness, which reads institutional rather than product-accent. 11:1 on
+     white. In dark mode the accent is already a light indigo and a darker one
+     would fail contrast, so that value carries over unchanged. */
+  --local-accent-deep: #312e81;
   --global-footer-bg-color: #14131c;
   --global-footer-text-color: #c9c9d4;
   --global-footer-link-color: #ffffff;
@@ -85,6 +102,7 @@ html[data-theme="dark"] {
   --global-theme-color: #a5b4fc;
   --global-hover-color: #a5b4fc;
   --global-hover-text-color: #14141a;
+  --local-accent-deep: #a5b4fc;
   --global-footer-bg-color: #e4e4ef;
   --global-footer-text-color: #14141a;
   --global-footer-link-color: #000000;

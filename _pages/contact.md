@@ -59,7 +59,9 @@ These are my referees, each happy to write a recommendation on my behalf - the a
     font-size: 0.75rem;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: var(--global-theme-color);
+    /* Eyebrow kicker, same as .affil-label; see --local-accent-deep in
+       _sass/_themes.scss. */
+    color: var(--local-accent-deep, #312e81);
     font-weight: 700;
     margin: 0 0 0.55rem;
   }
@@ -298,7 +300,7 @@ I am physically in **London** (most of the year), or sometimes in **LA, Californ
   .viewcount b {
     font-size: 1.6rem;
     font-weight: 700;
-    color: var(--global-theme-color);
+    color: var(--local-accent-deep, #312e81);
     line-height: 1;
     font-variant-numeric: tabular-nums;
   }

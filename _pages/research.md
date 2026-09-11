@@ -15,6 +15,8 @@ My research has moved across <a href="/projects/10_cosmology/" class="plain-link
 
 ## [Neutrinos and beyond-Standard-Model (BSM) physics](/projects/){:.section-link}
 
+{% include affiliations.liquid logos="imperial,dune,nova" label="" %}
+
 [**Where I am now.**](/projects/1_dune/) I work on the [Deep Underground Neutrino Experiment (DUNE)](https://www.dunescience.org/) at [Imperial College London](https://www.imperial.ac.uk/), supervised by [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) in the [Imperial DUNE group](https://www.imperial.ac.uk/high-energy-physics/research/experiments/dune/). DUNE will measure charge–parity (CP) violation in the lepton sector, determine the neutrino mass ordering, and search for physics beyond the Standard Model, but only if the systematic uncertainties can be controlled to a degree no long-baseline experiment has achieved before. [See more.](/projects/1_dune/)
 
 [**And the experiment with data today.**](/projects/2_nova/) Alongside DUNE I work on [NOvA](https://novaexperiment.fnal.gov/) (NuMI Off-axis $$\nu_e$$ Appearance), which has been running since 2014: two functionally identical detectors 810 km apart, both 14.6 mrad off the NuMI beam axis so the flux narrows around 2 GeV, near the $$\nu_\mu \rightarrow \nu_e$$ oscillation maximum. My role on NOvA is a variety of physics analysis. Dr Cremonesi is its spokesperson, and the group runs both as a single programme. The practical consequence is that methods get tested against real, systematics-limited data before they are asked to carry a DUNE measurement. [See more.](/projects/2_nova/)
@@ -29,6 +31,8 @@ My research has moved across <a href="/projects/10_cosmology/" class="plain-link
 
 ## [Machine learning for physics and medical applications](/projects/3_atripinn){:.section-link}
 
+{% include affiliations.liquid logos="imperial" label="" %}
+
 [**AtriPINN.**](/projects/3_atripinn) [Physics-informed neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINNs) for real-time atrial fibrillation mapping from grid electrograms, built in [PyTorch](https://pytorch.org/) with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling) and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton), on clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital). The architecture combines local plane-fit conduction velocity, time-shifted kNN blending, and PINN residuals enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics. On sinus-rhythm data it reaches **~1.6 mm RMS localisation error, ~78 ms end-to-end latency, and ≥0.99 channel cross-correlation**; coordinate-agnostic, with switchable physics back-ends. A comparative study against conventional numerical modelling is in preparation for _IEEE Transactions on Biomedical Engineering_ [(Song et al. 2026a)](/publications/).
 
 **The data.** Two catheter geometries, each recorded in both normal sinus rhythm (NSR) and atrial fibrillation: the 4×4 [Advisor HD Grid](https://www.cardiovascular.abbott/us/en/hcp/products/electrophysiology/diagnostic-catheters/advisor-hd-grid.html) and the 6×6 [OPTRELL](https://www.jnjmedtech.com/en-US/news-events/biosense-webster-launches-optrell-mapping-catheter-trueref-technology). We work mainly from the OPTRELL recordings.
@@ -40,6 +44,8 @@ My research has moved across <a href="/projects/10_cosmology/" class="plain-link
 ---
 
 ## [Quantum computing for computational fluid dynamics (CFD)](/projects/5_singularity){:.section-link}
+
+{% include affiliations.liquid logos="singularity" label="" %}
 
 **A part-time collaboration with [Singularity Quantum](https://singularityquantum.com/), working with their CFD engineers.**
 

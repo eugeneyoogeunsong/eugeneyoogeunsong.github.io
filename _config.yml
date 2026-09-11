@@ -22,6 +22,13 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # sitewide mount point. Styles live in _sass/_themes.scss (.affil-rail*).
 # Jekyll does not run Liquid on config values, so image paths must be
 # root-relative literals rather than {{ ... | relative_url }}.
+# LinkedIn follower count, shown on the profile card and the Media page.
+# LinkedIn exposes no public API for personal-profile followers (their
+# follower-statistics endpoint covers company pages only, behind OAuth and
+# partner approval), so this cannot update itself. Edit this ONE line and both
+# places follow. Rounding down with a "+" means it stays true between updates.
+linkedin_followers: "8,500+"
+
 footer_text: >
   &copy; Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.

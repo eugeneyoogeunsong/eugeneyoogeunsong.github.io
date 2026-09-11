@@ -1,91 +1,104 @@
 {%- comment -%}
-  Affiliation marks: a small row of institution logos, each linked.
+  Affiliation marks: a row of institution logos, each linked to that
+  organisation.
 
   Usage:
-    {% include affiliations.liquid %}
-    {% include affiliations.liquid label="Current affiliation" %}
-    {% include affiliations.liquid label="" %}     (no label)
+    {% include affiliations.liquid %}                          all four
+    {% include affiliations.liquid logos="imperial" %}         one
+    {% include affiliations.liquid logos="imperial,dune,nova" %}
+    {% include affiliations.liquid logos="singularity" label="" caption="" %}
+
+  Params
+    logos    comma-separated, in display order. Keys: imperial, dune, nova,
+             singularity. Default: all four.
+    label    small heading above the row. Pass "" to omit.
+    caption  line beneath the row. Omitted automatically when `logos` is given,
+             since the default caption names all four; pass one explicitly if a
+             section needs it.
 
   Design notes
   ------------
-  Each mark sits on a white plate rather than directly on the page. Two reasons:
-  Imperial's blue is #0000CD, which is close to unreadable against the dark theme
-  background, and their brand terms expect the mark reproduced in its own colour
-  rather than recoloured or inverted. A white plate keeps the official colour
-  intact in both themes and is a normal way to present a third-party logo. It is
-  also invisible in light mode, so it costs nothing there.
+  Each mark sits on a white plate. Imperial's blue is #0000CD, which is close to
+  unreadable on the dark theme, and their brand terms expect the mark in its own
+  colour rather than recoloured or inverted. The plate preserves the exact colour
+  in both themes and is invisible in light mode, so it costs nothing there.
 
-  The SVG carries no width/height, only a viewBox, so height is set in CSS and
-  the mark stays crisp at any size and on any display.
+  The wordmark SVG has a viewBox but no width/height, so the width/height
+  attributes on each <img> supply the ratio and reserve the box before load.
 
-  Placement: pages that state where I work and who I work with — About and
-  Contact carry the full row; use only="imperial" for an Imperial-only variant.
-  Deliberately NOT in the navbar, which would present the whole site as an
-  official channel of four organisations rather than a personal site. The
-  sitewide Imperial mark is the margin rail instead (see _sass/_themes.scss).
+  Placement: pages that state where I work and who I work with. Deliberately NOT
+  in the navbar, which would present the whole site as an official channel of
+  four organisations. The sitewide Imperial mark is the margin rail instead
+  (see .affil-rail in _sass/_themes.scss).
 
   Classes and tags only, no attribute selectors: PurgeCSS strips those.
 {%- endcomment -%}
 
 {%- assign af_label = include.label | default: 'Affiliations' -%}
+{%- assign af_list = include.logos | default: 'imperial,dune,nova,singularity' | split: ',' -%}
 
 <div class="affil">
   {%- if af_label != '' %}
     <p class="affil-label">{{ af_label }}</p>
-  {% endif %}
+  {%- endif %}
   <div class="affil-row">
-    <a
-      class="affil-item"
-      href="https://www.imperial.ac.uk/physics/"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Department of Physics, Imperial College London"
-    >
-      <img class="affil-crest" src="{{ '/assets/img/logos/imperial-crest.png' | relative_url }}" alt="" width="30" height="28" loading="lazy">
-      <img
-        class="affil-mark"
-        src="{{ '/assets/img/logos/imperial.svg' | relative_url }}"
-        alt="Imperial College London"
-        width="128"
-        height="14"
-        loading="lazy"
-      >
-    </a>
-    {%- unless include.only == 'imperial' %}
-      <a
-        class="affil-item"
-        href="https://www.dunescience.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Deep Underground Neutrino Experiment"
-      >
-        <img class="affil-sq" src="{{ '/assets/img/logos/dune.png' | relative_url }}" alt="DUNE" width="45" height="30" loading="lazy">
-      </a>
-      <a class="affil-item" href="https://novaexperiment.fnal.gov/" target="_blank" rel="noopener noreferrer" title="NuMI Off-axis νe Appearance">
-        <img class="affil-sq" src="{{ '/assets/img/logos/nova.png' | relative_url }}" alt="NOvA" width="46" height="30" loading="lazy">
-      </a>
-      <a class="affil-item" href="https://singularityquantum.com/" target="_blank" rel="noopener noreferrer" title="Singularity Quantum">
-        <img
-          class="affil-wide"
-          src="{{ '/assets/img/logos/singularity.png' | relative_url }}"
-          alt="Singularity Quantum"
-          width="90"
-          height="26"
-          loading="lazy"
+    {%- for raw in af_list -%}
+      {%- assign key = raw | strip -%}
+      {%- if key == 'imperial' %}
+        <a
+          class="affil-item"
+          href="https://www.imperial.ac.uk/physics/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Department of Physics, Imperial College London"
         >
-      </a>
-    {%- endunless %}
+          <img class="affil-crest" src="{{ '/assets/img/logos/imperial-crest.png' | relative_url }}" alt="" width="30" height="28" loading="lazy">
+          <img
+            class="affil-mark"
+            src="{{ '/assets/img/logos/imperial.svg' | relative_url }}"
+            alt="Imperial College London"
+            width="128"
+            height="14"
+            loading="lazy"
+          >
+        </a>
+      {%- elsif key == 'dune' %}
+        <a
+          class="affil-item"
+          href="https://www.dunescience.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Deep Underground Neutrino Experiment"
+        >
+          <img class="affil-sq" src="{{ '/assets/img/logos/dune.png' | relative_url }}" alt="DUNE" width="45" height="30" loading="lazy">
+        </a>
+      {%- elsif key == 'nova' %}
+        <a class="affil-item" href="https://novaexperiment.fnal.gov/" target="_blank" rel="noopener noreferrer" title="NuMI Off-axis νe Appearance">
+          <img class="affil-sq" src="{{ '/assets/img/logos/nova.png' | relative_url }}" alt="NOvA" width="46" height="30" loading="lazy">
+        </a>
+      {%- elsif key == 'singularity' %}
+        <a class="affil-item" href="https://singularityquantum.com/" target="_blank" rel="noopener noreferrer" title="Singularity Quantum">
+          <img
+            class="affil-wide"
+            src="{{ '/assets/img/logos/singularity.png' | relative_url }}"
+            alt="Singularity Quantum"
+            width="90"
+            height="26"
+            loading="lazy"
+          >
+        </a>
+      {%- endif -%}
+    {%- endfor %}
   </div>
-  <p class="affil-caption">
-    {%- if include.only == 'imperial' %}
-      Department of Physics, Blackett Laboratory ·
-      <a href="https://www.imperial.ac.uk/high-energy-physics/" class="plain-link">High Energy Physics group</a>
-    {%- else %}
+  {%- if include.caption %}
+    <p class="affil-caption">{{ include.caption }}</p>
+  {%- elsif include.logos == null %}
+    <p class="affil-caption">
       <a href="https://www.imperial.ac.uk/high-energy-physics/" class="plain-link">Imperial High Energy Physics group</a> ·
       <a href="/projects/1_dune/" class="plain-link">DUNE</a> and <a href="/projects/2_nova/" class="plain-link">NOvA</a> at Fermilab ·
       <a href="/projects/5_singularity/" class="plain-link">Singularity Quantum</a>
-    {%- endif %}
-  </p>
+    </p>
+  {%- endif %}
 </div>
 
 <style>

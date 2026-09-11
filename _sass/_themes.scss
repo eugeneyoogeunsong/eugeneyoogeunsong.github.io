@@ -224,8 +224,10 @@ html[data-theme-setting="light"] {
    minimum anyone recommends for a touch target.
 
    So: drop the padding hack, centre the glyph in the button properly, and take
-   the glyph from 16px to 24px in a 44px box. Measured cost to the navbar is
-   +4px of height (97.8 -> 101.8), which nothing else depends on.
+   the glyph from 16px to 28px in a 48px box. Measured cost to the navbar is
+   +8px of height (97.8 -> 106), which nothing else depends on. The glyph's line
+   box is 35x40 at this size, so it still sits inside the button rather than
+   setting the button's height itself.
 
    The `:root ` prefix is not decoration. The stock rules are written as
    `:root #light-toggle-system { ... }` and friends, which score (1,1,0); a bare
@@ -239,14 +241,52 @@ html[data-theme-setting="light"] {
 :root #light-toggle {
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
 }
 :root #light-toggle-system,
 :root #light-toggle-dark,
 :root #light-toggle-light {
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+/* Two icons instead of three: show the theme you are LOOKING AT.
+   --------------------------------------------------------------
+   Stock keys the icon off data-theme-setting, i.e. what you chose, so it needs
+   three glyphs: sun (light), moon (dark), half-circle (system). This keys it off
+   data-theme instead, i.e. what is actually painted, which only ever has two
+   values. The sun is retired and the half-circle now means "light is on screen".
+
+   The "system" setting is untouched and still fully works: it simply resolves to
+   one of the two, and you see the glyph for whichever the OS handed back.
+
+   Specificity: the stock rules are `:root #light-toggle-x` and
+   `html[data-theme-setting="y"] #light-toggle-x`, both (1,1,0). Everything here
+   is written as `html[data-theme="y"] #light-toggle-x`, which is (1,1,1) - a
+   type selector, an attribute and an id - so it wins outright rather than
+   depending on source order.
+
+   Known wrinkle, and it is inherent to showing the computed theme: the click
+   cycle is still three-state (system -> light -> dark -> system). If your OS is
+   set to dark, the dark -> system step lands back on a dark screen, so the icon
+   does not change and that one click looks like nothing happened. Shortening the
+   cycle to light <-> dark would fix it, but only by dropping "system" from the
+   cycle, which is exactly what this is meant to preserve. */
+html[data-theme] #light-toggle-light {
+  display: none; /* the sun: never shown */
+}
+html[data-theme="light"] #light-toggle-system {
+  display: block; /* half-circle = light is on screen */
+}
+html[data-theme="light"] #light-toggle-dark {
+  display: none;
+}
+html[data-theme="dark"] #light-toggle-system {
+  display: none;
+}
+html[data-theme="dark"] #light-toggle-dark {
+  display: block; /* moon = dark is on screen */
 }
 
 /* The "news" and "selected publications" headings on the About page are

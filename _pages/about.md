@@ -53,16 +53,20 @@ latest_posts:
      it) because its three links all appear in the paragraph directly above.
 
      It sits in the ~580px of column left beside the float-right portrait. Four
-     200px plates need 848px, so left alone they break 3 + 1 and orphan
-     Singularity. Capping the row at two plates (2 x 200 + 1rem gap) forces a 2x2
-     block whose height sits level with the portrait. Below 768px the portrait
-     stops floating and the plates are 164px, so two per row still fits and the
-     block stays square. */
+     210px plates need 888px, so left alone they break 3 + 1 and orphan
+     Singularity. Capping the row at two plates forces a 2x2 block whose height
+     sits level with the portrait. Below 768px the portrait stops floating and
+     the plates are 164px, so two per row still fits and the block stays square.
+
+     ⚠️  This cap is 2 x .affil-item width + the 1rem row gap. It MUST be
+     recalculated whenever the plate width changes in _includes/affiliations.liquid
+     - at 200px plates this read 416px, and leaving it there after the plates grew
+     to 210px silently collapsed the block to one plate per row. */
   .affil-lede .affil {
     margin: 1.25rem 0 1.6rem;
   }
   .affil-lede .affil-row {
-    max-width: 416px;
+    max-width: 438px; /* 2 x 210 + 1rem gap, + 2px so an exact fit cannot round the wrong way */
   }
   #headshot-slideshow {
     position: relative;

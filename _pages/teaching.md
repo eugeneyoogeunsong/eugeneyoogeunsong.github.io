@@ -180,6 +180,6 @@ GCSE and A-level have no MIT counterpart, so those are left unlinked. The materi
 
 On format, level and everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

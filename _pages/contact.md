@@ -126,7 +126,7 @@ South Kensington Campus, London SW7 2AZ, United Kingdom
 
 I am physically in **London** (most of the year), or sometimes in **LA, California** or **Chicago, Illinois**. Do hit me up when you are in town.
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 ---
 

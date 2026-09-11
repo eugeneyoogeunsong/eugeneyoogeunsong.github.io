@@ -77,6 +77,6 @@ always like to know where it ends up.
 
 Back to [About](/).
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

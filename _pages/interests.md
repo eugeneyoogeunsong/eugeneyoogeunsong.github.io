@@ -87,6 +87,6 @@ Beyond the frameworks, the pattern I recognise in myself is this. I value innova
 
 As for religion, I am **agnostic** rather than religious, at least for the moment. Politically I am a **centrist**, and what I actually value is pragmatism: I support free markets and economic liberalism, and I take environmental protection and progressive social change to be just as necessary, and see no reason the two sets of aims cannot be pursued together.
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

@@ -13,6 +13,6 @@ toc:
 
 {% include cv_contact_extra.liquid %}
 
-{% include linkedin_badge.liquid append_to=".post, article, .container" %}
+{% include linkedin_card.liquid append_to=".post, article, .container" %}
 
 {% include goatcounter.liquid %}

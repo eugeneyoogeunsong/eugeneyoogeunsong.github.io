@@ -195,6 +195,6 @@ pagination:
 
 </div>
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

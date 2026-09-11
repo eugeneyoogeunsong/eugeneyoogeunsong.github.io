@@ -1,0 +1,280 @@
+{%- comment -%}
+  Self-hosted LinkedIn profile card. A drop-in replacement for
+  linkedin_badge.liquid, which depends on platform.linkedin.com/badges/js/profile.js
+  and stops working when LinkedIn retires the badge service.
+
+  Why this exists, and what changes
+  ---------------------------------
+  The old badge rendered inside an iframe that LinkedIn controlled: it needed a
+  third-party script, a network round trip, and it could not be styled, resized
+  or made to follow dark mode. When that service goes away the badge degrades to
+  a bare text link on twenty pages at once.
+
+  This include renders the same card from local markup. No third-party script,
+  no external request, no iframe, so it also stops costing a render-blocking
+  fetch on every page (see the Cloudflare Core Web Vitals notes).
+
+  Usage is identical to the old include, including the repositioning options:
+
+    {% include linkedin_card.liquid %}
+    {% include linkedin_card.liquid after_heading="references" %}
+    {% include linkedin_card.liquid append_to=".post, article, .container" %}
+    {% include linkedin_card.liquid before_heading="selected publications" %}
+
+  Content overrides (all optional; defaults below match the live profile):
+
+    {% include linkedin_card.liquid width="420" photo="/assets/img/profile/02.jpg" %}
+
+  The header shows the word "LinkedIn" set in the brand blue rather than the
+  LinkedIn logo mark. If you want the actual mark, download the official asset
+  from LinkedIn's brand resources to /assets/img/linkedin-logo.svg and pass
+  logo="/assets/img/linkedin-logo.svg" — using their supplied file keeps you
+  inside their brand terms, which a hand-drawn copy would not.
+
+  Classes and tags only, no attribute selectors: PurgeCSS strips those.
+{%- endcomment -%}
+
+{%- assign li_url = include.url | default: 'https://www.linkedin.com/in/yoogeunsong' -%}
+{%- assign li_name = include.name | default: 'Eugene (Yoogeun) Song' -%}
+{%- assign li_photo = include.photo | default: '/assets/img/linkedin_card_photo.jpg' -%}
+{%- assign li_width = include.width | default: '620' -%}
+{%- assign li_headline = include.headline
+  | default: 'Neutrino Physics @ Imperial College London, DUNE &amp; NOvA Collab || Machine Learning || Quantum Computing || Quant Researcher || Multidisciplinary Scientist || Physics × ML × QC × Quant || 🇬🇧 London-based (2023–Present)'
+-%}
+{%- assign li_org = include.org
+  | default: '<a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a> | <a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a>'
+-%}
+
+<div class="li-card-wrap" id="li-badge-wrap">
+  <div class="li-card">
+    <a class="li-card-head" href="{{ li_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ li_name }} on LinkedIn">
+      {%- if include.logo %}
+        <img class="li-card-logomark" src="{{ include.logo | relative_url }}" alt="LinkedIn">
+      {%- else %}
+        <span class="li-card-wordmark">Linked<span class="li-card-in">in</span></span>
+      {%- endif %}
+    </a>
+
+    <div class="li-card-body">
+      <a class="li-card-photo-link" href="{{ li_url }}" target="_blank" rel="noopener noreferrer">
+        <img class="li-card-photo" src="{{ li_photo | relative_url }}" alt="{{ li_name }}" loading="lazy" width="132" height="132">
+      </a>
+
+      <div class="li-card-text">
+        <a class="li-card-name" href="{{ li_url }}" target="_blank" rel="noopener noreferrer">{{ li_name }}</a>
+        <p class="li-card-headline">{{ li_headline }}</p>
+        <p class="li-card-org">{{ li_org }}</p>
+        <a class="li-card-btn" href="{{ li_url }}" target="_blank" rel="noopener noreferrer">View profile</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .li-card-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1.5rem;
+  }
+  .li-card {
+    width: 100%;
+    max-width: {{ li_width }}px;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--global-card-bg-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    transition: box-shadow 0.18s ease, transform 0.18s ease;
+  }
+  .li-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Header strip, and itself a link to the profile. Made a block-level anchor so
+     the whole strip is the hit target rather than just the glyphs, which matters
+     most on touch. text-decoration is cleared because the theme underlines links. */
+  .li-card-head {
+    display: block;
+    background: #e7e2dc;
+    padding: 1.15rem 1.5rem;
+    text-decoration: none;
+    border: 0;
+    transition: background 0.15s ease;
+  }
+  .li-card-head:hover {
+    background: #ddd7cf;
+    text-decoration: none;
+  }
+  .li-card-wordmark {
+    font-size: 1.55rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0a66c2;
+    line-height: 1;
+  }
+  .li-card-in {
+    display: inline-block;
+    background: #0a66c2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 0.18em;
+    margin-left: 0.06em;
+  }
+  .li-card-logomark {
+    display: block;
+    height: 1.55rem;
+    width: auto;
+  }
+
+  /* Two columns on anything wider than a phone; a single stacked column below.
+     Flex-wrap does the switch, so there is no second breakpoint to keep in sync:
+     when the text column can no longer hold its min-width the row simply wraps. */
+  .li-card-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.6rem 1.75rem 1.75rem;
+  }
+  .li-card-photo-link {
+    display: block;
+    flex: 0 0 auto;
+    border: 0;
+  }
+  .li-card-photo {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+  .li-card-text {
+    flex: 1 1 260px;
+    min-width: 0;
+  }
+  .li-card-name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--global-text-color);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  .li-card-name:hover {
+    color: #0a66c2;
+    text-decoration: underline;
+  }
+  .li-card-headline {
+    font-size: 0.97rem;
+    line-height: 1.45;
+    color: var(--global-text-color);
+    margin: 0 0 0.75rem;
+  }
+  .li-card-org {
+    font-size: 0.86rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+    margin: 0 0 1.15rem;
+  }
+  .li-card-org a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .li-card-org a:hover {
+    color: #0a66c2;
+    text-decoration: underline;
+  }
+  .li-card-btn {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border: 1.5px solid #0a66c2;
+    border-radius: 999px;
+    color: #0a66c2;
+    background: transparent;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .li-card-btn:hover {
+    background: #0a66c2;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media (max-width: 560px) {
+    .li-card-head { padding: 1rem 1.2rem; }
+    .li-card-body { padding: 1.35rem 1.2rem 1.5rem; gap: 1.1rem; }
+    .li-card-photo { width: 96px; height: 96px; }
+    .li-card-name { font-size: 1.25rem; }
+    .li-card-headline { font-size: 0.92rem; }
+    .li-card-btn { font-size: 0.97rem; padding: 0.55rem 1.3rem; }
+  }
+</style>
+
+<script>
+  // Repositioning only, ported unchanged from linkedin_badge.liquid so the
+  // after_heading / before_heading / before / append_to options keep working.
+  // Unlike the old badge there is no third-party script to race against, so
+  // this can run whenever the DOM is ready.
+  (function () {
+    var MOVE_BEFORE = {{ include.before | default: "" | jsonify }};
+    var BEFORE_HEADING = {{ include.before_heading | default: "" | jsonify }};
+    var AFTER_HEADING = {{ include.after_heading | default: "" | jsonify }};
+    var APPEND_TO = {{ include.append_to | default: "" | jsonify }};
+    if (!MOVE_BEFORE && !BEFORE_HEADING && !AFTER_HEADING && !APPEND_TO) return;
+
+    function headingByText(text) {
+      var want = text.trim().toLowerCase();
+      var hs = document.querySelectorAll(".post h1, .post h2, .post h3, h1, h2, h3");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === want) return hs[i];
+      }
+      return null;
+    }
+
+    function reposition() {
+      var wrap = document.getElementById("li-badge-wrap");
+      if (!wrap) return;
+
+      if (AFTER_HEADING) {
+        var h = headingByText(AFTER_HEADING);
+        if (h && h.parentNode) {
+          h.parentNode.appendChild(wrap);
+          return;
+        }
+      }
+
+      var target = null;
+      if (BEFORE_HEADING) target = headingByText(BEFORE_HEADING);
+      if (!target && MOVE_BEFORE) {
+        var sels = MOVE_BEFORE.split(",");
+        for (var i = 0; i < sels.length; i++) {
+          target = document.querySelector(sels[i].trim());
+          if (target) break;
+        }
+      }
+      if (target && target.parentNode) {
+        target.parentNode.insertBefore(wrap, target);
+        return;
+      }
+      if (APPEND_TO) {
+        var container = null;
+        var cs = APPEND_TO.split(",");
+        for (var k = 0; k < cs.length; k++) {
+          container = document.querySelector(cs[k].trim());
+          if (container) break;
+        }
+        if (container) container.appendChild(wrap);
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", reposition);
+    } else {
+      reposition();
+    }
+  })();
+</script>

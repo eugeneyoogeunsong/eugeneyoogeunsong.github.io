@@ -34,4 +34,4 @@ The terminal penalty $$-\alpha Q_T^{2}$$ is the point. Impact, inventory and the
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}

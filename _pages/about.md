@@ -211,4 +211,4 @@ Multiple years in, my network looks like London itself: every background, nation
 
 {% include news_heading_link.liquid %}
 
-{% include linkedin_badge.liquid before_heading="selected publications" %}
+{% include linkedin_card.liquid before_heading="selected publications" %}

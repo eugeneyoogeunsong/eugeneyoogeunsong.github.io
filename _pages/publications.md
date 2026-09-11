@@ -21,6 +21,6 @@ nav_order: 3
 
 {% include author_self_link.liquid %}
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

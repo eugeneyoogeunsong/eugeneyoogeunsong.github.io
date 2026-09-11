@@ -71,4 +71,4 @@ That vertex is what allows $$qq \to qqh$$ to proceed by $$t$$-channel $$W/Z$$ ex
 
 **What I took from it.** The exclusion reach in this channel is set almost entirely by the control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds, which is to say, by systematics rather than luminosity. The same lesson that governs neutrino oscillation measurements governs this search, and it is the reason I moved towards systematics-aware methods.
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}

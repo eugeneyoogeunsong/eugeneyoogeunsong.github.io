@@ -83,6 +83,6 @@ I hold a [Securities Education Certificate](https://yoogeunsong.com/assets/pdf/s
 
 For the full record, see [publications](/publications/) and [projects](/projects/).
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

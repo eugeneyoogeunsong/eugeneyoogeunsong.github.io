@@ -324,6 +324,6 @@ On logistics, travel is easy: I can film or speak almost anywhere in the world, 
 
 For enquiries, see [Contact](/contact/).
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

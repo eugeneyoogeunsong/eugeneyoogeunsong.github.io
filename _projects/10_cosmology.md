@@ -55,4 +55,4 @@ This was one of my earliest first-author preprints, written at **age 18**.
 
 {% include author_self_link.liquid %}
 
-{% include linkedin_badge.liquid after_heading="references" %}
+{% include linkedin_card.liquid after_heading="references" %}

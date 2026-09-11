@@ -45,4 +45,4 @@ That second sum is the whole argument for systematics-aware reconstruction: a ne
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
 
-{% include linkedin_badge.liquid %}
+{% include linkedin_card.liquid %}

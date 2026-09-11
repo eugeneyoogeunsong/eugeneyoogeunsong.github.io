@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-# Make DARK the default theme for visitors who have never chosen one.
+# Make DARK the default theme on desktop for visitors who have never chosen one.
+# On phones the default stays "system", i.e. stock behaviour.
 # =============================================================================
 #
 # Why a plugin rather than an edit
@@ -59,6 +60,12 @@
 #      following their OS setting. This only changes what genuinely new
 #      browsers see. To reset your own: run
 #      localStorage.removeItem("theme") in the console and reload.
+#   3. And for the same reason again, the phone/desktop test is only consulted
+#      ONCE per browser, on the first load. A browser whose first visit happened
+#      at a narrow width has "system" stored from then on, and will keep
+#      following the OS even when later opened wide. That is the correct
+#      behaviour anyway - the stored value is a decision already made - but it
+#      does mean resizing a window is not a way to see the other default.
 #
 # Forcing dark on those returning visitors would mean overriding a stored
 # value, and nothing distinguishes "system because they chose it" from "system

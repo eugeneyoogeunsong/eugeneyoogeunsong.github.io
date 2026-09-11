@@ -73,6 +73,12 @@
 module DefaultThemeDark
   SCRIPT_TAG = %r{(<script[^>]*\ssrc="[^"]*assets/js/theme\.js[^"]*"[^>]*>\s*</script>)}
 
+  # Below this viewport width the default stays "system" (follow the OS) rather
+  # than becoming "dark". 767px is the site's own breakpoint: it is where the
+  # layout stops floating the portrait and stacks, so "phone" means the same
+  # thing here as it does in the stylesheets.
+  MOBILE_QUERY = "(max-width: 767px)"
+
   SNIPPET = <<~HTML.gsub(/\n\s*/, " ").strip
     <script>
       try {
@@ -81,7 +87,9 @@ module DefaultThemeDark
         determineThemeSetting;
         determineThemeSetting = function () {
           var t = localStorage.getItem("theme");
-          return (t === "dark" || t === "light" || t === "system") ? t : "dark";
+          if (t === "dark" || t === "light" || t === "system") return t;
+          try { if (window.matchMedia("#{MOBILE_QUERY}").matches) return "system"; } catch (e) {}
+          return "dark";
         };
       } catch (e) {}
     </script>

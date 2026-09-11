@@ -4,9 +4,21 @@ title: Pictures
 permalink: /pictures/
 description: Headshots, at full resolution. Free to use for talks, panels, articles and profiles.
 nav: false
+# Pinned to dark whatever the visitor's setting is: the headshots are shot
+# against dark backdrops and look like cut-outs on a light page. Implemented in
+# _plugins/force_page_theme.rb.
+force_theme: dark
 ---
 
 <style>
+  /* The theme toggle is hidden here because this page ignores it. Leaving it
+     would ship a control that appears broken: it would still record the click,
+     but nothing on screen would change. It is hidden rather than removed so
+     theme.js can still attach its listener to the element without throwing.
+     Every other page shows it as normal. */
+  #light-toggle {
+    display: none;
+  }
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

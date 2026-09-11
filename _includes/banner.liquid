@@ -16,11 +16,19 @@
     caption  optional line beneath
     eager    pass "true" for an above-the-fold banner so it is not lazy-loaded
              (a lazy LCP image delays Largest Contentful Paint)
+    maxw     cap the rendered width in px and centre the figure. Use this for a
+             portrait or square image shown whole: at full container width a 4:5
+             frame would run well over 1000px tall and swamp the page.
 
   Classes and tags only, no attribute selectors: PurgeCSS strips those.
 {%- endcomment -%}
 
-<figure class="pic-banner">
+<figure
+  class="pic-banner{% if include.maxw %} pic-banner-capped{% endif %}"
+  {% if include.maxw %}
+    style="max-width:{{ include.maxw }}px"
+  {% endif %}
+>
   <img
     src="{{ include.src | relative_url }}"
     alt="{{ include.alt }}"
@@ -40,6 +48,13 @@
 <style>
   .pic-banner {
     margin: 1.75rem 0 2rem;
+  }
+  /* Capped variant: the inline max-width comes from the `maxw` param, and this
+     centres it. Used where the whole frame must be visible rather than cropped
+     to a letterbox. */
+  .pic-banner-capped {
+    margin-left: auto;
+    margin-right: auto;
   }
   .pic-banner img {
     display: block;

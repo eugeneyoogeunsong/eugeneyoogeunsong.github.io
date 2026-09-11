@@ -180,7 +180,7 @@ nav_order: 8
 I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live.
 For the most part the media was in Korean or Japanese, while this website is in English throughout: I am based in Europe and work across the UK and the USA, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in the UK and the USA. I am always happy to share my journey.
 
-{% include banner.liquid src="/assets/img/london/westminster-wide.jpg" alt="Westminster at dusk from across the Thames" w="1600" h="640" caption="Based in London, and from 2026 working with English-language outlets." %}
+{% include banner.liquid src="/assets/img/london/thames-full.jpg" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" w="1500" h="1000" caption="Based in London since 2023, and working with English-language outlets from 2026." %}
 
 <div class="mo-stats">
   <div class="mo-stat"><b>500+</b><span>Media appearances</span></div>

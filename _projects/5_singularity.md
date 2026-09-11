@@ -52,4 +52,6 @@ That is the same problem I have been working on elsewhere. In [AtriPINN](/projec
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
 
+{% include affiliations.liquid logos="singularity" label="" %}
+
 {% include linkedin_card.liquid %}

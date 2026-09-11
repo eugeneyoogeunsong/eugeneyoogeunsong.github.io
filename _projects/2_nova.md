@@ -51,4 +51,6 @@ with $$W^{ij}_{\alpha\beta} = U_{\alpha i}U^{*}_{\beta i}U^{*}_{\alpha j}U_{\bet
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
 
+{% include affiliations.liquid logos="imperial,nova" label="" %}
+
 {% include linkedin_card.liquid %}

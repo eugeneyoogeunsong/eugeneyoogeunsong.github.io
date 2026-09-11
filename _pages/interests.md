@@ -68,42 +68,45 @@ The people are the other half of it, and mostly they found me rather than the ot
 Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 
 <figure class="pic-duo">
-  <img src="{{ '/assets/img/london/westminster-4x3.jpg' | relative_url }}" alt="Westminster at dusk from across the Thames" width="900" height="675" loading="lazy" decoding="async">
-  <img src="{{ '/assets/img/london/thames-4x3.jpg' | relative_url }}" alt="The Thames from above at dusk, Tower Bridge in the foreground" width="900" height="675" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/london/westminster-duo.jpg' | relative_url }}" alt="Westminster and the clock tower at dusk, seen across the Thames" width="480" height="600" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/london/thames-duo.jpg' | relative_url }}" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" width="900" height="600" loading="lazy" decoding="async">
   <figcaption>London, home since 2023, and still the best argument for living here.</figcaption>
 </figure>
 
 <style>
-  /* Two-up on desktop, stacked on a phone. Both images share one aspect ratio
-     so the pair lines up whatever the crop; width/height attributes reserve the
-     boxes before load so the page does not jump. */
+  /* The two photos have different native shapes: 4:5 portrait and 3:2 landscape.
+     Forcing both into one grid cell (the previous approach) meant object-fit:cover
+     cropped both. Matching them on HEIGHT instead lets each keep its own width and
+     its whole frame: at 300px tall that is roughly 240px and 450px wide, which
+     still fits the content column side by side.
+     Below 700px they stack and go full width. */
   .pic-duo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
     gap: 0.75rem;
     margin: 1.5rem 0 2rem;
   }
   .pic-duo img {
     display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    height: 300px;
+    width: auto;
+    max-width: 100%;
     border-radius: 9px;
     background: var(--global-card-bg-color);
   }
   .pic-duo figcaption {
-    grid-column: 1 / -1;
+    flex: 1 0 100%;
     margin-top: 0.15rem;
     font-size: 0.84rem;
     color: var(--global-text-color-light);
   }
-  @media (max-width: 576px) {
-    .pic-duo {
-      grid-template-columns: 1fr;
-      gap: 0.6rem;
+  @media (max-width: 700px) {
+    .pic-duo img {
+      height: auto;
+      width: 100%;
+      border-radius: 7px;
     }
-    .pic-duo img { border-radius: 7px; }
     .pic-duo figcaption { font-size: 0.8rem; }
   }
 </style>

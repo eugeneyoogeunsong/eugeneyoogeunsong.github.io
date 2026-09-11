@@ -17,7 +17,7 @@ pagination:
 ---
 
 <div class="post">
-{% include banner.liquid src="/assets/img/london/westminster-16x9.jpg" alt="Westminster and the Palace of Westminster clock tower at dusk, from across the Thames" w="1600" h="900" eager="true" caption="Written from London." %}
+{% include banner.liquid src="/assets/img/london/westminster-full.jpg" alt="Westminster and the Palace of Westminster clock tower at dusk, seen across the Thames" w="1000" h="1250" maxw="560" eager="true" caption="Written from London." %}
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}

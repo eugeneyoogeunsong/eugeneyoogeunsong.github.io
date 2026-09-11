@@ -31,7 +31,11 @@
   logo="/assets/img/linkedin-logo.svg" — using their supplied file keeps you
   inside their brand terms, which a hand-drawn copy would not.
 
-  Classes and tags only, no attribute selectors: PurgeCSS strips those.
+  Classes and tags only, with ONE deliberate exception: the dark-theme palette
+  block keys off html[data-theme="dark"]. PurgeCSS strips attribute selectors,
+  but it only ever runs over the built CSS files - a <style> block sitting in
+  the page body, like the one below, is never processed. So the exception is
+  safe here and would NOT be safe if this CSS moved into _sass/.
 {%- endcomment -%}
 
 {%- assign li_url = include.url | default: 'https://www.linkedin.com/in/yoogeunsong' -%}
@@ -71,10 +75,44 @@
 </div>
 
 <style>
+  /* Theme-aware palette.
+     ---------------------
+     The card body already followed the theme (--global-card-bg-color), but the
+     header strip, the wordmark and the button were hardcoded to the light-mode
+     values, so in dark mode a beige strip sat on a near-black card and
+     LinkedIn blue #0a66c2 fell to about 2.5:1 against it - under the 4.5:1
+     floor, i.e. genuinely hard to read rather than merely off-key.
+
+     Everything that needs to differ is a variable here, overridden once below.
+
+     Dark values, and why:
+       head-bg  #252534  an indigo-tinted charcoal, clearly lifted off the
+                         #1c1c26 card body so the strip still reads as a
+                         separate surface. In the site's own hue family rather
+                         than LinkedIn's navy, so the card belongs to the page.
+       brand    #70b5f9  LinkedIn's own dark-mode blue, not an invention. About
+                         7:1 on the strip, and it keeps the badge recognisably
+                         LinkedIn instead of going plain white.
+       on-brand #14141a  sits inside the brand-filled "in" box and the filled
+                         button, where dark-on-light is the readable direction. */
   .li-card-wrap {
+    --li-head-bg: #e7e2dc;
+    --li-head-bg-hover: #ddd7cf;
+    --li-brand: #0a66c2;
+    --li-on-brand: #ffffff;
+    --li-shadow: rgba(0, 0, 0, 0.12);
+
     display: flex;
     justify-content: center;
     margin: 2rem 0 1.5rem;
+  }
+  html[data-theme="dark"] .li-card-wrap {
+    --li-head-bg: #252534;
+    --li-head-bg-hover: #2e2e40;
+    --li-brand: #70b5f9;
+    --li-on-brand: #14141a;
+    /* A black shadow is invisible on a near-black page, so lift with light. */
+    --li-shadow: rgba(0, 0, 0, 0.5);
   }
   .li-card {
     width: 100%;
@@ -88,7 +126,7 @@
   }
   .li-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 18px var(--li-shadow);
   }
 
   /* Header strip, and itself a link to the profile. Made a block-level anchor so
@@ -96,27 +134,27 @@
      most on touch. text-decoration is cleared because the theme underlines links. */
   .li-card-head {
     display: block;
-    background: #e7e2dc;
+    background: var(--li-head-bg);
     padding: 1.15rem 1.5rem;
     text-decoration: none;
     border: 0;
     transition: background 0.15s ease;
   }
   .li-card-head:hover {
-    background: #ddd7cf;
+    background: var(--li-head-bg-hover);
     text-decoration: none;
   }
   .li-card-wordmark {
     font-size: 1.55rem;
     font-weight: 700;
     letter-spacing: -0.02em;
-    color: #0a66c2;
+    color: var(--li-brand);
     line-height: 1;
   }
   .li-card-in {
     display: inline-block;
-    background: #0a66c2;
-    color: #fff;
+    background: var(--li-brand);
+    color: var(--li-on-brand);
     border-radius: 5px;
     padding: 0 0.18em;
     margin-left: 0.06em;
@@ -163,7 +201,7 @@
     margin-bottom: 0.5rem;
   }
   .li-card-name:hover {
-    color: #0a66c2;
+    color: var(--li-brand);
     text-decoration: underline;
   }
   .li-card-headline {
@@ -183,15 +221,15 @@
     text-decoration: none;
   }
   .li-card-org a:hover {
-    color: #0a66c2;
+    color: var(--li-brand);
     text-decoration: underline;
   }
   .li-card-btn {
     display: inline-block;
     padding: 0.6rem 1.5rem;
-    border: 1.5px solid #0a66c2;
+    border: 1.5px solid var(--li-brand);
     border-radius: 999px;
-    color: #0a66c2;
+    color: var(--li-brand);
     background: transparent;
     font-size: 1.05rem;
     font-weight: 600;
@@ -199,8 +237,8 @@
     transition: background 0.15s ease, color 0.15s ease;
   }
   .li-card-btn:hover {
-    background: #0a66c2;
-    color: #fff;
+    background: var(--li-brand);
+    color: var(--li-on-brand);
     text-decoration: none;
   }
 

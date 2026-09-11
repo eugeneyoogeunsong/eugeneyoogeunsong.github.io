@@ -366,3 +366,92 @@ html[data-theme-setting="light"] {
     transform-origin: right center;
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * Affiliation rail: the Imperial lockup parked in the right-hand page margin,
+ * on every page.
+ *
+ * Why the margin rather than the content column: the ask was "Imperial on every
+ * page", and repeating a logo inside the prose on eleven pages turns it into
+ * wallpaper and pushes real content down. The gutter is dead space on a wide
+ * screen, so the mark is always present without ever competing with the text.
+ *
+ * Why the RIGHT margin specifically: _pages/cv.md and _pages/research.md both
+ * set `toc: sidebar: left`, so the left gutter is already occupied on those two
+ * pages. A left rail would collide with the table of contents.
+ *
+ * Why 1500px: the container is fluid with a cap, so the gutter only clears the
+ * 112px rail plus breathing room from about 1500px up. Below that the rail is
+ * display:none — it is an enhancement for wide screens, never a requirement.
+ * position:fixed keeps it out of document flow, so it cannot shift layout.
+ *
+ * The white plate preserves Imperial blue (#0000CD) exactly in dark mode, where
+ * it would otherwise be near-invisible, without recolouring their mark.
+ *
+ * Markup lives in `footer_text` in _config.yml, which is the one hook that
+ * renders on every page without shadowing another gem-owned layout.
+ * Classes and tags only: PurgeCSS strips attribute selectors.
+ * ------------------------------------------------------------------------- */
+
+.affil-rail {
+  display: none;
+}
+
+@media (min-width: 1500px) {
+  .affil-rail {
+    display: block;
+    position: fixed;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 112px;
+    z-index: 5;
+    text-align: center;
+  }
+  .affil-rail-link {
+    display: block;
+    background: #fff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    padding: 0.85rem 0.7rem 0.75rem;
+    text-decoration: none;
+    opacity: 0.82;
+    transition:
+      opacity 0.18s ease,
+      box-shadow 0.18s ease,
+      border-color 0.18s ease;
+  }
+  .affil-rail-link:hover {
+    opacity: 1;
+    border-color: var(--global-theme-color);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+  .affil-rail-crest {
+    display: block;
+    width: 42px;
+    height: auto;
+    margin: 0 auto 0.55rem;
+  }
+  .affil-rail-mark {
+    display: block;
+    width: 88px;
+    height: auto;
+    aspect-ratio: 1548 / 170;
+    margin: 0 auto;
+  }
+  .affil-rail-cap {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+}
+
+@media print {
+  .affil-rail {
+    display: none !important;
+  }
+}

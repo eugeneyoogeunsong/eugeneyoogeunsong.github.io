@@ -16,10 +16,23 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yoogeun (Eugene) Song — high-energy physicist at Imperial College London working on
   neutrinos with DUNE, physics-informed machine learning, and quantitative research.
+# NOTE: footer_text is the only hook that renders on EVERY page without
+# shadowing a gem-owned layout, so the fixed affiliation rail is injected here.
+# It is position:fixed, so it is not really "in" the footer — it just needs a
+# sitewide mount point. Styles live in _sass/_themes.scss (.affil-rail*).
+# Jekyll does not run Liquid on config values, so image paths must be
+# root-relative literals rather than {{ ... | relative_url }}.
 footer_text: >
   &copy; Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <span class="affil-rail"><a class="affil-rail-link"
+  href="https://www.imperial.ac.uk/physics/" target="_blank" rel="noopener noreferrer"
+  title="Department of Physics, Imperial College London"><img class="affil-rail-crest"
+  src="/assets/img/logos/imperial-crest.png" alt="" width="42" height="40" loading="lazy"><img
+  class="affil-rail-mark" src="/assets/img/logos/imperial.svg"
+  alt="Imperial College London" width="88" height="10" loading="lazy"><span
+  class="affil-rail-cap">Department of Physics</span></a></span>
 keywords: Yoogeun Song, Eugene Song, 송유근, neutrino physics, DUNE, particle physics, machine learning, physics-informed neural networks, quantitative research, Imperial College London
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ν # neutrino — the favicon

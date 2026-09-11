@@ -1,0 +1,178 @@
+{%- comment -%}
+  Affiliation marks: a small row of institution logos, each linked.
+
+  Usage:
+    {% include affiliations.liquid %}
+    {% include affiliations.liquid label="Current affiliation" %}
+    {% include affiliations.liquid label="" %}     (no label)
+
+  Design notes
+  ------------
+  Each mark sits on a white plate rather than directly on the page. Two reasons:
+  Imperial's blue is #0000CD, which is close to unreadable against the dark theme
+  background, and their brand terms expect the mark reproduced in its own colour
+  rather than recoloured or inverted. A white plate keeps the official colour
+  intact in both themes and is a normal way to present a third-party logo. It is
+  also invisible in light mode, so it costs nothing there.
+
+  The SVG carries no width/height, only a viewBox, so height is set in CSS and
+  the mark stays crisp at any size and on any display.
+
+  Placement: pages that state where I work and who I work with — About and
+  Contact carry the full row; use only="imperial" for an Imperial-only variant.
+  Deliberately NOT in the navbar, which would present the whole site as an
+  official channel of four organisations rather than a personal site. The
+  sitewide Imperial mark is the margin rail instead (see _sass/_themes.scss).
+
+  Classes and tags only, no attribute selectors: PurgeCSS strips those.
+{%- endcomment -%}
+
+{%- assign af_label = include.label | default: 'Affiliations' -%}
+
+<div class="affil">
+  {%- if af_label != '' %}
+    <p class="affil-label">{{ af_label }}</p>
+  {% endif %}
+  <div class="affil-row">
+    <a
+      class="affil-item"
+      href="https://www.imperial.ac.uk/physics/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Department of Physics, Imperial College London"
+    >
+      <img class="affil-crest" src="{{ '/assets/img/logos/imperial-crest.png' | relative_url }}" alt="" width="30" height="28" loading="lazy">
+      <img
+        class="affil-mark"
+        src="{{ '/assets/img/logos/imperial.svg' | relative_url }}"
+        alt="Imperial College London"
+        width="128"
+        height="14"
+        loading="lazy"
+      >
+    </a>
+    {%- unless include.only == 'imperial' %}
+      <a
+        class="affil-item"
+        href="https://www.dunescience.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Deep Underground Neutrino Experiment"
+      >
+        <img class="affil-sq" src="{{ '/assets/img/logos/dune.png' | relative_url }}" alt="DUNE" width="45" height="30" loading="lazy">
+      </a>
+      <a class="affil-item" href="https://novaexperiment.fnal.gov/" target="_blank" rel="noopener noreferrer" title="NuMI Off-axis νe Appearance">
+        <img class="affil-sq" src="{{ '/assets/img/logos/nova.png' | relative_url }}" alt="NOvA" width="46" height="30" loading="lazy">
+      </a>
+      <a class="affil-item" href="https://singularityquantum.com/" target="_blank" rel="noopener noreferrer" title="Singularity Quantum">
+        <img
+          class="affil-wide"
+          src="{{ '/assets/img/logos/singularity.png' | relative_url }}"
+          alt="Singularity Quantum"
+          width="90"
+          height="26"
+          loading="lazy"
+        >
+      </a>
+    {%- endunless %}
+  </div>
+  <p class="affil-caption">
+    {%- if include.only == 'imperial' %}
+      Department of Physics, Blackett Laboratory ·
+      <a href="https://www.imperial.ac.uk/high-energy-physics/" class="plain-link">High Energy Physics group</a>
+    {%- else %}
+      <a href="https://www.imperial.ac.uk/high-energy-physics/" class="plain-link">Imperial High Energy Physics group</a> ·
+      <a href="/projects/1_dune/" class="plain-link">DUNE</a> and <a href="/projects/2_nova/" class="plain-link">NOvA</a> at Fermilab ·
+      <a href="/projects/5_singularity/" class="plain-link">Singularity Quantum</a>
+    {%- endif %}
+  </p>
+</div>
+
+<style>
+  .affil {
+    margin: 1.75rem 0 2rem;
+  }
+  .affil-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    margin: 0 0 0.6rem;
+  }
+  .affil-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  .affil-item {
+    display: inline-flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    padding: 0.6rem 0.95rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    transition:
+      border-color 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  .affil-item:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  /* The SVG ships with a viewBox but no width/height so CSS can size it. That
+     means the browser has no intrinsic size to work from, and width:auto alone
+     collapses it to nothing. The width/height attributes on the tag supply the
+     ratio, and aspect-ratio here keeps it correct when the height changes at the
+     mobile breakpoint. It also reserves the box before load, so no layout shift. */
+  /* The wordmark SVG has a viewBox but no width/height, so width:auto alone
+     collapses it. The tag attributes give the ratio; aspect-ratio keeps it right
+     when the height changes at the mobile breakpoint, and both reserve the box
+     before load so nothing shifts. */
+  .affil-item img {
+    display: block;
+  }
+  .affil-mark {
+    height: 14px;
+    width: auto;
+    aspect-ratio: 1548 / 170;
+  }
+  .affil-crest {
+    height: 28px;
+    width: auto;
+    margin-right: 0.55rem;
+  }
+  .affil-sq {
+    height: 30px;
+    width: auto;
+  }
+  .affil-wide {
+    height: 26px;
+    width: auto;
+  }
+  .affil-caption {
+    font-size: 0.84rem;
+    color: var(--global-text-color-light);
+    margin: 0.7rem 0 0;
+  }
+
+  @media (max-width: 576px) {
+    .affil-mark {
+      height: 12px;
+    }
+    .affil-crest {
+      height: 23px;
+    }
+    .affil-sq {
+      height: 25px;
+    }
+    .affil-wide {
+      height: 22px;
+    }
+    .affil-caption {
+      font-size: 0.8rem;
+    }
+  }
+</style>

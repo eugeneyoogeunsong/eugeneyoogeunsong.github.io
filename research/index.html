@@ -39,14 +39,22 @@
     align-items: center;
     gap: 1rem;
   }
+  /* Every plate is the SAME box regardless of how wide or tall its logo is:
+     fixed width and height, contents centred, and each mark capped by both
+     max-height and max-width so it scales to fit rather than stretching the
+     plate. Without the fixed box the Imperial lockup (crest + wordmark) is
+     roughly 2.5x the width of the DUNE mark and the row looks ragged. */
   .affil-item {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 180px;
+    height: 58px;
+    padding: 0.5rem 0.7rem;
     background: #fff;
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
-    padding: 0.6rem 0.95rem;
-    border-bottom: 1px solid var(--global-divider-color);
     transition:
       border-color 0.15s ease,
       box-shadow 0.15s ease;
@@ -55,35 +63,29 @@
     border-color: var(--global-theme-color);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
-  /* The SVG ships with a viewBox but no width/height so CSS can size it. That
-     means the browser has no intrinsic size to work from, and width:auto alone
-     collapses it to nothing. The width/height attributes on the tag supply the
-     ratio, and aspect-ratio here keeps it correct when the height changes at the
-     mobile breakpoint. It also reserves the box before load, so no layout shift. */
-  /* The wordmark SVG has a viewBox but no width/height, so width:auto alone
-     collapses it. The tag attributes give the ratio; aspect-ratio keeps it right
-     when the height changes at the mobile breakpoint, and both reserve the box
-     before load so nothing shifts. */
   .affil-item img {
     display: block;
+    width: auto;
+    object-fit: contain;
+  }
+  /* Per-mark heights are tuned so the four read as optically equal weight, not
+     mathematically equal height: a wordmark at 38px would dwarf a roundel. */
+  .affil-crest {
+    height: 30px;
+    max-width: 32px;
   }
   .affil-mark {
-    height: 14px;
-    width: auto;
+    height: 13px;
+    max-width: 112px;
     aspect-ratio: 1548 / 170;
   }
-  .affil-crest {
-    height: 28px;
-    width: auto;
-    margin-right: 0.55rem;
-  }
   .affil-sq {
-    height: 30px;
-    width: auto;
+    height: 38px;
+    max-width: 100%;
   }
   .affil-wide {
-    height: 26px;
-    width: auto;
+    height: 30px;
+    max-width: 100%;
   }
   .affil-caption {
     font-size: 0.84rem;
@@ -92,17 +94,24 @@
   }
 
   @media (max-width: 576px) {
-    .affil-mark {
-      height: 12px;
+    .affil-item {
+      width: 148px;
+      height: 50px;
+      padding: 0.45rem 0.6rem;
     }
     .affil-crest {
-      height: 23px;
+      height: 25px;
+      max-width: 27px;
+    }
+    .affil-mark {
+      height: 11px;
+      max-width: 92px;
     }
     .affil-sq {
-      height: 25px;
+      height: 32px;
     }
     .affil-wide {
-      height: 22px;
+      height: 25px;
     }
     .affil-caption {
       font-size: 0.8rem;
@@ -126,14 +135,22 @@
     align-items: center;
     gap: 1rem;
   }
+  /* Every plate is the SAME box regardless of how wide or tall its logo is:
+     fixed width and height, contents centred, and each mark capped by both
+     max-height and max-width so it scales to fit rather than stretching the
+     plate. Without the fixed box the Imperial lockup (crest + wordmark) is
+     roughly 2.5x the width of the DUNE mark and the row looks ragged. */
   .affil-item {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 180px;
+    height: 58px;
+    padding: 0.5rem 0.7rem;
     background: #fff;
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
-    padding: 0.6rem 0.95rem;
-    border-bottom: 1px solid var(--global-divider-color);
     transition:
       border-color 0.15s ease,
       box-shadow 0.15s ease;
@@ -142,35 +159,29 @@
     border-color: var(--global-theme-color);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
-  /* The SVG ships with a viewBox but no width/height so CSS can size it. That
-     means the browser has no intrinsic size to work from, and width:auto alone
-     collapses it to nothing. The width/height attributes on the tag supply the
-     ratio, and aspect-ratio here keeps it correct when the height changes at the
-     mobile breakpoint. It also reserves the box before load, so no layout shift. */
-  /* The wordmark SVG has a viewBox but no width/height, so width:auto alone
-     collapses it. The tag attributes give the ratio; aspect-ratio keeps it right
-     when the height changes at the mobile breakpoint, and both reserve the box
-     before load so nothing shifts. */
   .affil-item img {
     display: block;
+    width: auto;
+    object-fit: contain;
+  }
+  /* Per-mark heights are tuned so the four read as optically equal weight, not
+     mathematically equal height: a wordmark at 38px would dwarf a roundel. */
+  .affil-crest {
+    height: 30px;
+    max-width: 32px;
   }
   .affil-mark {
-    height: 14px;
-    width: auto;
+    height: 13px;
+    max-width: 112px;
     aspect-ratio: 1548 / 170;
   }
-  .affil-crest {
-    height: 28px;
-    width: auto;
-    margin-right: 0.55rem;
-  }
   .affil-sq {
-    height: 30px;
-    width: auto;
+    height: 38px;
+    max-width: 100%;
   }
   .affil-wide {
-    height: 26px;
-    width: auto;
+    height: 30px;
+    max-width: 100%;
   }
   .affil-caption {
     font-size: 0.84rem;
@@ -179,17 +190,24 @@
   }
 
   @media (max-width: 576px) {
-    .affil-mark {
-      height: 12px;
+    .affil-item {
+      width: 148px;
+      height: 50px;
+      padding: 0.45rem 0.6rem;
     }
     .affil-crest {
-      height: 23px;
+      height: 25px;
+      max-width: 27px;
+    }
+    .affil-mark {
+      height: 11px;
+      max-width: 92px;
     }
     .affil-sq {
-      height: 25px;
+      height: 32px;
     }
     .affil-wide {
-      height: 22px;
+      height: 25px;
     }
     .affil-caption {
       font-size: 0.8rem;
@@ -213,14 +231,22 @@
     align-items: center;
     gap: 1rem;
   }
+  /* Every plate is the SAME box regardless of how wide or tall its logo is:
+     fixed width and height, contents centred, and each mark capped by both
+     max-height and max-width so it scales to fit rather than stretching the
+     plate. Without the fixed box the Imperial lockup (crest + wordmark) is
+     roughly 2.5x the width of the DUNE mark and the row looks ragged. */
   .affil-item {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 180px;
+    height: 58px;
+    padding: 0.5rem 0.7rem;
     background: #fff;
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
-    padding: 0.6rem 0.95rem;
-    border-bottom: 1px solid var(--global-divider-color);
     transition:
       border-color 0.15s ease,
       box-shadow 0.15s ease;
@@ -229,35 +255,29 @@
     border-color: var(--global-theme-color);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
-  /* The SVG ships with a viewBox but no width/height so CSS can size it. That
-     means the browser has no intrinsic size to work from, and width:auto alone
-     collapses it to nothing. The width/height attributes on the tag supply the
-     ratio, and aspect-ratio here keeps it correct when the height changes at the
-     mobile breakpoint. It also reserves the box before load, so no layout shift. */
-  /* The wordmark SVG has a viewBox but no width/height, so width:auto alone
-     collapses it. The tag attributes give the ratio; aspect-ratio keeps it right
-     when the height changes at the mobile breakpoint, and both reserve the box
-     before load so nothing shifts. */
   .affil-item img {
     display: block;
+    width: auto;
+    object-fit: contain;
+  }
+  /* Per-mark heights are tuned so the four read as optically equal weight, not
+     mathematically equal height: a wordmark at 38px would dwarf a roundel. */
+  .affil-crest {
+    height: 30px;
+    max-width: 32px;
   }
   .affil-mark {
-    height: 14px;
-    width: auto;
+    height: 13px;
+    max-width: 112px;
     aspect-ratio: 1548 / 170;
   }
-  .affil-crest {
-    height: 28px;
-    width: auto;
-    margin-right: 0.55rem;
-  }
   .affil-sq {
-    height: 30px;
-    width: auto;
+    height: 38px;
+    max-width: 100%;
   }
   .affil-wide {
-    height: 26px;
-    width: auto;
+    height: 30px;
+    max-width: 100%;
   }
   .affil-caption {
     font-size: 0.84rem;
@@ -266,17 +286,24 @@
   }
 
   @media (max-width: 576px) {
-    .affil-mark {
-      height: 12px;
+    .affil-item {
+      width: 148px;
+      height: 50px;
+      padding: 0.45rem 0.6rem;
     }
     .affil-crest {
-      height: 23px;
+      height: 25px;
+      max-width: 27px;
+    }
+    .affil-mark {
+      height: 11px;
+      max-width: 92px;
     }
     .affil-sq {
-      height: 25px;
+      height: 32px;
     }
     .affil-wide {
-      height: 22px;
+      height: 25px;
     }
     .affil-caption {
       font-size: 0.8rem;

@@ -39,14 +39,22 @@
     align-items: center;
     gap: 1rem;
   }
+  /* Every plate is the SAME box regardless of how wide or tall its logo is:
+     fixed width and height, contents centred, and each mark capped by both
+     max-height and max-width so it scales to fit rather than stretching the
+     plate. Without the fixed box the Imperial lockup (crest + wordmark) is
+     roughly 2.5x the width of the DUNE mark and the row looks ragged. */
   .affil-item {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 180px;
+    height: 58px;
+    padding: 0.5rem 0.7rem;
     background: #fff;
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
-    padding: 0.6rem 0.95rem;
-    border-bottom: 1px solid var(--global-divider-color);
     transition:
       border-color 0.15s ease,
       box-shadow 0.15s ease;
@@ -55,35 +63,29 @@
     border-color: var(--global-theme-color);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
-  /* The SVG ships with a viewBox but no width/height so CSS can size it. That
-     means the browser has no intrinsic size to work from, and width:auto alone
-     collapses it to nothing. The width/height attributes on the tag supply the
-     ratio, and aspect-ratio here keeps it correct when the height changes at the
-     mobile breakpoint. It also reserves the box before load, so no layout shift. */
-  /* The wordmark SVG has a viewBox but no width/height, so width:auto alone
-     collapses it. The tag attributes give the ratio; aspect-ratio keeps it right
-     when the height changes at the mobile breakpoint, and both reserve the box
-     before load so nothing shifts. */
   .affil-item img {
     display: block;
+    width: auto;
+    object-fit: contain;
+  }
+  /* Per-mark heights are tuned so the four read as optically equal weight, not
+     mathematically equal height: a wordmark at 38px would dwarf a roundel. */
+  .affil-crest {
+    height: 30px;
+    max-width: 32px;
   }
   .affil-mark {
-    height: 14px;
-    width: auto;
+    height: 13px;
+    max-width: 112px;
     aspect-ratio: 1548 / 170;
   }
-  .affil-crest {
-    height: 28px;
-    width: auto;
-    margin-right: 0.55rem;
-  }
   .affil-sq {
-    height: 30px;
-    width: auto;
+    height: 38px;
+    max-width: 100%;
   }
   .affil-wide {
-    height: 26px;
-    width: auto;
+    height: 30px;
+    max-width: 100%;
   }
   .affil-caption {
     font-size: 0.84rem;
@@ -92,17 +94,24 @@
   }
 
   @media (max-width: 576px) {
-    .affil-mark {
-      height: 12px;
+    .affil-item {
+      width: 148px;
+      height: 50px;
+      padding: 0.45rem 0.6rem;
     }
     .affil-crest {
-      height: 23px;
+      height: 25px;
+      max-width: 27px;
+    }
+    .affil-mark {
+      height: 11px;
+      max-width: 92px;
     }
     .affil-sq {
-      height: 25px;
+      height: 32px;
     }
     .affil-wide {
-      height: 22px;
+      height: 25px;
     }
     .affil-caption {
       font-size: 0.8rem;
@@ -147,7 +156,35 @@
   .refs li:last-child { border-bottom: 0; padding-bottom: 0; }
   .refs .who { font-weight: 600; }
   .refs .role { font-size: 0.87rem; color: var(--global-text-color-light); }
-</style> <div class="refs-box"> <h4>Academic</h4> <ul class="refs"> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi" rel="external nofollow noopener" target="_blank">Dr Linda Cremonesi</a></span> <span class="role">PhD supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling" rel="external nofollow noopener" target="_blank">Prof. David Colling</a></span> <span class="role">AtriPINN collaborator &amp; Masters thesis supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper" rel="external nofollow noopener" target="_blank">Prof. Alexander Tapper</a></span> <span class="role">Former mini-project supervisor, Higgs-portal dark matter study · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton" rel="external nofollow noopener" target="_blank">Dr Nick Linton</a></span> <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/j.pasternak" rel="external nofollow noopener" target="_blank">Dr Jaroslaw Pasternak</a></span> <span class="role">Examiner for my CompPhys mini-project &amp; PhD interview panel · Imperial College London</span> </li> </ul> </div> <div class="refs-box"> <h4>Industry</h4> <ul class="refs"> <li> <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/" rel="external nofollow noopener" target="_blank">Prof. Doyeol (David) Ahn</a></span> <span class="role">Co-founder &amp; CEO, Singularity Quantum</span> </li> <li> <span class="who"><a href="https://www.linkedin.com/in/blake-martin-05228817a/" rel="external nofollow noopener" target="_blank">Blake Martin</a></span> <span class="role">Co-founder &amp; CTO, Singularity Quantum</span> </li> </ul> </div> <hr> <h2 id="where-i-am">Where I am</h2> <p>Blackett Laboratory, Department of Physics Imperial College London South Kensington Campus, London SW7 2AZ, United Kingdom</p> <p>I am physically in <strong>London</strong> (most of the year), or sometimes in <strong>LA, California</strong> or <strong>Chicago, Illinois</strong>. Do hit me up when you are in town.</p> <div class="li-card-wrap" id="li-badge-wrap"> <div class="li-card"> <a class="li-card-head" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer" aria-label="Eugene (Yoogeun) Song on LinkedIn"> <span class="li-card-wordmark">Linked<span class="li-card-in">in</span></span> </a> <div class="li-card-body"> <a class="li-card-photo-link" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer"> <img class="li-card-photo" src="/assets/img/linkedin_card_photo.jpg" alt="Eugene (Yoogeun) Song" loading="lazy" width="132" height="132"> </a> <div class="li-card-text"> <a class="li-card-name" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">Eugene (Yoogeun) Song</a> <p class="li-card-headline">Neutrino Physics @ Imperial College London, DUNE &amp; NOvA Collab || Machine Learning || Quantum Computing || Quant Researcher || Multidisciplinary Scientist || Physics × ML × QC × Quant || 🇬🇧 London-based (2023–Present)</p> <p class="li-card-org"><a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a> | <a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a></p> <a class="li-card-btn" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">View profile</a> </div> </div> </div> </div> <style>
+</style> <div class="refs-box"> <h4>Academic</h4> <ul class="refs"> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/l.cremonesi" rel="external nofollow noopener" target="_blank">Dr Linda Cremonesi</a></span> <span class="role">PhD supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling" rel="external nofollow noopener" target="_blank">Prof. David Colling</a></span> <span class="role">AtriPINN collaborator &amp; Masters thesis supervisor · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/a.tapper" rel="external nofollow noopener" target="_blank">Prof. Alexander Tapper</a></span> <span class="role">Former mini-project supervisor, Higgs-portal dark matter study · Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/nick.linton" rel="external nofollow noopener" target="_blank">Dr Nick Linton</a></span> <span class="role">AtriPINN collaborator · Bioengineering, Imperial College London</span> </li> <li> <span class="who"><a href="https://profiles.imperial.ac.uk/j.pasternak" rel="external nofollow noopener" target="_blank">Dr Jaroslaw Pasternak</a></span> <span class="role">Examiner for my CompPhys mini-project &amp; PhD interview panel · Imperial College London</span> </li> </ul> </div> <div class="refs-box"> <h4>Industry</h4> <ul class="refs"> <li> <span class="who"><a href="https://www.linkedin.com/in/doyeol-david-ahn-06165558/" rel="external nofollow noopener" target="_blank">Prof. Doyeol (David) Ahn</a></span> <span class="role">Co-founder &amp; CEO, Singularity Quantum</span> </li> <li> <span class="who"><a href="https://www.linkedin.com/in/blake-martin-05228817a/" rel="external nofollow noopener" target="_blank">Blake Martin</a></span> <span class="role">Co-founder &amp; CTO, Singularity Quantum</span> </li> </ul> </div> <hr> <h2 id="where-i-am">Where I am</h2> <p>Blackett Laboratory, Department of Physics Imperial College London South Kensington Campus, London SW7 2AZ, United Kingdom</p> <p>I am physically in <strong>London</strong> (most of the year), or sometimes in <strong>LA, California</strong> or <strong>Chicago, Illinois</strong>. Do hit me up when you are in town.</p> <figure class="pic-banner"> <img src="/assets/img/london/thames-wide.jpg" alt="The Thames from above at dusk, with Tower Bridge in the foreground and Canary Wharf beyond" width="1600" height="640" loading="lazy" decoding="async"> <figcaption class="pic-banner-cap">The Thames east from Tower Bridge towards Canary Wharf.</figcaption> </figure> <style>
+  .pic-banner {
+    margin: 1.75rem 0 2rem;
+  }
+  .pic-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* aspect-ratio from the attributes keeps the reserved box correct as the
+       image scales down on narrow screens */
+    background: var(--global-card-bg-color);
+  }
+  .pic-banner-cap {
+    margin-top: 0.6rem;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    color: var(--global-text-color-light);
+  }
+
+  @media (max-width: 576px) {
+    .pic-banner img {
+      border-radius: 7px;
+    }
+    .pic-banner-cap {
+      font-size: 0.8rem;
+    }
+  }
+</style> <div class="li-card-wrap" id="li-badge-wrap"> <div class="li-card"> <a class="li-card-head" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer" aria-label="Eugene (Yoogeun) Song on LinkedIn"> <span class="li-card-wordmark">Linked<span class="li-card-in">in</span></span> </a> <div class="li-card-body"> <a class="li-card-photo-link" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer"> <img class="li-card-photo" src="/assets/img/linkedin_card_photo.jpg" alt="Eugene (Yoogeun) Song" loading="lazy" width="132" height="132"> </a> <div class="li-card-text"> <a class="li-card-name" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">Eugene (Yoogeun) Song</a> <p class="li-card-headline">Neutrino Physics @ Imperial College London, DUNE &amp; NOvA Collab || Machine Learning || Quantum Computing || Quant Researcher || Multidisciplinary Scientist || Physics × ML × QC × Quant || 🇬🇧 London-based (2023–Present)</p> <p class="li-card-org"><a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a> | <a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a></p> <a class="li-card-btn" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">View profile</a> </div> </div> </div> </div> <style>
   .li-card-wrap {
     display: flex;
     justify-content: center;

@@ -128,6 +128,8 @@ South Kensington Campus, London SW7 2AZ, United Kingdom
 
 I am physically in **London** (most of the year), or sometimes in **LA, California** or **Chicago, Illinois**. Do hit me up when you are in town.
 
+{% include banner.liquid src="/assets/img/london/thames-wide.jpg" alt="The Thames from above at dusk, with Tower Bridge in the foreground and Canary Wharf beyond" w="1600" h="640" caption="The Thames east from Tower Bridge towards Canary Wharf." %}
+
 {% include linkedin_card.liquid %}
 
 ---

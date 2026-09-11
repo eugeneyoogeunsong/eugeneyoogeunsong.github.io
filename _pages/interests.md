@@ -67,6 +67,47 @@ The people are the other half of it, and mostly they found me rather than the ot
 
 Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 
+<figure class="pic-duo">
+  <img src="{{ '/assets/img/london/westminster-4x3.jpg' | relative_url }}" alt="Westminster at dusk from across the Thames" width="900" height="675" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/london/thames-4x3.jpg' | relative_url }}" alt="The Thames from above at dusk, Tower Bridge in the foreground" width="900" height="675" loading="lazy" decoding="async">
+  <figcaption>London, home since 2023, and still the best argument for living here.</figcaption>
+</figure>
+
+<style>
+  /* Two-up on desktop, stacked on a phone. Both images share one aspect ratio
+     so the pair lines up whatever the crop; width/height attributes reserve the
+     boxes before load so the page does not jump. */
+  .pic-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .pic-duo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 9px;
+    background: var(--global-card-bg-color);
+  }
+  .pic-duo figcaption {
+    grid-column: 1 / -1;
+    margin-top: 0.15rem;
+    font-size: 0.84rem;
+    color: var(--global-text-color-light);
+  }
+  @media (max-width: 576px) {
+    .pic-duo {
+      grid-template-columns: 1fr;
+      gap: 0.6rem;
+    }
+    .pic-duo img { border-radius: 7px; }
+    .pic-duo figcaption { font-size: 0.8rem; }
+  }
+</style>
+
 ## Chess and poker
 
 I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things. When I was growing up, I also enjoyed playing Go (or Baduk in Korean), but I preferred chess to Go always.

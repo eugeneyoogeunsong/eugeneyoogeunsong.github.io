@@ -168,6 +168,8 @@ I always _trust the process_, and that habit carries directly into my research a
 
 {% include affiliations.liquid %}
 
+---
+
 ## More about me
 
 My name in Korean is **송유근**, and my pronouns are **he/him/his** (cisgender male; straight). I was born in **Seoul, Korea**, on **27 November 1997**. I hold citizenship of the <a href="https://www.henleyglobal.com/passport-index?countrycode=KR" class="plain-link">**Republic of Korea**</a>, and only that one, at least for now - this may change in the future.

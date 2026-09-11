@@ -1,0 +1,68 @@
+{%- comment -%}
+  Full-width banner image with an optional caption.
+
+  Usage:
+    {% include banner.liquid src="/assets/img/london/thames-wide.jpg"
+                             alt="The Thames at dusk"
+                             w="1600" h="640"
+                             caption="London, where I am based." %}
+
+  Params
+    src      image path (root-relative)
+    alt      alt text; required for anything that carries meaning
+    w, h     intrinsic pixel size. Always pass these: they reserve the box
+             before the image loads, so the page does not jump. Cumulative
+             Layout Shift is the one Core Web Vital a banner can easily wreck.
+    caption  optional line beneath
+    eager    pass "true" for an above-the-fold banner so it is not lazy-loaded
+             (a lazy LCP image delays Largest Contentful Paint)
+
+  Classes and tags only, no attribute selectors: PurgeCSS strips those.
+{%- endcomment -%}
+
+<figure class="pic-banner">
+  <img
+    src="{{ include.src | relative_url }}"
+    alt="{{ include.alt }}"
+    width="{{ include.w }}"
+    height="{{ include.h }}"
+    {% if include.eager == 'true' %}
+      fetchpriority="high"
+    {% else %}
+      loading="lazy" decoding="async"
+    {% endif %}
+  >
+  {%- if include.caption %}
+    <figcaption class="pic-banner-cap">{{ include.caption }}</figcaption>
+  {%- endif %}
+</figure>
+
+<style>
+  .pic-banner {
+    margin: 1.75rem 0 2rem;
+  }
+  .pic-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* aspect-ratio from the attributes keeps the reserved box correct as the
+       image scales down on narrow screens */
+    background: var(--global-card-bg-color);
+  }
+  .pic-banner-cap {
+    margin-top: 0.6rem;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    color: var(--global-text-color-light);
+  }
+
+  @media (max-width: 576px) {
+    .pic-banner img {
+      border-radius: 7px;
+    }
+    .pic-banner-cap {
+      font-size: 0.8rem;
+    }
+  }
+</style>

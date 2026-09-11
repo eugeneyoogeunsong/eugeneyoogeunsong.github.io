@@ -95,7 +95,9 @@
     letter-spacing: 0.09em;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--global-theme-color);
+    /* See --local-accent-deep in _sass/_themes.scss for why this is not the
+       accent/link colour. */
+    color: var(--local-accent-deep, #312e81);
     margin: 0 0 0.6rem;
   }
   .affil-row {

@@ -33,14 +33,16 @@
     margin: 2rem 0 2.75rem;
   }
   .mo-stat {
-    border-left: 3px solid var(--global-theme-color);
+    /* Static figures, not links: quiet accent. See --local-accent-deep in
+       _sass/_themes.scss. The rule matches the number it marks. */
+    border-left: 3px solid var(--local-accent-deep, #312e81);
     padding: 0.35rem 0 0.35rem 0.9rem;
   }
   .mo-stat b {
     display: block;
     font-size: 1.75rem;
     line-height: 1.15;
-    color: var(--global-theme-color);
+    color: var(--local-accent-deep, #312e81);
     font-weight: 700;
   }
   .mo-stat span {
@@ -83,7 +85,7 @@
     font-size: 3.1rem;
     font-weight: 800;
     line-height: 1.05;
-    color: var(--global-theme-color);
+    color: var(--local-accent-deep, #312e81);
     letter-spacing: -0.02em;
   }
   .mo-card-more .mo-more-label {
@@ -110,7 +112,8 @@
     color: var(--global-text-color-light);
   }
   .mo-outlet {
-    background: var(--global-theme-color);
+    /* A label on a card, not a button: quiet accent. White on #312e81 is 11:1. */
+    background: var(--local-accent-deep, #312e81);
     color: #fff;
     padding: 0.16rem 0.5rem;
     border-radius: 3px;

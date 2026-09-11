@@ -41,7 +41,7 @@ latest_posts:
      a fixed width would fight that. max-width keeps it sane on odd viewports. */
   @media (min-width: 768px) {
     .profile {
-      width: 280px;
+      width: 300px;
       max-width: 38%;
     }
   }

@@ -160,6 +160,44 @@ html[data-theme-setting="light"] {
   text-transform: capitalize;
 }
 
+/* Give the theme toggle a glyph in its DEFAULT state.
+   ---------------------------------------------------
+   The toggle button holds three icons and shows one, per data-theme-setting:
+
+     system -> <i class="fa-half-sun-moon" id="light-toggle-system">
+     dark   -> <i class="fa-solid fa-moon" id="light-toggle-dark">
+     light  -> <i class="fa-solid fa-sun"  id="light-toggle-light">
+
+   The last two carry `fa-solid`, which is what sets the Font Awesome font
+   family and weight 900. The first does not: `fa-half-sun-moon` is a bare
+   class with no style class beside it, so the <i> inherits Roboto, its
+   ::before resolves to `content: none`, and the button renders an empty
+   10x12 box. Verified in production: computed font-family was "Roboto,
+   sans-serif" and ::before content was `none`.
+
+   Since "system" is the default for every first-time visitor (theme.js falls
+   back to it when localStorage has no `theme` key), the toggle was invisible
+   until someone happened to click the blank space, which flipped the setting
+   to light or dark and finally produced a real icon.
+
+   f042 is circle-half-stroke in Font Awesome Free Solid - a half-filled
+   circle, which reads as "follow the system" better than a sun or a moon
+   would, and keeps the three states visually distinct. The font family must
+   match the version the site actually loads: FA 7 here, confirmed from the
+   computed style of an existing .fa-solid icon rather than assumed.
+
+   line-height:1 stops the glyph's default line box (36.5px) from exceeding
+   the 32px button and nudging the navbar row. */
+#light-toggle-system::before {
+  font-family: "Font Awesome 7 Free";
+  font-weight: 900;
+  font-style: normal;
+  content: "\f042";
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* The "news" and "selected publications" headings on the About page are
    emitted by the gem-owned about layout in lowercase. Capitalise them here
    rather than forking the layout.

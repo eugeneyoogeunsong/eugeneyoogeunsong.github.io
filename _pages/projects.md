@@ -64,6 +64,8 @@ horizontal: false
 {% endif %}
 </div>
 
+{% include affiliations.liquid %}
+
 {% include linkedin_card.liquid %}
 
 {% include goatcounter.liquid %}

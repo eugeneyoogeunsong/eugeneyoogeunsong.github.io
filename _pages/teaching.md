@@ -96,6 +96,8 @@ I have also given talks many times in schools, at science museums and at expos, 
 
 My handwritten summaries from the <a href="/cv/#education" class="plain-link">Master's in Physics</a> at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a> (2024–2025), one folder per module, released under the MIT Licence in [imperial-physics-notes](https://github.com/eugeneyoogeunsong/imperial-physics-notes). Corrections by issue or pull request are welcome.
 
+{% include affiliations.liquid logos="imperial" label="" %}
+
 <div class="tn-grid">
   <div class="tn-card">
     <h4><a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-quantum-field-theory">Advanced Quantum Field Theory</a></h4>

@@ -216,6 +216,39 @@ html[data-theme-setting="light"] {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Enlarge the theme toggle (all three states, every viewport).
+   ------------------------------------------------------------
+   Stock is a 16px glyph in a 32px button, positioned by an ad-hoc
+   `padding: 12px 0 0 10px` on the icon rather than by centring it. That is
+   small enough to be easy to miss, and on a phone it is well under the ~44px
+   minimum anyone recommends for a touch target.
+
+   So: drop the padding hack, centre the glyph in the button properly, and take
+   the glyph from 16px to 24px in a 44px box. Measured cost to the navbar is
+   +4px of height (97.8 -> 101.8), which nothing else depends on.
+
+   The `:root ` prefix is not decoration. The stock rules are written as
+   `:root #light-toggle-system { ... }` and friends, which score (1,1,0); a bare
+   `#light-toggle-system` here would score (1,0,0) and silently lose no matter
+   where it sits in the file. Matching their specificity and coming later in
+   source order is what makes these win.
+
+   `display` is deliberately NOT set: which of the three icons is visible is
+   decided by the per-state blocks above, and restating it here would pin all
+   three on at once. */
+:root #light-toggle {
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+:root #light-toggle-system,
+:root #light-toggle-dark,
+:root #light-toggle-light {
+  padding: 0;
+  font-size: 1.5rem;
+}
+
 /* The "news" and "selected publications" headings on the About page are
    emitted by the gem-owned about layout in lowercase. Capitalise them here
    rather than forking the layout.

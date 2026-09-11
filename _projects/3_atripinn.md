@@ -96,4 +96,6 @@ _Work in progress; outputs will appear here and on [Publications](/publications/
 
 {% include author_self_link.liquid %}
 
+{% include affiliations.liquid logos="imperial" label="" %}
+
 {% include linkedin_card.liquid after_heading="references" %}

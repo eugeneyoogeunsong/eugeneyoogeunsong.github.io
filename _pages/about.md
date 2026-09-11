@@ -31,6 +31,20 @@ latest_posts:
 
 <style>
   .profile figure { position: relative; margin: 0; }
+
+  /* Widen the profile column so the slideshow renders larger. The frame is
+     width:100% of .profile, which the gem layout sizes to ~233px, leaving zero
+     slack — so the only way to grow the picture is to grow its column. .profile
+     is float-right, so the body text simply reflows around the wider box; no
+     layout surgery needed.
+     Desktop only: below 768px the layout stacks the profile above the text and
+     a fixed width would fight that. max-width keeps it sane on odd viewports. */
+  @media (min-width: 768px) {
+    .profile {
+      width: 280px;
+      max-width: 38%;
+    }
+  }
   #headshot-slideshow {
     position: relative;
     width: 100%;
@@ -79,8 +93,12 @@ latest_posts:
     transition: background 0.3s ease;
   }
   #headshot-dots button.is-active { background: var(--global-theme-color); }
+  /* Reduced motion: shorten the fade rather than remove it. The guidance targets
+     movement that can cause vestibular discomfort (parallax, sliding, zooming);
+     a plain opacity cross-fade moves nothing. Killing it outright meant anyone
+     with the OS setting on saw hard cuts, which looks broken rather than calm. */
   @media (prefers-reduced-motion: reduce) {
-    #headshot-slideshow img { transition: none; }
+    #headshot-slideshow img { transition: opacity 0.35s linear; }
   }
 </style>
 

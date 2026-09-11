@@ -24,6 +24,20 @@
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <div class="navbar-brand social"> <a href="mailto:ygsong1004@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="/assets/pdf/Yoogeun_Song_CV.pdf" title="Cv pdf"><i class="ai ai-cv"></i></a> <a href="https://inspirehep.net/authors/1790652" title="Inspirehep id" rel="external nofollow noopener" target="_blank"><i class="ai ai-inspire"></i></a> <a href="https://orcid.org/0000-0003-3206-1556" title="Orcid id" rel="external nofollow noopener" target="_blank"><i class="ai ai-orcid"></i></a> <a href="https://github.com/eugeneyoogeunsong" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="https://scholar.google.com/citations?user=6pWw3eYAAAAJ" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://www.researchgate.net/profile/Yoogeun-Song/" title="Research gate profile" rel="external nofollow noopener" target="_blank"><i class="ai ai-researchgate"></i></a> <a href="https://twitter.com/YoogeunSong" title="X username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://bsky.app/profile/eugeneyoogeunsong.bsky.social" title="Bluesky url" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-bluesky"></i></a> <a href="https://www.linkedin.com/in/yoogeunsong" title="Linkedin username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> </div> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">About <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/interests/">Interests </a> </li> <li class="nav-item "> <a class="nav-link" href="/media/">Media &amp; Outreach </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">Blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">Contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Eugene (Yoogeun) Song</span> </h1> <p class="desc">PhD Researcher in <a href="https://www.imperial.ac.uk/physics/" rel="external nofollow noopener" target="_blank">Physics at Imperial College London</a> · Neutrinos (<a href="https://www.dunescience.org/" rel="external nofollow noopener" target="_blank">DUNE</a> · <a href="https://novaexperiment.fnal.gov/" rel="external nofollow noopener" target="_blank">NOvA</a>) · Machine Learning (ML) · Quantum Computing · Quantitative (Finance) Research · Computational Fluid Dynamics (CFD) </p> </header> <article> <div class="profile float-right"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px) 30vw, 95vw"> <img src="/assets/img/prof_pic.jpg?v=4017bb3b33a0992a70fb5098a9a44539" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> <div class="more-info"> <p>Imperial College London,</p> <p>South Kensington, London SW7 2AZ, United Kingdom</p> </div> </div> <div class="clearfix"> <style>
   .profile figure { position: relative; margin: 0; }
+
+  /* Widen the profile column so the slideshow renders larger. The frame is
+     width:100% of .profile, which the gem layout sizes to ~233px, leaving zero
+     slack — so the only way to grow the picture is to grow its column. .profile
+     is float-right, so the body text simply reflows around the wider box; no
+     layout surgery needed.
+     Desktop only: below 768px the layout stacks the profile above the text and
+     a fixed width would fight that. max-width keeps it sane on odd viewports. */
+  @media (min-width: 768px) {
+    .profile {
+      width: 280px;
+      max-width: 38%;
+    }
+  }
   #headshot-slideshow {
     position: relative;
     width: 100%;
@@ -72,8 +86,12 @@
     transition: background 0.3s ease;
   }
   #headshot-dots button.is-active { background: var(--global-theme-color); }
+  /* Reduced motion: shorten the fade rather than remove it. The guidance targets
+     movement that can cause vestibular discomfort (parallax, sliding, zooming);
+     a plain opacity cross-fade moves nothing. Killing it outright meant anyone
+     with the OS setting on saw hard cuts, which looks broken rather than calm. */
   @media (prefers-reduced-motion: reduce) {
-    #headshot-slideshow img { transition: none; }
+    #headshot-slideshow img { transition: opacity 0.35s linear; }
   }
 </style> <script>
   (function () {

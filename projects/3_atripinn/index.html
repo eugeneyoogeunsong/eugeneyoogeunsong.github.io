@@ -44,7 +44,103 @@
       linkSelf();
     }
   })();
-</script> <div class="li-card-wrap" id="li-badge-wrap"> <div class="li-card"> <a class="li-card-head" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer" aria-label="Eugene (Yoogeun) Song on LinkedIn"> <span class="li-card-wordmark">Linked<span class="li-card-in">in</span></span> </a> <div class="li-card-body"> <a class="li-card-photo-link" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer"> <img class="li-card-photo" src="/assets/img/linkedin_card_photo.jpg" alt="Eugene (Yoogeun) Song" loading="lazy" width="132" height="132"> </a> <div class="li-card-text"> <a class="li-card-name" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">Eugene (Yoogeun) Song</a> <p class="li-card-headline">Neutrino Physics @ Imperial College London, DUNE &amp; NOvA Collab || Machine Learning || Quantum Computing || Quant Researcher || Multidisciplinary Scientist || Physics × ML × QC × Quant || 🇬🇧 London-based (2023–Present)</p> <p class="li-card-org"><a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a> | <a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a></p> <a class="li-card-btn" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">View profile</a> </div> </div> </div> </div> <style>
+</script> <div class="affil"> <p class="affil-label">Affiliations</p> <div class="affil-row"> <a class="affil-item" href="https://www.imperial.ac.uk/physics/" target="_blank" rel="noopener noreferrer" title="Department of Physics, Imperial College London"> <img class="affil-crest" src="/assets/img/logos/imperial-crest.png" alt="" width="30" height="28" loading="lazy"> <img class="affil-mark" src="/assets/img/logos/imperial.svg" alt="Imperial College London" width="128" height="14" loading="lazy"> </a> </div> </div> <style>
+  .affil {
+    margin: 1.75rem 0 2rem;
+  }
+  .affil-label {
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--global-theme-color);
+    margin: 0 0 0.6rem;
+  }
+  .affil-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  /* Every plate is the SAME box regardless of how wide or tall its logo is:
+     fixed width and height, contents centred, and each mark capped by both
+     max-height and max-width so it scales to fit rather than stretching the
+     plate. Without the fixed box the Imperial lockup (crest + wordmark) is
+     roughly 2.5x the width of the DUNE mark and the row looks ragged. */
+  .affil-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 180px;
+    height: 58px;
+    padding: 0.5rem 0.7rem;
+    background: #fff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    transition:
+      border-color 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  .affil-item:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  .affil-item img {
+    display: block;
+    width: auto;
+    object-fit: contain;
+  }
+  /* Per-mark heights are tuned so the four read as optically equal weight, not
+     mathematically equal height: a wordmark at 38px would dwarf a roundel. */
+  .affil-crest {
+    height: 30px;
+    max-width: 32px;
+  }
+  .affil-mark {
+    height: 13px;
+    max-width: 112px;
+    aspect-ratio: 1548 / 170;
+  }
+  .affil-sq {
+    height: 38px;
+    max-width: 100%;
+  }
+  .affil-wide {
+    height: 30px;
+    max-width: 100%;
+  }
+  .affil-caption {
+    font-size: 0.84rem;
+    color: var(--global-text-color-light);
+    margin: 0.7rem 0 0;
+  }
+
+  @media (max-width: 576px) {
+    .affil-item {
+      width: 148px;
+      height: 50px;
+      padding: 0.45rem 0.6rem;
+    }
+    .affil-crest {
+      height: 25px;
+      max-width: 27px;
+    }
+    .affil-mark {
+      height: 11px;
+      max-width: 92px;
+    }
+    .affil-sq {
+      height: 32px;
+    }
+    .affil-wide {
+      height: 25px;
+    }
+    .affil-caption {
+      font-size: 0.8rem;
+    }
+  }
+</style> <div class="li-card-wrap" id="li-badge-wrap"> <div class="li-card"> <a class="li-card-head" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer" aria-label="Eugene (Yoogeun) Song on LinkedIn"> <span class="li-card-wordmark">Linked<span class="li-card-in">in</span></span> </a> <div class="li-card-body"> <a class="li-card-photo-link" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer"> <img class="li-card-photo" src="/assets/img/linkedin_card_photo.jpg" alt="Eugene (Yoogeun) Song" loading="lazy" width="132" height="132"> </a> <div class="li-card-text"> <a class="li-card-name" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">Eugene (Yoogeun) Song</a> <p class="li-card-headline">Neutrino Physics @ Imperial College London, DUNE &amp; NOvA Collab || Machine Learning || Quantum Computing || Quant Researcher || Multidisciplinary Scientist || Physics × ML × QC × Quant || 🇬🇧 London-based (2023–Present)</p> <p class="li-card-org"><a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a> | <a href="https://www.linkedin.com/school/imperial-college-london/" target="_blank" rel="noopener noreferrer">Imperial College London</a></p> <a class="li-card-btn" href="https://www.linkedin.com/in/yoogeunsong" target="_blank" rel="noopener noreferrer">View profile</a> </div> </div> </div> </div> <style>
   .li-card-wrap {
     display: flex;
     justify-content: center;

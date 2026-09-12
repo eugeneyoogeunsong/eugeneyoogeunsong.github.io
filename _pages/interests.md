@@ -7,6 +7,8 @@ nav: true
 nav_order: 7
 ---
 
+{% include banner.liquid src="/assets/img/london/skyline-dusk.jpg" alt="London at dusk from above: the Thames, its bridges lit, and St Paul's against a sunset sky" w="1600" h="1066" eager="true" caption="London at dusk. Most of what is on this page happens somewhere down there." %}
+
 ## Sports
 
 A large part of my life, and the thing that keeps the rest of it working. I do one of these on a weekly basis: Running, triathlon, yoga, and calisthenics. I have dabbled in Brazilian Jiu-Jitsu and would train it properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly for 2 years. I'm trying to get back with them in 2026 onwards.
@@ -69,7 +71,7 @@ Conference travel is part of it, but more than the places I am building a [netwo
 
 <figure class="pic-duo">
   <img src="{{ '/assets/img/london/westminster-duo.jpg' | relative_url }}" alt="Westminster and the clock tower at dusk, seen across the Thames" width="480" height="600" loading="lazy" decoding="async">
-  <img src="{{ '/assets/img/london/thames-duo.jpg' | relative_url }}" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" width="900" height="600" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/london/regent-street-duo.jpg' | relative_url }}" alt="Regent Street: a red double-decker bus, black cabs and crowds on the pavement beneath the curved terraces" width="900" height="600" loading="lazy" decoding="async">
   <figcaption>London, home since 2023, and still the best argument for living here.</figcaption>
 </figure>
 

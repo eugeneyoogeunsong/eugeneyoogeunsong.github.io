@@ -19,6 +19,22 @@ nav_order: 6
     gap: 1rem;
     margin: 1.4rem 0 2rem;
   }
+  /* Lift shadow, split by theme: a black shadow is invisible against a
+     near-black page, and dark is now the default on desktop. */
+  :root {
+    --tn-lift-shadow: rgba(0, 0, 0, 0.12);
+  }
+  html[data-theme="dark"] {
+    --tn-lift-shadow: rgba(0, 0, 0, 0.55);
+  }
+
+  /* The whole card is the link. It is an <a> in the markup rather than a <div>
+     with an <a> inside it: an anchor may wrap headings, paragraphs and lists
+     (they are flow content), but it may NOT contain another anchor, so the old
+     <h4><a> had to go rather than being nested inside this one.
+
+     cursor: pointer is right here, unlike the Media stat tiles: this card really
+     does navigate, so the promise the pointer makes is one it keeps. */
   .tn-card {
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
@@ -26,6 +42,19 @@ nav_order: 6
     padding: 1rem 1.15rem 1.05rem;
     display: flex;
     flex-direction: column;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      transform 0.18s ease,
+      box-shadow 0.18s ease,
+      border-color 0.18s ease;
+  }
+  .tn-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px var(--tn-lift-shadow);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
   }
   .tn-card h4 {
     font-size: 1rem;
@@ -33,14 +62,13 @@ nav_order: 6
     margin: 0 0 0.15rem;
     line-height: 1.3;
   }
-  .tn-card h4 a {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-color: rgba(20, 20, 26, 0.25);
-  }
-  .tn-card h4 a:hover {
+  /* Underline on hover only. A permanent underline would need a colour literal
+     that works in both themes, and with the whole card clickable the lift and
+     the border already say "this goes somewhere"; the underline just confirms
+     where. */
+  .tn-card:hover h4 {
     color: var(--global-theme-color);
-    text-decoration-color: currentColor;
+    text-decoration: underline;
   }
   .tn-pages {
     font-size: 0.75rem;
@@ -102,8 +130,8 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
 {% include affiliations.liquid logos="imperial" label="" %}
 
 <div class="tn-grid">
-  <div class="tn-card">
-    <h4><a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-quantum-field-theory">Advanced Quantum Field Theory</a></h4>
+  <a class="tn-card" href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-quantum-field-theory">
+    <h4>Advanced Quantum Field Theory</h4>
     <p class="tn-pages">227 pages</p>
     <ul>
       <li>Functional methods and the generating functional</li>
@@ -112,9 +140,9 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
       <li>Spontaneous symmetry breaking and the Higgs mechanism</li>
       <li>Anomalies</li>
     </ul>
-  </div>
-  <div class="tn-card">
-    <h4><a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/quantum-field-theory">Quantum Field Theory</a></h4>
+  </a>
+  <a class="tn-card" href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/quantum-field-theory">
+    <h4>Quantum Field Theory</h4>
     <p class="tn-pages">138 pages</p>
     <ul>
       <li>Canonical quantisation of scalar, spinor and vector fields</li>
@@ -122,9 +150,9 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
       <li>Tree-level cross sections and decay rates</li>
       <li>Loop corrections and regularisation</li>
     </ul>
-  </div>
-  <div class="tn-card">
-    <h4><a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-particle-physics">Advanced Particle Physics</a></h4>
+  </a>
+  <a class="tn-card" href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-particle-physics">
+    <h4>Advanced Particle Physics</h4>
     <p class="tn-pages">94 pages</p>
     <ul>
       <li>Electroweak unification and precision tests</li>
@@ -133,15 +161,16 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
       <li>Neutrino masses and oscillations</li>
       <li>Beyond the Standard Model: the Higgs sector and dark matter</li>
     </ul>
-  </div>
+  </a>
 </div>
 
 Alongside those sits my <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/comp-phys-mini-project" class="plain-link">computational physics mini-project</a>, a finite-difference time-domain solver for the time-dependent Schrödinger equation written in Mathematica, with animations of wave-packet dispersion, reflection and tunnelling across four potentials. This was five weeks of work rather than a full research project, and it was awarded the highest grade by [Dr Jaroslaw Pasternak](https://profiles.imperial.ac.uk/j.pasternak) in 2025.
 
 The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a> (Advanced Quantum Field Theory), <a href="https://profiles.imperial.ac.uk/t.wiseman">Prof. Toby Wiseman</a> (Quantum Field Theory) and <a href="https://profiles.imperial.ac.uk/m.mccann">Dr Michael McCann</a> (Advanced Particle Physics). Incidentally, Dr McCann is also part of the <a href="https://www.imperial.ac.uk/high-energy-physics/">Imperial High Energy Physics group</a>, my own group, and works on flavour physics and b-quark decays on <a href="https://lhcb.web.cern.ch/">LHCb</a> at CERN.
 
-I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>. I know all of these subjects mentioned here well, inside out, so I can supply study materials for any of them, and I am able to teach all of them.
+I took several others that have no folder here: Mathematical Methods for Physicists with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>; General Relativity with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; and Advanced Classical Physics, again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>.
 
+I know all of these subjects mentioned here well, inside out, so I can supply study materials for any of them, and I am able to teach all of them.
 The advanced subjects I can teach, and supply materials for:
 
 <ul class="tn-topics">

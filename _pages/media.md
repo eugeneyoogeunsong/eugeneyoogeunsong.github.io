@@ -18,11 +18,38 @@ nav_order: 8
     gap: 1rem;
     margin: 2rem 0 2.75rem;
   }
+  /* Lift shadow, shared by the stat tiles and the cards below so the two
+     behave identically on hover. Split by theme because a black shadow is
+     invisible against a near-black page: the light value does nothing in dark
+     mode, which is now the default on desktop. */
+  :root {
+    --mo-lift-shadow: rgba(0, 0, 0, 0.12);
+  }
+  html[data-theme="dark"] {
+    --mo-lift-shadow: rgba(0, 0, 0, 0.55);
+  }
+
   .mo-stat {
     /* Static figures, not links: quiet accent. See --local-accent-deep in
        _sass/_themes.scss. The rule matches the number it marks. */
     border-left: 3px solid var(--local-accent-deep, #312e81);
-    padding: 0.35rem 0 0.35rem 0.9rem;
+    /* A surface to lift. Without a background the hover shadow would be cast by
+       a transparent box and read as a smudge on the page rather than as a card
+       rising off it. Corners stay square on the left so the accent rule still
+       reads as a rule rather than as part of a rounded tile. */
+    background: var(--global-card-bg-color);
+    border-radius: 0 6px 6px 0;
+    padding: 0.55rem 0.9rem 0.6rem 0.9rem;
+    transition:
+      transform 0.18s ease,
+      box-shadow 0.18s ease;
+  }
+  /* Same 3px rise and the same easing as .mo-card below. Deliberately NOT
+     cursor: pointer - four of the five tiles have nowhere to go, and a pointer
+     is the one cue that promises a click rather than merely inviting the eye. */
+  .mo-stat:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px var(--mo-lift-shadow);
   }
   .mo-stat b {
     display: block;
@@ -58,7 +85,7 @@ nav_order: 8
   }
   .mo-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 18px var(--mo-lift-shadow);
   }
   /* The "And many more" tile. Classes and tags only, so PurgeCSS keeps it. */
   .mo-card-more {

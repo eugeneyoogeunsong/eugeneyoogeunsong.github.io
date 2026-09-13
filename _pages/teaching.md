@@ -105,11 +105,19 @@ nav_order: 6
     color: var(--global-text-color-light);
     border: 1px solid var(--global-divider-color);
     border-radius: 999px;
-    transition: border-color 0.15s ease, color 0.15s ease;
+    transition:
+      border-color 0.15s ease,
+      color 0.15s ease,
+      box-shadow 0.15s ease;
   }
   .tn-topics li:hover {
     border-color: var(--global-theme-color);
     color: var(--global-theme-color);
+    /* The glow: a soft ring in the accent colour. rgba fallback first for any
+       engine without color-mix, then the themed version, which tracks the
+       accent in both light and dark rather than being a fixed indigo. */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-theme-color) 22%, transparent);
   }
 </style>
 

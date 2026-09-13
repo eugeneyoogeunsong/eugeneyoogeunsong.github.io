@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# Make DARK the default theme on desktop for visitors who have never chosen one.
-# On phones the default stays "system", i.e. stock behaviour.
+# Make DARK the default theme for visitors who have never chosen one.
+# Every viewport: phones included.
 # =============================================================================
 #
 # Why a plugin rather than an edit
@@ -60,12 +60,10 @@
 #      following their OS setting. This only changes what genuinely new
 #      browsers see. To reset your own: run
 #      localStorage.removeItem("theme") in the console and reload.
-#   3. And for the same reason again, the phone/desktop test is only consulted
-#      ONCE per browser, on the first load. A browser whose first visit happened
-#      at a narrow width has "system" stored from then on, and will keep
-#      following the OS even when later opened wide. That is the correct
-#      behaviour anyway - the stored value is a decision already made - but it
-#      does mean resizing a window is not a way to see the other default.
+#   3. There was briefly a viewport test here that left phones on "system".
+#      It is gone: dark is now the default at every width. Anyone whose first
+#      visit happened while that test was live is holding a stored "system"
+#      and will keep following their OS, per point 2.
 #
 # Forcing dark on those returning visitors would mean overriding a stored
 # value, and nothing distinguishes "system because they chose it" from "system
@@ -80,12 +78,6 @@
 module DefaultThemeDark
   SCRIPT_TAG = %r{(<script[^>]*\ssrc="[^"]*assets/js/theme\.js[^"]*"[^>]*>\s*</script>)}
 
-  # Below this viewport width the default stays "system" (follow the OS) rather
-  # than becoming "dark". 767px is the site's own breakpoint: it is where the
-  # layout stops floating the portrait and stacks, so "phone" means the same
-  # thing here as it does in the stylesheets.
-  MOBILE_QUERY = "(max-width: 767px)"
-
   SNIPPET = <<~HTML.gsub(/\n\s*/, " ").strip
     <script>
       try {
@@ -94,9 +86,7 @@ module DefaultThemeDark
         determineThemeSetting;
         determineThemeSetting = function () {
           var t = localStorage.getItem("theme");
-          if (t === "dark" || t === "light" || t === "system") return t;
-          try { if (window.matchMedia("#{MOBILE_QUERY}").matches) return "system"; } catch (e) {}
-          return "dark";
+          return (t === "dark" || t === "light" || t === "system") ? t : "dark";
         };
       } catch (e) {}
     </script>

@@ -186,16 +186,27 @@ nav_order: 8
     font-size: 0.82rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 999px;
-    transition: border-color 0.15s ease, color 0.15s ease;
+    transition:
+      border-color 0.15s ease,
+      color 0.15s ease,
+      box-shadow 0.15s ease;
   }
   .mo-outlets li a {
     display: block;
     padding: 0.3rem 0.7rem;
-    color: var(--global-text-color-light);
+    /* The theme/link colour, matching the .tn-topics pills on Teaching. These
+       previously carried --global-text-color-light, which made a list of twelve
+       real outbound links look like plain grey text. */
+    color: var(--global-theme-color);
     text-decoration: none;
   }
   .mo-outlets li:hover {
     border-color: var(--global-theme-color);
+    /* The glow: a soft ring in the accent colour. rgba fallback first for any
+       engine without color-mix, then the themed version, which tracks the
+       accent in both light and dark rather than being a fixed indigo. */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-theme-color) 22%, transparent);
   }
   .mo-outlets li:hover a {
     color: var(--global-theme-color);

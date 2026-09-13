@@ -198,22 +198,37 @@ html[data-theme-setting="light"] {
    until someone happened to click the blank space, which flipped the setting
    to light or dark and finally produced a real icon.
 
-   f042 is circle-half-stroke in Font Awesome Free Solid - a half-filled
-   circle, which reads as "follow the system" better than a sun or a moon
-   would, and keeps the three states visually distinct. The font family must
-   match the version the site actually loads: FA 7 here, confirmed from the
-   computed style of an existing .fa-solid icon rather than assumed.
+   The three glyphs, and which state gets which:
 
-   line-height:1 stops the glyph's default line box (36.5px) from exceeding
-   the 32px button and nudging the navbar row. */
+     system -> sun            \f185   (supplied here; the stock class is empty)
+     light  -> half circle    \f042   (overrides fa-sun, see below)
+     dark   -> moon           \f186   (stock fa-moon, untouched)
+
+   Note that this is NOT Font Awesome's own convention, where the sun means
+   "light" and the half circle means "auto/system". It is a deliberate local
+   choice; if the two ever look swapped to you, this comment is why.
+
+   Codepoints verified against the Font Awesome build the site actually loads
+   (FA 7 Free, from the CDN) by probing the computed ::before of each class,
+   rather than taken from memory. The font family must match that build too.
+
+   line-height:1 stops the glyph's default line box from exceeding the button
+   and nudging the navbar row. */
 #light-toggle-system::before {
   font-family: "Font Awesome 7 Free";
   font-weight: 900;
   font-style: normal;
-  content: "\f042";
+  content: "\f185";
   line-height: 1;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
+}
+
+/* The light state's element is <i class="fa-solid fa-sun">, so it already has
+   the font; only the glyph needs replacing. An id (1,0,0) beats .fa-sun (0,1,0),
+   so this wins without !important. */
+#light-toggle-light::before {
+  content: "\f042";
 }
 
 /* Enlarge the theme toggle (all three states, every viewport).
@@ -251,43 +266,10 @@ html[data-theme-setting="light"] {
   font-size: 1.75rem;
 }
 
-/* Two icons instead of three: show the theme you are LOOKING AT.
-   --------------------------------------------------------------
-   Stock keys the icon off data-theme-setting, i.e. what you chose, so it needs
-   three glyphs: sun (light), moon (dark), half-circle (system). This keys it off
-   data-theme instead, i.e. what is actually painted, which only ever has two
-   values. The sun is retired and the half-circle now means "light is on screen".
-
-   The "system" setting is untouched and still fully works: it simply resolves to
-   one of the two, and you see the glyph for whichever the OS handed back.
-
-   Specificity: the stock rules are `:root #light-toggle-x` and
-   `html[data-theme-setting="y"] #light-toggle-x`, both (1,1,0). Everything here
-   is written as `html[data-theme="y"] #light-toggle-x`, which is (1,1,1) - a
-   type selector, an attribute and an id - so it wins outright rather than
-   depending on source order.
-
-   Known wrinkle, and it is inherent to showing the computed theme: the click
-   cycle is still three-state (system -> light -> dark -> system). If your OS is
-   set to dark, the dark -> system step lands back on a dark screen, so the icon
-   does not change and that one click looks like nothing happened. Shortening the
-   cycle to light <-> dark would fix it, but only by dropping "system" from the
-   cycle, which is exactly what this is meant to preserve. */
-html[data-theme] #light-toggle-light {
-  display: none; /* the sun: never shown */
-}
-html[data-theme="light"] #light-toggle-system {
-  display: block; /* half-circle = light is on screen */
-}
-html[data-theme="light"] #light-toggle-dark {
-  display: none;
-}
-html[data-theme="dark"] #light-toggle-system {
-  display: none;
-}
-html[data-theme="dark"] #light-toggle-dark {
-  display: block; /* moon = dark is on screen */
-}
+/* Icon visibility is left to the stock per-setting rules: one glyph per state,
+   keyed off data-theme-setting. An earlier version overrode this to show only
+   two icons (keyed off the painted theme instead) and was reverted - so if you
+   are wondering why there is no such block here, that is deliberate. */
 
 /* Post titles in the blog listing take the same colour as the blog name.
    -----------------------------------------------------------------------

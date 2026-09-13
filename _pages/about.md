@@ -85,7 +85,7 @@ latest_posts:
     object-fit: cover;
     object-position: 50% 22%;
     opacity: 0;
-    transition: opacity 1.1s ease-in-out;
+    transition: opacity 1.4s ease-in-out;
   }
   #headshot-slideshow img.is-active { opacity: 1; }
   a#headshot-slideshow { display: block; cursor: pointer; }
@@ -121,7 +121,7 @@ latest_posts:
      a plain opacity cross-fade moves nothing. Killing it outright meant anyone
      with the OS setting on saw hard cuts, which looks broken rather than calm. */
   @media (prefers-reduced-motion: reduce) {
-    #headshot-slideshow img { transition: opacity 0.35s linear; }
+    #headshot-slideshow img { transition: opacity 0.5s linear; }
   }
 </style>
 
@@ -130,7 +130,9 @@ latest_posts:
     var mount = document.querySelector(".profile figure") || document.querySelector(".profile");
     if (!mount) return;
 
-    var sources = ["01", "02", "03", "04", "05"].map(function (n) {
+    // Display order, not file order: denim first, suit third. All five photos,
+    // each once. The dots below are generated from this array.
+    var sources = ["01", "04", "05", "02", "03"].map(function (n) {
       return "{{ '/assets/img/profile/' | relative_url }}" + n + ".jpg";
     });
 
@@ -178,7 +180,10 @@ latest_posts:
 
     function restart() {
       if (timer) clearInterval(timer);
-      timer = setInterval(function () { show(current + 1); }, 4500);
+      // Dwell time per slide. This is the "advancing too fast" knob, distinct
+      // from the CSS fade duration below: 6s holds each photo long enough to
+      // actually look at it without the frame feeling stalled.
+      timer = setInterval(function () { show(current + 1); }, 6000);
     }
 
     restart(); // the CSS already drops the fade under prefers-reduced-motion

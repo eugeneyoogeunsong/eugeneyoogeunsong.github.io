@@ -137,6 +137,8 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
 
 {% include affiliations.liquid logos="imperial" label="" %}
 
+{% include banner.liquid src="/assets/img/imperial/queens-tower-day.jpg" alt="Imperial College London's South Kensington campus in the early evening, Queen's Tower against a blue sky" w="701" h="467" maxw="701" caption="South Kensington, where the modules below were taught." %}
+
 <div class="tn-grid">
   <a class="tn-card" href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-quantum-field-theory">
     <h4>Advanced Quantum Field Theory</h4>

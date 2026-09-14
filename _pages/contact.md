@@ -132,7 +132,7 @@ South Kensington Campus, London SW7 2AZ, United Kingdom
 
 I am physically in **London** (most of the year), or sometimes in **LA, California** or **Chicago, Illinois**. Do hit me up when you are in town.
 
-{% include banner.liquid src="/assets/img/imperial/south-kensington-campus.jpg" alt="Imperial College London's South Kensington campus at dusk, Queen's Tower lit against the skyline" w="1440" h="576" caption="South Kensington campus at dusk, Queen's Tower at the centre. The Blackett Laboratory and the Huxley Building are the physics buildings here." %}
+{% include banner.liquid src="/assets/img/imperial/queens-tower-night.jpg" alt="Imperial College London's South Kensington campus at night, Queen's Tower floodlit in blue above the surrounding buildings" w="751" h="501" maxw="751" caption="South Kensington campus at night, Queen's Tower lit at the centre. The Blackett Laboratory and the Huxley Building, where the physics happens, are among the blocks around it." %}
 
 {% include linkedin_card.liquid %}
 

@@ -115,6 +115,8 @@ Conference travel is part of it, but more than the places I am building a [netwo
   }
 </style>
 
+{% include banner.liquid src="/assets/img/london/tower-bridge.jpg" alt="Tower Bridge seen down the Thames through summer haze, a riverboat passing under Southwark Bridge in the foreground" w="1600" h="1071" caption="Tower Bridge down the river, on a hot day." %}
+
 ## Chess and poker
 
 I have loved chess for as long as I can remember, and I am learning poker now. The pair of them describe a shift in how I have come to see most things. When I was growing up, I also enjoyed playing Go (or Baduk in Korean), but I preferred chess to Go always.

@@ -239,10 +239,15 @@ html[data-theme-setting="light"] {
    minimum anyone recommends for a touch target.
 
    So: drop the padding hack, centre the glyph in the button properly, and take
-   the glyph from 16px to 28px in a 48px box. Measured cost to the navbar is
-   +8px of height (97.8 -> 106), which nothing else depends on. The glyph's line
-   box is 35x40 at this size, so it still sits inside the button rather than
-   setting the button's height itself.
+   the glyph from 16px to 22px in a 44px box.
+
+   Why those two numbers. 22px is about 1.35x the 16px navbar text beside it:
+   big enough to find without hunting, small enough that it reads as one item in
+   the row rather than as the row's focal point. 28px in a 48px box (tried
+   first) made the toggle the loudest thing in the navbar. The button stays at
+   44px, which is larger than the glyph needs, because 44px is the conventional
+   minimum touch target - on a phone the hit area matters more than the ink.
+   Measured navbar cost: 97.8px stock -> 102px at 44, against 106px at 48.
 
    The `:root ` prefix is not decoration. The stock rules are written as
    `:root #light-toggle-system { ... }` and friends, which score (1,1,0); a bare
@@ -256,14 +261,14 @@ html[data-theme-setting="light"] {
 :root #light-toggle {
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
 }
 :root #light-toggle-system,
 :root #light-toggle-dark,
 :root #light-toggle-light {
   padding: 0;
-  font-size: 1.75rem;
+  font-size: 1.35rem;
 }
 
 /* Icon visibility is left to the stock per-setting rules: one glyph per state,

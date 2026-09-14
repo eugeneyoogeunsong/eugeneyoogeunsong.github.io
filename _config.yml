@@ -138,7 +138,14 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Open Graph meta tags (link previews on X, LinkedIn, Slack)
 serve_schema_org: true # Schema.org structured data (Google rich results)
-og_image: # The site-wide (default for all links) Open Graph preview image
+# The site-wide (default for all links) Open Graph preview image.
+# Was empty, which is why LinkedIn's Featured card cropped the head off: with no
+# og:image declared, the scraper picks an image off the page itself (a tall
+# portrait) and centre-crops it to its own 1.91:1 card. Declaring a 1200x627
+# image that is ALREADY 1.91:1 leaves nothing to crop. The photo inside it is
+# scaled to 86% of the height, so there is ~44px of margin above the hair and any
+# platform that trims a few percent still shows the whole head.
+og_image: /assets/img/og-image.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -9,6 +9,8 @@ nav_order: 7
 
 {% include banner.liquid src="/assets/img/london/skyline-dusk.jpg" alt="London at dusk from above: the Thames, its bridges lit, and St Paul's against a sunset sky" w="1600" h="1066" eager="true" caption="London at dusk. Most of what is on this page happens somewhere down there." %}
 
+Everything here is written in English by deliberate choice: I am writing for a global audience, principally in the UK and the USA.
+
 ## Sports
 
 A large part of my life, and the thing that keeps the rest of it working. I do one of these on a weekly basis: Running, triathlon, yoga, and calisthenics. I have dabbled in Brazilian Jiu-Jitsu and would train it properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly for 2 years. I'm trying to get back with them in 2026 onwards.

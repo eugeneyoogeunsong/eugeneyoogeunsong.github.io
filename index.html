@@ -312,7 +312,42 @@
       linkSelf();
     }
   })();
-</script> <script data-goatcounter="https://ygsong1004.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script> <script>
+</script> <figure class="pic-banner"> <img src="/assets/img/imperial/queens-tower-moon.jpg" alt="Queen's Tower at Imperial College London at dusk, the moon risen beside it over the South Kensington rooftops" width="1600" height="1067" loading="lazy" decoding="async"> <figcaption class="pic-banner-cap">Queen's Tower at dusk. Where I work, most days.</figcaption> </figure> <style>
+  .pic-banner {
+    margin: 1.75rem 0 2rem;
+  }
+  /* Capped variant: the inline max-width comes from the `maxw` param, and this
+     centres it. Used where the whole frame must be visible rather than cropped
+     to a letterbox. */
+  .pic-banner-capped {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* aspect-ratio from the attributes keeps the reserved box correct as the
+       image scales down on narrow screens */
+    background: var(--global-card-bg-color);
+  }
+  .pic-banner-cap {
+    margin-top: 0.6rem;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    color: var(--global-text-color-light);
+  }
+
+  @media (max-width: 576px) {
+    .pic-banner img {
+      border-radius: 7px;
+    }
+    .pic-banner-cap {
+      font-size: 0.8rem;
+    }
+  }
+</style> <script data-goatcounter="https://ygsong1004.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script> <script>
   (function () {
     function retarget() {
       var a = document.querySelector('.post h2 > a[href$="/news/"]');

@@ -65,7 +65,7 @@ On film, I lean towards Christopher Nolan, David Fincher, Quentin Tarantino, Mic
 
 With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF 2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
 
-## Travel
+## Travel and networking
 
 I love travelling, and I love the part of it that is unfamiliar: new cultures, new cuisines, new scenery and places I have no map for.
 
@@ -75,7 +75,7 @@ Practically, logistics-wise, almost everywhere is open to me. I hold citizenship
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>!
 
-Meeting new, brilliant, like-minded people globally is the other half of it, and mostly they found me rather than the other way around: friends from Imperial society activities, from business circles, sports, and language exchanges. My connections come from every sort of background, nationality, ethnicity and culture, which is a large part of why I love London, and it is the thing I would miss most if I left.
+Networking with new, brilliant, like-minded people globally is the other half of it, and mostly they found me rather than the other way around: friends from Imperial society activities, from business circles, sports, and language exchanges. My connections come from every sort of background, nationality, ethnicity and culture, which is a large part of why I love London, and it is the thing I would miss most if I left.
 
 Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 

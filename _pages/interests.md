@@ -59,7 +59,7 @@ Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. 
 
 On television, I like _Suits_ (USA, 2011) and _Black Mirror_ (2011).
 
-On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time. True masterpieces, both of them: every single frame, the cinematography, the acting, the directing, every piece of music, and pretty much every genre held inside one story. My favourite stretches of both are the Sicilian ones, not the New York parts: the quiet before and after the storm is what the films are actually about.
+On film, I lean towards Christopher Nolan, David Fincher, Quentin Tarantino, Michael Mann and Francis Ford Coppola. _The Godfather_ I and II are my favourite films of all time - true masterpieces, both of them: every single frame, the cinematography, the acting, the directing, every piece of music, and pretty much every genre held inside one story. My favourite stretches of both are the Sicilian ones, not the New York parts: the quiet before and after the storm is what the films are actually about.
 
 {% include banner.liquid src="/assets/img/interests/sicily.jpg" alt="A hilltop village in Sicily, pale houses stacked along the ridge with hazy mountains beyond" w="1600" h="1067" caption="Sicily, Italy - where the parts of The Godfather I and II I love most take place." %}
 
@@ -86,6 +86,24 @@ Conference travel is part of it, but more than the places I am building a [netwo
 </figure>
 
 <style>
+  /* Hide the sitewide Imperial margin rail on this page only.
+     Interests is the personal half of the site, and an institutional mark
+     pinned to the edge of it reads as the university endorsing a page about
+     skiing, poker and films. The rail is injected from footer_text in
+     _config.yml, so it cannot be switched off per page from there; hiding it
+     here is the page-level opt-out.
+
+     Specificity note: _sass/_themes.scss sets `.affil-rail { display: block }`
+     inside @media (min-width: 1500px). Media queries add no specificity, so an
+     equally specific rule wins on source order alone - and this <style> sits in
+     the body, after main.css. The media query below is not strictly needed, but
+     it keeps this rule paired with the one it is overriding. */
+  @media (min-width: 1500px) {
+    .affil-rail {
+      display: none;
+    }
+  }
+
   /* The two photos have different native shapes: 4:5 portrait and 3:2 landscape.
      Forcing both into one grid cell (the previous approach) meant object-fit:cover
      cropped both. Matching them on HEIGHT instead lets each keep its own width and

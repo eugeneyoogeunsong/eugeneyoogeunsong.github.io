@@ -65,7 +65,7 @@ On film, I lean towards Christopher Nolan, David Fincher, Quentin Tarantino, Mic
 
 With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF 2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
 
-## Travel and people
+## Travel
 
 I love travelling, and I love the part of it that is unfamiliar: new cultures, new cuisines, new scenery and places I have no map for.
 

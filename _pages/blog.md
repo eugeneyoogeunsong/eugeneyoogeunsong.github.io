@@ -16,6 +16,23 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<style>
+  /* Hide the sitewide Imperial margin rail on this page only, as on /interests/.
+     The blog is personal writing, and an institutional mark pinned to the edge
+     of it implies the university stands behind the opinions in the posts. The
+     rail is injected from footer_text in _config.yml, so it cannot be switched
+     off per page from there; this is the page-level opt-out.
+
+     Same media query as the rule it overrides in _sass/_themes.scss. Media
+     queries add no specificity, so equal-specificity rules are decided on source
+     order, and this <style> sits in the body, after main.css. */
+  @media (min-width: 1500px) {
+    .affil-rail {
+      display: none;
+    }
+  }
+</style>
+
 <div class="post">
 {% include banner.liquid src="/assets/img/london/thames-full.jpg" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" w="1500" h="1000" eager="true" caption="Written from London." %}
 

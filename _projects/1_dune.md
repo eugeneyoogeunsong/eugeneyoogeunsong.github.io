@@ -41,6 +41,8 @@ $$-\log \mathcal{L} \;=\; \sum_{\mathrm{bins}}\left[\lambda(\vec{\theta}) - n + 
 
 That second sum is the whole argument for systematics-aware reconstruction: a network's uncertainty is only worth anything if it can be written into $$V$$, and the Near Detector is what shrinks it.
 
+**Where I sit here.** Mostly on this equation. My main work is the statistical modelling: Bayesian inference and MCMC for the oscillation sensitivities, together with the phenomenology and the underlying physics that fix what those parameters mean before anything is fitted. ML reconstruction comes last in that order, and deliberately so: it is an input whose uncertainty has to survive the likelihood, not the point of the exercise.
+
 **The framing.** The Near Detector is not merely a control detector. Rather, it is the constraint engine: it pins down the nuisance parameters that would otherwise dominate the measurement. The interesting problem is therefore not "how accurate is the reconstruction," but "how faithfully does the uncertainty on the reconstruction propagate through to the posterior on $$\delta_{CP}$$."
 
 **The principle I work under.** Machine learning should augment physical interpretation, never replace it. A network that improves resolution while hiding its own failure modes is a worse instrument than a slower method whose biases you can enumerate.

@@ -7,7 +7,7 @@ importance: 3
 category: Particle Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2025 · London · under [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2024 – 2025 · London · under [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**
 
 {% include affiliations.liquid logos="imperial" label="" %}
 

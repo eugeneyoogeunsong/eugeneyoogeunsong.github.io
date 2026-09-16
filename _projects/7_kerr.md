@@ -38,7 +38,7 @@ Outside $$S_N$$ the domain spins forward and inside it spins backward, so the po
 
 **Extending it.** A second paper carried the ZAMO treatment further, examining how the frame-dragging magnetosphere mediates the outward transport in Kerr spacetime {% cite okamoto2024kerr %}.
 
-**What six years bought.** The collaboration began in 2018 and ran across three countries, sustained remotely through my national service and everything that followed. The first preprint went through seven versions, and each one tightened the argument. Reformulating something the field already believes it understands is slower than adding a new result to it, and the case has to be built more carefully, because the burden of proof sits entirely with you. That is what the six years bought: an argument that holds.
+**What six years bought.** The collaboration began in 2018 and ran across three countries. It was not continuous: I took a **19-month hiatus** between 2018 and 2020 for my national service, and picked the work up again afterwards. The first preprint went through seven versions, and each one tightened the argument. Reformulating something the field already believes it understands is slower than adding a new result to it, and the case has to be built more carefully, because the burden of proof sits entirely with you. That is what the six years bought: an argument that holds.
 
 {% include author_self_link.liquid %}
 

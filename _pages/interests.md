@@ -21,7 +21,7 @@ Since I'm based in the UK: From 2023 to 2024 I also turned out as [a striker](ht
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the _Alps_ are always my dream destination. It is another reason I learned French, Italian and German, all useful on the French, Italian and Swiss sides of the Alps. I was on the French side in the winter of 2023.
 
-{% include banner.liquid src="/assets/img/interests/alps.jpg" alt="Snow-covered Alpine peaks under a blue sky, a chairlift climbing the pisted slope in the foreground" w="1600" h="899" caption="The Alps: the standing answer to where I would rather be." %}
+{% include banner.liquid src="/assets/img/interests/alps.jpg" alt="Snow-covered Alpine peaks under a blue sky, a chairlift climbing the pisted slope in the foreground" w="1600" h="899" caption="The Alps: the standing answer to where I would rather be. Anytime - yes, I said it, anytime!" %}
 
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; whilst there, I was consistently among the top five marksmen in my company, and I finished as an Exemplary Army Driver and the company's best driving instructor. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 
@@ -37,6 +37,8 @@ I travel to France as often as I can, and here in the UK I have plenty of French
 
 Learning a language is the closest thing I know to learning a new physics formalism: the same feeling of a structure clicking into place.
 
+{% include banner.liquid src="/assets/img/interests/languages.jpg" alt="Sticky notes pinned to a cork board, each with thank you written in a different language" w="1600" h="900" caption="Seven languages in, with varying success. Each one opens a door the others do not." %}
+
 ## Reading
 
 Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead: audiobooks, or podcasts from the authors themselves.
@@ -49,15 +51,19 @@ For research I stay current through [arXiv](https://arxiv.org/) and feeds on [Li
 
 I have been meaning to join a book club, so <a href="/contact/" class="plain-link">reach out</a> if you run one.
 
+{% include banner.liquid src="/assets/img/interests/reading.jpg" alt="A wall built entirely of old books surrounding a weathered green door" w="1600" h="900" caption="Non-fiction first, and widely. The door is usually behind the books somewhere." %}
+
 ## Music and film
 
 Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift, Dua Lipa and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen, though rarely these days: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by. I would practise far more often given the free time. Lately it has been the ukulele, and I am working my way through the Red Hot Chili Peppers' _Californication_ on it.
 
-On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time.
+On television, I like _Suits__ (USA, 2011)_ and _Black Mirror (2011)_.
+
+On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time. True masterpieces, both of them: every single frame, the cinematography, the acting, the directing, every piece of music, and pretty much every genre held inside one story. My favourite stretches of both are the Sicilian ones, not the New York parts: the quiet before and after the storm is what the films are actually about.
+
+{% include banner.liquid src="/assets/img/interests/sicily.jpg" alt="A hilltop village in Sicily, pale houses stacked along the ridge with hazy mountains beyond" w="1600" h="1067" caption="Sicily, Italy - where the parts of The Godfather I and II I love most take place." %}
 
 With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF 2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
-
-On television, I like _Suits_ (US) and _Black Mirror_.
 
 ## Travel and people
 
@@ -69,7 +75,7 @@ Practically, logistics-wise, almost everywhere is open to me. I hold citizenship
 
 Now that I have enough Italian to be useful, the next thing I want is to explore Italy properly - I'm comin', Italy! Want to invite me somewhere interesting? <a href="/contact/" class="plain-link">Reach out</a>!
 
-The people are the other half of it, and mostly they found me rather than the other way around: friends from Imperial society activities, from business circles, sports, and language exchanges. My connections come from every sort of background, nationality, ethnicity and culture, which is a large part of why I love London, and it is the thing I would miss most if I left.
+Meeting new, brilliant, like-minded people globally is the other half of it, and mostly they found me rather than the other way around: friends from Imperial society activities, from business circles, sports, and language exchanges. My connections come from every sort of background, nationality, ethnicity and culture, which is a large part of why I love London, and it is the thing I would miss most if I left.
 
 Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 

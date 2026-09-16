@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-{% include banner.liquid src="/assets/img/london/skyline-dusk.jpg" alt="London at dusk from above: the Thames, its bridges lit, and St Paul's against a sunset sky" w="1600" h="1066" eager="true" caption="London at dusk. Most of what is on this page happens somewhere down there." %}
+{% include banner.liquid src="/assets/img/london/skyline-dusk.jpg" alt="London at dusk from above: the Thames, its bridges lit, and St Paul's against a sunset sky" w="1600" h="1066" eager="true" caption="London, UK at dusk. Most of what is on this page happens somewhere down there." %}
 
 Everything here is written in English by deliberate choice: I am writing for a global audience, principally in the UK and the USA.
 
@@ -20,6 +20,8 @@ I play tennis and golf now and then, usually around Wimbledon or Kingston. Need 
 Since I'm based in the UK: From 2023 to 2024 I also turned out as [a striker](https://fulltime.thefa.com/displayFixture.html?id=25100148) in a Sunday League side here in England, for about four months. I don't play or watch football any more.
 
 I am an avid skier and snowboarder; I have skied since I was four and snowboarded since sixteen. When I was growing up, ski trips were always a family fixture, and that is why the _Alps_ are always my dream destination. It is another reason I learned French, Italian and German, all useful on the French, Italian and Swiss sides of the Alps. I was on the French side in the winter of 2023.
+
+{% include banner.liquid src="/assets/img/interests/alps.jpg" alt="Snow-covered Alpine peaks under a blue sky, a chairlift climbing the pisted slope in the foreground" w="1600" h="899" caption="The Alps: the standing answer to where I would rather be." %}
 
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; whilst there, I was consistently among the top five marksmen in my company, and I finished as an Exemplary Army Driver and the company's best driving instructor. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 

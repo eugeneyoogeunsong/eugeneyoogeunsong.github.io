@@ -7,7 +7,9 @@ importance: 2
 category: Particle Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · London · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
+
+{% include affiliations.liquid logos="imperial,nova" label="" %}
 
 Where [DUNE](https://www.dunescience.org/) is still being built, [NOvA](https://novaexperiment.fnal.gov/) (NuMI Off-axis $$\nu_e$$ Appearance) has been running since 2014. So, NOvA is the experiment that gives me data _now_. The analysis problems NOvA poses are the ones that will still be there when DUNE turns on.
 
@@ -50,7 +52,5 @@ with $$W^{ij}_{\alpha\beta} = U_{\alpha i}U^{*}_{\beta i}U^{*}_{\alpha j}U_{\bet
 **Why it matters to my work.** That last strand is the one I came for. An interpretable, systematics-aware reconstruction network is exactly the instrument I argue for: one whose failure modes you can audit, rather than one that merely scores well. Working across several physics analyses is also the fastest way to learn where an experiment's systematics actually live, because you watch the same nuisance parameters surface in different measurements, which a single channel never shows you. The group treats NOvA and DUNE as one programme rather than two. Practically, that means the reconstruction and inference methods I develop get tested against real, systematics-limited data on NOvA before they are asked to carry a DUNE measurement. That is the right order to do it in. A method that has never met a real detector is a hypothesis, not a tool.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
-
-{% include affiliations.liquid logos="imperial,nova" label="" %}
 
 {% include linkedin_card.liquid %}

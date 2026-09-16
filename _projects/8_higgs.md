@@ -7,7 +7,9 @@ importance: 3
 category: Particle Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2025 · under [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2025 · London · under [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper)**
+
+{% include affiliations.liquid logos="imperial" label="" %}
 
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img
@@ -70,7 +72,5 @@ That vertex is what allows $$qq \to qqh$$ to proceed by $$t$$-channel $$W/Z$$ ex
 </figure>
 
 **What I took from it.** The exclusion reach in this channel is set almost entirely by the control of the $$Z \to \nu\nu$$ and $$W \to \ell\nu$$ backgrounds, which is to say, by systematics rather than luminosity. The same lesson that governs neutrino oscillation measurements governs this search, and it is the reason I moved towards systematics-aware methods.
-
-{% include affiliations.liquid logos="imperial" label="" %}
 
 {% include linkedin_card.liquid %}

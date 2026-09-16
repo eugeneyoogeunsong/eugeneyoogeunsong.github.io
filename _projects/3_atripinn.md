@@ -8,7 +8,9 @@ category: Machine Learning
 related_publications: true
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling), [Dr Alexander J. Richards](https://profiles.imperial.ac.uk/a.richards), and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2025 – present · London · with [Prof David Colling](https://profiles.imperial.ac.uk/d.colling), [Dr Alexander J. Richards](https://profiles.imperial.ac.uk/a.richards), and [Dr Nick Linton](https://profiles.imperial.ac.uk/nick.linton) · clinical data from [Hammersmith Hospital](https://www.imperial.nhs.uk/our-locations/hammersmith-hospital)**
+
+{% include affiliations.liquid logos="imperial" label="" %}
 
 Catheter ablation for atrial fibrillation depends on knowing where the arrhythmia originates, and knowing it fast enough to act during the procedure. Conventional mapping either interpolates naively across a sparse electrode grid or solves the underlying wave problem too slowly to be useful in theatre.
 My collaborators and I use **physics-informed** approaches to make these processes more accurate and faster.
@@ -95,7 +97,5 @@ This work formed my Masters thesis at Imperial, which was awarded the highest gr
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
 
 {% include author_self_link.liquid %}
-
-{% include affiliations.liquid logos="imperial" label="" %}
 
 {% include linkedin_card.liquid after_heading="references" %}

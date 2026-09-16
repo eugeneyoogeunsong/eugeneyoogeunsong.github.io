@@ -8,7 +8,7 @@ category: Astrophysics
 related_publications: true
 ---
 
-**[KASI](https://www.kasi.re.kr/eng/index) & [UST](https://ust.ac.kr/eng/) · 2013 – 2015 · with Prof Seok Jae Park, and with Prof Yong Seung Cho of Ewha Womans University**
+**[KASI](https://www.kasi.re.kr/eng/index) & [UST](https://ust.ac.kr/eng/) · 2014 – 2015 · with Prof Seok Jae Park, and with Prof Yong Seung Cho of Ewha Womans University**
 
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img
@@ -23,7 +23,7 @@ related_publications: true
   </figcaption>
 </figure>
 
-Cosmology assumes the universe is homogeneous and isotropic, and the assumption works extremely well. But it is a statement about the universe we observe now, not about the one that began: nothing in general relativity requires the initial state to have been isotropic, and inflation is credited with erasing the anisotropy rather than with its never having existed. The question I worked on as a _teenage_ graduate researcher - the first PhD course that I did - is what that erasure looks like written down, and whether anything survives it.
+Cosmology assumes the universe is homogeneous and isotropic, and the assumption works extremely well. But it is a statement about the universe we observe now, not about the one that began: nothing in general relativity requires the initial state to have been isotropic, and inflation is credited with erasing the anisotropy rather than with its never having existed. From 2014 to 2015, the question I worked on as a _teenage_ graduate researcher - the first PhD course that I did, in [KASI](https://www.kasi.re.kr/eng/index) & [UST](https://ust.ac.kr/eng/) in Korea (2009-2018) - is what that erasure looks like written down, and whether anything survives it.
 
 **The setting.** The simplest homogeneous but anisotropic model is Bianchi type I, which expands at a different rate along each axis:
 

@@ -7,7 +7,9 @@ importance: 1
 category: Quantum Computing
 ---
 
-**[Singularity Quantum](https://singularityquantum.com/) · part-time · 2026 – present · with [Dr Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/), [Dr Austin Tapp](https://www.linkedin.com/in/austintapp/) and [Prof Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)**
+**[Singularity Quantum](https://singularityquantum.com/) · part-time · 2026 – present · California, USA · with [Dr Victoria Rolandi](https://www.linkedin.com/in/victoria-rolandi-b0bb25160/), [Dr Austin Tapp](https://www.linkedin.com/in/austintapp/) and [Prof Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)**
+
+{% include affiliations.liquid logos="singularity" label="" %}
 
 [Singularity Quantum](https://singularityquantum.com/) is building quantum-enhanced biomechanical modelling for precision treatment decisions. The flagship application is **CT-FFR**: fractional flow reserve (FFR) derived from a CT scan. FFR is the pressure ratio a cardiologist uses to decide whether a coronary stenosis needs intervention, from a CT scan rather than from a catheter. Done well, it replaces an invasive procedure with a simulation.
 
@@ -51,7 +53,5 @@ That is the same problem I have been working on elsewhere. In [AtriPINN](/projec
 **And a coincidence.** One of Singularity Quantum's co-founders is Professor **[Doyeol (David) Ahn](https://www.linkedin.com/in/doyeol-david-ahn-06165558/)**, in whose physics classes at the University of Seoul I sat for about a year in 2007, aged nine. It was through him, over 2007 and 2008, that I first learned quantum computing and quantum information. Nearly twenty years of doing physics later, the thread loops back.
 
 _Work in progress; outputs will appear here and on [Publications](/publications/)._
-
-{% include affiliations.liquid logos="singularity" label="" %}
 
 {% include linkedin_card.liquid %}

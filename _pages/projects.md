@@ -5,6 +5,10 @@ permalink: /projects/
 description: Research programmes and code across particle physics, astrophysics, machine learning, quantum computing, and markets.
 nav: true
 nav_order: 4
+# Pinned to dark, like /pictures/. Releasable: a deliberate change on the page
+# (the toggle, or the Cmd/Ctrl-K palette) takes over. Individual posts and
+# project pages are NOT pinned - this applies to the index only.
+force_theme: dark
 display_categories: [Particle Physics, Machine Learning, Quantum Computing, Quant, Astrophysics]
 horizontal: false
 ---

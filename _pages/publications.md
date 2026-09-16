@@ -5,6 +5,10 @@ title: Publications
 description: Peer-reviewed papers, preprints and work in progress, generated automatically from BibTeX.
 nav: true
 nav_order: 3
+# Pinned to dark, like /pictures/. Releasable: a deliberate change on the page
+# (the toggle, or the Cmd/Ctrl-K palette) takes over. Individual posts and
+# project pages are NOT pinned - this applies to the index only.
+force_theme: dark
 ---
 
 <!-- _pages/publications.md -->

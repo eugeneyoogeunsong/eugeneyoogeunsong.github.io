@@ -36,6 +36,19 @@
 # It deliberately does NOT touch localStorage, so the visitor's real preference
 # survives untouched and every other page still honours it.
 #
+# The pin is RELEASABLE, not absolute
+# -----------------------------------
+# A hard override would also block a deliberate change made on the page itself,
+# via the toggle or the Cmd/Ctrl-K palette, which would read as a broken control
+# rather than as a design choice. So setThemeSetting is wrapped too: initTheme()
+# calls it exactly once at load, and that first call is treated as the pin
+# applying. Any LATER call can only have come from the visitor, so it releases
+# the pin and the page follows their choice for the rest of the visit.
+#
+# This is why the toggle is hidden on /pictures/ but left visible elsewhere: on
+# that page the pin is meant to be final, so the control is removed rather than
+# left there to undo it.
+#
 # The toggle button is hidden on a pinned page (see the CSS in the page itself).
 # Leaving it visible would mean shipping a control that appears broken: it would
 # still record the visitor's choice, but nothing on screen would change.
@@ -58,7 +71,15 @@ module ForcePageTheme
         <script>
           try {
             determineComputedTheme;
-            determineComputedTheme = function () { return "#{theme}"; };
+            var __pinned = true;
+            var __dct = determineComputedTheme;
+            determineComputedTheme = function () { return __pinned ? "#{theme}" : __dct(); };
+            var __sts = setThemeSetting;
+            var __firstCall = true;
+            setThemeSetting = function (t) {
+              if (__firstCall) { __firstCall = false; } else { __pinned = false; }
+              return __sts(t);
+            };
           } catch (e) {}
         </script>
       HTML

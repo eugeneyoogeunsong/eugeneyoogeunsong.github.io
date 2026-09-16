@@ -217,7 +217,7 @@ pagination:
 
 </div>
 
-{% include affiliations.liquid logos="dune,nova,singularity" %}
+{% include affiliations.liquid logos="imperial,dune,nova,singularity" %}
 
 {% include linkedin_card.liquid %}
 

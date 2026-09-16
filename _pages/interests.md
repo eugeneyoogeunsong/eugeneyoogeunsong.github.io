@@ -57,7 +57,7 @@ I have been meaning to join a book club, so <a href="/contact/" class="plain-lin
 
 Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift, Dua Lipa and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen, though rarely these days: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by. I would practise far more often given the free time. Lately it has been the ukulele, and I am working my way through the Red Hot Chili Peppers' _Californication_ on it.
 
-On television, I like _Suits__ (USA, 2011)_ and _Black Mirror (2011)_.
+On television, I like _Suits\_\_ (USA, 2011)_ and _Black Mirror (2011)_.
 
 On film, I lean towards Nolan, Fincher, Tarantino, Michael Mann and Coppola; _The Godfather_ I and II are my favourite films of all time. True masterpieces, both of them: every single frame, the cinematography, the acting, the directing, every piece of music, and pretty much every genre held inside one story. My favourite stretches of both are the Sicilian ones, not the New York parts: the quiet before and after the storm is what the films are actually about.
 
@@ -80,8 +80,8 @@ Meeting new, brilliant, like-minded people globally is the other half of it, and
 Conference travel is part of it, but more than the places I am building a [network](https://www.linkedin.com/in/yoogeunsong): researchers, postdocs, students, founders, investors and quant practitioners. If you are one of those and you are reading this, <a href="/contact/" class="plain-link">say hello</a>.
 
 <figure class="pic-duo">
-  <img src="{{ '/assets/img/london/westminster-duo.jpg' | relative_url }}" alt="Westminster and the clock tower at dusk, seen across the Thames" width="480" height="600" loading="lazy" decoding="async">
-  <img src="{{ '/assets/img/london/regent-street-duo.jpg' | relative_url }}" alt="Regent Street: a red double-decker bus, black cabs and crowds on the pavement beneath the curved terraces" width="900" height="600" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/london/westminster-duo.jpg' | relative_url }}" alt="Westminster and the clock tower at dusk, seen across the Thames" width="880" height="1100" style="flex-grow:0.800" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/london/regent-street-duo.jpg' | relative_url }}" alt="Regent Street: a red double-decker bus, black cabs and crowds on the pavement beneath the curved terraces" width="1280" height="853" style="flex-grow:1.501" loading="lazy" decoding="async">
   <figcaption>London, home since 2023, and still the best argument for living here.</figcaption>
 </figure>
 
@@ -99,11 +99,19 @@ Conference travel is part of it, but more than the places I am building a [netwo
     gap: 0.75rem;
     margin: 1.5rem 0 2rem;
   }
+  /* Each image is a flex item with flex-basis 0 and a flex-grow set inline to
+     its own aspect ratio (width/height). Widths therefore come out proportional
+     to the ratios, which is exactly the condition for the rendered heights to
+     match - and because the basis is 0, the pair always fills the column, so a
+     duo sits at the same width as the full-width banners elsewhere on the page.
+     The old rule fixed the height at 300px instead, which matched the heights
+     but left the row at roughly 57% of the column. */
   .pic-duo img {
     display: block;
-    height: 300px;
-    width: auto;
-    max-width: 100%;
+    flex: 0 1 0;
+    min-width: 0;
+    width: 100%;
+    height: auto;
     border-radius: 9px;
     background: var(--global-card-bg-color);
   }
@@ -115,8 +123,9 @@ Conference travel is part of it, but more than the places I am building a [netwo
   }
   @media (max-width: 700px) {
     .pic-duo img {
-      height: auto;
+      flex: 1 1 100%;
       width: 100%;
+      height: auto;
       border-radius: 7px;
     }
     .pic-duo figcaption { font-size: 0.8rem; }
@@ -138,8 +147,8 @@ I realised careers, research and markets are all much closer to poker: you act o
 Need a chess or poker buddy in London? <a href="/contact/" class="plain-link">Reach out</a>!
 
 <figure class="pic-duo">
-  <img src="{{ '/assets/img/interests/chess-duo.jpg' | relative_url }}" alt="A chess board mid-game, gold pieces facing silver across the squares" width="480" height="600" loading="lazy" decoding="async">
-  <img src="{{ '/assets/img/interests/poker-duo.jpg' | relative_url }}" alt="A scattered deck of playing cards face up on a blue cloth, a joker near the centre" width="523" height="600" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/interests/chess-duo.jpg' | relative_url }}" alt="A chess board mid-game, gold pieces facing silver across the squares" width="880" height="1100" style="flex-grow:0.800" loading="lazy" decoding="async">
+  <img src="{{ '/assets/img/interests/poker-duo.jpg' | relative_url }}" alt="A scattered deck of playing cards face up on a blue cloth, a joker near the centre" width="959" height="1100" style="flex-grow:0.872" loading="lazy" decoding="async">
   <figcaption>Complete information on the left; incomplete on the right. Most of life is the one on the right.</figcaption>
 </figure>
 

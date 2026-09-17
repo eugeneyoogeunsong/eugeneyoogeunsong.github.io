@@ -276,6 +276,63 @@ html[data-theme-setting="light"] {
    two icons (keyed off the painted theme instead) and was reverted - so if you
    are wondering why there is no such block here, that is deliberate. */
 
+/* Section titles on /projects/ ("Particle Physics", "Machine Learning", ...).
+   ---------------------------------------------------------------------------
+   The gem sets these to --global-divider-color:
+
+     .projects h2.category { color: var(--global-divider-color); ... }
+
+   A divider colour is chosen to be *almost invisible* against the page - that is
+   its whole job. Used on 32px heading text it gives #34344a on #14141a, which is
+   a contrast ratio of 1.52:1. WCAG asks 3:1 for large text, so this is less than
+   half the floor: the titles were effectively unreadable in dark mode, which is
+   now the default.
+
+   The border-bottom keeps the divider colour, because there it is correct.
+
+   --local-accent-deep is the site's colour for text that is coloured but not
+   clickable (see its definition above), which is exactly what a section heading
+   is. It gives 9.2:1 in dark and 11.4:1 in light. Plain body-text colour would
+   reach 14.5:1, but these are structural dividers between groups of projects
+   rather than prose, and the accent keeps that distinction visible.
+
+   `.projects h2.category` matches the gem's own specificity (0,2,1); this file
+   is loaded after, so it wins on source order. */
+.projects h2.category {
+  color: var(--local-accent-deep, #312e81);
+}
+
+/* The year headings on /publications/ ("2026", "2025", ...) have exactly the
+   same defect, from the same cause:
+
+     .publications h2.bibliography { color: var(--global-divider-color); ... }
+
+   Identical numbers: #34344a on #14141a, 1.52:1 at 32px. Same fix, and the
+   border-top keeps the divider colour as it should. Kept as a separate rule
+   rather than grouped with .projects h2.category, so that if the gem ever
+   restyles one of the two pages the other is unaffected. */
+.publications h2.bibliography {
+  color: var(--local-accent-deep, #312e81);
+}
+
+/* Project card titles: weight, NOT colour.
+   ----------------------------------------
+   These are already at --global-text-color, which is 13.4:1 against the card
+   background - you cannot make them more legible by recolouring, only less.
+   Two reasons not to tint them:
+
+     1. the accent would DROP the ratio to 8.5:1;
+     2. the accent is already spoken for here - the gem uses it as the hover
+        state (`.projects a:hover .card-title`), and a title that is already
+        accent-coloured at rest makes the hover feedback invisible.
+
+   So prominence comes from weight instead: 400 is the theme's body weight, and
+   at 32px it reads as large text rather than as a title. 600 gives the cards a
+   clear head without touching contrast or the hover cue. */
+.card .card-title {
+  font-weight: 600;
+}
+
 /* Post titles in the blog listing take the same colour as the blog name.
    -----------------------------------------------------------------------
    "Same toolkit, new room" (.header-bar h1) renders in --global-theme-color;

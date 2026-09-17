@@ -4,10 +4,6 @@ permalink: /blog/
 title: Blog
 nav: true
 nav_order: 9
-# Pinned to dark, like /pictures/, and not changeable on the page: the toggle is
-# hidden below because it could not do anything here. Individual posts and
-# project pages are NOT pinned - this applies to the index only.
-force_theme: dark
 pagination:
   enabled: true
   collection: posts
@@ -21,11 +17,6 @@ pagination:
 ---
 
 <style>
-  /* Pinned to dark: hide the toggle, which cannot do anything here. */
-  #light-toggle {
-    display: none;
-  }
-
   /* Hide the sitewide Imperial margin rail on this page only, as on /interests/.
      The blog is personal writing, and an institutional mark pinned to the edge
      of it implies the university stands behind the opinions in the posts. The
@@ -43,7 +34,7 @@ pagination:
 </style>
 
 <div class="post">
-{% include banner.liquid src="/assets/img/london/thames-full.jpg" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" w="1500" h="1000" eager="true" caption="Written from London." %}
+{% include banner.liquid src="/assets/img/london/thames-full.jpg" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" w="1500" h="1000" eager="true" caption="Written from London, UK." %}
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}

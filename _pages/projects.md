@@ -5,13 +5,23 @@ permalink: /projects/
 description: Research programmes and code across particle physics, astrophysics, machine learning, quantum computing, and markets.
 nav: true
 nav_order: 4
-# Pinned to dark, like /pictures/. Releasable: a deliberate change on the page
-# (the toggle, or the Cmd/Ctrl-K palette) takes over. Individual posts and
+# Pinned to dark, like /pictures/, and not changeable on the page: the toggle is
+# hidden below because it could not do anything here. Individual posts and
 # project pages are NOT pinned - this applies to the index only.
 force_theme: dark
 display_categories: [Particle Physics, Machine Learning, Quantum Computing, Quant, Astrophysics]
 horizontal: false
 ---
+
+<style>
+  /* This page is pinned to dark (force_theme in the front matter above), so the
+     theme toggle cannot change anything here. Hidden rather than removed: it is
+     hidden the same way on /pictures/, and theme.js attaches a click listener to
+     the element on load, so deleting it would throw. */
+  #light-toggle {
+    display: none;
+  }
+</style>
 
 <!-- pages/projects.md -->
 <div class="projects">

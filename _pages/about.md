@@ -255,7 +255,7 @@ Multiple years in, my network looks like London itself: every background, nation
 
 {% include author_self_link.liquid %}
 
-{% include banner.liquid src="/assets/img/imperial/queens-tower-moon.jpg" alt="Queen's Tower at Imperial College London at dusk, the moon risen beside it over the South Kensington rooftops" w="1600" h="1067" caption="Imperial College London - Queen's Tower at dusk. Where I work, most days." %}
+{% include banner.liquid src="/assets/img/imperial/queens-tower-day.jpg" alt="Queen's Tower at Imperial College London on a clear day, the South Kensington rooftops and the London skyline stretching behind it" w="1600" h="1067" caption="Imperial College London - Queen's Tower, and the campus around it. Where I work, most days." %}
 
 {% include goatcounter.liquid %}
 

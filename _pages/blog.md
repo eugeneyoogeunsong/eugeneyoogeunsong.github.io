@@ -4,8 +4,8 @@ permalink: /blog/
 title: Blog
 nav: true
 nav_order: 9
-# Pinned to dark, like /pictures/. Releasable: a deliberate change on the page
-# (the toggle, or the Cmd/Ctrl-K palette) takes over. Individual posts and
+# Pinned to dark, like /pictures/, and not changeable on the page: the toggle is
+# hidden below because it could not do anything here. Individual posts and
 # project pages are NOT pinned - this applies to the index only.
 force_theme: dark
 pagination:
@@ -21,6 +21,11 @@ pagination:
 ---
 
 <style>
+  /* Pinned to dark: hide the toggle, which cannot do anything here. */
+  #light-toggle {
+    display: none;
+  }
+
   /* Hide the sitewide Imperial margin rail on this page only, as on /interests/.
      The blog is personal writing, and an institutional mark pinned to the edge
      of it implies the university stands behind the opinions in the posts. The

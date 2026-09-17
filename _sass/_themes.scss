@@ -315,6 +315,24 @@ html[data-theme-setting="light"] {
   color: var(--local-accent-deep, #312e81);
 }
 
+/* Section titles on /research/ are a different case from the two above.
+   ---------------------------------------------------------------------
+   They are NOT low contrast: they sit at --global-text-color, 14.5:1, the most
+   readable text on the page. The defect is affordance, not legibility - each
+   one is a link into the matching /projects/ section, and nothing says so. A
+   reader has no reason to try clicking a heading that looks like every other
+   heading on the site.
+
+   So these take --global-theme-color, the LINK colour, not --local-accent-deep.
+   That distinction is the rule the rest of the site follows: the accent means
+   "coloured but static" (the Projects categories, the Publications years, the
+   eyebrow labels), the theme colour means "this responds to a click". In dark
+   mode the two happen to be the same value; in light mode this is #4338ca
+   rather than #312e81, which is correct - it is a link. */
+.post h2 > a.section-link {
+  color: var(--global-theme-color);
+}
+
 /* Project card titles: weight, NOT colour.
    ----------------------------------------
    These are already at --global-text-color, which is 13.4:1 against the card

@@ -296,9 +296,14 @@ html[data-theme-setting="light"] {
    reach 14.5:1, but these are structural dividers between groups of projects
    rather than prose, and the accent keeps that distinction visible.
 
-   `.projects h2.category` matches the gem's own specificity (0,2,1); this file
-   is loaded after, so it wins on source order. */
-.projects h2.category {
+   ⚠️  SPECIFICITY. The gem's rule is `.projects h2.category { ... }`, which
+   scores (0,2,1) - identical to a bare `.projects h2.category` here, so the
+   winner is decided by source order, and the gem's copy lands after this file.
+   The first version of this fix shipped and did nothing for exactly that
+   reason: the CSS was in main.css, and the headings still measured 1.52:1.
+   The `:root ` prefix adds a pseudo-class, taking these to (0,3,1) so they win
+   outright. Same trick as the #light-toggle rules further up. */
+:root .projects h2.category {
   color: var(--local-accent-deep, #312e81);
 }
 
@@ -311,7 +316,7 @@ html[data-theme-setting="light"] {
    border-top keeps the divider colour as it should. Kept as a separate rule
    rather than grouped with .projects h2.category, so that if the gem ever
    restyles one of the two pages the other is unaffected. */
-.publications h2.bibliography {
+:root .publications h2.bibliography {
   color: var(--local-accent-deep, #312e81);
 }
 
@@ -329,7 +334,7 @@ html[data-theme-setting="light"] {
    eyebrow labels), the theme colour means "this responds to a click". In dark
    mode the two happen to be the same value; in light mode this is #4338ca
    rather than #312e81, which is correct - it is a link. */
-.post h2 > a.section-link {
+:root .post h2 > a.section-link {
   color: var(--global-theme-color);
 }
 
@@ -347,7 +352,7 @@ html[data-theme-setting="light"] {
    So prominence comes from weight instead: 400 is the theme's body weight, and
    at 32px it reads as large text rather than as a title. 600 gives the cards a
    clear head without touching contrast or the hover cue. */
-.card .card-title {
+:root .card .card-title {
   font-weight: 600;
 }
 

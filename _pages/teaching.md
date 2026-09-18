@@ -137,7 +137,7 @@ My handwritten summaries from the <a href="/cv/#education" class="plain-link">Ma
 
 {% include affiliations.liquid logos="imperial" label="" %}
 
-{% include banner.liquid src="/assets/img/imperial/campus-golden-hour.jpg" alt="Imperial College London's South Kensington campus at golden hour, Queen's Tower at the centre and the city stretching to the horizon" w="1600" h="1067" caption="South Kensington, where the modules below were taught." %}
+{% include banner.liquid src="/assets/img/imperial/campus-golden-hour.jpg" alt="Imperial College London's South Kensington campus at golden hour, Queen's Tower at the centre and the city stretching to the horizon" w="1600" h="1067" caption="Imperial College London South Kensington campus, where the modules below were taught." %}
 
 <div class="tn-grid">
   <a class="tn-card" href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-quantum-field-theory">

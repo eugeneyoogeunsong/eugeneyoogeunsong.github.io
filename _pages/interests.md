@@ -11,6 +11,18 @@ nav_order: 7
 
 Everything here is written in English by deliberate choice: I am writing for a global audience, principally in the UK and the USA.
 
+## Languages
+
+I have been an avid language learner my whole life, and I love the whole of it: the languages themselves, the cultures they open up, the new people I meet and the doors that open in countries I would otherwise have no claim on, and the cognitive linguistics behind them.
+
+I speak, read and write in: Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, and Spanish, German and Japanese all at elementary. French and Italian are the two I am keeping alive at the moment. I'm especially passionate about European languages, though I have taken runs at Arabic and Mandarin as well; that is one of the reasons I chose to live in Europe.
+
+I travel to France as often as I can, and here in the UK I have plenty of French and Italian friends to practise with. I always welcome new language exchange buddies, so <a href="/contact/" class="plain-link">reach out</a>!
+
+Learning a language is the closest thing I know to learning a new physics formalism: the same feeling of a structure clicking into place.
+
+{% include banner.liquid src="/assets/img/interests/languages.jpg" alt="Sticky notes pinned to a cork board, each with thank you written in a different language" w="1600" h="900" caption="Multiple languages in, with varying success. Each one opens a door the others do not." %}
+
 ## Sports
 
 A large part of my life, and the thing that keeps the rest of it working. I do one of these on a weekly basis: Running, triathlon, yoga, and calisthenics. I have dabbled in Brazilian Jiu-Jitsu and would train it properly given more free time. I am a member of the [Imperial College Triathlon](https://www.imperialcollegeunion.org/activities/a-to-z/triathlon) society, and I used to train with them weekly for 2 years. I'm trying to get back with them in 2026 onwards.
@@ -26,44 +38,6 @@ I am an avid skier and snowboarder; I have skied since I was four and snowboarde
 The endurance base came from national service, which is also where I discovered how much I enjoy shooting and driving; whilst there, I was consistently among the top five marksmen in my company, and I finished as an Exemplary Army Driver and the company's best driving instructor. I don't do much of either any more: I haven't driven a car in a good while, though racing on a track with fast cars always appeals immensely, and I would like to practise shooting with AR rifles next time I am in the USA - I'm comin', California!
 
 When a problem stops moving, the fastest route through it is usually a long run rather than another hour at the desk.
-
-## Languages
-
-I have been an avid language learner my whole life, and I love the whole of it: the languages themselves, the cultures they open up, the new people I meet and the doors that open in countries I would otherwise have no claim on, and the cognitive linguistics behind them.
-
-I speak, read and write in: Korean and English natively, French to professional working proficiency, Italian at intermediate and actively improving, and Spanish, German and Japanese all at elementary. French and Italian are the two I am keeping alive at the moment. I'm especially passionate about European languages, though I have taken runs at Arabic and Mandarin as well; that is one of the reasons I chose to live in Europe.
-
-I travel to France as often as I can, and here in the UK I have plenty of French and Italian friends to practise with. I always welcome new language exchange buddies, so <a href="/contact/" class="plain-link">reach out</a>!
-
-Learning a language is the closest thing I know to learning a new physics formalism: the same feeling of a structure clicking into place.
-
-{% include banner.liquid src="/assets/img/interests/languages.jpg" alt="Sticky notes pinned to a cork board, each with thank you written in a different language" w="1600" h="900" caption="Multiple languages in, with varying success. Each one opens a door the others do not." %}
-
-## Reading
-
-Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead: audiobooks, or podcasts from the authors themselves.
-
-Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing. On philosophy, existentialism I love as well. Sartre, Camus and Schopenhauer I love all three of, though the label sits loosely across them: Sartre claimed it, Camus refused it and called his own position absurdism, and Schopenhauer came early enough to have fed the tradition rather than joined it.
-
-On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday, Tim Ferriss, and Andrew Huberman.
-
-For research I stay current through [arXiv](https://arxiv.org/) and feeds on [LinkedIn](https://www.linkedin.com/in/yoogeunsong), [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social) and [X](https://x.com/YoogeunSong). LinkedIn does the most work of the three: I am connected there with over 3,000 researchers globally, across academia and industry R&D alike - most of them are based in Europe or the USA.
-
-I have been meaning to join a book club, so <a href="/contact/" class="plain-link">reach out</a> if you run one.
-
-{% include banner.liquid src="/assets/img/interests/reading.jpg" alt="A wall built entirely of old books surrounding a weathered green door" w="1600" h="900" caption="Non-fiction first, and widely. The door is usually behind the books somewhere." %}
-
-## Music and film
-
-Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift, Dua Lipa and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen, though rarely these days: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by. I would practise far more often given the free time. Lately it has been the ukulele, and I am working my way through the Red Hot Chili Peppers' _Californication_ on it.
-
-On television, I like _Suits_ (USA, 2011) and _Black Mirror_ (2011).
-
-On film, I lean towards Christopher Nolan, David Fincher, Quentin Tarantino, Michael Mann and Francis Ford Coppola. _The Godfather_ I and II are my favourite films of all time - true masterpieces, both of them: every single frame, the cinematography, the acting, the directing, every piece of music, and pretty much every genre held inside one story. My favourite stretches of both are the Sicilian ones, not the New York parts: the quiet before and after the storm is what the films are actually about.
-
-{% include banner.liquid src="/assets/img/interests/sicily.jpg" alt="A hilltop village in Sicily, pale houses stacked along the ridge with hazy mountains beyond" w="1600" h="1067" caption="Sicily, Italy - where the parts of The Godfather I and II I love most take place." %}
-
-With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF 2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
 
 ## Travel and networking
 
@@ -151,6 +125,32 @@ Conference travel is part of it, but more than the places I am building a [netwo
 </style>
 
 {% include banner.liquid src="/assets/img/london/tower-bridge.jpg" alt="Tower Bridge seen down the Thames through summer haze, a riverboat passing under Southwark Bridge in the foreground" w="1600" h="1071" caption="Tower Bridge down the river, on a hot day." %}
+
+## Reading
+
+Physics and technical work first; then quant and markets; then biographies, philosophy and self-improvement. I read widely and love non-fiction most of all. When I cannot read, I listen instead: audiobooks, or podcasts from the authors themselves.
+
+Confucius and the Stoics above all - Zeno, Marcus Aurelius, Seneca, Epictetus - with Nietzsche as the counterweight; then Benjamin Graham, Jared Diamond and Richard Dawkins. Through 2026 I have mostly been on Jean-Paul Sartre, behavioural psychology, and books on investing. On philosophy, existentialism I love as well. Sartre, Camus and Schopenhauer I love all three of, though the label sits loosely across them: Sartre claimed it, Camus refused it and called his own position absurdism, and Schopenhauer came early enough to have fed the tradition rather than joined it.
+
+On self-help books and podcasts: I like the works of Mark Manson, Ryan Holiday, Tim Ferriss, and Andrew Huberman.
+
+For research I stay current through [arXiv](https://arxiv.org/) and feeds on [LinkedIn](https://www.linkedin.com/in/yoogeunsong), [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social) and [X](https://x.com/YoogeunSong). LinkedIn does the most work of the three: I am connected there with over 3,000 researchers globally, across academia and industry R&D alike - most of them are based in Europe or the USA.
+
+I have been meaning to join a book club, so <a href="/contact/" class="plain-link">reach out</a> if you run one.
+
+{% include banner.liquid src="/assets/img/interests/reading.jpg" alt="A wall built entirely of old books surrounding a weathered green door" w="1600" h="900" caption="Non-fiction first, and widely. The door is usually behind the books somewhere." %}
+
+## Music and film
+
+Classical for focus and for pleasure: Mozart, Bach, Beethoven, Chopin, Vivaldi. Everything else is wide open, from the Beatles, Led Zeppelin, Queen, Guns N' Roses, Red Hot Chili Peppers and Eric Clapton through to Mariah Carey, Taylor Swift, Dua Lipa and Coldplay. Lately I have been listening to a lot of Vulfpeck. I play as well as listen, though rarely these days: drums and guitar, both electric and acoustic, plus a bit of piano and violin to get by. I would practise far more often given the free time. Lately it has been the ukulele, and I am working my way through the Red Hot Chili Peppers' _Californication_ on it.
+
+On television, I like _Suits_ (USA, 2011) and _Black Mirror_ (2011).
+
+On film, I lean towards Christopher Nolan, David Fincher, Quentin Tarantino, Michael Mann and Francis Ford Coppola. _The Godfather_ I and II are my favourite films of all time - true masterpieces, both of them: every single frame, the cinematography, the acting, the directing, every piece of music, and pretty much every genre held inside one story. My favourite stretches of both are the Sicilian ones, not the New York parts: the quiet before and after the storm is what the films are actually about.
+
+{% include banner.liquid src="/assets/img/interests/sicily.jpg" alt="A hilltop village in Sicily, pale houses stacked along the ridge with hazy mountains beyond" w="1600" h="1067" caption="Sicily, Italy - where the parts of The Godfather I and II I love most take place." %}
+
+With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF 2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
 
 ## Chess and poker
 

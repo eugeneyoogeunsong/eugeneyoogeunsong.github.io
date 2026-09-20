@@ -7,7 +7,7 @@ importance: 1
 category: Particle Physics
 ---
 
-**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · London · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi), [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12), [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper) and [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth)**
+**[Imperial College London](https://www.imperial.ac.uk/) · 2026 – present · London · with [Dr Linda Cremonesi](https://profiles.imperial.ac.uk/l.cremonesi), [Dr Patrick Dunne](https://profiles.imperial.ac.uk/p.dunne12), [Prof. Alexander Tapper](https://profiles.imperial.ac.uk/a.tapper), [Dr Alex Booth](https://profiles.imperial.ac.uk/a.booth) and [Prof. Stefan Soldner-Rembold](https://profiles.imperial.ac.uk/s.soldner-rembold)**
 
 {% include affiliations.liquid logos="imperial,dune" label="" %}
 

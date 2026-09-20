@@ -1,13 +1,26 @@
 ---
 layout: page
 title: Quantitative research
-description: Alpha under non-stationary market dynamics, treated as a signal-and-noise problem.
+description: Numerics, stocks, derivatives etc. - all quantitative, not using the traditional qualitative approaches.
 img: assets/img/projects/quant.jpg
 importance: 1
 category: Quant
 ---
 
 **Independent practice · London · October 2025 – August 2026**
+
+<figure style="margin: 0 0 1.5rem; text-align: center;">
+  <img
+    src="{{ '/assets/img/projects/quant.jpg' | relative_url }}"
+    alt="A trading screen: a dense grid of prices, volumes and percentage changes overlaid with candlestick and line charts"
+    style="max-width: 100%; height: auto; border-radius: 6px"
+    loading="eager"
+  />
+  <figcaption style="font-size: 0.8rem; color: var(--global-text-color-light); margin-top: 0.5rem">
+    The raw material: prices, volumes and their changes. Everything below is an attempt to decide
+    which parts of a screen like this are signal.
+  </figcaption>
+</figure>
 
 An independent research programme in futures, derivatives and equities. The organising question was simple to state and hard to answer: **how do you detect a regime shift without overfitting to the last one?**
 

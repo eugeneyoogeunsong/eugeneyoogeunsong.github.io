@@ -39,6 +39,11 @@
      white. In dark mode the accent is already a light indigo and a darker one
      would fail contrast, so that value carries over unchanged. */
   --local-accent-deep: #312e81;
+  /* Theme-toggle icon colours, one per state. See the #light-toggle-* block
+     lower down for why each state gets its own hue and what the numbers are. */
+  --local-toggle-sun: #b45309; /* amber 700,  5.02:1 on white */
+  --local-toggle-moon: #4338ca; /* indigo 700, 7.90:1 on white */
+  --local-toggle-auto: #475569; /* slate 600,  7.58:1 on white */
   --global-footer-bg-color: #14131c;
   --global-footer-text-color: #c9c9d4;
   --global-footer-link-color: #ffffff;
@@ -103,6 +108,9 @@ html[data-theme="dark"] {
   --global-hover-color: #a5b4fc;
   --global-hover-text-color: #14141a;
   --local-accent-deep: #a5b4fc;
+  --local-toggle-sun: #fbbf24; /* amber 400,  10.99:1 on #14141a */
+  --local-toggle-moon: #c7d2fe; /* indigo 200, 12.30:1 on #14141a */
+  --local-toggle-auto: #94a3b8; /* slate 400,   7.15:1 on #14141a */
   --global-footer-bg-color: #e4e4ef;
   --global-footer-text-color: #14141a;
   --global-footer-link-color: #000000;
@@ -200,13 +208,16 @@ html[data-theme-setting="light"] {
 
    The three glyphs, and which state gets which:
 
-     system -> sun            \f185   (supplied here; the stock class is empty)
-     light  -> half circle    \f042   (overrides fa-sun, see below)
+     system -> half circle    \f042   (supplied here; the stock class is empty)
+     light  -> sun            \f185   (stock fa-sun, untouched)
      dark   -> moon           \f186   (stock fa-moon, untouched)
 
-   Note that this is NOT Font Awesome's own convention, where the sun means
-   "light" and the half circle means "auto/system". It is a deliberate local
-   choice; if the two ever look swapped to you, this comment is why.
+   This is the conventional mapping - sun for light, moon for dark, half circle
+   for auto/system - so the icons explain themselves to anyone who has used a
+   theme toggle anywhere else. An earlier version swapped sun and half circle;
+   the icons then needed word labels beside them to be intelligible, which is
+   the tell that the mapping was wrong. Only the system state needs a rule here:
+   the other two already carry the right Font Awesome class.
 
    Codepoints verified against the Font Awesome build the site actually loads
    (FA 7 Free, from the CDN) by probing the computed ::before of each class,
@@ -218,17 +229,10 @@ html[data-theme-setting="light"] {
   font-family: "Font Awesome 7 Free";
   font-weight: 900;
   font-style: normal;
-  content: "\f185";
+  content: "\f042";
   line-height: 1;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
-}
-
-/* The light state's element is <i class="fa-solid fa-sun">, so it already has
-   the font; only the glyph needs replacing. An id (1,0,0) beats .fa-sun (0,1,0),
-   so this wins without !important. */
-#light-toggle-light::before {
-  content: "\f042";
 }
 
 /* Enlarge the theme toggle (all three states, every viewport).
@@ -261,14 +265,62 @@ html[data-theme-setting="light"] {
 :root #light-toggle {
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
 }
 :root #light-toggle-system,
 :root #light-toggle-dark,
 :root #light-toggle-light {
   padding: 0;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
+}
+
+/* Colour the three glyphs, one hue per state.
+   -------------------------------------------
+   Stock, all three inherit the navbar text colour, so the toggle is a grey
+   icon in a row of grey icons and reads as decoration. Colour is what makes it
+   look like a control - and because exactly ONE of the three is ever visible,
+   this is a single coloured glyph in the navbar, not a traffic light.
+
+   The hues are semantic rather than chosen for prettiness, which is what keeps
+   it from looking toy-ish:
+
+     sun  (light)  warm amber   - the one colour everyone already reads as "sun"
+     moon (dark)   site indigo  - the accent family, so dark mode signs its own
+                                  switch rather than introducing a fourth hue
+     auto (system) neutral slate- "no opinion, follow the OS", said in colour
+
+   Every value is measured against the page background it sits on, not eyeballed
+   (4.5:1 is the normal-text floor; icons only need 3:1, so all six clear it
+   comfortably):
+
+              light page (#ffffff)     dark page (#14141a)
+     sun      #b45309   5.02:1         #fbbf24  10.99:1
+     moon     #4338ca   7.90:1         #c7d2fe  12.30:1
+     auto     #475569   7.58:1         #94a3b8   7.15:1
+
+   The light-theme values are deliberately NOT the dark-theme ones darkened by
+   eye: amber 400 is 1.67:1 on white and slate 300 is 1.48:1, i.e. all but
+   invisible, which is the trap in colouring an icon that lives on two
+   backgrounds.
+
+   :hover drops the hue and goes to --global-hover-color, matching every other
+   interactive thing in the navbar, so hovering still confirms "this responds".
+
+   `:root ` prefix for the same reason as the sizing block above. */
+:root #light-toggle-light {
+  color: var(--local-toggle-sun, #b45309);
+}
+:root #light-toggle-dark {
+  color: var(--local-toggle-moon, #4338ca);
+}
+:root #light-toggle-system {
+  color: var(--local-toggle-auto, #475569);
+}
+:root #light-toggle:hover #light-toggle-light,
+:root #light-toggle:hover #light-toggle-dark,
+:root #light-toggle:hover #light-toggle-system {
+  color: var(--global-hover-color);
 }
 
 /* Icon visibility is left to the stock per-setting rules: one glyph per state,

@@ -76,7 +76,7 @@ where $$\Delta = \Delta m^{2}_{31}L/4E_\nu$$, $$\tilde{J} = \cos\theta_{13}\sin2
 
 $$V = \sqrt{2}\,G_F N_e \simeq 7.56 \times 10^{-14}\,Y_e\,\rho\,[\mathrm{g\,cm^{-3}}]\ \mathrm{eV}$$
 
-$$V$$ flips sign for antineutrinos and its effect flips with the mass ordering; $$\delta_{CP}$$ flips sign between beam modes too. **Two sign flips, one pair of rates - that is the whole difficulty of the field.** The way out is a baseline long enough that matter contributes materially: at 810 km and 2 GeV the matter effect moves the appearance probability by about **19%**, against roughly 9% for T2K's 295 km at 0.6 GeV. NOvA is long enough to feel the Earth; T2K is not, which is exactly why the two together say more than either alone.
+$$V$$ flips sign for antineutrinos and its effect flips with the mass ordering; $$\delta_{CP}$$ flips sign between beam modes too. **Two sign flips, one pair of rates - that is the whole difficulty of the field.** The way out is a baseline long enough that matter contributes materially: at 810 km and 2 GeV the matter effect moves the appearance probability by about **19%**, against roughly 9% for [T2K](https://t2k-experiment.org/)'s 295 km at 0.6 GeV. NOvA is long enough to feel the Earth; T2K is not, which is exactly why the two together say more than either alone.
 
 <div class="only-light">
 <figure style="margin: 1.5rem 0; text-align: center;">

@@ -68,7 +68,7 @@ At $$L = 810$$ km that puts the first oscillation maximum at **1.6 GeV**, which 
 
 **Appearance** is the harder and more interesting one. Expanded to second order in the small quantities $$\alpha = \Delta m^{2}_{21}/\Delta m^{2}_{31}$$ and $$\sin\theta_{13}$$:
 
-$$P(\nu_\mu \to \nu_e) \simeq \underbrace{\sin^{2}\theta_{23}\sin^{2}2\theta_{13}\,\frac{\sin^{2}(\Delta - aL)}{(\Delta - aL)^{2}}\,\Delta^{2}}_{\text{leading: } \theta_{13}\text{, octant, matter}} + \underbrace{\alpha\,\tilde{J}\cos(\Delta \mp \delta_{CP})\,\frac{\sin(aL)}{aL}\,\frac{\sin(\Delta - aL)}{\Delta - aL}\,\Delta}_{\text{interference: where }\delta_{CP}\text{ lives}} + \underbrace{\alpha^{2}\cos^{2}\theta_{23}\sin^{2}2\theta_{12}\,\frac{\sin^{2}(aL)}{(aL)^{2}}\,\Delta^{2}}_{\text{solar}}$$
+$$\begin{aligned} P(\nu_\mu \to \nu_e) \;\simeq\;& \underbrace{\sin^{2}\theta_{23}\,\sin^{2}2\theta_{13}\,\frac{\sin^{2}(\Delta - aL)}{(\Delta - aL)^{2}}\,\Delta^{2}}_{\text{leading: }\theta_{13}\text{, octant, matter}} \\[2.2ex] &+ \underbrace{\alpha\,\tilde{J}\,\cos(\Delta \mp \delta_{CP})\,\frac{\sin(aL)}{aL}\,\frac{\sin(\Delta - aL)}{\Delta - aL}\,\Delta}_{\text{interference: where }\delta_{CP}\text{ lives}} \\[2.2ex] &+ \underbrace{\alpha^{2}\,\cos^{2}\theta_{23}\,\sin^{2}2\theta_{12}\,\frac{\sin^{2}(aL)}{(aL)^{2}}\,\Delta^{2}}_{\text{solar}} \end{aligned}$$
 
 where $$\Delta = \Delta m^{2}_{31}L/4E_\nu$$, $$\tilde{J} = \cos\theta_{13}\sin2\theta_{12}\sin2\theta_{13}\sin2\theta_{23}$$, and the upper sign is for neutrinos.
 

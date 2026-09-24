@@ -180,7 +180,7 @@ The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.t
 
 Three further modules now have folders of their own, without the summary cards above: <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/general-relativity" class="plain-link">General Relativity</a> (98 pages), taken with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-classical-physics" class="plain-link">Advanced Classical Physics</a> (99 pages), again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>; and <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/mathematical-methods-for-physicists" class="plain-link">Mathematical Methods for Physicists</a> (107 pages), with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>.
 
-I know all of these subjects mentioned here well, inside out, so I can supply study materials for any of them, and I am able to teach all of them.
+I know all of these subjects mentioned here well, _inside out_, so I can supply study materials for any of them, and I am able to teach all of them.
 The advanced subjects I can teach, and supply materials for:
 
 <ul class="tn-topics">

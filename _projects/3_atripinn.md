@@ -21,7 +21,7 @@ My collaborators and I use **physics-informed** approaches to make these process
 - **Time-shifted kNN blending** to fuse neighbouring channels without smearing the wavefront;
 - **[Physics-informed neural network](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125) (PINN) residuals** enforcing wave, eikonal and monodomain (Aliev–Panfilov) dynamics as soft constraints, so the network cannot produce a physically impossible activation map.
 
-**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, the underlying physics, and the machine learning and software engineering that turn it into working code. I am not a clinician and make no claim to the cardiology; that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
+**Where I sit in this.** My contribution is technical and methodological throughout: the modelling, the numerics, the underlying physics, and the machine learning and software engineering that turn it into working code. I am not a clinician, and the cardiology is not mine to speak for; that expertise belongs to my collaborators. And to be clear about interest as well as expertise: what draws me is machine learning for medicine and medical imaging, not cardiology itself.
 
 **The physics term in the objective function.** The wave back-end treats the activation field $$u(\mathbf{x},t)$$ as obeying the second-order wave equation,
 

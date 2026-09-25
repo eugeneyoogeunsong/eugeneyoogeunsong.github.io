@@ -34,7 +34,7 @@ featured: false
   }
 </style>
 
-On my [Interests](/interests/) page there is a paragraph, under chess and poker, that I keep coming back to. It started as a note about card games and turned out to be about everything else, so it gets a post of its own.
+As I alluded to on the [Interests](/interests/) page, under chess and poker, what I hold myself to is the quality of the process rather than the outcome. That started as a note about card games and turned out to be about everything else, so it gets a post of its own.
 
 <figure class="pic-duo">
   <img src="{{ '/assets/img/interests/chess-duo.jpg' | relative_url }}" alt="A chess board mid-game, gold pieces facing silver across the squares" width="880" height="1100" style="flex-grow:0.800" loading="lazy" decoding="async">
@@ -42,11 +42,7 @@ On my [Interests](/interests/) page there is a paragraph, under chess and poker,
   <figcaption>Complete information on the left; incomplete on the right. Most of life is the one on the right.</figcaption>
 </figure>
 
-Here is the paragraph, as it stands there:
-
-> So what I hold myself to is the quality of the _process_: whether the equity was counted honestly, whether the expected value was positive at the moment I committed, whether I had genuinely tried everything I possibly can and truly left no stone unturned. Outcomes still matter, but as evidence rather than as a verdict: one hand tells you almost nothing; a thousand tell you everything. You have to stay at the table long enough for the thousand to arrive. The same holds for a person, a career or a run of results: what you want is the whole process, not one part of the story. That is why I always _trust the process_, and that habit carries directly into my research: it is the conviction that the outcome I want is produced by a sound procedure repeated, and that wanting it harder produces nothing on its own. The process, and the progression through it, are the parts that are genuinely mine to control (as the Stoics said), and the only parts that improve when I work at them; and it turns out to be the same discipline that governs how I read a p-value or a backtest.
-
-That is the compressed version. The uncompressed version needs a basketball court.
+The short version is that outcomes are evidence, not verdicts, and that the only parts of any game genuinely mine to control are the decisions. The long version needs a basketball court.
 
 **A hundred jump shots.** Give two people the same instruction: go and take a hundred jump shots. The first person hears a hundred repetitions of a movement, and their attention goes to the movement: where the feet are set, how high the jump is, whether the elbow stays under the ball, whether the release is the same on the ninetieth shot as on the first. The number is the container; what is inside it is the form. The second person hears a hundred, and their attention goes to the count: get to a hundred, by whichever means the ball goes through the hoop, or does not, and be done. Same court, same ball, same instruction; two entirely different afternoons.
 
@@ -60,6 +56,6 @@ The outcome-focused person talks in terms of control of the result, and of which
 
 **Why it governs how I read a number.** Poker is where I learned this properly, because poker punishes the outcome view within an evening. You can play a hand perfectly and lose it; you can play it badly and win. Judge yourself by the outcome and you will learn the wrong lessons quickly and with great confidence. Judge yourself by the process, i.e., by whether the decision was correct given what could be known when it was made, and the outcomes start to mean something, but only in aggregate: one hand is noise, a thousand are data. Research is the same game with a slower clock. A p-value is one hand. A backtest is one hand. The question a process-focused person asks of either is not "did it come out the way I wanted?" but "would this procedure, repeated, keep producing it?" That is the whole of what a calibrated result is, and it is also, not by coincidence, the only question that survives someone checking your work.
 
-So: form first, count second, and stay at the table long enough for the count to become evidence. That is the paragraph, uncompressed. I will keep coming back to it.
+So: form first, count second, and stay at the table long enough for the count to become evidence. That is the whole of what I alluded to on the Interests page, written out. I will keep coming back to it.
 
 {% include linkedin_card.liquid %}

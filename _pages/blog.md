@@ -34,7 +34,7 @@ pagination:
 </style>
 
 <div class="post">
-{% include banner.liquid src="/assets/img/london/thames-full.jpg" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" w="1500" h="1000" eager="true" caption="Written from London, UK." %}
+{% include banner.liquid src="/assets/img/london/thames-full.jpg" alt="The Thames from above at dusk, Tower Bridge in the foreground and Canary Wharf beyond" w="1500" h="1000" eager="true" caption="Written from London, UK, and entirely in English: the audience I am writing for is in Europe and the USA." %}
 
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}

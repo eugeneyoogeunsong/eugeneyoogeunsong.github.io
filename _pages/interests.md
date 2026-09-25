@@ -167,7 +167,7 @@ Need a chess or poker buddy in London? <a href="/contact/" class="plain-link">Re
 <figure class="pic-duo">
   <img src="{{ '/assets/img/interests/chess-duo.jpg' | relative_url }}" alt="A chess board mid-game, gold pieces facing silver across the squares" width="880" height="1100" style="flex-grow:0.800" loading="lazy" decoding="async">
   <img src="{{ '/assets/img/interests/poker-duo.jpg' | relative_url }}" alt="A scattered deck of playing cards face up on a blue cloth, a joker near the centre" width="959" height="1100" style="flex-grow:0.872" loading="lazy" decoding="async">
-  <figcaption>Complete information on the left; incomplete on the right. Most of life is the one on the right.</figcaption>
+  <figcaption>Complete information on the left (chess); incomplete information on the right (poker). In my opinion, most of life is closer to the one on the right.</figcaption>
 </figure>
 
 ## Psychology, personality, neuroscience and all that jazz

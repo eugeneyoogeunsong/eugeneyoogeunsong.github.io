@@ -126,7 +126,7 @@ cv:
           - "I take on quantum computing research and the quantum engineering, analysis, and business work that sits around it."
 
       - company: '<a href="https://www.imperial.ac.uk/">Imperial College London</a>'
-        position: '<a href="https://yoogeunsong.com/research/#machine-learning-for-physics-and-medical-applications">Graduate Researcher</a>'
+        position: '<a href="https://yoogeunsong.com/research/#physics-informed-machine-learning">Graduate Researcher</a>'
         location: "London Area,<br>United Kingdom"
         start_date: 2025-06
         highlights:

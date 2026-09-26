@@ -69,6 +69,8 @@ That is the same structure as everything else on this page: a governing equation
 
 ## [Quantitative research](/projects/4_quant){:.section-link}
 
+{% include affiliations.liquid logos="imperial" label="" caption="Imperial's <a href='https://algosoc.com/' class='plain-link'>Algorithmic Trading Society</a> (AlgoSoc), whose Algorithmic Trading courses I took, and <a href='https://investmentsoc.com/' class='plain-link'>Investment Society</a>, where I earned the Securities Education Certificate with Distinction." %}
+
 From October 2025 to August 2026 I ran an independent quantitative research practice, focused on futures, derivatives and equities. The organising question was alpha generation under **non-stationary** dynamics: how do you detect a regime shift without overfitting to the last one?
 
 The toolkit was the one I already had: stochastic control (HJB), Monte Carlo methods, time-series modelling, Bayesian inference, and physics-inspired signal/noise separation. The discipline is the one physics teaches: take structural constraints seriously. Market impact, inventory, liquidity and latency are not frictions to be assumed away; they are the boundary conditions, and a strategy that ignores them is a strategy that has not been specified. [See more.](/projects/4_quant/)

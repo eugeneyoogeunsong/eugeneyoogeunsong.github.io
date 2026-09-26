@@ -9,6 +9,8 @@ category: Quant
 
 **Independent practice · London · October 2025 – August 2026**
 
+{% include affiliations.liquid logos="imperial" label="" caption="Imperial's <a href='https://algosoc.com/' class='plain-link'>Algorithmic Trading Society</a> (AlgoSoc), whose Algorithmic Trading courses I took, and <a href='https://investmentsoc.com/' class='plain-link'>Investment Society</a>, where I earned the Securities Education Certificate with Distinction." %}
+
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img
     src="{{ '/assets/img/projects/quant.jpg' | relative_url }}"

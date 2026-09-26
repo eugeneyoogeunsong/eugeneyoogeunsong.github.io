@@ -44,7 +44,7 @@ The short version is that outcomes are evidence, not verdicts, and that the only
        width="1600" height="1345"
        style="max-width:100%; height:auto; border-radius:9px;" loading="lazy" decoding="async">
   <figcaption style="font-size:0.8rem; color:var(--global-text-color-light); margin-top:0.5rem;">
-    Same court, same ball, same instruction: a hundred jump shots. Two entirely different afternoons.
+    Same court, same ball, same instruction: a hundred jump shots. Two different types of people, and two entirely different afternoons.
   </figcaption>
 </figure>
 

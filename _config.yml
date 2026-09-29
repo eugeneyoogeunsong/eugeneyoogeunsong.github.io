@@ -27,7 +27,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # follower-statistics endpoint covers company pages only, behind OAuth and
 # partner approval), so this cannot update itself. Edit this ONE line and both
 # places follow. Rounding down with a "+" means it stays true between updates.
-linkedin_followers: "8,500+"
+linkedin_followers: "9,000+"
 
 footer_text: >
   &copy; Yoogeun Song. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>

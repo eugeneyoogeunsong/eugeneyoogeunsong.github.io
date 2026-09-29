@@ -54,6 +54,8 @@ The structure is easier to read once the mixing matrix is split into the three r
 
 $$U = \underbrace{\begin{pmatrix} 1 & 0 & 0 \\ 0 & c_{23} & s_{23} \\ 0 & -s_{23} & c_{23}\end{pmatrix}}_{\text{atmospheric, NOvA}} \underbrace{\begin{pmatrix} c_{13} & 0 & s_{13}e^{-i\delta_{CP}} \\ 0 & 1 & 0 \\ -s_{13}e^{i\delta_{CP}} & 0 & c_{13}\end{pmatrix}}_{\text{reactor, Daya Bay}} \underbrace{\begin{pmatrix} c_{12} & s_{12} & 0 \\ -s_{12} & c_{12} & 0 \\ 0 & 0 & 1\end{pmatrix}}_{\text{solar, KamLAND}}$$
 
+where $$s_{ij} \equiv \sin\theta_{ij}$$ and $$c_{ij} \equiv \cos\theta_{ij}$$ for each of the three mixing angles $$\theta_{12}$$, $$\theta_{13}$$ and $$\theta_{23}$$ (so $$s_{13} = \sin\theta_{13}$$, $$c_{13} = \cos\theta_{13}$$, and so on); this is the standard PDG parametrisation, with the CP phase attached to the 1-3 rotation.
+
 The phase $$\delta_{CP}$$ sits in the middle factor, next to $$s_{13}$$; it is therefore reachable only through a channel in which $$\theta_{13}$$ participates (i.e., through $$\nu_e$$ appearance, not through $$\nu_\mu$$ disappearance).
 
 **The measurements.** Electron-neutrino appearance and muon-neutrino disappearance, in both neutrino and antineutrino beam modes. Together these constrain the mass ordering, the octant of $$\theta_{23}$$, and $$\delta_{CP}$$.

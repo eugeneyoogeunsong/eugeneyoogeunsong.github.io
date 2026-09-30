@@ -123,6 +123,10 @@ These are my referees, each happy to write a recommendation on my behalf - the a
       <span class="who"><a href="https://www.linkedin.com/in/blake-martin-05228817a/">Blake Martin</a></span>
       <span class="role">Co-founder & CTO, Singularity Quantum</span>
     </li>
+    <li>
+      <span class="who"><a href="https://www.linkedin.com/in/victoria-rolandi-b0bb25160/">Dr Victoria Rolandi</a></span>
+      <span class="role">CFD collaborator, Singularity Quantum</span>
+    </li>
   </ul>
 </div>
 

@@ -124,7 +124,7 @@ Conference travel is part of it, but more than the places I am building a [netwo
   }
 </style>
 
-{% include banner.liquid src="/assets/img/london/tower-bridge.jpg" alt="Tower Bridge seen down the Thames through summer haze, a riverboat passing under Southwark Bridge in the foreground" w="1600" h="1071" caption="Tower Bridge down the river, on a hot day." %}
+{% include banner.liquid src="/assets/img/london/tower-bridge.jpg" alt="Tower Bridge seen down the Thames through summer haze, a riverboat passing under Southwark Bridge in the foreground" w="1600" h="1071" caption="Tower Bridge down the river, on a hot day in London, UK." %}
 
 ## Reading
 

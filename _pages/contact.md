@@ -90,6 +90,10 @@ These are my referees, each happy to write a recommendation on my behalf - the a
       <span class="role">PhD supervisor · Imperial College London</span>
     </li>
     <li>
+      <span class="who"><a href="https://profiles.imperial.ac.uk/p.dunne12">Dr Patrick Dunne</a></span>
+      <span class="role">PhD co-supervisor · Imperial College London</span>
+    </li>
+    <li>
       <span class="who"><a href="https://profiles.imperial.ac.uk/d.colling">Prof. David Colling</a></span>
       <span class="role">AtriPINN collaborator &amp; Masters thesis supervisor · Imperial College London</span>
     </li>

@@ -353,6 +353,8 @@ Since 2004, my journey & work have been documented across television, radio and 
   <li><a href="https://www.ntv.co.jp/english/" target="_blank" rel="noopener">Nippon TV</a></li>
 </ul>
 
+All of the above is Korean and Japanese media. To repeat what I said at the top: from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in the UK and the USA.
+
 ## Outreach
 
 I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">neutrinos</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning in the physical sciences</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, or what an unusual education actually looks like from the inside. I have given talks many times at science museums, symposia and expos.

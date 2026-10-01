@@ -259,6 +259,4 @@ Multiple years in, my network looks like London itself: every background, nation
 
 {% include goatcounter.liquid %}
 
-{% include news_heading_link.liquid %}
-
 {% include linkedin_card.liquid before_heading="selected publications" %}

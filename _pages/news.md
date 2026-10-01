@@ -10,6 +10,8 @@ nav: false
 
 Below is everything on this site, from the very beginning to the most recent.
 
+{% include affiliations.liquid %}
+
 <style>
   .news-all { margin: 1.5rem 0 2rem; padding: 0; list-style: none; }
   .news-all li {

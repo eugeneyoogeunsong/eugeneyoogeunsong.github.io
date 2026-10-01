@@ -730,3 +730,20 @@ html[data-theme-setting="light"] {
     display: none !important;
   }
 }
+
+/* About page "news" box: scroll inside the box rather than growing the page.
+   The gem's news include already wraps the table in `.table-responsive` with
+   an inline `max-height: 60vw`, which only ever bites on narrow screens (on a
+   375px phone that is 225px, hence the familiar mobile scroll). On a desktop
+   viewport 60vw is taller than the whole list, so the box never scrolls and
+   every new item pushes "selected publications" further down. Cap it at a
+   fixed height on wider screens so desktop behaves like mobile: the newest
+   few items show, the rest scroll. Class selectors only (PurgeCSS). */
+@media (min-width: 768px) {
+  .news .table-responsive {
+    max-height: 22rem !important;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 0.5rem;
+  }
+}

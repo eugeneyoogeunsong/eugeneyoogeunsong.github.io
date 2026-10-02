@@ -8,7 +8,7 @@ nav: false
 
 **Follow me on [LinkedIn](https://www.linkedin.com/in/yoogeunsong) or [Bluesky](https://bsky.app/profile/eugeneyoogeunsong.bsky.social).** I strongly encourage it: the most up-to-date information is on my LinkedIn, and this page only holds the most recent events. A great many other interesting news and events are not here at all; they are all on my [LinkedIn](https://www.linkedin.com/in/yoogeunsong) page, so follow me there!
 
-Below is everything on this site, from the very beginning to the most recent.
+Below is everything on this site, from the very beginning to the most recent. Like the rest of this website, it is written in English throughout, deliberately: I am aiming for a global audience, principally in Europe and the USA.
 
 {% include affiliations.liquid %}
 

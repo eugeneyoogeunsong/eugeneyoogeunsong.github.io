@@ -317,10 +317,18 @@ html[data-theme-setting="light"] {
 :root #light-toggle-system {
   color: var(--local-toggle-auto, #475569);
 }
-:root #light-toggle:hover #light-toggle-light,
-:root #light-toggle:hover #light-toggle-dark,
-:root #light-toggle:hover #light-toggle-system {
-  color: var(--global-hover-color);
+/* Hover feedback only on devices that can actually hover. On a phone there is
+   no hover, but a tap still leaves the button in its :hover state until the
+   next tap lands elsewhere, so the sun stayed stuck in the indigo hover colour
+   after you switched to light. That is why it looked uncoloured on mobile
+   while the desktop was fine. Gating on `hover: hover` keeps the amber (and
+   the moon's indigo, and the half-disc's slate) on touch screens. */
+@media (hover: hover) {
+  :root #light-toggle:hover #light-toggle-light,
+  :root #light-toggle:hover #light-toggle-dark,
+  :root #light-toggle:hover #light-toggle-system {
+    color: var(--global-hover-color);
+  }
 }
 
 /* Icon visibility is left to the stock per-setting rules: one glyph per state,

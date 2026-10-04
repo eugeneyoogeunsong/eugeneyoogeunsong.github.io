@@ -54,8 +54,6 @@ Click any photo to open it at full resolution. You are welcome to use these for 
 programmes, seminar announcements, panel listings or press; no need to ask, though I would
 always like to know where it ends up.
 
-{% include affiliations.liquid %}
-
 <div class="gallery">
   <a href="{{ '/assets/img/profile/full/01.jpg' | relative_url }}" target="_blank" rel="noopener">
     <figure>
@@ -90,6 +88,8 @@ always like to know where it ends up.
 </div>
 
 Back to [About](/).
+
+{% include affiliations.liquid %}
 
 {% include linkedin_card.liquid %}
 

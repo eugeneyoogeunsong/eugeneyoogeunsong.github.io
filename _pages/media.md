@@ -365,7 +365,7 @@ You can also get in touch with [Imperial's outreach activities](https://www.impe
 
 On language, my preference is **English**, since the audience for this sort of thing is usually international and multicultural. I can work in **Korean** or, with some limitations, even in **French** where that suits the audience better.
 
-On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent.
+On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent. Practically, logistics-wise, almost everywhere is open to me: I hold citizenship of the Republic of Korea, ranked joint 2nd globally for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now (this may change in the future).
 
 For enquiries, see [Contact](/contact/).
 

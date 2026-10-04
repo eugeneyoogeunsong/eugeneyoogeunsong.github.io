@@ -9,7 +9,7 @@ nav_order: 7
 
 {% include banner.liquid src="/assets/img/london/skyline-dusk.jpg" alt="London at dusk from above: the Thames, its bridges lit, and St Paul's against a sunset sky" w="1600" h="1066" eager="true" caption="London, UK at dusk. Most of what is on this page happens somewhere down there." %}
 
-Everything here is written in English by deliberate choice: I am writing for a global audience, principally in the UK and the USA.
+Everything here is written in English by deliberate choice: I am writing for a global audience, principally in Europe and the USA.
 
 ## Languages
 

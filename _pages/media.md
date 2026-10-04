@@ -219,7 +219,7 @@ nav_order: 8
 </style>
 
 I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live.
-For the most part the media was in Korean or Japanese, while this website is in English throughout: I am based in Europe and work across the UK and the USA, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in the UK and the USA. I am always happy to share my journey.
+For the most part the media was in Korean or Japanese, while this website is in English throughout: I am based in Europe and work across the UK and the USA, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in Europe, including the UK, and the USA. I am always happy to share my journey.
 
 {% include banner.liquid src="/assets/img/london/westminster-full.jpg" alt="Westminster and the Palace of Westminster clock tower at dusk, seen across the Thames" w="1000" h="1250" maxw="560" caption="Based in London since 2023, and working with English-language outlets from 2026." %}
 
@@ -353,7 +353,7 @@ Since 2004, my journey & work have been documented across television, radio and 
   <li><a href="https://www.ntv.co.jp/english/" target="_blank" rel="noopener">Nippon TV</a></li>
 </ul>
 
-All of the above is Korean and Japanese media. To repeat what I said at the top: from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in the UK and the USA.
+All of the above is Korean and Japanese media. To repeat what I said at the top: from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in Europe, including the UK, and the USA.
 
 ## Outreach
 

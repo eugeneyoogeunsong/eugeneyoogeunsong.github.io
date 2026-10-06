@@ -113,43 +113,6 @@ Conference travel is part of it, but more than the places I am building a [netwo
     font-size: 0.84rem;
     color: var(--global-text-color-light);
   }
-  /* A photo with a paragraph beside it: image left, text right, on wide
-     screens; stacked below 700px. The image takes a bit over half the
-     column so the paragraph has room to breathe at the site's measure. */
-  .pic-beside {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 1.25rem;
-    margin: 1.5rem 0 2rem;
-  }
-  .pic-beside-fig {
-    flex: 1 1 54%;
-    min-width: 0;
-    margin: 0;
-  }
-  .pic-beside-fig img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 9px;
-    background: var(--global-card-bg-color);
-  }
-  .pic-beside-fig figcaption {
-    margin-top: 0.4rem;
-    font-size: 0.84rem;
-    color: var(--global-text-color-light);
-  }
-  .pic-beside-text {
-    flex: 1 1 38%;
-    min-width: 0;
-  }
-  .pic-beside-text p:last-child { margin-bottom: 0; }
-  @media (max-width: 700px) {
-    .pic-beside-fig, .pic-beside-text { flex: 1 1 100%; }
-    .pic-beside-fig img { border-radius: 7px; }
-    .pic-beside-fig figcaption { font-size: 0.8rem; }
-  }
   @media (max-width: 700px) {
     .pic-duo img {
       flex: 1 1 100%;
@@ -187,15 +150,9 @@ On film, I lean towards Christopher Nolan, David Fincher, Quentin Tarantino, Mic
 
 {% include banner.liquid src="/assets/img/interests/sicily-hills.jpg" alt="A hilltop village in Sicily, pale houses stacked along the ridge with hazy mountains beyond" w="1600" h="1067" caption="Sicily, Italy: the hills. Where the parts of the films, The Godfather I and II, I love most take place, and where, in the films, the Corleone family supposedly originate." %}
 
-<div class="pic-beside">
-  <figure class="pic-beside-fig">
-    <img src="{{ '/assets/img/interests/sicily-coast.jpg' | relative_url }}" alt="A seaside town in Sicily beneath a limestone crag, terracotta roofs stepping down to swimmers in turquoise water" width="1600" height="1067" loading="lazy" decoding="async">
-    <figcaption>Sicily, Italy: the coast.</figcaption>
-  </figure>
-  <div class="pic-beside-text" markdown="1">
+{% include banner.liquid src="/assets/img/interests/sicily-coast.jpg" alt="A seaside town in Sicily beneath a limestone crag, terracotta roofs stepping down to swimmers in turquoise water" w="1600" h="1067" caption="Sicily, Italy: the coast." %}
+
 With Christopher Nolan I have a particular reason for it. In 2015 I interviewed [Dr Kip Thorne](https://pma.caltech.edu/people/kip-s-thorne) on Korean television at the [SDF 2015](https://www.sdf.or.kr/archive/2015/ko/video/10000000281); he was executive producer and scientific consultant on _Interstellar_ (2014), and the black hole in that film was rendered from his equations. I have since worked through most of the rest: the _Dark Knight_ trilogy, _Memento_, _The Prestige_, _Inception_, _Tenet_, _Oppenheimer_ and, most recently, _The Odyssey_. _Dunkirk_ is the one that did not land for me.
-  </div>
-</div>
 
 ## Chess and poker
 

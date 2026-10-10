@@ -284,7 +284,7 @@ For the most part the media was in Korean or Japanese, while this website is in 
     <div class="mo-card-body">
       <span class="mo-more-n">500+</span>
       <span class="mo-more-label">And many more</span>
-      <p>Two decades of television, radio and print coverage across Korea and Japan, from 2004 onwards. The cards above are the ones worth watching; the archive below is a selection of the rest.</p>
+      <p>Two decades of television, radio and print coverage across Korea and Japan, from 2004 onwards. There are far too many appearances to fit on one page, so I have not even tried: the cards above are the ones worth watching, and the archive below is a selection of the rest.</p>
     </div>
   </div>
 
@@ -328,7 +328,7 @@ Original newspaper scans, in full. These are from 2005 and 2006, when South Kore
     <div class="mo-card-body">
       <span class="mo-more-n">500+</span>
       <span class="mo-more-label">And many more</span>
-      <p>Two decades of print coverage across Korea and Japan, most of it in Korean and predating the web. The two scans above are the English-language exceptions.</p>
+      <p>Two decades of print coverage across Korea and Japan, most of it in Korean and predating the web. Far too many pieces to list here, let alone show; the two scans above are the English-language exceptions.</p>
     </div>
   </div>
 

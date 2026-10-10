@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: How I teach, the summaries I have made public, and how to reach me about tutoring.
+description: Lab demonstrating at Imperial, how I teach, the summaries I have made public, and how to reach me about tutoring.
 nav: true
 nav_order: 6
 ---
@@ -127,7 +127,7 @@ I learn best by teaching. That is not a slogan about generosity: explaining some
 
 The way I teach follows from the same thing. I start from the premise rather than the procedure, because a student who can only reproduce a method is stuck the moment the problem is phrased differently. That takes longer at the start and is much faster afterwards. I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films.
 
-As of 2026, I am going all in on my <a href="/research/" class="plain-link">research projects</a> at <a href="https://www.imperial.ac.uk/physics/">Imperial</a>: research is what I do there, full-time and exclusively, so I am yet to take on teaching duties here or elsewhere. From 2027 onwards I may add some teaching duties at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a>, for physics classes, and I will list it here if I do. For now this page holds the summaries I have made public, and tutoring.
+As of 2026, I am going all in on my <a href="/research/" class="plain-link">research projects</a> at <a href="https://www.imperial.ac.uk/physics/">Imperial</a>: research is what I do there, full-time, and it takes nearly all of my week. The one teaching duty I hold is in the Department of Physics's undergraduate laboratories. **From October 2026, I demonstrate in the Year 2 undergraduate physics labs at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a>, on the thermal and electrical waves experiment**: supervising students at the bench, checking their setups and their reasoning, and marking their lab work. It is my first formal teaching role at Imperial, and I may add more, for physics classes, from 2027 onwards; I will list it here as it comes. Beyond that, this page holds the summaries I have made public, and tutoring.
 
 **On language.** I teach in English, which is my preference for teaching, though I can also teach in **Korean** or, with some limitations, even in **French** where the circumstances call for it. Obviously, everything here, my summaries included, is written in English, just like every other part of this website. I welcome any opportunities for teaching - <a href="/contact/" class="plain-link">reach out</a>!
 

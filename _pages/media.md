@@ -219,7 +219,7 @@ nav_order: 8
 </style>
 
 I have been covered by the South Korean and Japanese press since 2004, when I was six. What began as coverage of a child has become, over two decades, a long public record: documentaries, interviews, and the occasional front page. This is where the key originals live.
-For the most part the media was in Korean or Japanese, while this website is in English throughout: I am based in Europe and work across the UK and the USA, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in Europe, including the UK, and the USA. I am always happy to share my journey.
+For the most part the media was in Korean or Japanese, while this website is in English throughout: I'm based in Europe and work across the UK and the USA, so English is the one language that reaches all of them. That is also why, from 2026 onwards, I will be focusing entirely on English-language outlets with a global audience, principally in Europe, including the UK, and the USA. I'm always happy to share my journey.
 
 {% include banner.liquid src="/assets/img/london/westminster-full.jpg" alt="Westminster and the Palace of Westminster clock tower at dusk, seen across the Thames" w="1000" h="1250" maxw="560" caption="Based in London, UK since 2023, and working with English-language outlets from 2026." %}
 
@@ -357,7 +357,7 @@ All of the above is Korean and Japanese media. To repeat what I said at the top:
 
 ## Outreach
 
-I like explaining things, and I learn best by teaching. I am glad to hear from journalists, producers, conference organisers and schools, particularly for anything on <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">neutrinos</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning in the physical sciences</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, or what an unusual education actually looks like from the inside. I have given talks many times at science museums, symposia and expos.
+I like explaining things, and I learn best by teaching. I'm glad to hear from journalists, producers, conference organisers and schools, particularly for anything on <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">neutrinos</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning in the physical sciences</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, or what an unusual education actually looks like from the inside. I have given talks many times at science museums, symposia and expos.
 
 From 2026 onwards, two collaborations I would especially like to make happen in London: with the [Natural History Museum](https://www.nhm.ac.uk/) and the [Science Museum](https://www.sciencemuseum.org.uk/), both a few minutes from the Imperial campus, and with the [Institute of Physics](https://www.iop.org/) or the [Royal Astronomical Society](https://ras.ac.uk/). I have spoken informally with organisers at both about this.
 
@@ -365,7 +365,7 @@ You can also get in touch with [Imperial's outreach activities](https://www.impe
 
 On language, my preference is **English**, since the audience for this sort of thing is usually international and multicultural. I can work in **Korean** or, with some limitations, even in **French** where that suits the audience better.
 
-On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent. Practically, logistics-wise, almost everywhere is open to me: I hold citizenship of the Republic of Korea, ranked joint 2nd globally for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now (this may change in the future): I am open to a second citizenship, if and when it aligns with where I am taking my life.
+On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent. Practically, logistics-wise, almost everywhere is open to me: I hold citizenship of the Republic of Korea, ranked joint 2nd globally for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now (this may change in the future): I'm open to a second citizenship, if it aligns with where I'm taking my life.
 
 For enquiries, see [Contact](/contact/).
 

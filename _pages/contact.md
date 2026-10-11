@@ -7,9 +7,9 @@ nav: true
 nav_order: 10
 ---
 
-I am open to conversations about <a href="https://yoogeunsong.com/research/#neutrinos-and-beyond-standard-model-bsm-physics" class="plain-link">neutrino and beyond-Standard-Model (BSM) physics</a>, <a href="https://yoogeunsong.com/research/#physics-informed-machine-learning" class="plain-link">machine learning for physics</a>, <a href="https://yoogeunsong.com/research/#quantum-computing-for-computational-fluid-dynamics-cfd" class="plain-link">quantum computing</a> and <a href="https://yoogeunsong.com/research/#quantitative-research" class="plain-link">quantitative research</a> roles, and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. I am always happy to share my journey. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person: write to me.
+I'm open to conversations about <a href="https://yoogeunsong.com/research/#neutrinos-and-beyond-standard-model-bsm-physics" class="plain-link">neutrino and beyond-Standard-Model (BSM) physics</a>, <a href="https://yoogeunsong.com/research/#physics-informed-machine-learning" class="plain-link">machine learning for physics</a>, <a href="https://yoogeunsong.com/research/#quantum-computing-for-computational-fluid-dynamics-cfd" class="plain-link">quantum computing</a> and <a href="https://yoogeunsong.com/research/#quantitative-research" class="plain-link">quantitative research</a> roles, and I welcome all kinds of collaboration, speaking, mentoring and media opportunities. I'm always happy to share my journey. If you are a researcher, founder, investor or quant practitioner, and there is an interesting problem involved and you need the right person: write to me.
 
-**On language.** English is best, and it is what this whole site is written in by deliberate choice: I am writing for a global readership, principally in Europe (including the UK) and the USA. **Korean** and **French** are welcome too.
+**On language.** English is best, and it is what this whole site is written in by deliberate choice: I'm writing for a global readership, principally in Europe (including the UK) and the USA. **Korean** and **French** are welcome too.
 
 {% include affiliations.liquid %}
 
@@ -21,7 +21,7 @@ I am open to conversations about <a href="https://yoogeunsong.com/research/#neut
 
 ## Elsewhere
 
-- **LinkedIn - [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I am most active, for the most up-to-date ({{ site.linkedin_followers }} followers)**
+- **LinkedIn - [linkedin.com/in/yoogeunsong](https://www.linkedin.com/in/yoogeunsong) · where I'm most active, for the most up-to-date ({{ site.linkedin_followers }} followers)**
 - **X** - [@YoogeunSong](https://x.com/YoogeunSong)
 - **Bluesky** - [@eugeneyoogeunsong.bsky.social](https://bsky.app/profile/eugeneyoogeunsong.bsky.social)
 - **GitHub** - [eugeneyoogeunsong](https://github.com/eugeneyoogeunsong)
@@ -132,13 +132,13 @@ These are my referees, each happy to write a recommendation on my behalf - the a
 
 ---
 
-## Where I am
+## Where I'm
 
 Blackett Laboratory, Department of Physics
 Imperial College London
 South Kensington Campus, London SW7 2AZ, United Kingdom
 
-I am physically in **London, UK** (most of the year), or sometimes in the USA: **LA, California** or **Chicago, Illinois**. Do hit me up when you are in town.
+I'm physically in **London, UK** (most of the year), or sometimes in the USA: **LA, California** or **Chicago, Illinois**. Do hit me up when you are in town.
 
 {% include banner.liquid src="/assets/img/imperial/campus-dusk-moon.jpg" alt="Imperial College London's South Kensington campus at dusk, Queen's Tower lit by the last of the sun with the moon risen beside it" w="1600" h="1067" caption="Imperial's South Kensington campus at dusk, Queen's Tower at the centre. The Blackett Laboratory and the Huxley Building, where the physics happens, are among the blocks around it." %}
 

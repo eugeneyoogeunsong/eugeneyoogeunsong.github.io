@@ -127,7 +127,7 @@ I learn best by teaching. That is not a slogan about generosity: explaining some
 
 The way I teach follows from the same thing. I start from the premise rather than the procedure, because a student who can only reproduce a method is stuck the moment the problem is phrased differently. That takes longer at the start and is much faster afterwards. I would happily talk for hours about <a href="https://yoogeunsong.com/projects/#Particle%20Physics" class="plain-link">fundamental physics</a>, <a href="https://yoogeunsong.com/projects/#Machine%20Learning" class="plain-link">machine learning</a>, <a href="https://yoogeunsong.com/projects/#Quantum%20Computing" class="plain-link">quantum computing</a>, first principles, psychology, neuroscience, philosophy, music, or films.
 
-As of 2026, I am going all in on my <a href="/research/" class="plain-link">research projects</a> at <a href="https://www.imperial.ac.uk/physics/">Imperial</a>: research is what I do there, full-time, and it takes nearly all of my week. The one teaching duty I hold is in the Department of Physics's undergraduate laboratories. **From October 2026, I demonstrate in the Year 2 undergraduate physics labs at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a>, on the thermal and electrical waves experiment**: supervising students at the bench, checking their setups and their reasoning, and marking their lab work. It is my first formal teaching role at Imperial, and I may add more, for physics classes, from 2027 onwards; I will list it here as it comes. Beyond that, this page holds the summaries I have made public, and tutoring.
+As of 2026, I'm going all in on my <a href="/research/" class="plain-link">research projects</a> at <a href="https://www.imperial.ac.uk/physics/">Imperial</a>: research is what I do there, full-time, and it takes nearly all of my week. The one teaching duty I hold is in the Department of Physics's undergraduate laboratories. **From October 2026, I demonstrate in the Year 2 undergraduate physics labs at <a href="https://www.imperial.ac.uk/physics/" class="plain-link">Imperial</a>, on the thermal and electrical waves experiment**: supervising students at the bench, checking their setups and their reasoning, and marking their lab work. It is my first formal teaching role at Imperial, and I may add more, for physics classes, from 2027 onwards; I will list it here as it comes. Beyond that, this page holds the summaries I have made public, and tutoring.
 
 **On language.** I teach in English, which is my preference for teaching, though I can also teach in **Korean** or, with some limitations, even in **French** where the circumstances call for it. Obviously, everything here, my summaries included, is written in English, just like every other part of this website. I welcome any opportunities for teaching - <a href="/contact/" class="plain-link">reach out</a>!
 
@@ -182,7 +182,7 @@ The three modules above were run by <a href="https://profiles.imperial.ac.uk/a.t
 
 Three further modules now have folders of their own, without the summary cards above: <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/general-relativity" class="plain-link">General Relativity</a> (98 pages), taken with <a href="https://profiles.imperial.ac.uk/c.de-rham">Prof. Claudia de Rham</a>; <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/advanced-classical-physics" class="plain-link">Advanced Classical Physics</a> (99 pages), again with <a href="https://profiles.imperial.ac.uk/a.tolley">Prof. Andrew Tolley</a>; and <a href="https://github.com/eugeneyoogeunsong/imperial-physics-notes/tree/main/mathematical-methods-for-physicists" class="plain-link">Mathematical Methods for Physicists</a> (107 pages), with <a href="https://profiles.imperial.ac.uk/f.dowker">Prof. Fay Dowker</a>.
 
-I know all of these subjects mentioned here well, _inside out_, so I can supply study materials for any of them, and I am able to teach all of them.
+I know all of these subjects mentioned here well, _inside out_, so I can supply study materials for any of them, and I'm able to teach all of them.
 The advanced subjects I can teach, and supply materials for:
 
 <ul class="tn-topics">
@@ -224,7 +224,7 @@ The foundational subjects I tutor:
 
 GCSE and A-level have no MIT counterpart, so those are left unlinked. The material I teach follows the UK specifications and the Imperial modules above, not MIT's.
 
-On format, level and everything else I am flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
+On format, level and everything else I'm flexible. For opportunities, <a href="/contact/" class="plain-link">reach out</a>!
 
 {% include linkedin_card.liquid %}
 

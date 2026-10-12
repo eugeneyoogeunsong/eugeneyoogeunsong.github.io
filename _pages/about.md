@@ -262,3 +262,31 @@ Multiple years in, my network looks like London itself: every background, nation
 {% include goatcounter.liquid %}
 
 {% include linkedin_card.liquid before_heading="selected publications" %}
+
+<div id="affil-foot">{% include affiliations.liquid %}</div>
+<script>
+  /* The about layout renders "news" and "selected publications" after this
+     page's content, so a block placed here would land above both. Move the
+     closing affiliations row to sit directly above the "selected publications"
+     heading, below the LinkedIn card (which the linkedin_card include moves to
+     the same spot, and registers its listener first). Same approach as that
+     include; see its comments. */
+  (function () {
+    function move() {
+      var wrap = document.getElementById("affil-foot");
+      if (!wrap) return;
+      var hs = document.querySelectorAll(".post h2, h2");
+      for (var i = 0; i < hs.length; i++) {
+        if (hs[i].textContent.trim().toLowerCase() === "selected publications") {
+          hs[i].parentNode.insertBefore(wrap, hs[i]);
+          return;
+        }
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", move);
+    } else {
+      move();
+    }
+  })();
+</script>

@@ -261,7 +261,7 @@ For the most part the media was in Korean or Japanese, while this website is in 
     <div class="mo-card-body">
       <div class="mo-meta"><span class="mo-outlet">EBS</span><span>May 2011</span></div>
       <h3>DocuPrime: <em>Wonderful Science</em></h3>
-      <p>“The secret of the birth of the universe - Big Bang.” I presented and narrated the episode, originally recorded in November 2005.</p>
+      <p>“The secret of the birth of the universe: Big Bang.” I presented and narrated the episode, originally recorded in November 2005.</p>
       <div class="mo-links">
         <a href="https://docuprime.ebs.co.kr/docuprime/vodReplayView?siteCd=DP&amp;courseId=BP0PAPB0000000005&amp;stepId=01BP0PAPB0000000005&amp;lectId=3086144" target="_blank" rel="noopener">Watch</a>
         <a href="https://vop.co.kr/A00000396644.html" target="_blank" rel="noopener">Article</a>
@@ -365,7 +365,7 @@ You can also get in touch with [Imperial's outreach activities](https://www.impe
 
 On language, my preference is **English**, since the audience for this sort of thing is usually international and multicultural. I can work in **Korean** or, with some limitations, even in **French** where that suits the audience better.
 
-On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent. Practically, logistics-wise, almost everywhere is open to me: I hold citizenship of the Republic of Korea, ranked joint 2nd globally for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now (this may change in the future): I'm open to a second citizenship, if it aligns with where I'm taking my life.
+On logistics, travel is easy: I can film or speak almost anywhere in the world, usually at short notice. Do feel free to invite me to events and talks on any continent. Practically, almost everywhere is open to me: I hold citizenship of the Republic of Korea, ranked joint 2nd globally for passport power on the [Henley Passport Index](https://www.henleyglobal.com/passport-index?countrycode=KR), with visa-free access to 188 destinations. It is the only passport I hold, at least for now (this may change in the future): I'm open to a second citizenship, if it aligns with where I'm taking my life.
 
 For enquiries, see [Contact](/contact/).
 

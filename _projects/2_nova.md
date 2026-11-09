@@ -17,7 +17,7 @@ As of 2026, the two experiments I work on are at opposite ends of their lives, a
 
 **My role** on NOvA is **a variety of physics analysis**: fits, statistical modelling, reconstruction development, and code review.
 
-**Where I actually am.** London, not Illinois. The detectors sit in the American Midwest, but the collaboration spans 200-odd people across 53 institutions in 9 countries, and essentially everything I do runs on shared computing: it therefore happens wherever the person doing it happens to be. I'm based at Imperial's South Kensington campus, and I travel to Fermilab for collaboration meetings rather than living there.
+**Where I actually am.** I'm based in London, not Illinois. The detectors sit in the American Midwest, but the collaboration spans 200-odd people across 53 institutions in 9 countries, and essentially everything I do runs on shared computing: it therefore happens wherever the person doing it happens to be. I'm based at Imperial's South Kensington campus, and I travel to Fermilab for collaboration meetings rather than living there.
 
 <figure style="margin: 0 0 1.5rem; text-align: center;">
   <img src="{{ '/assets/img/projects/nova-baseline-schematic.jpg' | relative_url }}"

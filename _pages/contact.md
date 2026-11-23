@@ -177,14 +177,6 @@ I'm physically in **London, UK** (most of the year), or sometimes in the USA: **
   }
   .bsky-text a { color: var(--global-theme-color); text-decoration: none; }
   .bsky-text a:hover { text-decoration: underline; }
-  .bsky-media {
-    display: block;
-    margin: 0.6rem 0;
-    border-radius: 6px;
-    overflow: hidden;
-    max-height: 260px;
-  }
-  .bsky-media img { width: 100%; object-fit: cover; display: block; }
   .bsky-meta {
     display: flex;
     gap: 1rem;
@@ -259,11 +251,8 @@ I'm physically in **London, UK** (most of the year), or sometimes in the USA: **
           .map(function (i) {
             var p = i.post;
             var a = p.author || {};
-            var img =
-              p.embed && p.embed.images && p.embed.images[0]
-                ? '<a class="bsky-media" href="' + postUrl(p.uri) + '" target="_blank" rel="noopener">' +
-                  '<img src="' + p.embed.images[0].thumb + '" alt="' + esc(p.embed.images[0].alt || "") + '" loading="lazy"></a>'
-                : "";
+            // Post photos are deliberately not rendered: text only, with the
+            // "Open" link below for anyone who wants the full post.
             return (
               '<div class="bsky-post">' +
               '<div class="bsky-head">' +
@@ -273,7 +262,6 @@ I'm physically in **London, UK** (most of the year), or sometimes in the USA: **
               "<span>·</span><span>" + when(p.record.createdAt) + "</span>" +
               "</div>" +
               '<p class="bsky-text">' + rich(p.record.text || "") + "</p>" +
-              img +
               '<div class="bsky-meta">' +
               "<span>♥ " + (p.likeCount || 0) + "</span>" +
               "<span>↻ " + (p.repostCount || 0) + "</span>" +
